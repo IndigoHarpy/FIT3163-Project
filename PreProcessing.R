@@ -82,3 +82,5 @@ doubles_2020 <- read.csv("atp_matches_doubles_2020.csv", row.names = NULL)
 
 doubles_results <- rbind(doubles_2000, doubles_2001, doubles_2002, doubles_2003, doubles_2004, doubles_2005, doubles_2006, doubles_2007, doubles_2008, doubles_2009, doubles_2010, doubles_2011, doubles_2012, doubles_2013, doubles_2014, doubles_2015, doubles_2016, doubles_2017, doubles_2018, doubles_2019, doubles_2020)
 
+dim(results)
+dim(doubles_results)
