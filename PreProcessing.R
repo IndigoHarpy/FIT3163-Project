@@ -58,6 +58,8 @@ results_2024 <- read.csv("atp_matches_2024.csv", row.names = NULL)
 
 results <- rbind(results_1968, results_1969, results_1970, results_1971, results_1972, results_1973, results_1974, results_1975, results_1976, results_1977, results_1978, results_1979, results_1980, results_1981, results_1982, results_1983, results_1984, results_1985, results_1986, results_1987, results_1988, results_1989, results_1990, results_1991, results_1992, results_1993, results_1994, results_1995, results_1996, results_1997, results_1998, results_1999, results_2000, results_2001, results_2002, results_2003, results_2004, results_2005, results_2006, results_2007, results_2008, results_2009, results_2010, results_2011, results_2012, results_2013, results_2014, results_2015, results_2016, results_2017, results_2018, results_2019, results_2020, results_2021, results_2022, results_2023, results_2024)
 
+rm(results_1968, results_1969, results_1970, results_1971, results_1972, results_1973, results_1974, results_1975, results_1976, results_1977, results_1978, results_1979, results_1980, results_1981, results_1982, results_1983, results_1984, results_1985, results_1986, results_1987, results_1988, results_1989, results_1990, results_1991, results_1992, results_1993, results_1994, results_1995, results_1996, results_1997, results_1998, results_1999, results_2000, results_2001, results_2002, results_2003, results_2004, results_2005, results_2006, results_2007, results_2008, results_2009, results_2010, results_2011, results_2012, results_2013, results_2014, results_2015, results_2016, results_2017, results_2018, results_2019, results_2020, results_2021, results_2022, results_2023, results_2024)
+
 w_results_1968 <- read.csv("wta_matches_1968.csv", row.names = NULL)
 w_results_1969 <- read.csv("wta_matches_1969.csv", row.names = NULL)
 w_results_1970 <- read.csv("wta_matches_1970.csv", row.names = NULL)
@@ -118,6 +120,8 @@ w_results_2024 <- read.csv("wta_matches_2024.csv", row.names = NULL)
 
 w_results <- rbind(w_results_1968, w_results_1969, w_results_1970, w_results_1971, w_results_1972, w_results_1973, w_results_1974, w_results_1975, w_results_1976, w_results_1977, w_results_1978, w_results_1979, w_results_1980, w_results_1981, w_results_1982, w_results_1983, w_results_1984, w_results_1985, w_results_1986, w_results_1987, w_results_1988, w_results_1989, w_results_1990, w_results_1991, w_results_1992, w_results_1993, w_results_1994, w_results_1995, w_results_1996, w_results_1997, w_results_1998, w_results_1999, w_results_2000, w_results_2001, w_results_2002, w_results_2003, w_results_2004, w_results_2005, w_results_2006, w_results_2007, w_results_2008, w_results_2009, w_results_2010, w_results_2011, w_results_2012, w_results_2013, w_results_2014, w_results_2015, w_results_2016, w_results_2017, w_results_2018, w_results_2019, w_results_2020, w_results_2021, w_results_2022, w_results_2023, w_results_2024)
 
+rm(w_results_1968, w_results_1969, w_results_1970, w_results_1971, w_results_1972, w_results_1973, w_results_1974, w_results_1975, w_results_1976, w_results_1977, w_results_1978, w_results_1979, w_results_1980, w_results_1981, w_results_1982, w_results_1983, w_results_1984, w_results_1985, w_results_1986, w_results_1987, w_results_1988, w_results_1989, w_results_1990, w_results_1991, w_results_1992, w_results_1993, w_results_1994, w_results_1995, w_results_1996, w_results_1997, w_results_1998, w_results_1999, w_results_2000, w_results_2001, w_results_2002, w_results_2003, w_results_2004, w_results_2005, w_results_2006, w_results_2007, w_results_2008, w_results_2009, w_results_2010, w_results_2011, w_results_2012, w_results_2013, w_results_2014, w_results_2015, w_results_2016, w_results_2017, w_results_2018, w_results_2019, w_results_2020, w_results_2021, w_results_2022, w_results_2023, w_results_2024)
+
 doubles_2000 <- read.csv("atp_matches_doubles_2000.csv", row.names = NULL)
 doubles_2001 <- read.csv("atp_matches_doubles_2001.csv", row.names = NULL)
 doubles_2002 <- read.csv("atp_matches_doubles_2002.csv", row.names = NULL)
@@ -142,6 +146,12 @@ doubles_2020 <- read.csv("atp_matches_doubles_2020.csv", row.names = NULL)
 
 doubles_results <- rbind(doubles_2000, doubles_2001, doubles_2002, doubles_2003, doubles_2004, doubles_2005, doubles_2006, doubles_2007, doubles_2008, doubles_2009, doubles_2010, doubles_2011, doubles_2012, doubles_2013, doubles_2014, doubles_2015, doubles_2016, doubles_2017, doubles_2018, doubles_2019, doubles_2020)
 
+rm(doubles_2000, doubles_2001, doubles_2002, doubles_2003, doubles_2004, doubles_2005, doubles_2006, doubles_2007, doubles_2008, doubles_2009, doubles_2010, doubles_2011, doubles_2012, doubles_2013, doubles_2014, doubles_2015, doubles_2016, doubles_2017, doubles_2018, doubles_2019, doubles_2020)
+
 dim(results)
 dim(w_results)
 dim(doubles_results)
+
+write.csv(results, "mens_singles.csv", row.names = FALSE)
+write.csv(w_results, "womens_singles.csv", row.names = FALSE)
+write.csv(doubles_results, "mens_doubles.csv", row.names = FALSE)
