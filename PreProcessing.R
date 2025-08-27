@@ -77,8 +77,49 @@ doubles_results <- rbind(doubles_2005, doubles_2006, doubles_2007, doubles_2008,
 
 rm(doubles_2005, doubles_2006, doubles_2007, doubles_2008, doubles_2009, doubles_2010, doubles_2011, doubles_2012, doubles_2013, doubles_2014, doubles_2015, doubles_2016, doubles_2017, doubles_2018, doubles_2019, doubles_2020)
 
+setwd("..")
+
+men <- read.csv("atp_players.csv")
+women <- read.csv("wta_players.csv")
+
+men$wikidata_id <- NULL
+women$wikidata_id <- NULL
+
+keep <- c("tourney_name", "surface", "tourney_date", "winner_id", "winner_seed", "loser_id", "loser_seed", "score", "best_of", "round", "minutes", "w_ace", "w_df", "w_svpt", "w_1stIn", "w_1stWon", "w_2ndWon", "w_SvGms", "w_bpSaved", "w_bpFaced", "l_ace", "l_df", "l_svpt", "l_1stIn", "l_1stWon", "l_2ndWon", "l_SvGms", "l_bpSaved", "l_bpFaced", "winner_rank", "winner_rank_points", "loser_rank", "loser_rank_points")
+
+doub_keep <- c("tourney_name", "surface", "tourney_date", "winner1_id", "winner2_id", "winner_seed", "loser1_id", "loser2_id", "loser_seed", "score", "best_of", "round", "minutes", "w_ace", "w_df", "w_svpt", "w_1stIn", "w_1stWon", "w_2ndWon", "w_SvGms", "w_bpSaved", "w_bpFaced", "l_ace", "l_df", "l_svpt", "l_1stIn", "l_1stWon", "l_2ndWon", "l_SvGms", "l_bpSaved", "l_bpFaced", "winner1_rank", "winner1_rank_points", "loser1_rank", "loser1_rank_points", "winner2_rank", "winner2_rank_points", "loser2_rank", "loser2_rank_points")
+
+results <- results[keep]
+w_results <- w_results[keep]
+doubles_results <- doubles_results[doub_keep]
+
+old_men <- c()
+old_women <- c()
+
+for (i in 1:nrow(men)) {
+  id <- men$player_id[i]
+  if (id %in% results$winner_id | id %in% results$loser_id | id %in% doubles_results$winner1_id | id %in% doubles_results$winner2_id | id %in% doubles_results$loser1_id | id %in% doubles_results$loser2_id) {
+    next
+  } else {
+    old_men <- c(old_men, i)
+  }
+}
+
+for (i in 1:nrow(women)) {
+  id <- women$player_id[i]
+  if (id %in% w_results$winner_id | id %in% w_results$loser_id) {
+    next
+  } else {
+    old_women <- c(old_women, i)
+  }
+}
+
+men <- men[-old_men, ]
+women <- women[-old_women, ]
+
+write.csv(men, "atp_players.csv", row.names = FALSE)
+write.csv(women, "wta_players.csv", row.names = FALSE)
+
 write.csv(results, "mens_singles.csv", row.names = FALSE)
 write.csv(w_results, "womens_singles.csv", row.names = FALSE)
 write.csv(doubles_results, "mens_doubles.csv", row.names = FALSE)
-
-
