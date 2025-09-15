@@ -233,8 +233,11 @@ for (i in 1:nrow(women)) {
 men <- men[-old_men, ]
 women <- women[-old_women, ]
 
-write.csv(men, "atp_players.csv", row.names = FALSE)
-write.csv(women, "wta_players.csv", row.names = FALSE)
+row.names(men) <- men$player_id
+row.names(women) <- women$player_id
+
+write.csv(men, "current_men.csv")
+write.csv(women, "current_women.csv")
 
 write.csv(results, "mens_singles.csv", row.names = FALSE)
 write.csv(w_results, "womens_singles.csv", row.names = FALSE)
