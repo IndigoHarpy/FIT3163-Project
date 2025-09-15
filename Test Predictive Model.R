@@ -1,7 +1,7 @@
 results <- read.csv("mens_singles.csv")
-men <- read.csv("atp_players.csv")
+men <- read.csv("current_men.csv", row.names = 1)
 w_results <- read.csv("womens_singles.csv")
-women <- read.csv("wta_players.csv")
+women <- read.csv("current_women.csv", row.names = 1)
 
 men$ELO <- seq(1000, 2000, length.out = 2510)
 men$rank <- seq(2510, 1, length.out = 2510)
