@@ -157,9 +157,16 @@ doubles_results <- rbind(doubles_2000, doubles_2001, doubles_2002, doubles_2003,
 rm(doubles_2000, doubles_2001, doubles_2002, doubles_2003, doubles_2004, doubles_2005, doubles_2006, doubles_2007, doubles_2008, doubles_2009, doubles_2010, doubles_2011, doubles_2012, doubles_2013, doubles_2014, doubles_2015, doubles_2016, doubles_2017, doubles_2018, doubles_2019, doubles_2020)
 
 setwd("..")
+setwd("Mens singles")
 
 men <- read.csv("atp_players.csv")
+
+setwd("..")
+setwd("Womens singles")
+
 women <- read.csv("wta_players.csv")
+
+setwd("..")
 
 men$wikidata_id <- NULL
 women$wikidata_id <- NULL
@@ -209,32 +216,95 @@ for (i in 1:nrow(doubles_results)) {
 
 doubles_results <- doubles_results[keep_rows , ]
 
-old_men <- c()
-old_women <- c()
+setwd("Mens singles")
 
-for (i in 1:nrow(men)) {
-  id <- men$player_id[i]
-  if (id %in% results$winner_id | id %in% results$loser_id | id %in% doubles_results$winner1_id | id %in% doubles_results$winner2_id | id %in% doubles_results$loser1_id | id %in% doubles_results$loser2_id) {
-    next
-  } else {
-    old_men <- c(old_men, i)
-  }
-}
+results_2005 <- read.csv("atp_matches_2005.csv", row.names = NULL)
+results_2006 <- read.csv("atp_matches_2006.csv", row.names = NULL)
+results_2007 <- read.csv("atp_matches_2007.csv", row.names = NULL)
+results_2008 <- read.csv("atp_matches_2008.csv", row.names = NULL)
+results_2009 <- read.csv("atp_matches_2009.csv", row.names = NULL)
+results_2010 <- read.csv("atp_matches_2010.csv", row.names = NULL)
+results_2011 <- read.csv("atp_matches_2011.csv", row.names = NULL)
+results_2012 <- read.csv("atp_matches_2012.csv", row.names = NULL)
+results_2013 <- read.csv("atp_matches_2013.csv", row.names = NULL)
+results_2014 <- read.csv("atp_matches_2014.csv", row.names = NULL)
+results_2015 <- read.csv("atp_matches_2015.csv", row.names = NULL)
+results_2016 <- read.csv("atp_matches_2016.csv", row.names = NULL)
+results_2017 <- read.csv("atp_matches_2017.csv", row.names = NULL)
+results_2018 <- read.csv("atp_matches_2018.csv", row.names = NULL)
+results_2019 <- read.csv("atp_matches_2019.csv", row.names = NULL)
+results_2020 <- read.csv("atp_matches_2020.csv", row.names = NULL)
+results_2021 <- read.csv("atp_matches_2021.csv", row.names = NULL)
+results_2022 <- read.csv("atp_matches_2022.csv", row.names = NULL)
+results_2023 <- read.csv("atp_matches_2023.csv", row.names = NULL)
+results_2024 <- read.csv("atp_matches_2024.csv", row.names = NULL)
 
-for (i in 1:nrow(women)) {
-  id <- women$player_id[i]
-  if (id %in% w_results$winner_id | id %in% w_results$loser_id) {
-    next
-  } else {
-    old_women <- c(old_women, i)
-  }
-}
+recent_results <- rbind(results_2005, results_2006, results_2007, results_2008, results_2009, results_2010, results_2011, results_2012, results_2013, results_2014, results_2015, results_2016, results_2017, results_2018, results_2019, results_2020, results_2021, results_2022, results_2023, results_2024)
 
-men <- men[-old_men, ]
-women <- women[-old_women, ]
+rm(results_2005, results_2006, results_2007, results_2008, results_2009, results_2010, results_2011, results_2012, results_2013, results_2014, results_2015, results_2016, results_2017, results_2018, results_2019, results_2020, results_2021, results_2022, results_2023, results_2024)
+
+setwd("..")
+setwd("Womens singles")
+
+w_results_2005 <- read.csv("wta_matches_2005.csv", row.names = NULL)
+w_results_2006 <- read.csv("wta_matches_2006.csv", row.names = NULL)
+w_results_2007 <- read.csv("wta_matches_2007.csv", row.names = NULL)
+w_results_2008 <- read.csv("wta_matches_2008.csv", row.names = NULL)
+w_results_2009 <- read.csv("wta_matches_2009.csv", row.names = NULL)
+w_results_2010 <- read.csv("wta_matches_2010.csv", row.names = NULL)
+w_results_2011 <- read.csv("wta_matches_2011.csv", row.names = NULL)
+w_results_2012 <- read.csv("wta_matches_2012.csv", row.names = NULL)
+w_results_2013 <- read.csv("wta_matches_2013.csv", row.names = NULL)
+w_results_2014 <- read.csv("wta_matches_2014.csv", row.names = NULL)
+w_results_2015 <- read.csv("wta_matches_2015.csv", row.names = NULL)
+w_results_2016 <- read.csv("wta_matches_2016.csv", row.names = NULL)
+w_results_2017 <- read.csv("wta_matches_2017.csv", row.names = NULL)
+w_results_2018 <- read.csv("wta_matches_2018.csv", row.names = NULL)
+w_results_2019 <- read.csv("wta_matches_2019.csv", row.names = NULL)
+w_results_2020 <- read.csv("wta_matches_2020.csv", row.names = NULL)
+w_results_2021 <- read.csv("wta_matches_2021.csv", row.names = NULL)
+w_results_2022 <- read.csv("wta_matches_2022.csv", row.names = NULL)
+w_results_2023 <- read.csv("wta_matches_2023.csv", row.names = NULL)
+w_results_2024 <- read.csv("wta_matches_2024.csv", row.names = NULL)
+
+w_recent_results <- rbind(w_results_2005, w_results_2006, w_results_2007, w_results_2008, w_results_2009, w_results_2010, w_results_2011, w_results_2012, w_results_2013, w_results_2014, w_results_2015, w_results_2016, w_results_2017, w_results_2018, w_results_2019, w_results_2020, w_results_2021, w_results_2022, w_results_2023, w_results_2024)
+
+rm(w_results_2005, w_results_2006, w_results_2007, w_results_2008, w_results_2009, w_results_2010, w_results_2011, w_results_2012, w_results_2013, w_results_2014, w_results_2015, w_results_2016, w_results_2017, w_results_2018, w_results_2019, w_results_2020, w_results_2021, w_results_2022, w_results_2023, w_results_2024)
+
+setwd("..")
 
 row.names(men) <- men$player_id
 row.names(women) <- women$player_id
+
+colnames(recent_results)[8] <- "player_id"
+
+win_men <- merge(men, recent_results)[1:7]
+win_men <- win_men[!duplicated(win_men), ]
+
+recent_results$player_id <- NULL
+
+colnames(recent_results)[15] <- "player_id"
+
+lose_men <- merge(men, recent_results)[1:7]
+lose_men <- lose_men[!duplicated(lose_men), ]
+
+men <- rbind(win_men, lose_men)
+men <- men[!duplicated(men), ]
+
+colnames(w_recent_results)[8] <- "player_id"
+
+win_women <- merge(women, w_recent_results)[1:7]
+win_women <- win_women[!duplicated(win_women), ]
+
+w_recent_results$player_id <- NULL
+
+colnames(w_recent_results)[15] <- "player_id"
+
+lose_women <- merge(women, w_recent_results)[1:7]
+lose_women <- lose_women[!duplicated(lose_women), ]
+
+women <- rbind(win_women, lose_women)
+women <- women[!duplicated(women), ]
 
 write.csv(men, "current_men.csv")
 write.csv(women, "current_women.csv")
