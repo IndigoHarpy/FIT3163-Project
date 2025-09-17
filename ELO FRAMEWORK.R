@@ -113,26 +113,57 @@ for (i in seq_len(nrow(matches))) {
 
 history_df <- bind_rows(history)
 
-# === 4) Final ratings & leaderboard ===
+# === 4) Final ratings & leaderboard (with names if available) ===
+
+# Try common player files in the working directory
+candidate_files <- c("atp_players.csv", "players.csv", "players_atp.csv", "player_lookup.csv")
+player_path <- candidate_files[file.exists(candidate_files)][1]
+
+name_map <- NULL
+if (!is.na(player_path)) {
+  pm <- readr::read_csv(player_path, show_col_types = FALSE)
+  
+  stopifnot("player_id" %in% names(pm))
+  if (all(c("name_first","name_last") %in% names(pm))) {
+    name_map <- pm |>
+      dplyr::mutate(player_name = paste(name_first, name_last)) |>
+      dplyr::select(player_id, player_name)
+  } else if ("name" %in% names(pm)) {
+    name_map <- pm |>
+      dplyr::rename(player_name = name) |>
+      dplyr::select(player_id, player_name)
+  } else {
+    warning("Players file found but no usable name columns; names will remain NA.")
+  }
+}
+
+# Gather final ratings
 all_players <- unique(c(history_df$winner_id, history_df$loser_id))
 final_ratings <- data.frame(
-  player_id = as.character(all_players),
-  rating = sapply(as.character(all_players), function(p) get(p, envir = ratings)),
+  player_id = as.integer(all_players),
+  rating    = sapply(as.character(all_players), function(p) get(p, envir = ratings)),
   stringsAsFactors = FALSE
-) %>%
-  arrange(desc(rating))
+) |>
+  dplyr::arrange(dplyr::desc(rating))
 
-cat("\nTop", LEADERBOARD_N, "players by Elo:\n")
-print(head(final_ratings, LEADERBOARD_N))
-
-# === 5) Save outputs ===
-write_csv(final_ratings, "elo_leaderboard.csv")
-cat("Saved: elo_leaderboard.csv\n")
-
-if (WRITE_HISTORY) {
-  write_csv(history_df, "elo_match_history.csv")
-  cat("Saved: elo_match_history.csv (per-match pre/post ratings, K, and expected P(win))\n")
+# Attach names if available
+if (!is.null(name_map)) {
+  final_ratings <- final_ratings |>
+    dplyr::left_join(name_map, by = "player_id") |>
+    dplyr::select(player_id, player_name, rating)
+} else {
+  final_ratings <- final_ratings |>
+    dplyr::mutate(player_name = NA_character_) |>
+    dplyr::select(player_id, player_name, rating)
 }
+
+# Print and save Top 30
+LEADERBOARD_N <- 30
+cat("\nTop", LEADERBOARD_N, "players by Elo:\n")
+print(head(dplyr::arrange(final_ratings, dplyr::desc(rating)), LEADERBOARD_N))
+
+readr::write_csv(final_ratings, "elo_leaderboard.csv")
+cat("Saved: elo_leaderboard.csv\n")
 
 # === 6) Sanity pings ===
 cat("\nSanity checks:\n")
