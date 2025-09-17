@@ -111,3 +111,129 @@ df_serves <- df_serves[-absent_players, ]
 
 write.csv(df_serves, "df_serves.csv")
 
+# 1st serve points
+first_serves_w <- results %>% 
+  group_by(year, winner_id) %>% 
+  summarise(first_serve = sum(w_1stIn),
+            first_won = sum(w_1stWon),
+            second_won = sum(w_2ndWon),
+            serve_point = sum(w_svpt))
+
+first_serves_l <- results %>% 
+  group_by(year, loser_id) %>% 
+  summarise(first_serve = sum(l_1stIn),
+            first_won = sum(l_1stWon),
+            second_won = sum(l_2ndWon),
+            serve_point = sum(l_svpt))
+
+first_serves <- merge(x = first_serves_w, y = first_serves_l, by.x = c("year", "winner_id", "first_serve", "first_won", "second_won", "serve_point"), by.y = c("year", "loser_id", "first_serve", "first_won", "second_won", "serve_point"), all = TRUE)
+
+colnames(first_serves)[2] <- "player_id"
+
+first_serves$second_serve <- first_serves$serve_point - first_serves$first_serve
+
+first_serves$serve_point <- NULL
+
+first_serves <- merge(first_serves, men)[1:6]
+
+first_serves_w <- w_results %>% 
+  group_by(year, winner_id) %>% 
+  summarise(first_serve = sum(w_1stIn),
+            first_won = sum(w_1stWon),
+            second_won = sum(w_2ndWon),
+            serve_point = sum(w_svpt))
+
+first_serves_l <- w_results %>% 
+  group_by(year, loser_id) %>% 
+  summarise(first_serve = sum(l_1stIn),
+            first_won = sum(l_1stWon),
+            second_won = sum(l_2ndWon),
+            serve_point = sum(l_svpt))
+
+w_first_serves <- merge(x = first_serves_w, y = first_serves_l, by.x = c("year", "winner_id", "first_serve", "first_won", "second_won", "serve_point"), by.y = c("year", "loser_id", "first_serve", "first_won", "second_won", "serve_point"), all = TRUE)
+
+colnames(w_first_serves)[2] <- "player_id"
+
+w_first_serves$second_serve <- w_first_serves$serve_point - w_first_serves$first_serve
+
+w_first_serves$serve_point <- NULL
+
+w_first_serves <- merge(w_first_serves, women)[1:6]
+
+first_serves <- rbind(first_serves, w_first_serves)
+
+na_presence <- aggregate(first_serve ~ player_id, data = first_serves, function(x) {sum(is.na(x))}, na.action = NULL)
+
+data_presence <- first_serves %>% 
+  group_by(player_id) %>% 
+  summarise(total_matches = n())
+
+na_in_data <- merge(na_presence, data_presence)
+
+absent_players <- c()
+
+for (i in 1:nrow(na_in_data)) {
+  if (na_in_data$total_matches[i]/2 >= na_in_data$first_serve[i]) {
+    absent_players <- c(absent_players, i)
+  }
+}
+
+first_serves <- first_serves[-absent_players, ]
+
+write.csv(first_serves, "first_serves.csv")
+
+# Break Points
+bp_save_w <- results %>% 
+  group_by(year, winner_id) %>% 
+  summarise(bp_faced = sum(w_bpFaced),
+            bp_saved = sum(w_bpSaved))
+
+bp_save_l <- results %>% 
+  group_by(year, loser_id) %>% 
+  summarise(bp_faced = sum(l_bpFaced),
+            bp_saved = sum(l_bpSaved))
+
+bp_save <- merge(x = bp_save_w, y = bp_save_l, by.x = c("year", "winner_id", "bp_faced", "bp_saved"), by.y = c("year", "loser_id", "bp_faced", "bp_saved"), all = TRUE)
+
+colnames(bp_save)[2] <- "player_id"
+
+bp_save <- merge(bp_save, men)[1:4]
+
+bp_save_w <- w_results %>% 
+  group_by(year, winner_id) %>% 
+  summarise(bp_faced = sum(w_bpFaced),
+            bp_saved = sum(w_bpSaved))
+
+bp_save_l <- w_results %>% 
+  group_by(year, loser_id) %>% 
+  summarise(bp_faced = sum(l_bpFaced),
+            bp_saved = sum(l_bpSaved))
+
+w_bp_save <- merge(x = bp_save_w, y = bp_save_l, by.x = c("year", "winner_id", "bp_faced", "bp_saved"), by.y = c("year", "loser_id", "bp_faced", "bp_saved"), all = TRUE)
+
+colnames(w_bp_save)[2] <- "player_id"
+
+w_bp_save <- merge(w_bp_save, women)[1:4]
+
+bp_save <- rbind(bp_save, w_bp_save)
+
+na_presence <- aggregate(bp_faced ~ player_id, data=bp_save, function(x) {sum(is.na(x))}, na.action = NULL)
+
+data_presence <- bp_save %>% 
+  group_by(player_id) %>% 
+  summarise(total_matches = n())
+
+na_in_data <- merge(na_presence, data_presence)
+
+absent_players <- c()
+
+for (i in 1:nrow(na_in_data)) {
+  if (na_in_data$total_matches[i]/2 >= na_in_data$bp_faced[i]) {
+    absent_players <- c(absent_players, i)
+  }
+}
+
+bp_save <- bp_save[-absent_players, ]
+
+write.csv(bp_save, "bp_save.csv")
+
