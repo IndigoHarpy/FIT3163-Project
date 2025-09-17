@@ -59,13 +59,13 @@ write.csv(win_loss_summary, "win_loss.csv", row.names = FALSE)
 # Double faults
 df_serves_w <- results %>% 
   group_by(year, winner_id) %>% 
-  summarise(double_fault = sum(w_df),
-            service_points = sum(w_svpt))
+  summarise(double_fault = sum(w_df, na.rm = TRUE),
+            service_points = sum(w_svpt, na.rm = TRUE))
 
 df_serves_l <- results %>% 
   group_by(year, loser_id) %>% 
-  summarise(double_fault = sum(l_df),
-            service_points = sum(l_svpt))
+  summarise(double_fault = sum(l_df, na.rm = TRUE),
+            service_points = sum(l_svpt, na.rm = TRUE))
 
 df_serves <- merge(x = df_serves_w, y = df_serves_l, by.x = c("year", "winner_id"), by.y = c("year", "loser_id"), all = TRUE)
 
@@ -81,13 +81,13 @@ df_serves <- merge(df_serves, men)[1:4]
 
 df_serves_w <- w_results %>% 
   group_by(year, winner_id) %>% 
-  summarise(double_fault = sum(w_df),
-            service_points = sum(w_svpt))
+  summarise(double_fault = sum(w_df, na.rm = TRUE),
+            service_points = sum(w_svpt, na.rm = TRUE))
 
 df_serves_l <- w_results %>% 
   group_by(year, loser_id) %>% 
-  summarise(double_fault = sum(l_df),
-            service_points = sum(l_svpt))
+  summarise(double_fault = sum(l_df, na.rm = TRUE),
+            service_points = sum(l_svpt, na.rm = TRUE))
 
 w_df_serves <- merge(x = df_serves_w, y = df_serves_l, by.x = c("year", "winner_id"), by.y = c("year", "loser_id"), all = TRUE)
 
@@ -110,7 +110,7 @@ na_presence <- df_serves %>%
 
 absent_players <- c()
 
-for (i in 1:nrow(na_in_data)) {
+for (i in 1:nrow(na_presence)) {
   if (na_presence$total_matches[i] <= 2 * na_presence$na_presence[i]) {
     absent_players <- c(absent_players, i)
   }
@@ -125,13 +125,13 @@ write.csv(df_serves, "df_serves.csv", row.names = FALSE)
 # 1st Serves Won
 first_serves_w <- results %>% 
   group_by(year, winner_id) %>% 
-  summarise(first_serve = sum(w_1stIn),
-            first_won = sum(w_1stWon))
+  summarise(first_serve = sum(w_1stIn, na.rm = TRUE),
+            first_won = sum(w_1stWon, na.rm = TRUE))
 
 first_serves_l <- results %>% 
   group_by(year, loser_id) %>% 
-  summarise(first_serve = sum(l_1stIn),
-            first_won = sum(l_1stWon))
+  summarise(first_serve = sum(l_1stIn, na.rm = TRUE),
+            first_won = sum(l_1stWon, na.rm = TRUE))
 
 first_serves <- merge(x = first_serves_w, y = first_serves_l, by.x = c("year", "winner_id"), by.y = c("year", "loser_id"), all = TRUE)
 
@@ -147,8 +147,8 @@ first_serves <- merge(first_serves, men)[1:4]
 
 first_serves_w <- w_results %>% 
   group_by(year, winner_id) %>% 
-  summarise(first_serve = sum(w_1stIn),
-            first_won = sum(w_1stWon))
+  summarise(first_serve = sum(w_1stIn, na.rm = TRUE),
+            first_won = sum(w_1stWon, na.rm = TRUE))
 
 first_serves_l <- w_results %>% 
   group_by(year, loser_id) %>% 
@@ -176,7 +176,7 @@ na_presence <- first_serves %>%
 
 absent_players <- c()
 
-for (i in 1:nrow(na_in_data)) {
+for (i in 1:nrow(na_presence)) {
   if (na_presence$total_matches[i] <= 2 * na_presence$na_presence[i]) {
     absent_players <- c(absent_players, i)
   }
@@ -191,17 +191,17 @@ write.csv(first_serves, "first_serves.csv", row.names = FALSE)
 # Second Serves Won
 second_serves_w <- results %>% 
   group_by(year, winner_id) %>% 
-  summarise(first_serve = sum(w_1stIn),
-            second_won = sum(w_2ndWon),
-            serve_point = sum(w_svpt),
-            double_fault = sum(w_df))
+  summarise(first_serve = sum(w_1stIn, na.rm = TRUE),
+            second_won = sum(w_2ndWon, na.rm = TRUE),
+            serve_point = sum(w_svpt, na.rm = TRUE),
+            double_fault = sum(w_df, na.rm = TRUE))
 
 second_serves_l <- results %>% 
   group_by(year, loser_id) %>% 
-  summarise(first_serve = sum(l_1stIn),
-            second_won = sum(l_2ndWon),
-            serve_point = sum(l_svpt),
-            double_fault = sum(l_df))
+  summarise(first_serve = sum(l_1stIn, na.rm = TRUE),
+            second_won = sum(l_2ndWon, na.rm = TRUE),
+            serve_point = sum(l_svpt, na.rm = TRUE),
+            double_fault = sum(l_df, na.rm = TRUE))
 
 second_serves <- merge(x = second_serves_w, y = second_serves_l, by.x = c("year", "winner_id"), by.y = c("year", "loser_id"), all = TRUE)
 
@@ -227,17 +227,17 @@ second_serves <- merge(second_serves, men)[1:4]
 
 second_serves_w <- w_results %>% 
   group_by(year, winner_id) %>% 
-  summarise(first_serve = sum(w_1stIn),
-            second_won = sum(w_2ndWon),
-            serve_point = sum(w_svpt),
-            double_fault = sum(w_df))
+  summarise(first_serve = sum(w_1stIn, na.rm = TRUE),
+            second_won = sum(w_2ndWon, na.rm = TRUE),
+            serve_point = sum(w_svpt, na.rm = TRUE),
+            double_fault = sum(w_df, na.rm = TRUE))
 
 second_serves_l <- w_results %>% 
   group_by(year, loser_id) %>% 
-  summarise(first_serve = sum(l_1stIn),
-            second_won = sum(l_2ndWon),
-            serve_point = sum(l_svpt),
-            double_fault = sum(l_df))
+  summarise(first_serve = sum(l_1stIn, na.rm = TRUE),
+            second_won = sum(l_2ndWon, na.rm = TRUE),
+            serve_point = sum(l_svpt, na.rm = TRUE),
+            double_fault = sum(l_df, na.rm = TRUE))
 
 w_second_serves <- merge(x = second_serves_w, y = second_serves_l, by.x = c("year", "winner_id"), by.y = c("year", "loser_id"), all = TRUE)
 
@@ -270,7 +270,7 @@ na_presence <- second_serves %>%
 
 absent_players <- c()
 
-for (i in 1:nrow(na_in_data)) {
+for (i in 1:nrow(na_presence)) {
   if (na_presence$total_matches[i] <= 2 * na_presence$na_presence[i]) {
     absent_players <- c(absent_players, i)
   }
@@ -285,13 +285,13 @@ write.csv(second_serves, "second_serves.csv", row.names = FALSE)
 # Break Points
 bp_save_w <- results %>% 
   group_by(year, winner_id) %>% 
-  summarise(bp_faced = sum(w_bpFaced),
-            bp_saved = sum(w_bpSaved))
+  summarise(bp_faced = sum(w_bpFaced, na.rm = TRUE),
+            bp_saved = sum(w_bpSaved, na.rm = TRUE))
 
 bp_save_l <- results %>% 
   group_by(year, loser_id) %>% 
-  summarise(bp_faced = sum(l_bpFaced),
-            bp_saved = sum(l_bpSaved))
+  summarise(bp_faced = sum(l_bpFaced, na.rm = TRUE),
+            bp_saved = sum(l_bpSaved, na.rm = TRUE))
 
 bp_save <- merge(x = bp_save_w, y = bp_save_l, by.x = c("year", "winner_id"), by.y = c("year", "loser_id"), all = TRUE)
 
@@ -307,13 +307,13 @@ bp_save <- merge(bp_save, men)[1:4]
 
 bp_save_w <- w_results %>% 
   group_by(year, winner_id) %>% 
-  summarise(bp_faced = sum(w_bpFaced),
-            bp_saved = sum(w_bpSaved))
+  summarise(bp_faced = sum(w_bpFaced, na.rm = TRUE),
+            bp_saved = sum(w_bpSaved, na.rm = TRUE))
 
 bp_save_l <- w_results %>% 
   group_by(year, loser_id) %>% 
-  summarise(bp_faced = sum(l_bpFaced),
-            bp_saved = sum(l_bpSaved))
+  summarise(bp_faced = sum(l_bpFaced, na.rm = TRUE),
+            bp_saved = sum(l_bpSaved, na.rm = TRUE))
 
 w_bp_save <- merge(x = bp_save_w, y = bp_save_l, by.x = c("year", "winner_id"), by.y = c("year", "loser_id"), all = TRUE)
 
@@ -336,7 +336,7 @@ na_presence <- bp_save %>%
 
 absent_players <- c()
 
-for (i in 1:nrow(na_in_data)) {
+for (i in 1:nrow(na_presence)) {
   if (na_presence$total_matches[i] <= 2 * na_presence$na_presence[i]) {
     absent_players <- c(absent_players, i)
   }
@@ -351,13 +351,13 @@ write.csv(bp_save, "bp_save.csv", row.names = FALSE)
 # Aces
 aces_w <- results %>% 
   group_by(year, winner_id) %>% 
-  summarise(aces = sum(w_ace),
-            serves = sum(w_svpt))
+  summarise(aces = sum(w_ace, na.rm = TRUE),
+            serves = sum(w_svpt, na.rm = TRUE))
 
 aces_l <- results %>% 
   group_by(year, loser_id) %>% 
-  summarise(aces = sum(l_ace),
-            serves = sum(l_svpt))
+  summarise(aces = sum(l_ace, na.rm = TRUE),
+            serves = sum(l_svpt, na.rm = TRUE))
 
 aces <- merge(x = aces_w, y = aces_l, by.x = c("year", "winner_id"), by.y = c("year", "loser_id"), all = TRUE)
 
@@ -373,13 +373,13 @@ aces <- merge(aces, men)[1:4]
 
 aces_w <- w_results %>% 
   group_by(year, winner_id) %>% 
-  summarise(aces = sum(w_ace),
-            serves = sum(w_svpt))
+  summarise(aces = sum(w_ace, na.rm = TRUE),
+            serves = sum(w_svpt, na.rm = TRUE))
 
 aces_l <- w_results %>% 
   group_by(year, loser_id) %>% 
-  summarise(aces = sum(l_ace),
-            serves = sum(l_svpt))
+  summarise(aces = sum(l_ace, na.rm = TRUE),
+            serves = sum(l_svpt, na.rm = TRUE))
 
 w_aces <- merge(x = aces_w, y = aces_l, by.x = c("year", "winner_id"), by.y = c("year", "loser_id"), all = TRUE)
 
@@ -402,7 +402,7 @@ na_presence <- aces %>%
 
 absent_players <- c()
 
-for (i in 1:nrow(na_in_data)) {
+for (i in 1:nrow(na_presence)) {
   if (na_presence$total_matches[i] <= 2 * na_presence$na_presence[i]) {
     absent_players <- c(absent_players, i)
   }
@@ -417,15 +417,15 @@ write.csv(aces, "aces.csv", row.names = FALSE)
 # Serves Won
 serve_point_w <- results %>% 
   group_by(year, winner_id) %>% 
-  summarise(first_serves_won = sum(w_1stWon),
-            second_serves_won = sum(w_2ndWon),
-            serves = sum(w_svpt))
+  summarise(first_serves_won = sum(w_1stWon, na.rm = TRUE),
+            second_serves_won = sum(w_2ndWon, na.rm = TRUE),
+            serves = sum(w_svpt, na.rm = TRUE))
 
 serve_point_l <- results %>% 
   group_by(year, loser_id) %>% 
-  summarise(first_serves_won = sum(l_1stWon),
-            second_serves_won = sum(l_2ndWon),
-            serves = sum(l_svpt))
+  summarise(first_serves_won = sum(l_1stWon, na.rm = TRUE),
+            second_serves_won = sum(l_2ndWon, na.rm = TRUE),
+            serves = sum(l_svpt, na.rm = TRUE))
 
 serve_point <- merge(x = serve_point_w, y = serve_point_l, by.x = c("year", "winner_id"), by.y = c("year", "loser_id"), all = TRUE)
 
@@ -448,15 +448,15 @@ serve_point <- merge(serve_point, men)[1:4]
 
 serve_point_w <- w_results %>% 
   group_by(year, winner_id) %>% 
-  summarise(first_serves_won = sum(w_1stWon),
-            second_serves_won = sum(w_2ndWon),
-            serves = sum(w_svpt))
+  summarise(first_serves_won = sum(w_1stWon, na.rm = TRUE),
+            second_serves_won = sum(w_2ndWon, na.rm = TRUE),
+            serves = sum(w_svpt, na.rm = TRUE))
 
 serve_point_l <- w_results %>% 
   group_by(year, loser_id) %>% 
-  summarise(first_serves_won = sum(l_1stWon),
-            second_serves_won = sum(l_2ndWon),
-            serves = sum(l_svpt))
+  summarise(first_serves_won = sum(l_1stWon, na.rm = TRUE),
+            second_serves_won = sum(l_2ndWon, na.rm = TRUE),
+            serves = sum(l_svpt, na.rm = TRUE))
 
 w_serve_point <- merge(x = serve_point_w, y = serve_point_l, by.x = c("year", "winner_id"), by.y = c("year", "loser_id"), all = TRUE)
 
@@ -486,7 +486,7 @@ na_presence <- serve_point %>%
 
 absent_players <- c()
 
-for (i in 1:nrow(na_in_data)) {
+for (i in 1:nrow(na_presence)) {
   if (na_presence$total_matches[i] <= 2 * na_presence$na_presence[i]) {
     absent_players <- c(absent_players, i)
   }
@@ -501,13 +501,13 @@ write.csv(serve_point, "serves_won.csv", row.names = FALSE)
 # First Serve Returns
 first_returns_w <- results %>% 
   group_by(year, winner_id) %>% 
-  summarise(first_return = sum(l_1stIn),
-            first_lost = sum(l_1stWon))
+  summarise(first_return = sum(l_1stIn, na.rm = TRUE),
+            first_lost = sum(l_1stWon, na.rm = TRUE))
 
 first_returns_l <- results %>% 
   group_by(year, loser_id) %>% 
-  summarise(first_return = sum(w_1stIn),
-            first_lost = sum(w_1stWon))
+  summarise(first_return = sum(w_1stIn, na.rm = TRUE),
+            first_lost = sum(w_1stWon, na.rm = TRUE))
 
 first_returns <- merge(x = first_returns_w, y = first_returns_l, by.x = c("year", "winner_id"), by.y = c("year", "loser_id"), all = TRUE)
 
@@ -527,13 +527,13 @@ first_returns <- merge(first_returns, men)[1:4]
 
 first_returns_w <- w_results %>% 
   group_by(year, winner_id) %>% 
-  summarise(first_return = sum(l_1stIn),
-            first_lost = sum(l_1stWon))
+  summarise(first_return = sum(l_1stIn, na.rm = TRUE),
+            first_lost = sum(l_1stWon, na.rm = TRUE))
 
 first_returns_l <- w_results %>% 
   group_by(year, loser_id) %>% 
-  summarise(first_return = sum(w_1stIn),
-            first_lost = sum(w_1stWon))
+  summarise(first_return = sum(w_1stIn, na.rm = TRUE),
+            first_lost = sum(w_1stWon, na.rm = TRUE))
 
 w_first_returns <- merge(x = first_returns_w, y = first_returns_l, by.x = c("year", "winner_id"), by.y = c("year", "loser_id"), all = TRUE)
 
@@ -560,7 +560,7 @@ na_presence <- first_returns %>%
 
 absent_players <- c()
 
-for (i in 1:nrow(na_in_data)) {
+for (i in 1:nrow(na_presence)) {
   if (na_presence$total_matches[i] <= 2 * na_presence$na_presence[i]) {
     absent_players <- c(absent_players, i)
   }
@@ -575,17 +575,17 @@ write.csv(first_returns, "first_returns.csv", row.names = FALSE)
 # Second Serve Returns
 second_returns_w <- results %>% 
   group_by(year, winner_id) %>% 
-  summarise(first_return = sum(l_1stIn),
-            second_lost = sum(l_2ndWon),
-            return_point = sum(l_svpt),
-            double_fault = sum(l_df))
+  summarise(first_return = sum(l_1stIn, na.rm = TRUE),
+            second_lost = sum(l_2ndWon, na.rm = TRUE),
+            return_point = sum(l_svpt, na.rm = TRUE),
+            double_fault = sum(l_df, na.rm = TRUE))
 
 second_returns_l <- results %>% 
   group_by(year, loser_id) %>% 
-  summarise(first_return = sum(w_1stIn),
-            second_lost = sum(w_2ndWon),
-            return_point = sum(w_svpt),
-            double_fault = sum(w_df))
+  summarise(first_return = sum(w_1stIn, na.rm = TRUE),
+            second_lost = sum(w_2ndWon, na.rm = TRUE),
+            return_point = sum(w_svpt, na.rm = TRUE),
+            double_fault = sum(w_df, na.rm = TRUE))
 
 second_returns <- merge(x = second_returns_w, y = second_returns_l, by.x = c("year", "winner_id"), by.y = c("year", "loser_id"), all = TRUE)
 
@@ -614,17 +614,17 @@ second_returns <- merge(second_returns, men)[1:4]
 
 second_returns_w <- w_results %>% 
   group_by(year, winner_id) %>% 
-  summarise(first_return = sum(l_1stIn),
-            second_lost = sum(l_2ndWon),
-            return_point = sum(l_svpt),
-            double_fault = sum(l_df))
+  summarise(first_return = sum(l_1stIn, na.rm = TRUE),
+            second_lost = sum(l_2ndWon, na.rm = TRUE),
+            return_point = sum(l_svpt, na.rm = TRUE),
+            double_fault = sum(l_df, na.rm = TRUE))
 
 second_returns_l <- w_results %>% 
   group_by(year, loser_id) %>% 
-  summarise(first_return = sum(w_1stIn),
-            second_lost = sum(w_2ndWon),
-            return_point = sum(w_svpt),
-            double_fault = sum(w_df))
+  summarise(first_return = sum(w_1stIn, na.rm = TRUE),
+            second_lost = sum(w_2ndWon, na.rm = TRUE),
+            return_point = sum(w_svpt, na.rm = TRUE),
+            double_fault = sum(w_df, na.rm = TRUE))
 
 w_second_returns <- merge(x = second_returns_w, y = second_returns_l, by.x = c("year", "winner_id"), by.y = c("year", "loser_id"), all = TRUE)
 
@@ -660,7 +660,7 @@ na_presence <- second_returns %>%
 
 absent_players <- c()
 
-for (i in 1:nrow(na_in_data)) {
+for (i in 1:nrow(na_presence)) {
   if (na_presence$total_matches[i] <= 2 * na_presence$na_presence[i]) {
     absent_players <- c(absent_players, i)
   }
@@ -675,13 +675,13 @@ write.csv(second_returns, "second_returns.csv", row.names = FALSE)
 # BP Conversion
 bp_convert_w <- results %>% 
   group_by(year, winner_id) %>% 
-  summarise(bp = sum(l_bpFaced),
-            bp_saved = sum(l_bpSaved))
+  summarise(bp = sum(l_bpFaced, na.rm = TRUE),
+            bp_saved = sum(l_bpSaved, na.rm = TRUE))
 
 bp_convert_l <- results %>% 
   group_by(year, loser_id) %>% 
-  summarise(bp = sum(w_bpFaced),
-            bp_saved = sum(w_bpSaved))
+  summarise(bp = sum(w_bpFaced, na.rm = TRUE),
+            bp_saved = sum(w_bpSaved, na.rm = TRUE))
 
 bp_convert <- merge(x = bp_convert_w, y = bp_convert_l, by.x = c("year", "winner_id"), by.y = c("year", "loser_id"), all = TRUE)
 
@@ -701,13 +701,13 @@ bp_convert <- merge(bp_convert, men)[1:4]
 
 bp_convert_w <- w_results %>% 
   group_by(year, winner_id) %>% 
-  summarise(bp = sum(l_bpFaced),
-            bp_saved = sum(l_bpSaved))
+  summarise(bp = sum(l_bpFaced, na.rm = TRUE),
+            bp_saved = sum(l_bpSaved, na.rm = TRUE))
 
 bp_convert_l <- w_results %>% 
   group_by(year, loser_id) %>% 
-  summarise(bp = sum(w_bpFaced),
-            bp_saved = sum(w_bpSaved))
+  summarise(bp = sum(w_bpFaced, na.rm = TRUE),
+            bp_saved = sum(w_bpSaved, na.rm = TRUE))
 
 w_bp_convert <- merge(x = bp_convert_w, y = bp_convert_l, by.x = c("year", "winner_id"), by.y = c("year", "loser_id"), all = TRUE)
 
@@ -734,7 +734,7 @@ na_presence <- bp_convert %>%
 
 absent_players <- c()
 
-for (i in 1:nrow(na_in_data)) {
+for (i in 1:nrow(na_presence)) {
   if (na_presence$total_matches[i] <= 2 * na_presence$na_presence[i]) {
     absent_players <- c(absent_players, i)
   }
@@ -749,15 +749,15 @@ write.csv(bp_convert, "bp_convert.csv", row.names = FALSE)
 # Return Points Won
 returns_w <- results %>% 
   group_by(year, winner_id) %>% 
-  summarise(first_returns_lost = sum(l_1stWon),
-            second_returns_lost = sum(l_2ndWon),
-            returns = sum(l_svpt))
+  summarise(first_returns_lost = sum(l_1stWon, na.rm = TRUE),
+            second_returns_lost = sum(l_2ndWon, na.rm = TRUE),
+            returns = sum(l_svpt, na.rm = TRUE))
 
 returns_l <- results %>% 
   group_by(year, loser_id) %>% 
-  summarise(first_returns_lost = sum(w_1stWon),
-            second_returns_lost = sum(w_2ndWon),
-            returns = sum(w_svpt))
+  summarise(first_returns_lost = sum(w_1stWon, na.rm = TRUE),
+            second_returns_lost = sum(w_2ndWon, na.rm = TRUE),
+            returns = sum(w_svpt, na.rm = TRUE))
 
 returns <- merge(x = returns_w, y = returns_l, by.x = c("year", "winner_id"), by.y = c("year", "loser_id"), all = TRUE)
 
@@ -783,15 +783,15 @@ returns <- merge(returns, men)[1:4]
 
 returns_w <- w_results %>% 
   group_by(year, winner_id) %>% 
-  summarise(first_returns_lost = sum(l_1stWon),
-            second_returns_lost = sum(l_2ndWon),
-            returns = sum(l_svpt))
+  summarise(first_returns_lost = sum(l_1stWon, na.rm = TRUE),
+            second_returns_lost = sum(l_2ndWon, na.rm = TRUE),
+            returns = sum(l_svpt, na.rm = TRUE))
 
 returns_l <- w_results %>% 
   group_by(year, loser_id) %>% 
-  summarise(first_returns_lost = sum(w_1stWon),
-            second_returns_lost = sum(w_2ndWon),
-            returns = sum(w_svpt))
+  summarise(first_returns_lost = sum(w_1stWon, na.rm = TRUE),
+            second_returns_lost = sum(w_2ndWon, na.rm = TRUE),
+            returns = sum(w_svpt, na.rm = TRUE))
 
 w_returns <- merge(x = returns_w, y = returns_l, by.x = c("year", "winner_id"), by.y = c("year", "loser_id"), all = TRUE)
 
@@ -824,7 +824,7 @@ na_presence <- returns %>%
 
 absent_players <- c()
 
-for (i in 1:nrow(na_in_data)) {
+for (i in 1:nrow(na_presence)) {
   if (na_presence$total_matches[i] <= 2 * na_presence$na_presence[i]) {
     absent_players <- c(absent_players, i)
   }
