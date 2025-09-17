@@ -273,9 +273,6 @@ rm(w_results_2005, w_results_2006, w_results_2007, w_results_2008, w_results_200
 
 setwd("..")
 
-row.names(men) <- men$player_id
-row.names(women) <- women$player_id
-
 colnames(recent_results)[8] <- "player_id"
 
 win_men <- merge(men, recent_results)[1:7]
@@ -305,6 +302,9 @@ lose_women <- lose_women[!duplicated(lose_women), ]
 
 women <- rbind(win_women, lose_women)
 women <- women[!duplicated(women), ]
+
+row.names(men) <- men$player_id
+row.names(women) <- women$player_id
 
 write.csv(men, "current_men.csv")
 write.csv(women, "current_women.csv")
