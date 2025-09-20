@@ -157,16 +157,9 @@ doubles_results <- rbind(doubles_2000, doubles_2001, doubles_2002, doubles_2003,
 rm(doubles_2000, doubles_2001, doubles_2002, doubles_2003, doubles_2004, doubles_2005, doubles_2006, doubles_2007, doubles_2008, doubles_2009, doubles_2010, doubles_2011, doubles_2012, doubles_2013, doubles_2014, doubles_2015, doubles_2016, doubles_2017, doubles_2018, doubles_2019, doubles_2020)
 
 setwd("..")
-setwd("Mens singles")
 
-men <- read.csv("atp_players.csv")
-
-setwd("..")
-setwd("Womens singles")
-
-women <- read.csv("wta_players.csv")
-
-setwd("..")
+men <- read.csv("current_men.csv")
+women <- read.csv("current_women.csv")
 
 men$wikidata_id <- NULL
 women$wikidata_id <- NULL
@@ -287,6 +280,15 @@ lose_men <- lose_men[!duplicated(lose_men), ]
 
 men <- rbind(win_men, lose_men)
 men <- men[!duplicated(men), ]
+
+for (i in 1:nrow(results)) {
+  if (results$winner_id[i] >= 200000) {
+    results$winner_id[i] <- results$winner_id[i] + 900000
+  } 
+  if (results$loser_id[i] >= 200000) {
+    results$loser_id[i] <- results$loser_id[i] + 900000
+  }
+}
 
 colnames(w_recent_results)[8] <- "player_id"
 
