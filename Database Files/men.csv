@@ -1,1255 +1,1378 @@
-"player_id","name_first","name_last","hand","dob","ioc","height"
-100644,"Alexander","Zverev","R",19970420,"GER",198
-101868,"Dick","Norman","L",19710301,"BEL",203
-101885,"Wayne","Arthurs","L",19710318,"AUS",190
-101962,"Younes","El Aynaoui","R",19710912,"MAR",193
-102093,"Martin","Damm","L",20030930,"USA",203
-102106,"Davide","Sanguinetti","R",19720825,"ITA",188
-102143,"Nicolas","Thomann","R",19721129,"FRA",183
-102148,"Fabrice","Santoro","R",19721209,"FRA",178
-102179,"Antony","Dupuis","R",19730224,"FRA",185
-102227,"Sargis","Sargsian","R",19730603,"ARM",180
-102231,"Alex","Calatrava","R",19730614,"ESP",190
-102269,"Jeff","Salzenstein","L",19731014,"USA",185
-102282,"Tetsuya","Chaen","R",19731105,"JPN",NA
-102287,"Albert","Portas","R",19731115,"ESP",188
-102306,"Michael","Kohlmann","R",19740111,"GER",188
-102374,"Alex","Corretja","R",19740411,"ESP",180
-102381,"Werner","Eschauer","R",19740426,"AUT",188
-102382,"Julian","Knowle","L",19740429,"AUT",188
-102401,"Scott","Draper","L",19740605,"AUS",178
-102434,"Vincent","Spadea","R",19740719,"USA",183
-102456,"Felix","Mantilla","R",19740923,"ESP",180
-102494,"Tomas","Behrend","R",19741212,"GER",193
-102497,"Mashiska","Washington","R",19741219,"USA",180
-102512,"Joseph","Sirianni","R",19750117,"AUS",175
-102539,"Bohdan","Ulihrach","R",19750223,"CZE",188
-102548,"Juan Antonio","Marin","R",19750302,"CRC",175
-102558,"Eric","Taino","L",19750318,"PHI",175
-102565,"Alexander","Waske","R",19750331,"GER",188
-102567,"George","Bastl","R",19750401,"SUI",183
-102571,"Gregory","Carraz","R",19750409,"FRA",190
-102585,"Sebastian","Prieto","R",19750519,"ARG",180
-102610,"Albert","Costa","R",19750625,"ESP",180
-102615,"Dennis","Van Scheppingen","R",19750705,"NED",185
-102642,"Cyril","Saulnier","R",19750816,"FRA",190
-102667,"Satoshi","Iwabuchi","L",19751007,"JPN",175
-102694,"Lars","Burgsmuller","R",19751206,"GER",183
-102720,"Tomas","Zib","R",19760131,"CZE",178
-102730,"Ivo","Heuberger","R",19760219,"SUI",188
-102770,"John","Van Lottum","R",19760410,"NED",185
-102780,"Frederic","Niemeyer","R",19760424,"CAN",190
-102783,"Rainer","Schuettler","R",19760425,"GER",180
-102785,"Glenn","Weiner","R",19760427,"USA",188
-102788,"Jan","Vacek","R",19760510,"CZE",198
-102821,"Cecil","Mamiit","R",19760627,"PHI",173
-102834,"Paul","Goldstein","R",19760804,"USA",178
-102845,"Carlos","Moya","R",19760827,"ESP",190
-102851,"Giorgio","Galimberti","R",19760905,"ITA",180
-102860,"Agustin","Calleri","R",19760914,"ARG",183
-102863,"Takao","Suzuki","R",19760920,"JPN",175
-102864,"Frank","Moser","R",19760923,"GER",193
-102869,"Galo","Blanco","R",19761008,"ESP",173
-102880,"Alexander","Popp","R",19761104,"GER",201
-102881,"David","Skoch","R",19761106,"CZE",183
-102885,"Vishal","Uppal","R",19761110,"IND",NA
-102886,"Frantisek","Cermak","R",19761114,"CZE",193
-102887,"Ramon","Delgado","R",19761114,"PAR",185
-102904,"Leos","Friedl","R",19770101,"CZE",183
-102925,"Justin","Gimelstob","R",19770126,"USA",196
-102945,"Luke","Bourgeois","R",19770303,"AUS",188
-102950,"Fernando","Vicente","R",19770308,"ESP",180
-102956,"Sultan","Khalfan","R",19770316,"QAT",NA
-102965,"Jamie","Delgado","R",19770321,"GBR",178
-102967,"Marc","Gicquel","R",19770330,"FRA",188
-102985,"Gustavo","Marcaccio","R",19770503,"ARG",170
-102987,"Andre","Sa","R",19770506,"BRA",185
-102998,"Jan Michael","Gambill","R",19770603,"USA",190
-102999,"Stefano","Galvani","R",19770603,"ITA",178
-103009,"Razvan","Sabau","R",19770618,"ROU",185
-103032,"Francisco","Fogues","L",19770806,"ESP",190
-103035,"Alessio","Di Mauro","L",19770809,"ITA",185
-103063,"Sebastien","De Chaunac","R",19771007,"FRA",183
-103076,"Justin","Oneal","R",19771024,"USA",NA
-103084,"Guillermo","Canas","R",19771125,"ARG",185
-103096,"Arnaud","Clement","R",19771217,"FRA",173
-103104,"Bjorn","Rehnquist","R",19780105,"SWE",175
-103105,"Ruben","Ramirez Hidalgo","R",19780106,"ESP",183
-103110,"Daniele","Bracciali","R",19780110,"ITA",180
-103114,"Martin","Lee","L",19780113,"GBR",180
-103133,"Olivier","Mutis","R",19780202,"FRA",175
-103151,"Mariano","Zabaleta","R",19780228,"ARG",183
-103153,"Gilles","Elseneer","R",19780306,"BEL",188
-103157,"Arvind","Parmar","R",19780322,"GBR",193
-103163,"Tommy","Haas","R",19780403,"GER",188
-103165,"Gorka","Fraile","R",19780407,"ESP",180
-103169,"Oscar","Hernandez","R",19780410,"ESP",180
-103171,"Raemon","Sluiter","R",19780413,"NED",185
-103175,"Toshihide","Matsui","R",19780419,"JPN",178
-103176,"David","Sanchez","R",19780420,"ESP",183
-103181,"Jiri","Vanek","R",19780424,"CZE",185
-103182,"Markus","Hipfl","R",19780426,"AUT",178
-103184,"Bob","Bryan","L",19780429,"USA",193
-103185,"Mike","Bryan","R",19780429,"USA",190
-103188,"Michael","Russell","R",19780501,"USA",173
-103193,"Peter","Wessels","R",19780507,"NED",196
-103201,"Adrian","Garcia","R",19780525,"CHI",175
-103204,"Hugo","Armando","R",19780527,"USA",183
-103206,"Sebastien","Grosjean","R",19780529,"FRA",175
-103209,"Leonardo","Azzaro","L",19780530,"ITA",188
-103228,"Marcos","Daniel","R",19780704,"BRA",180
-103230,"Tasuku","Iwami","L",19780709,"JPN",168
-103238,"Jean Claude","Scherrer","R",19780720,"SUI",188
-103240,"Kevin","Kim","R",19780726,"USA",180
-103248,"Harel","Levy","R",19780805,"ISR",185
-103250,"Rodolphe","Cadart","L",19780808,"FRA",183
-103252,"Alberto","Martin","R",19780820,"ESP",175
-103254,"Yves","Allegro","R",19780824,"SUI",183
-103264,"Mariano","Puerta","L",19780919,"ARG",180
-103280,"Martin","Verkerk","R",19781031,"NED",196
-103285,"Radek","Stepanek","R",19781127,"CZE",185
-103290,"Radim","Zitko","R",19781208,"CZE",NA
-103292,"Gaston","Gaudio","R",19781209,"ARG",175
-103294,"Christophe","Rochus","R",19781215,"BEL",170
-103305,"Daniel","Elsner","R",19790104,"GER",183
-103318,"Zeljko","Krajan","R",19790203,"CRO",178
-103319,"Jeff","Morrison","R",19790204,"USA",185
-103333,"Ivo","Karlovic","R",19790228,"CRO",208
-103339,"Wesley","Whitehouse","L",19790313,"RSA",190
-103344,"Ivan","Ljubicic","R",19790319,"CRO",193
-103356,"Michel","Kratochvil","R",19790407,"SUI",185
-103369,"Melle","Van Gemerden","R",19790509,"NED",183
-103373,"Sergio","Roitman","R",19790516,"ARG",185
-103385,"Paul","Baccanello","R",19790612,"AUS",183
-103393,"Yuri","Schukin","R",19790626,"KAZ",188
-103395,"Julio","Silva","R",19790701,"BRA",173
-103401,"Jan","Hernych","R",19790707,"CZE",190
-103403,"Takahiro","Terachi","R",19790708,"JPN",NA
-103408,"Brian","Vahaly","R",19790719,"USA",183
-103420,"Michal","Tabara","R",19790811,"CZE",175
-103424,"Tobias","Clemens","R",19790814,"GER",185
-103428,"Juan Ignacio","Chela","R",19790830,"ARG",190
-103429,"Peter","Luczak","R",19790831,"AUS",183
-103435,"Massimo","Dellacqua","R",19790906,"ITA",193
-103437,"Francesco","Piccari","R",19790907,"ITA",NA
-103444,"Jean Rene","Lisnard","R",19790925,"MON",173
-103448,"Gabriel","Trujillo Soler","R",19790930,"ESP",NA
-103451,"Bjorn","Phau","R",19791004,"GER",175
-103465,"Paul","Logtens","R",19791107,"NED",175
-103470,"Robert","Kendrick","R",19791115,"USA",190
-103484,"James","Blake","R",19791228,"USA",185
-103487,"Federico","Luzzi","R",19800103,"ITA",188
-103490,"Santiago","Ventura","R",19800105,"ESP",183
-103503,"Robin","Vik","R",19800205,"CZE",183
-103506,"Martin","Vassallo Arguello","R",19800210,"ARG",183
-103507,"Juan Carlos","Ferrero","R",19800212,"ESP",183
-103516,"Nathan","Healey","R",19800227,"AUS",180
-103520,"Pavel","Snobel","L",19800228,"CZE",190
-103521,"Andrea","Stoppini","R",19800229,"ITA",190
-103530,"Zack","Fleishman","R",19800317,"USA",188
-103534,"Nicolas","Devilder","L",19800325,"FRA",173
-103535,"Olivier","Patience","R",19800325,"FRA",180
-103538,"James","Auckland","R",19800401,"GBR",NA
-103543,"David","Marrero","R",19800408,"ESP",183
-103553,"Alun","Jones","R",19800426,"AUS",180
-103559,"David","Sherwood","R",19800506,"GBR",193
-103565,"Stephane","Robert","R",19800517,"FRA",185
-103566,"Michael","Llodra","L",19800518,"FRA",190
-103580,"Alexander","Peya","R",19800627,"AUT",183
-103581,"Flavio","Saretta","R",19800628,"BRA",183
-103582,"Michael","Berrer","L",19800701,"GER",193
-103592,"Jerome","Haehnel","R",19800714,"FRA",185
-103594,"Oliver","Marach","R",19800716,"AUT",185
-103598,"Xavier","Malisse","R",19800719,"BEL",185
-103602,"Fernando","Gonzalez","R",19800729,"CHI",183
-103623,"Jacob","Adaktusson","R",19800831,"SWE",193
-103626,"Tomas","Tenconi","R",19800903,"ITA",178
-103646,"Lars","Uebel","R",19801014,"GER",180
-103653,"Jasper","Smit","R",19801117,"NED",NA
-103656,"Albert","Montanes","R",19801126,"ESP",175
-103657,"Ivo","Klec","R",19801128,"SVK",183
-103663,"Matias","Boeker","R",19801211,"USA",NA
-103672,"Ricardo","Mello","L",19801221,"BRA",175
-103675,"Diego","Junqueira","L",19801228,"ARG",178
-103676,"Michael","Yani","R",19801231,"USA",185
-103684,"Benedikt","Dorsch","R",19810110,"GER",178
-103693,"Thierry","Ascione","R",19810117,"FRA",188
-103694,"Olivier","Rochus","R",19810118,"BEL",168
-103700,"Juan Pablo","Guzman","L",19810129,"ARG",178
-103701,"Diego","Hartfield","R",19810131,"ARG",185
-103702,"Stefano","Ianni","R",19810131,"ITA",NA
-103708,"Jaroslav","Pospisil","R",19810209,"CZE",175
-103709,"Kristian","Pless","R",19810209,"DEN",188
-103714,"Andreas","Vinciguerra","L",19810219,"SWE",180
-103716,"Uros","Vico","R",19810219,"ITA",188
-103718,"David","Martin","L",19810222,"USA",185
-103722,"Florent","Serra","R",19810228,"FRA",180
-103726,"Jean Christophe","Faurel","R",19810306,"FRA",175
-103730,"Jonathan","Marray","R",19810310,"GBR",183
-103735,"Lovro","Zovko","R",19810318,"CRO",190
-103737,"Edgardo","Massa","R",19810322,"ARG",180
-103747,"Dominik","Meffert","R",19810409,"GER",198
-103748,"Jan","Minar","R",19810409,"CZE",NA
-103752,"Simon","Greul","R",19810413,"GER",185
-103754,"Mark","Hilton","L",19810420,"GBR",170
-103758,"Taylor","Dent","R",19810424,"USA",188
-103761,"Tomas","Cakl","R",19810425,"CZE",178
-103762,"John Paul","Fruttero","R",19810430,"USA",185
-103763,"Martin","Slanar","R",19810501,"AUT",NA
-103775,"Felipe","Parada","R",19810516,"CHI",175
-103781,"Jurgen","Melzer","L",19810522,"AUT",183
-103782,"Rameez","Junaid","R",19810525,"AUS",NA
-103786,"Nikolay","Davydenko","R",19810602,"RUS",178
-103789,"Irakli","Labadze","L",19810609,"GEO",188
-103794,"Benjamin","Becker","R",19810616,"GER",178
-103799,"Eric","Prodon","R",19810627,"FRA",178
-103805,"Catalin","Gard","R",19810710,"ROU",NA
-103808,"Potito","Starace","R",19810714,"ITA",188
-103819,"Roger","Federer","R",19810808,"SUI",185
-103820,"Alan","Mackin","R",19810811,"GBR",183
-103822,"Scott","Lipsky","R",19810814,"USA",185
-103823,"Denis","Gremelmayr","L",19810816,"GER",183
-103830,"Shao Xuan","Zeng","R",19810829,"CHN",185
-103835,"Filippo","Volandri","R",19810905,"ITA",183
-103837,"Didac","Perez","R",19810907,"ESP",178
-103843,"Marco","Chiudinelli","R",19810910,"SUI",185
-103849,"Francesco","Aldi","R",19810917,"ITA",175
-103850,"Sebastian","Decoud","L",19810918,"ARG",178
-103852,"Feliciano","Lopez","L",19810920,"ESP",188
-103857,"Igor","Kunitsyn","R",19810930,"RUS",180
-103863,"Mikhail","Elgin","R",19811014,"RUS",183
-103868,"Ivan","Navarro","R",19811019,"ESP",183
-103878,"Zach","Dailey","U",19811114,"USA",NA
-103888,"Mardy","Fish","R",19811209,"USA",188
-103893,"Paolo","Lorenzi","R",19811215,"ITA",183
-103894,"Phillip","King","R",19811219,"USA",175
-103898,"Julien","Benneteau","R",19811220,"FRA",185
-103908,"Paul Henri","Mathieu","R",19820112,"FRA",185
-103909,"Guillermo","Coria","R",19820113,"ARG",175
-103914,"Omar","Awadhy","R",19820116,"UAE",NA
-103917,"Nicolas","Mahut","R",19820121,"FRA",191
-103924,"Marc","Fornell Mestres","R",19820126,"ESP",NA
-103925,"Gabriel","Moraru","R",19820128,"ROU",180
-103926,"Daniel","Munoz de la Nava","L",19820129,"ESP",178
-103963,"Filip","Urban","R",19820323,"POL",193
-103964,"Tobias","Klein","R",19820323,"GER",170
-103970,"David","Ferrer","R",19820402,"ESP",175
-103971,"Karol","Beck","R",19820403,"SVK",180
-103975,"Eric","Nunez","R",19820409,"USA",NA
-103976,"Juan Pablo","Brzezicki","R",19820412,"ARG",178
-103984,"Julien","Mathieu","R",19820422,"FRA",NA
-103990,"Tommy","Robredo","R",19820501,"ESP",180
-103997,"Lukasz","Kubot","R",19820516,"POL",191
-103999,"Thiago","Alves","R",19820522,"BRA",178
-104001,"Brian","Wilson","R",19820523,"USA",190
-104003,"Victor","Crivoi","R",19820525,"ROU",185
-104004,"Filip","Prpic","R",19820526,"SWE",173
-104007,"Andre","Ghem","R",19820529,"BRA",193
-104010,"Dieter","Kindlmann","R",19820603,"GER",183
-104014,"Lee","Childs","R",19820611,"GBR",NA
-104019,"Kristof","Vliegen","R",19820622,"BEL",193
-104022,"Mikhail","Youzhny","R",19820625,"RUS",183
-104023,"Nicolas","Renavand","R",19820625,"FRA",NA
-104025,"Amer","Delic","R",19820630,"BIH",196
-104026,"Joachim","Johansson","R",19820701,"SWE",198
-104035,"Bobby","Reynolds","R",19820717,"USA",183
-104037,"Phillip","Harboe","R",19820720,"CHI",NA
-104043,"Marc","Lopez","R",19820731,"ESP",175
-104056,"Roko","Karanusic","R",19820905,"CRO",183
-104068,"Robby","Ginepri","R",19821007,"USA",183
-104070,"Jesse","Witten","R",19821015,"USA",178
-104071,"Raven","Klaasen","R",19821016,"RSA",178
-104076,"Jose","Acasuso","R",19821020,"ARG",190
-104081,"Boris","Pashanski","R",19821103,"SRB",180
-104082,"Hiroki","Kondo","R",19821105,"JPN",178
-104091,"Miguel Angel","Lopez Jaen","R",19821129,"ESP",188
-104095,"David","Guez","R",19821208,"FRA",185
-104098,"Dmitry","Tursunov","R",19821212,"RUS",185
-104099,"Israel","Matos Gil","U",19821214,"ESP",NA
-104106,"Ludovic","Walter","U",19830104,"FRA",NA
-104115,"Marc","Kimmich","R",19830121,"AUS",183
-104121,"Tobias","Summerer","R",19830201,"GER",185
-104122,"Carlos","Berlocq","R",19830203,"ARG",183
-104149,"Adrian","Cruciat","R",19830331,"ROU",185
-104158,"Andrew","Anderson","R",19830408,"RSA",193
-104161,"Tomislav","Peric","R",19830410,"CRO",NA
-104166,"Alex","Bogomolov Jr","R",19830423,"RUS",178
-104167,"Todd","Widom","R",19830424,"USA",NA
-104171,"Richard","Bloomfield","R",19830427,"GBR",185
-104173,"Sam","Warburg","R",19830429,"USA",190
-104180,"Gilles","Muller","L",19830509,"LUX",193
-104181,"Victor","Ionita","R",19830511,"ROU",185
-104192,"Marco","Crugnola","R",19830524,"ITA",188
-104195,"Simone","Vagnozzi","R",19830530,"ITA",173
-104196,"Carlos","Cuadrado","R",19830601,"ESP",180
-104198,"Guillermo","Garcia Lopez","R",19830604,"ESP",188
-104208,"Damian","Patriarca","R",19830628,"ARG",NA
-104209,"Rainer","Eitzinger","R",19830628,"AUT",178
-104211,"Roman","Valent","R",19830708,"SUI",183
-104214,"Igor","Andreev","R",19830714,"RUS",185
-104216,"Maximo","Gonzalez","R",19830720,"ARG",173
-104217,"Simon","Stadler","L",19830720,"GER",183
-104219,"Stephane","Bohli","R",19830725,"SUI",185
-104224,"Travis","Rettenmaier","R",19830806,"USA",188
-104225,"Jan","Hajek","R",19830807,"CZE",180
-104226,"Bastian","Knittel","L",19830808,"GER",180
-104227,"Augustin","Gensse","R",19830810,"FRA",180
-104228,"Guillem","Burniol","R",19830814,"ESP",NA
-104230,"Daniel","Koellerer","R",19830817,"AUT",180
-104250,"Prakash","Amritraj","R",19831002,"IND",188
-104252,"Florian","Mayer","R",19831005,"GER",190
-104253,"Juan Martin","Aranguren","R",19831007,"ARG",NA
-104256,"Clement","Reix","U",19831009,"FRA",NA
-104259,"Philipp","Kohlschreiber","R",19831016,"GER",178
-104262,"Flavio","Cipolla","R",19831020,"ITA",173
-104268,"Alejandro","Falla","L",19831114,"COL",185
-104269,"Fernando","Verdasco","L",19831115,"ESP",188
-104272,"Torsten","Popp","R",19831125,"GER",NA
-104273,"Edouard","Roger-Vasselin","R",19831128,"FRA",185
-104275,"Josko","Topic","U",19831208,"CRO",NA
-104281,"Ryler","Deheart","L",19840103,"USA",183
-104284,"Frank","Condor","U",19840110,"ESP",NA
-104287,"Steven","Korteling","U",19840116,"NED",NA
-104291,"Malek","Jaziri","R",19840120,"TUN",185
-104297,"Rogerio","Dutra Silva","R",19840203,"BRA",178
-104308,"Michal","Przysiezny","R",19840216,"POL",185
-104312,"Andreas","Seppi","R",19840221,"ITA",190
-104314,"Brian","Dabul","L",19840224,"ARG",170
-104317,"David","Luque Velasco","U",19840302,"ESP",NA
-104327,"Steve","Darcis","R",19840313,"BEL",178
-104330,"Rajeev","Ram","R",19840318,"USA",193
-104332,"Philipp","Petzschner","R",19840324,"GER",185
-104334,"Alberto","Brizzi","R",19840326,"ITA",NA
-104338,"Juan","Monaco","R",19840329,"ARG",185
-104360,"Adam","Chadaj","L",19840501,"POL",178
-104361,"Michel","Koning","R",19840501,"NED",NA
-104371,"Ivo","Minar","R",19840521,"CZE",183
-104372,"Alex","Bogdanovic","L",19840522,"GBR",183
-104379,"Todd","Reid","R",19840603,"AUS",180
-104383,"Diogo","Rocha","R",19840614,"POR",NA
-104385,"Lars","Poerschke","R",19840617,"GER",NA
-104393,"Gregoire","Burquier","L",19840708,"FRA",NA
-104397,"Laurent","Recouderc","R",19840710,"FRA",178
-104415,"Colin","Fleming","R",19840813,"GBR",188
-104417,"Robin","Soderling","R",19840814,"SWE",193
-104424,"Go","Soeda","R",19840905,"JPN",178
-104439,"Vadim","Davletshin","U",19841007,"RUS",NA
-104445,"Jose Antonio","Sanchez De Luna","R",19841018,"ESP",NA
-104453,"Michael","Ryderstedt","L",19841112,"SWE",188
-104456,"Colin","Ebelthite","R",19841127,"AUS",NA
-104460,"Dustin","Brown","R",19841208,"JAM",196
-104465,"Martin","Emmrich","L",19841217,"GER",183
-104467,"Lamine","Ouahab","R",19841222,"ALG",185
-104468,"Gilles","Simon","R",19841227,"FRA",183
-104470,"Komlavi","Loglo","R",19841230,"TOG",183
-104471,"Ivan","Dodig","R",19850102,"CRO",183
-104473,"Walter","Trusendi","U",19850103,"ITA",NA
-104477,"Jorge","Aguilar","R",19850108,"CHI",178
-104478,"Hyun Woo","Nam","R",19850109,"KOR",NA
-104488,"Armin","Sandbichler","L",19850122,"AUT",180
-104495,"Florin","Mergea","R",19850126,"ROU",180
-104500,"Somdev","Devvarman","R",19850213,"IND",180
-104504,"Ross","Hutchins","R",19850222,"GBR",190
-104505,"Konstantin","Kravchuk","R",19850223,"RUS",190
-104515,"Mathieu","Montcourt","R",19850304,"FRA",183
-104516,"Arnau","Brugues Davi","L",19850305,"ESP",183
-104519,"Roman","Vogeli","R",19850313,"CZE",NA
-104527,"Stan","Wawrinka","R",19850328,"SUI",183
-104542,"Jo-Wilfried","Tsonga","R",19850417,"FRA",188
-104545,"John","Isner","R",19850426,"USA",208
-104547,"Horacio","Zeballos","L",19850427,"ARG",188
-104548,"Brian","Baker","R",19850430,"USA",190
-104550,"Ricardo","Hocevar","R",19850505,"BRA",180
-104558,"Mohammed","Abdulla","U",19850523,"QAT",NA
-104559,"Teymuraz","Gabashvili","R",19850523,"RUS",185
-104563,"Luca","Vanni","R",19850604,"ITA",198
-104571,"Marcos","Baghdatis","R",19850617,"CYP",183
-104579,"Romain","Jouan","R",19850716,"FRA",183
-104586,"Lukas","Rosol","R",19850724,"CZE",193
-104589,"Chris","Guccione","L",19850730,"AUS",201
-104592,"Ilija","Bozoljac","R",19850802,"SRB",193
-104593,"Daniel","Gimeno Traver","R",19850807,"ESP",185
-104594,"Marinko","Matosevic","R",19850808,"AUS",194
-104595,"Sascha","Kloer","R",19850816,"GER",NA
-104597,"Nicolas","Almagro","R",19850821,"ESP",183
-104619,"Jesse","Huta Galung","R",19851006,"NED",188
-104620,"Simone","Bolelli","R",19851008,"ITA",183
-104623,"Josh","Goodall","R",19851017,"GBR",188
-104627,"Boy","Westerhof","R",19851024,"NED",NA
-104628,"Alexander","Kudryavtsev","R",19851026,"RUS",183
-104629,"Adrian","Menendez Maceiras","R",19851028,"ESP",185
-104633,"Mathieu","Rodrigues","R",19851107,"FRA",180
-104635,"Robert","Smeets","L",19851110,"AUS",188
-104639,"Wayne","Odesnik","L",19851121,"USA",180
-104640,"Pablo","Galdon","R",19851128,"ARG",NA
-104644,"Riccardo","Ghedin","R",19851205,"ITA",188
-104646,"Purav","Raja","R",19851207,"IND",183
-104651,"Martin","Alund","R",19851226,"ARG",183
-104655,"Pablo","Cuevas","R",19860101,"URU",180
-104660,"Sergiy","Stakhovsky","R",19860106,"UKR",193
-104661,"Pierre Ludovic","Duclos","R",19860108,"CAN",188
-104665,"Pablo","Andujar","R",19860123,"ESP",180
-104667,"Philipp","Oswald","R",19860123,"AUT",201
-104672,"Vincent","Millot","L",19860130,"FRA",173
-104676,"Andreas","Beck","L",19860205,"GER",190
-104681,"Sebastian","Rieschick","R",19860215,"GER",NA
-104684,"Navdeep","Singh","R",19860221,"IND",NA
-104692,"Alexander","Slabinsky","R",19860306,"GBR",185
-104693,"Dominic","Inglot","R",19860306,"GBR",196
-104707,"Denis","Matsukevitch","R",19860328,"RUS",190
-104714,"Julian","Reister","R",19860402,"GER",188
-104717,"Brendan","Evans","R",19860408,"USA",188
-104719,"Marcel","Granollers","R",19860412,"ESP",191
-104721,"Josselin","Ouanna","R",19860414,"FRA",193
-104724,"Eduardo","Schwank","R",19860423,"ARG",183
-104729,"Ivan","Nedelko","R",19860512,"RUS",185
-104731,"Kevin","Anderson","R",19860518,"RSA",203
-104732,"Phillip","Simmonds","R",19860518,"USA",NA
-104735,"Tobias","Kamke","R",19860521,"GER",180
-104738,"Caio","Zampieri","R",19860527,"BRA",183
-104739,"Guillermo","Alcaide","R",19860527,"ESP",188
-104745,"Rafael","Nadal","L",19860603,"ESP",185
-104755,"Richard","Gasquet","R",19860618,"FRA",183
-104760,"Scott","Oudsema","R",19860701,"USA",190
-104770,"Martin","Fischer","R",19860721,"AUT",180
-104778,"Andrey","Kumantsov","R",19860804,"RUS",NA
-104779,"Jamie","Baker","R",19860805,"GBR",183
-104781,"Yuichi","Ito","R",19860806,"JPN",NA
-104783,"Mikhail","Ledovskikh","R",19860808,"RUS",188
-104792,"Gael","Monfils","R",19860901,"FRA",193
-104802,"Fabrice","Martin","R",19860911,"FRA",198
-104810,"Zhe","Li","R",19860920,"CHN",183
-104812,"Scoville","Jenkins","R",19860923,"USA",188
-104816,"Karan","Rastogi","R",19861008,"IND",178
-104820,"Erik","Chvojka","L",19861026,"CAN",185
-104822,"N Vijay","Sundar Prashanth","R",19861027,"IND",178
-104830,"Matteo","Marrai","U",19861117,"ITA",NA
-104831,"Bartolome","Salva Vidal","L",19861120,"ESP",183
-104847,"Adrien","Bossel","L",19861228,"SUI",NA
-104850,"Jonathan","Dasnieres De Veigy","L",19870105,"FRA",175
-104851,"Gianluca","Naso","R",19870106,"ITA",193
-104857,"Robert","Farah","R",19870120,"COL",193
-104864,"Alex","Kuznetsov","R",19870205,"USA",183
-104868,"James","Ward","R",19870209,"GBR",190
-104871,"Jeremy","Chardy","R",19870212,"FRA",188
-104873,"Aleksandr","Nedovyesov","R",19870215,"KAZ",188
-104890,"Andreas","Haider Maurer","R",19870322,"AUT",190
-104893,"Maxime","Authom","R",19870329,"BEL",NA
-104897,"Matthias","Bachinger","R",19870402,"GER",188
-104898,"Robin","Haase","R",19870406,"NED",191
-104905,"Nicolas","Barrientos","R",19870424,"COL",175
-104914,"Ervin","Eleskovic","R",19870508,"SWE",NA
-104918,"Andy","Murray","R",19870515,"GBR",191
-104919,"Leonardo","Mayer","R",19870515,"ARG",188
-104925,"Novak","Djokovic","R",19870522,"SRB",188
-104926,"Fabio","Fognini","R",19870524,"ITA",178
-104932,"Kenny","De Schepper","L",19870529,"FRA",203
-104944,"Niels","Desein","R",19870609,"BEL",190
-104947,"Marsel","Ilhan","R",19870611,"TUR",191
-104948,"Petar","Jelenic","R",19870613,"CRO",NA
-104951,"Aljoscha","Thron","R",19870615,"GER",NA
-104953,"Nikolai","Fidirko","R",19870615,"BLR",NA
-104958,"Carsten","Ball","L",19870620,"AUS",198
-104963,"Yannick","Mertens","R",19870625,"BEL",185
-104967,"Alexander","Sadecky","L",19870706,"SUI",193
-104970,"Matteo","Viola","R",19870707,"ITA",188
-104971,"Blake","Strode","R",19870709,"USA",188
-104975,"Evgeny","Kirillov","R",19870714,"RUS",NA
-104976,"Ryan","Sweeting","R",19870714,"USA",196
-104978,"Daniel","Brands","R",19870717,"GER",196
-104979,"Andrey","Golubev","R",19870722,"KAZ",180
-104986,"Vishnu","Vardhan","R",19870727,"IND",188
-104993,"Martin","Vaisse","U",19870811,"FRA",NA
-104997,"Igor","Sijsling","R",19870818,"NED",191
-104999,"Mischa","Zverev","L",19870822,"GER",190
-105011,"Illya","Marchenko","R",19870908,"UKR",185
-105014,"Antal","Van Der Duim","R",19870916,"NED",185
-105015,"Franko","Skugor","R",19870920,"CRO",196
-105023,"Sam","Querrey","R",19871007,"USA",198
-105026,"Takuto","Niki","R",19871012,"JPN",183
-105028,"Jesse","Levine","L",19871015,"CAN",175
-105030,"Michael","Venus","R",19871016,"NZL",191
-105031,"Saketh","Myneni","R",19871019,"IND",193
-105032,"Sam","Groth","R",19871019,"AUS",193
-105047,"Tim","Puetz","R",19871119,"GER",185
-105048,"Alex","Clayton","R",19871123,"USA",183
-105051,"Matthew","Ebden","R",19871126,"AUS",188
-105059,"Kento","Takeuchi","L",19871219,"JPN",NA
-105060,"Aldin","Setkic","R",19871221,"BIH",191
-105062,"Mikhail","Kukushkin","R",19871226,"KAZ",183
-105063,"Andrea","Arnaboldi","L",19871227,"ITA",180
-105065,"Tim","Smyczek","R",19871230,"USA",175
-105074,"Ruben","Bemelmans","L",19880114,"BEL",183
-105077,"Albert","Ramos","L",19880117,"ESP",188
-105080,"Miloslav","Mecir Jr","R",19880120,"SVK",190
-105084,"James","Lemke","R",19880125,"AUS",NA
-105091,"Peter","Torebko","R",19880210,"GER",185
-105095,"Evgeny","Korolev","R",19880214,"KAZ",185
-105098,"Alexandre","Sidorenko","R",19880218,"FRA",185
-105099,"Antonio","Veic","R",19880218,"CRO",180
-105100,"Edward","Corrie","R",19880221,"GBR",183
-105104,"Robin","Roshardt","R",19880222,"SUI",NA
-105113,"Patrik","Rosenholm","R",19880305,"SWE",178
-105116,"Dusan","Lojda","L",19880308,"CZE",188
-105120,"Andres","Molteni","R",19880315,"ARG",180
-105128,"Guillermo","Olaso","U",19880325,"ESP",175
-105131,"Tim","Goransson","U",19880326,"SWE",NA
-105132,"Jurgen","Zopp","R",19880329,"EST",190
-105137,"Pere","Riba","R",19880407,"ESP",183
-105138,"Roberto","Bautista Agut","R",19880414,"ESP",183
-105147,"Tatsuma","Ito","R",19880518,"JPN",180
-105149,"Reda","El Amrani","R",19880519,"MAR",185
-105154,"Joao","Souza","R",19880527,"BRA",193
-105155,"Pedro","Sousa","R",19880527,"POR",180
-105161,"Yann","Marti","R",19880607,"SUI",173
-105163,"Gleb","Sakharov","R",19880610,"FRA",185
-105166,"Peter","Polansky","R",19880615,"CAN",180
-105173,"Adrian","Mannarino","L",19880629,"FRA",180
-105175,"Kristijan","Mesaros","R",19880702,"CRO",NA
-105180,"Daniel","Dutra Da Silva","L",19880705,"BRA",173
-105181,"Miljan","Zekic","R",19880712,"SRB",185
-105189,"Pavel","Chekhov","R",19880727,"RUS",NA
-105194,"Nick","Lindahl","R",19880731,"AUS",183
-105208,"Ernests","Gulbis","R",19880830,"LAT",190
-105216,"Yuichi","Sugita","R",19880918,"JPN",173
-105217,"Thiemo","De Bakker","R",19880919,"NED",193
-105220,"Jun Chao","Xu","U",19880922,"CHN",NA
-105223,"Juan Martin","del Potro","R",19880923,"ARG",198
-105227,"Marin","Cilic","R",19880928,"CRO",198
-105229,"Philip","Bester","R",19881006,"CAN",188
-105231,"Luka","Belic","R",19881014,"CRO",NA
-105233,"Jeevan","Nedunchezhiyan","L",19881020,"IND",173
-105238,"Alexandr","Dolgopolov","R",19881107,"UKR",180
-105245,"Fabiano","De Paula","R",19881128,"BRA",178
-105252,"Takahiro","Ittogi","R",19881217,"JPN",NA
-105254,"Nikola","Mektic","R",19881224,"CRO",183
-105262,"Fernando","Romboli","R",19890104,"BRA",180
-105270,"Maxime","Teixeira","R",19890118,"FRA",188
-105281,"Eric","Quigley","R",19890130,"USA",185
-105283,"Gerard","Granollers","R",19890130,"ESP",180
-105286,"Greg","Jones","R",19890131,"AUS",190
-105292,"Alejandro","Gonzalez","R",19890207,"COL",190
-105294,"Dennis","Lajola","R",19890212,"USA",NA
-105300,"Sergio","Gutierrez Ferrol","R",19890305,"ESP",NA
-105302,"Ante","Pavic","R",19890307,"CRO",196
-105318,"Thomas","Schoorel","L",19890408,"NED",203
-105325,"Germain","Gigounon","R",19890420,"BEL",NA
-105332,"Benoit","Paire","R",19890508,"FRA",196
-105336,"Nicolas","Meister","R",19890515,"USA",180
-105339,"Yan","Bai","R",19890521,"CHN",185
-105341,"Thomas","Fabbiano","R",19890526,"ITA",173
-105357,"John","Millman","R",19890614,"AUS",183
-105359,"Jason","Jung","R",19890615,"TPE",180
-105373,"Martin","Klizan","L",19890711,"SVK",191
-105376,"Peter","Gojowczyk","R",19890715,"GER",188
-105379,"Aljaz","Bedene","R",19890718,"SLO",181
-105385,"Donald","Young","L",19890723,"USA",183
-105401,"Matteo","Trevisan","R",19890813,"ITA",NA
-105404,"Michael","Mcclune","R",19890822,"USA",188
-105406,"Roberto","Marcora","R",19890830,"ITA",193
-105413,"Andrej","Martin","R",19890920,"SVK",183
-105426,"Michael","Linzer","R",19891102,"AUT",NA
-105427,"Milos","Sekulic","R",19891104,"SWE",178
-105430,"Radu","Albot","R",19891111,"MDA",175
-105432,"Prajnesh","Gunneswaran","L",19891112,"IND",188
-105436,"Markus","Eriksson","R",19891129,"SWE",188
-105438,"Inigo","Cervantes Huegun","R",19891130,"ESP",180
-105440,"Arsenije","Zlatanovic","R",19891204,"SRB",193
-105441,"John Patrick","Smith","L",19890124,"AUS",188
-105449,"Steve","Johnson","R",19891224,"USA",188
-105453,"Kei","Nishikori","R",19891229,"JPN",178
-105454,"Brydan","Klein","R",19891231,"AUS",183
-105467,"Jordi","Munoz Abreu","U",19900117,"VEN",NA
-105472,"Nils","Langer","R",19900125,"GER",193
-105477,"Marco","Trungelliti","R",19900131,"ARG",178
-105487,"Facundo","Bagnis","L",19900227,"ARG",183
-105501,"Akash","Wagh","L",19900317,"IND",175
-105502,"N Sriram","Balaji","R",19900318,"IND",180
-105512,"Alexander","Sarkissian","R",19900403,"USA",191
-105515,"Jordi","Samper Montana","U",19900423,"ESP",NA
-105526,"Jan Lennard","Struff","R",19900425,"GER",193
-105528,"Alexander","Ward","R",19900430,"GBR",185
-105529,"Carlos","Gomez Herrera","R",19900430,"ESP",191
-105539,"Evgeny","Donskoy","R",19900509,"RUS",185
-105542,"Bastian","Trinker","R",19900511,"AUT",191
-105550,"Guido","Pella","L",19900517,"ARG",183
-105551,"Anil","Yuksel","L",19900519,"TUR",NA
-105554,"Daniel","Evans","R",19900523,"GBR",175
-105558,"Guillaume","Rufin","R",19900526,"FRA",188
-105559,"Jonathan","Eysseric","L",19900527,"FRA",180
-105561,"Alessandro","Giannessi","L",19900530,"ITA",185
-105572,"Austin","Krajicek","L",19900616,"USA",188
-105575,"Ricardas","Berankis","R",19900621,"LTU",175
-105577,"Vasek","Pospisil","R",19900623,"CAN",193
-105578,"Cristian","Rodriguez","R",19900624,"COL",180
-105583,"Dusan","Lajovic","R",19900630,"SRB",183
-105585,"Ze","Zhang","R",19900704,"CHN",188
-105589,"Gerald","Melzer","L",19900713,"AUT",188
-105591,"Matt","Reid","R",19900717,"AUS",183
-105596,"Jan","Satral","R",19900724,"CZE",185
-105609,"Ilya","Belyaev","R",19900809,"RUS",180
-105613,"Norbert","Gombos","R",19900813,"SVK",193
-105614,"Bradley","Klahn","L",19900820,"USA",183
-105630,"Tomislav","Ternar","U",19900916,"SLO",NA
-105634,"Viktor","Galovic","R",19900919,"ITA",193
-105638,"Daniel","Cox","R",19900928,"GBR",170
-105641,"Blaz","Rola","L",19901005,"SLO",193
-105643,"Federico","Delbonis","L",19901005,"ARG",193
-105649,"Cedrik Marcel","Stebe","L",19901009,"GER",183
-105650,"Marcus","Willis","L",19901009,"GBR",191
-105651,"Daniel","Smethurst","R",19901013,"GBR",188
-105655,"Hiroki","Moriya","R",19901016,"JPN",168
-105657,"Marius","Copil","R",19901017,"ROU",191
-105671,"Gastao","Elias","R",19901124,"POR",180
-105676,"David","Goffin","R",19901207,"BEL",180
-105677,"Nikola","Cacic","R",19901207,"SRB",183
-105678,"Axel","Michon","L",19901216,"FRA",176
-105679,"Eduardo","Struvay","R",19901217,"COL",NA
-105683,"Milos","Raonic","R",19901227,"CAN",196
-105691,"Scott","Griekspoor","R",19910110,"NED",NA
-105692,"Alessandro","Bega","R",19910111,"ITA",173
-105711,"Dino","Marcan","R",19910212,"CRO",178
-105723,"Andrey","Kuznetsov","R",19910222,"RUS",183
-105730,"Devin","Britton","R",19910317,"USA",193
-105731,"Steven","Diez","R",19910317,"CAN",175
-105732,"Pierre Hugues","Herbert","R",19910318,"FRA",188
-105733,"Rhyne","Williams","R",19910322,"USA",185
-105751,"Roberto","Ortega Olmedo","R",19910430,"ESP",168
-105757,"Sandro","Ehrat","R",19910418,"SUI",180
-105775,"Marin","Draganja","R",19910513,"CRO",185
-105777,"Grigor","Dimitrov","R",19910516,"BUL",191
-105782,"Enrique","Lopez Perez","R",19910603,"ESP",NA
-105783,"Chase","Buchanan","R",19910604,"USA",193
-105798,"Tilen","Zitnik","R",19910702,"SLO",NA
-105806,"Mirza","Basic","R",19910712,"BIH",188
-105807,"Pablo","Carreno Busta","R",19910712,"ESP",188
-105815,"Tennys","Sandgren","R",19910722,"USA",188
-105819,"Guido","Andreozzi","R",19910805,"ARG",183
-105821,"Riccardo","Bellotti","R",19910805,"ITA",NA
-105826,"Alejandro","Gomez Gb42","R",19910814,"COL",188
-105827,"Laurynas","Grigelis","R",19910814,"LTU",183
-105831,"Marko","Djokovic","R",19910820,"SRB",NA
-105841,"Lorenzo","Giustino","R",19910910,"ITA",180
-105842,"Di","Wu","R",19910914,"CHN",175
-105870,"Yannick","Hanfmann","R",19911113,"GER",193
-105871,"Sekou","Bangoura","R",19911118,"USA",183
-105872,"Christian","Lindell","R",19911120,"SWE",193
-105874,"Albano","Olivetti","R",19911124,"FRA",203
-105881,"Matthew","Barton","R",19911218,"AUS",191
-105882,"Stefano","Travaglia","R",19911228,"ITA",185
-105888,"Toni","Androic","R",19911228,"CRO",168
-105894,"Javier","Marti","R",19920111,"ESP",NA
-105902,"James","Duckworth","R",19920121,"AUS",183
-105905,"Danilo","Petrovic","R",19920124,"SRB",203
-105906,"Kevin","Krawietz","R",19920124,"GER",188
-105911,"Andrea","Collarini","L",19920131,"ARG",183
-105916,"Marton","Fucsovics","R",19920208,"HUN",188
-105917,"Gianni","Mina","R",19920209,"FRA",185
-105930,"Daniel","Kosakowski","R",19920221,"USA",185
-105932,"Nikoloz","Basilashvili","R",19920223,"GEO",185
-105933,"Roberto","Quiroz","L",19920223,"ECU",193
-105936,"Filip","Krajinovic","R",19920227,"SRB",185
-105938,"Antoine","Escoffier","R",19920229,"FRA",185
-105941,"Felipe","Rios","R",19920304,"CHI",NA
-105943,"Federico","Gaio","R",19920305,"ITA",178
-105948,"Federico","Coria","R",19920309,"ARG",180
-105952,"Renzo","Olivo","R",19920315,"ARG",178
-105954,"Peter","Nagy","R",19920317,"HUN",180
-105960,"Evan","King","L",19920325,"USA",185
-105963,"Arthur","De Greef","R",19920327,"BEL",183
-105967,"Henri","Laaksonen","R",19920331,"SUI",185
-105985,"Darian","King","R",19920426,"BAR",188
-105987,"Mikhail","Biryukov","R",19920428,"RUS",NA
-105992,"Ryan","Harrison","R",19920507,"USA",185
-105999,"Bowen","Ouyang","L",19920519,"CHN",186
-106000,"Damir","Dzumhur","R",19920520,"BIH",175
-106005,"Constant","Lestienne","R",19920523,"FRA",180
-106006,"Agustin","Velotti","R",19920524,"ARG",174
-106026,"Yuki","Bhambri","R",19920704,"IND",185
-106031,"Raymond","Sarmiento","R",19920724,"USA",178
-106032,"Facundo","Arguello","R",19920804,"ARG",178
-106033,"Romain","Arneodo","R",19920804,"MON",175
-106034,"Yasutaka","Uchiyama","R",19920805,"JPN",183
-106035,"Isak","Arvidsson","R",19920806,"SWE",188
-106043,"Diego","Schwartzman","R",19920816,"ARG",170
-106044,"Nicolas","Kicker","R",19920816,"ARG",178
-106045,"Denis","Kudla","R",19920817,"USA",180
-106053,"Philip","Davydenko","R",19920902,"RUS",183
-106057,"Facundo","Mena","R",19920922,"ARG",183
-106058,"Jack","Sock","R",19920924,"USA",191
-106065,"Marco","Cecchinato","R",19920930,"ITA",185
-106066,"Victor","Baluda","R",19920930,"RUS",NA
-106071,"Bernard","Tomic","R",19921021,"AUS",196
-106072,"Alexey","Vatutin","R",19921027,"RUS",178
-106075,"Jozef","Kovalik","R",19921104,"SVK",183
-106078,"Egor","Gerasimov","R",19921111,"BLR",196
-106090,"Daniel","Berta","R",19921126,"SWE",178
-106093,"Benjamin","Mitchell","R",19921130,"AUS",183
-106099,"Salvatore","Caruso","R",19921215,"ITA",185
-106105,"Guilherme","Clezar","R",19921231,"BRA",183
-106106,"George","Tsivadze","L",19930102,"GEO",191
-106109,"Alex","Bolt","L",19930105,"AUS",183
-106110,"Filip","Horansky","R",19930107,"SVK",175
-106120,"Ricardo","Ojeda Lara","R",19930126,"ESP",180
-106121,"Taro","Daniel","R",19930127,"JPN",191
-106137,"Tristan","Lamasine","R",19930305,"FRA",183
-106138,"Yaraslav","Shyla","R",19930305,"BLR",191
-106148,"Roberto","Carballes Baena","R",19930323,"ESP",183
-106162,"Franco","Agamenone","R",19930415,"ITA",191
-106167,"Joris","De Loore","R",19930421,"BEL",191
-106174,"Gonzalo","Lama","R",19930427,"CHI",180
-106177,"Oriol","Roca Batalla","R",19930430,"ESP",175
-106180,"Spencer","Newman","R",19930506,"USA",NA
-106186,"Jason","Kubler","R",19930519,"AUS",178
-106187,"Denis","Yevseyev","R",19930522,"KAZ",188
-106198,"Hugo","Dellien","R",19930616,"BOL",180
-106203,"Pedro","Sakamoto","R",19930629,"BRA",178
-106207,"Mate","Pavic","L",19930704,"CRO",191
-106210,"Jiri","Vesely","L",19930710,"CZE",198
-106214,"Oscar","Otte","R",19930716,"GER",193
-106216,"Bjorn","Fratangelo","R",19930719,"USA",183
-106218,"Marcos","Giron","R",19930724,"USA",180
-106220,"Dimitar","Kuzmanov","R",19930728,"BUL",183
-106223,"Aleksandre","Metreveli","R",19930810,"GEO",183
-106225,"Andrew","Whittington","R",19930811,"AUS",188
-106228,"Juan Ignacio","Londero","R",19930815,"ARG",180
-106233,"Dominic","Thiem","R",19930903,"AUT",185
-106234,"Aslan","Karatsev","R",19930904,"RUS",185
-106238,"Andres","Artunedo Martinavarro","R",19930914,"ESP",NA
-106244,"Oliver","Golding","R",19930929,"GBR",188
-106246,"Robin","Kern","R",19931003,"GER",188
-106249,"Joao","Domingues","R",19931005,"POR",178
-106250,"Luis","Patino","R",19931006,"MEX",183
-106252,"Joao Pedro","Sorgi","R",19931018,"BRA",188
-106261,"Dennis","Novikov","R",19931106,"USA",193
-106262,"Boris","Arias","R",19931109,"BOL",185
-106269,"Austin","Smith","U",19931125,"USA",NA
-106281,"Liam","Broady","L",19940104,"GBR",183
-106283,"Mitchell","Krueger","R",19940112,"USA",188
-106288,"Mathias","Bourgue","R",19940118,"FRA",188
-106290,"Filip","Peliwo","R",19940130,"POL",180
-106291,"Luke","Saville","R",19940102,"AUS",188
-106292,"Hernan","Casanova","R",19940206,"ARG",178
-106293,"Kimmer","Coppejans","R",19940207,"BEL",178
-106296,"Gregoire","Barrere","R",19940216,"FRA",183
-106298,"Lucas","Pouille","R",19940223,"FRA",185
-106302,"Andrew","Harris","R",19940307,"AUS",183
-106310,"Alexander","Ritschard","R",19940324,"SUI",193
-106311,"Marko","Tepavac","R",19940405,"SRB",NA
-106321,"Xin","Gao","R",19940512,"CHN",180
-106324,"Vaclav","Safranek","R",19940520,"CZE",183
-106325,"Jabor","Al Mutawa","U",19940521,"QAT",NA
-106328,"Christian","Harrison","R",19940529,"USA",180
-106329,"Thiago","Monteiro","L",19940531,"BRA",183
-106331,"Christopher","Oconnell","R",19940603,"AUS",183
-106333,"Julien","Cagnina","R",19940604,"BEL",183
-106335,"Alexios","Halebian","L",19940608,"USA",NA
-106348,"Evgeny","Karlovskiy","R",19940807,"RUS",191
-106353,"Pedja","Krstin","R",19940903,"SRB",183
-106361,"Adam","Pavlasek","R",19941008,"CZE",185
-106362,"Laurent","Lokoli","R",19941018,"FRA",188
-106368,"Ramkumar","Ramanathan","R",19941108,"IND",188
-106374,"Filip","Veger","R",19941221,"CRO",NA
-106378,"Kyle","Edmund","R",19950108,"GBR",188
-106380,"Gonzalo","Villanueva","R",19950113,"ARG",175
-106390,"Matteo","Donati","R",19950228,"ITA",185
-106391,"Adrian","Bodmer","R",19950306,"SUI",180
-106392,"Thien Nguyen","Hoang","R",19950312,"VIE",NA
-106393,"Frederico","Ferreira Silva","L",19950318,"POR",178
-106396,"Cheng Yu","Yu","R",19950402,"TPE",NA
-106397,"Wishaya","Trongcharoenchaikul","R",19950408,"THA",193
-106398,"Pedro","Cachin","R",19950412,"ARG",185
-106401,"Nick","Kyrgios","R",19950427,"AUS",193
-106408,"Mario","Vilella Martinez","R",19950703,"ESP",178
-106412,"Lucas","Gomez","L",19950811,"MEX",178
-106415,"Yoshihito","Nishioka","L",19950927,"JPN",170
-106420,"Gianluigi","Quinzi","L",19960201,"ITA",191
-106421,"Daniil","Medvedev","R",19960211,"RUS",198
-106423,"Thanasi","Kokkinakis","R",19960410,"AUS",193
-106425,"Blake","Mott","R",19960421,"AUS",180
-106426,"Cristian","Garin","R",19960530,"CHI",185
-106430,"Patrick","Ciorcila","R",19960920,"ROU",NA
-106432,"Borna","Coric","R",19961114,"CRO",188
-108772,"Julius","Tverijonas","R",19940614,"LTU",188
-108993,"Abdulla","Hajji","R",19901205,"QAT",NA
-108996,"Mahmoud Nader","Al Baloushi","U",19800603,"UAE",NA
-108997,"Clint","Bowles","L",19881116,"USA",NA
-109054,"Daniel","Masur","R",19941106,"GER",183
-109303,"Stefano","Napolitano","R",19950411,"ITA",196
-109640,"Andrea","Basso","L",19931008,"ITA",NA
-109686,"Riccardo","Bonadio","R",19930713,"ITA",180
-109699,"Julian","Lenz","R",19930217,"GER",188
-109739,"Maximilian","Marterer","L",19950615,"GER",188
-110476,"Mousa Shanan","Zayed","U",19940309,"QAT",NA
-110536,"Kevin","King","L",19910228,"USA",191
-110596,"Fred","Simonsson","R",19941127,"SWE",188
-110602,"Dennis","Novak","R",19930828,"AUT",183
-110636,"Clay","Thompson","R",19920504,"USA",NA
-110686,"Finn","Tearney","R",19900927,"NZL",183
-110748,"Nikola","Milojevic","R",19950619,"SRB",188
-110751,"Sebastian","Fanselow","R",19911230,"GER",NA
-110754,"David","Vega Hernandez","R",19940623,"ESP",188
-111153,"Christopher","Eubanks","R",19960505,"USA",201
-111156,"Nathan","Pasha","R",19920715,"USA",191
-111186,"Syed Mohd Agil","Syed Naguib","R",19940201,"MAS",NA
-111187,"Kaichi","Uchida","R",19940823,"JPN",180
-111190,"Zhizhen","Zhang","R",19961016,"CHN",193
-111192,"Lucas","Miedler","R",19960621,"AUT",183
-111197,"Jonathan","Mridha","R",19950408,"SWE",183
-111200,"Elias","Ymer","R",19960410,"SWE",185
-111202,"Hyeon","Chung","R",19960519,"KOR",188
-111436,"Nick","Chappell","L",19920919,"USA",178
-111442,"Jordan","Thompson","R",19940420,"AUS",183
-111453,"Mikael","Torpegaard","R",19940508,"DEN",193
-111454,"Li","Tu","R",19960527,"AUS",183
-111456,"Mackenzie","Mcdonald","R",19950416,"USA",178
-111459,"Arjun","Kadhe","R",19940107,"IND",185
-111460,"Quentin","Halys","R",19961026,"FRA",191
-111505,"Enzo","Couacaud","R",19950301,"FRA",183
-111506,"Maxime","Hamou","R",19950608,"FRA",185
-111511,"Noah","Rubin","R",19960221,"USA",175
-111513,"Laslo","Djere","R",19950602,"SRB",188
-111515,"Thai Son","Kwiatkowski","R",19950213,"USA",188
-111574,"Jc","Aragone","R",19950628,"USA",178
-111575,"Karen","Khachanov","R",19960521,"RUS",198
-111576,"Sumit","Nagal","R",19970816,"IND",178
-111577,"Jared","Donaldson","R",19961009,"USA",188
-111578,"Stefan","Kozlov","R",19980201,"USA",183
-111581,"Michael","Mmoh","R",19980110,"USA",188
-111761,"Benjamin","Lock","R",19930304,"ZIM",198
-111790,"Brayden","Schnur","R",19950704,"CAN",193
-111794,"Kamil","Majchrzak","R",19960113,"POL",180
-111795,"Filippo","Baldi","R",19960110,"ITA",183
-111797,"Nicolas","Jarry","R",19951011,"CHI",201
-111815,"Cameron","Norrie","L",19950823,"GBR",188
-117352,"Oliver","Anderson","R",19980430,"AUS",175
-117353,"Duck Hee","Lee","R",19980529,"KOR",175
-117356,"Cem","Ilkel","R",19950821,"TUR",185
-117357,"Omar","Jasika","L",19970518,"AUS",183
-117358,"Harry","Bourchier","R",19960124,"AUS",185
-117360,"Marc","Polmans","R",19970502,"AUS",188
-117361,"Akira","Santillan","R",19970522,"AUS",180
-120270,"Edgars","Manusis","U",19870222,"LAT",NA
-120424,"Yannick","Maden","R",19891028,"GER",185
-120798,"Hans","Hach Verdugo","L",19891111,"MEX",183
-121366,"Abdulhamid","Mubarak","U",19940408,"KUW",NA
-121531,"Mats","Moraing","L",19920620,"GER",198
-121896,"Gabor","Borsos","R",19910630,"HUN",193
-122078,"Dmitry","Popko","R",19961024,"KAZ",191
-122082,"Francisco","Yim Kim","R",19941009,"PAR",NA
-122109,"Sanjar","Fayziev","R",19940729,"UZB",188
-122236,"Roman","Hassanov","R",19960907,"KAZ",NA
-122279,"Romain","Bogaerts","U",19931223,"BEL",NA
-122298,"Botic","Van De Zandschulp","R",19951004,"NED",191
-122330,"Alexander","Bublik","R",19970617,"KAZ",196
-122471,"Danylo","Kalenichenko","R",19940202,"UKR",188
-122533,"Nam Hoang","Ly","R",19970225,"VIE",175
-122548,"Edan","Leshem","R",19970319,"ISR",183
-122554,"David","Jorda Sanchis","R",19940614,"ESP",198
-122570,"Mubarak Shannan","Zayid","R",19950414,"QAT",NA
-122635,"Alexander","Merino","L",19920831,"PER",183
-122669,"Juan Pablo","Varillas","R",19951006,"PER",185
-123315,"Nicholas","Campbell","R",19990728,"CYP",NA
-123755,"Daniel Elahi","Galan","R",19960618,"COL",191
-123768,"Collin","Altamirano","R",19951207,"USA",188
-123773,"Giorgi","Javakhishvili","R",19951023,"GEO",NA
-123795,"Altug","Celikbilek","R",19960907,"TUR",183
-123809,"Ivan","Gakhov","L",19961104,"RUS",191
-123828,"Jan","Choinski","R",19960610,"GBR",196
-123896,"Matija","Pecotic","L",19890703,"CRO",185
-123921,"Calvin","Hemery","R",19950128,"FRA",191
-123961,"Murkel Alejandro","Dellien Velasco","R",19970916,"BOL",193
-124013,"Eduardo","Nava","R",19970311,"USA",180
-124014,"Ernesto","Escobedo","R",19960704,"MEX",185
-124022,"Chun Hun","Wong","R",19951030,"HKG",170
-124023,"Hei Yin Andrew","Li","R",19970328,"HKG",NA
-124079,"Pedro","Martinez","R",19970426,"ESP",185
-124116,"Sebastian","Ofner","R",19960512,"AUT",191
-124186,"Alexandre","Muller","R",19970201,"FRA",183
-124187,"Reilly","Opelka","R",19970828,"USA",211
-125802,"Ilya","Ivashka","R",19940224,"BLR",193
-125803,"Daniel","Windahl","R",19960720,"SWE",188
-126094,"Andrey","Rublev","R",19971020,"RUS",188
-126102,"Nicolae","Frunza","R",19971115,"ROU",185
-126106,"Ryan","Peniston","L",19951110,"GBR",180
-126120,"Nino","Serdarusic","R",19961213,"CRO",191
-126125,"Maxime","Janvier","R",19961018,"FRA",196
-126127,"Benjamin","Bonzi","R",19960609,"FRA",183
-126128,"Roman","Safiullin","R",19970807,"RUS",185
-126129,"Billy","Harris","R",19950125,"GBR",193
-126143,"Andreas","Bjerrehus","U",19920604,"DEN",NA
-126149,"Gianluca","Mager","R",19941201,"ITA",188
-126152,"Ryan","Shane","R",19940415,"USA",193
-126156,"Antoine","Hoang","R",19951104,"FRA",183
-126174,"Youssef","Hossam","R",19980603,"EGY",178
-126177,"Strong","Kirchheimer","R",19950426,"USA",185
-126185,"Evgenii","Tiurnev","R",19970408,"RUS",191
-126190,"Nicolas","Alvarez","R",19960608,"PER",185
-126197,"Orlando","Luz","R",19980208,"BRA",180
-126203,"Taylor","Fritz","R",19971028,"USA",196
-126204,"Gerardo","Lopez Villasenor","R",19950512,"MEX",191
-126205,"Tommy","Paul","R",19970517,"USA",185
-126206,"Alex","Rybakov","L",19970127,"USA",185
-126207,"Frances","Tiafoe","R",19980120,"USA",188
-126208,"Yusuke","Takahashi","R",19971017,"JPN",170
-126214,"Alejandro","Tabilo","L",19970602,"CHI",188
-126237,"Gian Marco","Moroni","R",19980213,"ITA",185
-126239,"Arthur","Rinderknech","R",19950723,"FRA",196
-126283,"Yunseong","Chung","R",19980327,"KOR",178
-126340,"Viktor","Durasovic","R",19970319,"NOR",185
-126409,"Hugo","Grenier","R",19960323,"FRA",196
-126504,"Andrea","Pellegrino","R",19970323,"ITA",185
-126523,"Bernabe","Zapata Miralles","R",19970112,"ESP",183
-126526,"Soren","Hess Olesen","R",19910109,"DEN",NA
-126530,"Peter","Bothwell","R",19950928,"IRL",NA
-126533,"Alvaro","Lopez San Martin","R",19970602,"ESP",178
-126535,"Carlos","Taberner","R",19970808,"ESP",183
-126555,"Tung Lin","Wu","R",19980512,"TPE",188
-126573,"Thomas","Fancutt","R",19950225,"AUS",188
-126591,"Jan","Zielinski","R",19961116,"POL",180
-126609,"Patrik","Niklas Salminen","L",19970305,"FIN",188
-126610,"Matteo","Berrettini","R",19960412,"ITA",196
-126612,"Alexander","Cozbinov","R",19950428,"MDA",188
-126613,"Bogdan","Borza","L",19970405,"ROU",NA
-126623,"Alexander","Erler","R",19971027,"AUT",193
-126627,"Johan","Nikles","R",19970323,"SUI",173
-126646,"Tim","Van Rijthoven","R",19970424,"NED",188
-126652,"Jay","Clarke","R",19980727,"GBR",183
-126663,"Juan Pablo","Ficovich","R",19970124,"ARG",191
-126689,"Tadas","Babelis","R",19970225,"LTU",185
-126762,"Aleksandre","Bakshi","L",19970715,"GEO",180
-126774,"Stefanos","Tsitsipas","R",19980812,"GRE",193
-126845,"Max","Purcell","R",19980403,"AUS",185
-126846,"Aleksandar","Vukic","R",19960406,"AUS",188
-126939,"Khumoun","Sultanov","R",19981027,"UZB",180
-126952,"Soon Woo","Kwon","R",19971202,"KOR",180
-126964,"Vitaliy","Sachko","R",19970714,"UKR",188
-127123,"Mateus","Alves","R",20010123,"BRA",193
-127143,"Jirat","Navasirisomboon","R",19961117,"THA",175
-127157,"Daniel","Altmaier","R",19980912,"GER",188
-127195,"Hamza","Karmoussi","U",NA,"MAR",NA
-127300,"Jurabek","Karimov","R",19980604,"UZB",NA
-127339,"Borna","Gojo","R",19980227,"CRO",196
-127760,"Lukas","Klein","R",19980322,"SVK",193
-128034,"Hubert","Hurkacz","R",19970211,"POL",196
-131905,"Manuel","Guinard","R",19951115,"FRA",198
-131934,"Andrea","Vavassori","R",19950505,"ITA",193
-131951,"Daniel","Cukierman","R",19950709,"ISR",NA
-132028,"Justin","Lunn","U",19910618,"BAH",NA
-132040,"Philip Wilbert","Major","L",19960302,"BAH",NA
-132283,"Lorenzo","Sonego","R",19950511,"ITA",191
-132482,"Liam","Caruana","R",19980122,"ITA",178
-132686,"Nuno","Borges","R",19970219,"POR",185
-133018,"Michail","Pervolarakis","R",19960606,"GRE",193
-133297,"Yosuke","Watanuki","R",19980412,"JPN",180
-133430,"Denis","Shapovalov","L",19990415,"CAN",185
-133835,"Gijs","Brouwer","L",19960314,"NED",191
-133933,"Thomas Yaka Kofi","Setodji","R",19951013,"TOG",183
-133975,"Benjamin","Hassan","R",19950204,"LBN",183
-133979,"Hasan","Ibrahim","R",19950817,"GER",NA
-134087,"Johannes","Ingildsen","R",19970701,"DEN",15
-134120,"Kuan Yi","Lee","R",19960909,"TPE",178
-134217,"Skyler","Butts","R",19930918,"HKG",178
-134457,"Nicolas","Moreno De Alboran","R",19970714,"USA",185
-134472,"Antoine","Bellier","L",19961018,"SUI",196
-134507,"Tom","Diederich","L",19921208,"LUX",NA
-134518,"Patrick","Kaukovalta","R",19981201,"FIN",193
-134770,"Casper","Ruud","R",19981222,"NOR",183
-134840,"Raul","Brancaccio","R",19970504,"ITA",185
-134854,"Irakli","Metreveli","U",19980404,"GEO",NA
-134868,"Tallon","Griekspoor","R",19960702,"NED",188
-136440,"Dominik","Koepfer","L",19940429,"GER",180
-136704,"Manuel","Castellanos","R",19960804,"DOM",NA
-137018,"Ayed","Zatar","R",19960329,"PAR",NA
-138431,"Darko","Bojanovic","R",19970208,"BIH",NA
-138845,"Anthony Jackie","Tang","R",19981126,"HKG",NA
-138846,"Hong Kit Jack","Wong","R",19980830,"HKG",NA
-144642,"Tomas","Barrios Vera","R",19971210,"CHI",191
-144645,"Zdenek","Kolar","R",19961009,"CZE",183
-144652,"William","Blumberg","R",19980126,"USA",188
-144681,"Niki","Kaliyanda Poonacha","R",19950427,"IND",191
-144684,"Alex","Molcan","L",19971201,"SVK",178
-144707,"Mikael","Ymer","R",19980909,"SWE",183
-144719,"Jaume","Munar","R",19970505,"ESP",183
-144747,"Courtney John","Lock","R",19961018,"ZIM",193
-144750,"Lloyd","Harris","R",19970224,"RSA",193
-144760,"Amine","Ahouda","R",19970911,"MAR",185
-144773,"Jose","Olivares","R",19970108,"DOM",NA
-144797,"Carl","Soderlund","R",19970603,"SWE",188
-144813,"Benjamin","Hannestad","R",19970214,"DEN",NA
-144814,"Eero","Vasa","R",19970201,"FIN",185
-144817,"Marc Andrea","Huesler","L",19960624,"SUI",196
-144821,"Genaro Alberto","Olivieri","R",19980804,"ARG",175
-144826,"Aziz","Dougaz","L",19970326,"TUN",188
-144854,"Rudolfs","Mednis","U",19980119,"LAT",NA
-144869,"Tomas Martin","Etcheverry","R",19990718,"ARG",196
-144870,"Federico Agustin","Gomez","R",19961126,"ARG",191
-144895,"Corentin","Moutet","L",19990419,"FRA",180
-144896,"Hao Sheng","Koay","U",19980727,"MAS",NA
-144909,"Francisco","Cabral","R",19970108,"POR",191
-144923,"Louis","Wessels","R",19980827,"GER",198
-144940,"Mattias","Siimar","L",19980203,"EST",NA
-144946,"Rayane","Roumane","R",20000911,"ALG",193
-144949,"Menelaos","Efstathiou","R",19990302,"CYP",183
-144972,"Geoffrey","Blancaneaux","R",19980808,"FRA",180
-144973,"Santiago Fa","Rodriguez Taverna","R",19990716,"ARG",191
-144984,"Artem","Dubrivnyy","R",19990131,"RUS",183
-144985,"Ergi","Kirkin","R",19990127,"TUR",180
-145001,"Evan","Furness","R",19980813,"FRA",173
-145003,"Lucas","Andriamasilalao","R",19970623,"MAD",NA
-1100000,"Felix","Auger Aliassime","R",20000808,"CAN",193
-1100005,"Ugo","Humbert","L",19980626,"FRA",188
-1100008,"Alexis","Galarneau","R",19990302,"CAN",180
-1100031,"Lucas","Catarina","R",19960826,"MON",185
-1100045,"Anthony","Susanto","R",19970523,"INA",NA
-1100059,"Yibing","Wu","R",19991014,"CHN",183
-1100075,"Yshai","Oliel","L",20000105,"ISR",188
-1100080,"Puriwat","Chatpatcharoen","R",19950803,"THA",NA
-1100095,"Nicola","Kuhn","R",20000320,"GER",185
-1100096,"Dragos Nicolae","Madaras","L",19970912,"SWE",191
-1100116,"Camilo","Ugo Carabelli","R",19990617,"ARG",185
-1100125,"Mykyta","Mashtakov","R",19990318,"UKR",175
-1100175,"Miomir","Kecmanovic","R",19990831,"SRB",183
-1100188,"Matteo","Martineau","R",19990116,"FRA",183
-1100218,"Mate","Valkusz","R",19980813,"HUN",183
-1100221,"Alejandro","Davidovich Fokina","R",19990605,"ESP",183
-1100240,"Vit","Kopriva","R",19970615,"CZE",178
-1100247,"Alexandar","Lazarov","R",19971106,"BUL",191
-1100259,"Ugo","Blanchet","R",19990105,"FRA",175
-1100265,"Ulises","Blanch","R",19980325,"USA",188
-1100266,"Javier","Barranco Cosano","L",19981117,"ESP",180
-1100267,"Zizou","Bergs","R",19990603,"BEL",185
-1100274,"Alex","Diaz","R",19970802,"PUR",NA
-1100277,"Charles","Broom","R",19980424,"GBR",178
-1100282,"Alex","De Minaur","R",19990217,"AUS",183
-1100297,"Aziz","Ouakaa","R",19990807,"TUN",185
-1100303,"Pavel","Kotov","R",19981118,"RUS",191
-1100307,"Tao","Mu","R",20000428,"CHN",180
-1100310,"Alexander","Zgirovsky","R",20010710,"BLR",191
-1100318,"Yu Hsiou","Hsu","R",19990402,"TPE",178
-1100325,"Emil","Ruusuvuori","R",19990402,"FIN",188
-1100335,"Felipe","Meligeni Alves","R",19980219,"BRA",185
-1100336,"Trent","Bryde","R",19990824,"USA",183
-1100343,"David","Szintai","R",19970609,"HUN",NA
-1100368,"Jack Mingjie","Lin","R",19990415,"CAN",NA
-1100374,"Nicolas","Alvarez Varona","R",20010518,"ESP",188
-1100384,"Hugo","Gaston","L",20000926,"FRA",173
-1100390,"Kacper","Zuk","R",19990121,"POL",183
-1100401,"Amir Hossein","Badi","R",19981209,"IRI",NA
-1100416,"August","Holmgren","R",19980422,"DEN",188
-1100418,"Karl","Friberg","R",19990325,"SWE",191
-1100436,"Zsombor","Piros","R",19991013,"HUN",180
-1100443,"Adam","Walton","R",19990417,"AUS",183
-1100483,"Peter August","Anker","R",19990603,"NOR",NA
-1100484,"Rudolf","Molleker","R",20001026,"GER",188
-1100514,"Jurij","Rodionov","L",19990516,"AUT",191
-1100516,"Patrick","Kypson","R",19991028,"USA",188
-1100525,"Abdulrahman","Alawadhi","R",19920217,"KUW",NA
-1100553,"Alen","Avidzba","R",20000224,"RUS",NA
-1100572,"Nick","Hardt","R",20000920,"DOM",185
-1100583,"Delmas","Ntcha","R",20000616,"BEN",NA
-1100587,"Brandon","Holt","R",19980406,"USA",185
-1100589,"Sam","Riffice","R",19990301,"USA",188
-1100611,"Elliot","Benchetrit","R",19981002,"MAR",193
-1100615,"Alexei","Popyrin","R",19990805,"AUS",196
-1100618,"Adam","Hornby","U",19950723,"BAR",NA
-1100619,"Sebastian","Arcila","U",19980626,"PUR",NA
-1100620,"Ignacio","Garcia","U",19990518,"PUR",NA
-1100621,"Bruno","Britez","R",19980523,"PAR",NA
-1100622,"Hernando Jose","Escurra Isnardi","R",19971213,"PAR",183
-1100624,"Sebastian","Korda","R",20000705,"USA",196
-1100670,"J J","Wolf","R",19981221,"USA",183
-1100672,"Sergey","Fomin","R",20010201,"UZB",180
-1100677,"Rio","Noguchi","R",19981228,"JPN",168
-1100702,"Sina","Moghimi","U",20010727,"IRI",NA
-1100711,"Nicolas","Mejia","R",20000211,"COL",183
-1100748,"Andres","Andrade","R",19981214,"ECU",180
-1102058,"Thiago Agustin","Tirante","R",20010410,"ARG",185
-1102065,"Petros","Tsitsipas","R",20000727,"GRE",185
-1102075,"Adria","Soriano Barrera","R",19990602,"COL",191
-1102090,"Adrian","Andreev","R",20010512,"BUL",175
-1102103,"Francisco","Cerundolo","R",19980813,"ARG",185
-1102104,"Sebastian","Baez","R",20001228,"ARG",170
-1102122,"Yuta","Shimizu","L",19990609,"JPN",163
-1102130,"Emil","Reinberg","R",19970420,"USA",188
-1102168,"Ye Cong","Mo","R",20000626,"CHN",183
-1102195,"Maxime","Cressy","R",19970508,"USA",201
-1102197,"Carlos","Gimeno Valero","R",20010625,"ESP",191
-1102210,"Edris","Fetisleam","U",19990725,"ROU",NA
-1102219,"Tomas","Vaise","L",19980121,"LTU",NA
-1102235,"Jacopo","Berrettini","R",19981127,"ITA",193
-1102260,"Henri","Squire","R",20000927,"GER",196
-1102261,"Otto","Virtanen","R",20010621,"FIN",193
-1102269,"Justin","Barki","R",20000526,"INA",178
-1102320,"Beibit","Zhukayev","R",20001012,"KAZ",198
-1102358,"Chun Hsin","Tseng","R",20010808,"TPE",175
-1102359,"Marvin","Moeller","R",19990118,"GER",178
-1102382,"Simen Sunde","Bratholm","R",19990304,"NOR",NA
-1102385,"Jenson","Brooksby","R",20001026,"USA",188
-1102398,"Michael","Vrbensky","R",19991226,"CZE",180
-1102400,"Alastair","Gray","R",19980622,"GBR",193
-1105734,"Thiago","Seyboth Wild","R",20000310,"BRA",185
-1106000,"Michel","Saade","U",19980929,"LIB",NA
-1106470,"Cezar","Cretu","R",20010424,"ROU",188
-1106499,"Aleksandar","Kovacevic","R",19980829,"USA",183
-1106589,"Gabi Adrian","Boitan","R",19990711,"ROU",185
-1106642,"Yassir","Kilani","R",20000810,"MAR",NA
-1106681,"Fabian","Marozsan","R",19991008,"HUN",193
-1106703,"Paul","Jubb","R",19991031,"GBR",180
-1106748,"Giulio","Zeppieri","L",20011207,"ITA",183
-1106768,"Rafael Eduardo","Gonzalez Retana","R",20000126,"ESA",NA
-1106889,"Clement","Chidekh","R",20010613,"FRA",180
-1106909,"Brandon","Nakashima","R",20010803,"USA",188
-1107132,"Ki Lung","Ng","R",20010801,"HKG",NA
-1107176,"Muhammad","Althaf Dhaifullah","R",20001119,"INA",NA
-1107182,"Emilio","Nava","R",20011202,"USA",185
-1107213,"Duje","Ajdukovic","R",20010205,"CRO",188
-1107352,"Bu","Yunchaokete","R",20020119,"CHN",185
-1107386,"Finn","Reynolds","L",20000104,"NZL",185
-1107400,"Mark","Chigaazira","R",19980429,"ZIM",NA
-1107411,"Jesper","De Jong","R",20000531,"NED",180
-1107415,"Daniel","Michalski","R",20000111,"POL",180
-1107421,"Alex","Fairbanks","R",19960212,"SRI",NA
-1107479,"Soufiane","El Mesbahi","R",20010222,"MAR",NA
-1107494,"Dalibor","Svrcina","R",20021002,"CZE",178
-1107518,"Lorenzo","Musetti","R",20020303,"ITA",185
-1107531,"Caleb","Chakravarthi","U",19990102,"USA",NA
-1107608,"Timofey","Skatov","R",20010121,"KAZ",175
-1107663,"Nikolas","Sanchez Izquierdo","R",19990315,"ESP",185
-1107678,"Juan Manuel","Cerundolo","L",20011115,"ARG",183
-1107680,"Facundo","Diaz Acosta","L",20001215,"ARG",183
-1107681,"Francisco","Comesana","R",20001006,"ARG",178
-1107686,"Alexander","Shevchenko","R",20001129,"KAZ",185
-1107733,"Jack","Draper","L",20011222,"GBR",193
-1107738,"Brandon","Perez","L",20000114,"VEN",191
-1107785,"George","Loffhagen","R",20010419,"GBR",188
-1107788,"Thanapet","Chanta","R",19990909,"THA",NA
-1107794,"Younes","Lalami Laaroussi","R",20010418,"MAR",188
-1107799,"Matheus","Pucinelli De Almeida","R",20010401,"BRA",183
-1107826,"Siim","Troost","R",19991207,"EST",183
-1107830,"Tomas","Machac","R",20001013,"CZE",183
-1107834,"Juan Alejandro","Hernandez Serrano","R",19990623,"MEX",175
-1107836,"Muzammil","Murtaza","R",19991112,"PAK",NA
-1107839,"Yousaf","Khalil","U",19990401,"PAK",NA
-1107925,"Flavio","Cobolli","R",20020506,"ITA",183
-1107971,"Xavier","Lawrence","U",19981222,"BAR",NA
-1107972,"Minjong","Park","R",20011022,"KOR",NA
-1107985,"Jacob","Fearnley","R",20010715,"GBR",183
-1107989,"Carlos","Alcaraz","R",20030505,"ESP",183
-1108004,"Harold","Mayot","R",20020204,"FRA",180
-1108010,"Pablo","Llamas Ruiz","R",20021013,"ESP",188
-1108013,"Dane","Sweeny","R",20010212,"AUS",170
-1108014,"Rinky","Hijikata","R",20010223,"AUS",178
-1108021,"Kyrian","Jacquet","R",20010511,"FRA",178
-1108028,"Francisco","Llanes","R",20020416,"URU",178
-1108029,"Holger","Rune","R",20030429,"DEN",188
-1108057,"Diego","Fernandez Flores","R",20001007,"CHI",185
-1108103,"Jiri","Lehecka","R",20011108,"CZE",185
-1108108,"Brian","Shi","R",20000224,"USA",NA
-1108117,"Adam","Neff","R",20010530,"USA",183
-1108118,"Eliot","Spizzirri","R",20011223,"USA",183
-1108122,"Thabo","Ncube","R",20010416,"ZIM",NA
-1108134,"Luca","Nardi","R",20030806,"ITA",185
-1108144,"Giles","Hussey","L",19970526,"GBR",185
-1108169,"Titouan","Droguet","R",20010615,"FRA",191
-1108230,"Alibek","Kachmazov","R",20020817,"RUS",185
-1108233,"Mattia","Bellucci","L",20010601,"ITA",175
-1108260,"Zachary","Svajda","R",20021129,"USA",175
-1108278,"Shintaro","Mochizuki","R",20030602,"JPN",175
-1108279,"Alejandro","Moro Canas","R",20001207,"ESP",183
-1108286,"Matteo","Arnaldi","R",20010222,"ITA",185
-1108300,"Omni","Kumar","L",20011010,"USA",173
-1108317,"Roey","Tabet","R",20011221,"LIB",NA
-1108353,"Francesco","Maestrelli","R",20021221,"ITA",196
-1108363,"Mariano","Navone","R",20010227,"ARG",178
-1108364,"Franco","Roncadelli","L",20000206,"URU",185
-1108367,"Dimitri","Badra","U",20010723,"VEN",NA
-1108414,"Sylvestre","Monnou","R",20021122,"BEN",NA
-1108485,"Kiranpal","Pannu","R",19970107,"NZL",185
-1108502,"Dominic","Stricker","L",20020816,"SUI",183
-1108597,"Chak Lam Coleman","Wong","R",20040606,"HKG",NA
-1108659,"Giovanni","Mpetshi Perricard","R",20030708,"FRA",203
-1108819,"Max Hans","Rehberg","R",20030913,"GER",183
-1108843,"Jerome","Kym","R",20030212,"SUI",198
-1108852,"Stefanos","Sakellaridis","R",20040913,"GRE",196
-1108859,"Francesco","Passaro","R",20010107,"ITA",180
-1108882,"Roman Andres","Burruchaga","R",20020123,"ARG",183
-1109070,"Arthur","Cazaux","R",20020823,"FRA",183
-1109098,"Hamad","Medjedovic","R",20030718,"SRB",188
-1109113,"Gabriel","Diallo","R",20010924,"CAN",203
-1109147,"Vilius","Gaubas","R",20041229,"LTU",178
-1109209,"Filip","Misolic","R",20010808,"AUT",180
-1109225,"Martin Antonio","Vergara Del Puerto","U",20040421,"PAR",NA
-1109259,"Arthur","Fery","R",20020712,"GBR",175
-1109260,"Luciano","Darderi","R",20020214,"ITA",183
-1109262,"Tristan","Schoolkate","R",20010226,"AUS",183
-1109263,"Matteo","Gigante","L",20020104,"ITA",180
-1109279,"Terence","Atmane","L",20020109,"FRA",193
-1109318,"Petr","Nesterov","R",20030307,"BUL",NA
-1109354,"Ioannis","Xilas","U",20010512,"GRE",NA
-1109362,"Aristotelis","Thanos","R",20010407,"GRE",NA
-1109405,"Daniel","Rincon","L",20030107,"ESP",185
-1109406,"Abedallah","Shelbayh","L",20031116,"JOR",180
-1109414,"Luca","Van Assche","R",20040511,"FRA",178
-1109857,"Leandro","Riedi","R",20020127,"SUI",191
-1109863,"Leo","Borg","R",20030515,"SWE",183
-1109867,"Daniil","Ostapenkov","R",20030508,"BLR",NA
-1109868,"Kaipo","Marshall","R",20020321,"BAR",NA
-1109890,"Mili","Poljicak","R",20040713,"CRO",185
-1109903,"Lukas","Neumayer","R",20020906,"AUT",183
-1109916,"Marko","Topo","R",20030913,"GER",185
-1109920,"Raphael","Collignon","R",20020113,"BEL",191
-1109931,"Lukas","Pokorny","R",20020228,"SVK",191
-1109943,"Ilya","Snitari","R",20020320,"MDA",188
-1109950,"Arthur","Fils","R",20040612,"FRA",185
-1109964,"Liova Ayite","Ajavon","U",19990617,"TGO",NA
-1109976,"Dino","Prizmic","R",20050805,"CRO",188
-1109992,"Juncheng","Shang","L",20050202,"CHN",180
-1110012,"Henrique","Rocha","R",20040406,"POR",180
-1110025,"Branko","Djuric","R",20050210,"SRB",188
-1110039,"Orel","Kimhi","R",20030819,"ISR",173
-1110053,"Luka","Mikrut","R",20040416,"CRO",188
-1110097,"Ben","Shelton","L",20021009,"USA",193
-1110107,"Bor","Artnak","R",20040604,"SLO",193
-1110136,"Mark","Lajal","R",20030512,"EST",191
-1110150,"Jakub","Mensik","R",20050901,"CZE",193
-1110202,"Rodrigo","Pacheco Mendez","L",20050425,"MEX",188
-1110249,"Gillian","Osmont","R",20030513,"FRA",NA
-1110250,"Erik","Arutiunian","R",20041019,"BLR",191
-1110274,"Sebastian","Dominko","L",20030513,"SLO",203
-1110308,"Stylianos","Christodoulou","U",20041104,"CYP",NA
-1110312,"Oliver","Ojakaar","R",20050210,"EST",191
-1110317,"James","Mccabe","R",20030705,"AUS",188
-1110319,"Ethan","Quinn","R",20040312,"USA",191
-1110340,"Philip","Sekulic","R",20030905,"AUS",191
-1110382,"Maximus","Jones","R",20040905,"THA",185
-1110460,"Nishesh","Basavareddy","R",20050502,"USA",180
-1110464,"Darwin","Blanch","L",20070928,"USA",185
-1110494,"Theo","Papamalamis","R",20060109,"FRA",183
-1110506,"Alex","Michelsen","R",20040825,"USA",193
-1110530,"Learner","Tien","L",20051202,"USA",180
-1110535,"Maxim","Shin","R",20030604,"UZB",191
-1110696,"Alexander","Blockx","R",20050408,"BEL",191
-1110721,"Iliyan","Radulov","R",20050611,"BUL",187
-1110740,"Liam","Krall","R",20020520,"USA",191
-1111346,"Andres","Martin","R",20010707,"USA",183
-1111451,"Gilles Arnaud","Bailly","R",20050919,"BEL",180
-1111514,"Justin","Engel","U",20071001,"GER",NA
-1111638,"Jack","Loutit","L",20040623,"NZL",NA
-1111663,"Joao","Fonseca","R",20060821,"BRA",185
-1111768,"Manas","Dhamne","R",20071229,"IND",188
-1111776,"Martin","Landaluce","R",20060108,"ESP",191
-1111902,"Henry","Searle","L",20060329,"GBR",193
-1112021,"Martin","Landaluce","R",20060108,"ESP",191
-1112063,"Matej","Dodig","R",20050719,"CRO",188
-1112082,"Joel","Schwaerzler","L",20060127,"AUT",188
-1112203,"Luca","Preda","U",20060319,"ROU",NA
-1112717,"Davis","Rolis","U",20050126,"LAT",NA
-1112718,"Heve","Kelley","U",19970329,"POC",NA
-1112719,"Matavao","Fanguna","U",19961019,"POC",NA
-1112720,"Juan Carlos","Fuentes Vasquez","U",20050917,"ESA",NA
-1112721,"Benedict","Badza","U",20050519,"ZIM",NA
-1112722,"Kwok Shun Dasson","Chan","U",20050716,"HKG",NA
-1112733,"Matthew","Forbes","U",20060406,"USA",NA
-1112866,"Marcos Lee","Chan Baratau","U",20051115,"ECU",NA
-1112970,"Jack","Cheng","U",20081228,"HKG",NA
+"","player_id","name_first","name_last","hand","dob","ioc","height"
+"1",100644,"Alexander","Zverev","R",19970420,"GER",198
+"13",101404,"Thomas","Muster","L",19671002,"AUT",180
+"31",101736,"Andre","Agassi","R",19700429,"USA",180
+"52",101868,"Dick","Norman","L",19710301,"BEL",203
+"66",101885,"Wayne","Arthurs","L",19710318,"AUS",190
+"77",101889,"Todd","Woodbridge","R",19710402,"AUS",178
+"94",101962,"Younes","El Aynaoui","R",19710912,"MAR",193
+"114",101965,"Wayne","Ferreira","R",19710915,"RSA",185
+"130",102035,"Jonas","Bjorkman","R",19720323,"SWE",183
+"148",102093,"Martin","Damm","L",20030930,"USA",203
+"149",102106,"Davide","Sanguinetti","R",19720825,"ITA",188
+"162",102110,"Daniel","Nestor","L",19720904,"CAN",190
+"179",102143,"Nicolas","Thomann","R",19721129,"FRA",183
+"187",102148,"Fabrice","Santoro","R",19721209,"FRA",178
+"209",102179,"Antony","Dupuis","R",19730224,"FRA",185
+"219",102202,"Kenneth","Carlsen","L",19730417,"DEN",190
+"234",102227,"Sargis","Sargsian","R",19730603,"ARM",180
+"247",102231,"Alex","Calatrava","R",19730614,"ESP",190
+"258",102233,"Leander","Paes","R",19730617,"IND",178
+"277",102257,"Greg","Rusedski","L",19730906,"GBR",193
+"292",102269,"Jeff","Salzenstein","L",19731014,"USA",185
+"303",102271,"Hicham","Arazi","L",19731019,"MAR",175
+"316",102282,"Tetsuya","Chaen","R",19731105,"JPN",NA
+"319",102286,"Wayne","Black","R",19731114,"ZIM",170
+"333",102287,"Albert","Portas","R",19731115,"ESP",188
+"347",102300,"Gouichi","Motomura","R",19731225,"JPN",173
+"361",102306,"Michael","Kohlmann","R",19740111,"GER",188
+"370",102318,"Andrei","Pavel","R",19740127,"ROU",183
+"388",102344,"Karol","Kucera","R",19740304,"SVK",188
+"403",102358,"Thomas","Enqvist","R",19740313,"SWE",190
+"420",102374,"Alex","Corretja","R",19740411,"ESP",180
+"434",102381,"Werner","Eschauer","R",19740426,"AUT",188
+"443",102382,"Julian","Knowle","L",19740429,"AUT",188
+"452",102401,"Scott","Draper","L",19740605,"AUS",178
+"462",102405,"Mahesh","Bhupathi","R",19740607,"IND",185
+"470",102434,"Vincent","Spadea","R",19740719,"USA",183
+"488",102450,"Tim","Henman","R",19740906,"GBR",185
+"502",102456,"Felix","Mantilla","R",19740923,"ESP",180
+"515",102494,"Tomas","Behrend","R",19741212,"GER",193
+"524",102497,"Mashiska","Washington","R",19741219,"USA",180
+"532",102512,"Joseph","Sirianni","R",19750117,"AUS",175
+"539",102538,"Tuomas","Ketola","R",19750221,"FIN",185
+"552",102539,"Bohdan","Ulihrach","R",19750223,"CZE",188
+"567",102548,"Juan Antonio","Marin","R",19750302,"CRC",175
+"579",102558,"Eric","Taino","L",19750318,"PHI",175
+"588",102562,"Jiri","Novak","R",19750322,"CZE",190
+"602",102563,"Thomas","Johansson","R",19750324,"SWE",180
+"618",102565,"Alexander","Waske","R",19750331,"GER",188
+"624",102567,"George","Bastl","R",19750401,"SUI",183
+"637",102571,"Gregory","Carraz","R",19750409,"FRA",190
+"645",102585,"Sebastian","Prieto","R",19750519,"ARG",180
+"653",102610,"Albert","Costa","R",19750625,"ESP",180
+"667",102615,"Dennis","Van Scheppingen","R",19750705,"NED",185
+"680",102642,"Cyril","Saulnier","R",19750816,"FRA",190
+"689",102667,"Satoshi","Iwabuchi","L",19751007,"JPN",175
+"701",102694,"Lars","Burgsmuller","R",19751206,"GER",183
+"715",102703,"Hyung Taik","Lee","R",19760103,"KOR",180
+"730",102720,"Tomas","Zib","R",19760131,"CZE",178
+"740",102730,"Ivo","Heuberger","R",19760219,"SUI",188
+"749",102770,"John","Van Lottum","R",19760410,"NED",185
+"759",102780,"Frederic","Niemeyer","R",19760424,"CAN",190
+"771",102783,"Rainer","Schuettler","R",19760425,"GER",180
+"787",102785,"Glenn","Weiner","R",19760427,"USA",188
+"797",102788,"Jan","Vacek","R",19760510,"CZE",198
+"805",102800,"Nenad","Zimonjic","R",19760604,"SRB",190
+"819",102811,"Dusan","Vemic","R",19760617,"SRB",190
+"830",102821,"Cecil","Mamiit","R",19760627,"PHI",173
+"845",102834,"Paul","Goldstein","R",19760804,"USA",178
+"859",102839,"Nicolas","Lapentti","R",19760813,"ECU",188
+"876",102845,"Carlos","Moya","R",19760827,"ESP",190
+"892",102851,"Giorgio","Galimberti","R",19760905,"ITA",180
+"901",102854,"Sjeng","Schalken","R",19760908,"NED",193
+"913",102856,"Gustavo","Kuerten","R",19760910,"BRA",190
+"926",102860,"Agustin","Calleri","R",19760914,"ARG",183
+"937",102863,"Takao","Suzuki","R",19760920,"JPN",175
+"952",102864,"Frank","Moser","R",19760923,"GER",193
+"954",102869,"Galo","Blanco","R",19761008,"ESP",173
+"967",102880,"Alexander","Popp","R",19761104,"GER",201
+"974",102881,"David","Skoch","R",19761106,"CZE",183
+"982",102882,"Mark","Philippoussis","R",19761107,"AUS",196
+"995",102885,"Vishal","Uppal","R",19761110,"IND",NA
+"996",102886,"Frantisek","Cermak","R",19761114,"CZE",193
+"1003",102887,"Ramon","Delgado","R",19761114,"PAR",185
+"1020",102904,"Leos","Friedl","R",19770101,"CZE",183
+"1023",102905,"Stefan","Koubek","L",19770102,"AUT",175
+"1040",102925,"Justin","Gimelstob","R",19770126,"USA",196
+"1053",102945,"Luke","Bourgeois","R",19770303,"AUS",188
+"1055",102950,"Fernando","Vicente","R",19770308,"ESP",180
+"1069",102956,"Sultan","Khalfan","R",19770316,"QAT",NA
+"1079",102965,"Jamie","Delgado","R",19770321,"GBR",178
+"1088",102967,"Marc","Gicquel","R",19770330,"FRA",188
+"1100",102985,"Gustavo","Marcaccio","R",19770503,"ARG",170
+"1102",102987,"Andre","Sa","R",19770506,"BRA",185
+"1113",102998,"Jan Michael","Gambill","R",19770603,"USA",190
+"1125",102999,"Stefano","Galvani","R",19770603,"ITA",178
+"1133",103007,"Mounir","El Aarej","R",19770616,"MAR",NA
+"1146",103009,"Razvan","Sabau","R",19770618,"ROU",185
+"1159",103017,"Nicolas","Kiefer","R",19770705,"GER",183
+"1176",103018,"Max","Mirnyi","R",19770706,"BLR",196
+"1190",103029,"Mehdi","Tahiri","R",19770728,"MAR",183
+"1202",103032,"Francisco","Fogues","L",19770806,"ESP",190
+"1203",103035,"Alessio","Di Mauro","L",19770809,"ITA",185
+"1209",103060,"Alejandro","Hernandez","R",19771001,"MEX",180
+"1220",103063,"Sebastien","De Chaunac","R",19771007,"FRA",183
+"1228",103066,"Mark","Nielsen","R",19771008,"NZL",185
+"1239",103076,"Justin","Oneal","R",19771024,"USA",NA
+"1240",103084,"Guillermo","Canas","R",19771125,"ARG",185
+"1253",103096,"Arnaud","Clement","R",19771217,"FRA",173
+"1269",103103,"Dominik","Hrbaty","R",19780104,"SVK",183
+"1284",103104,"Bjorn","Rehnquist","R",19780105,"SWE",175
+"1292",103105,"Ruben","Ramirez Hidalgo","R",19780106,"ESP",183
+"1306",103110,"Daniele","Bracciali","R",19780110,"ITA",180
+"1314",103114,"Martin","Lee","L",19780113,"GBR",180
+"1323",103133,"Olivier","Mutis","R",19780202,"FRA",175
+"1332",103151,"Mariano","Zabaleta","R",19780228,"ARG",183
+"1346",103153,"Gilles","Elseneer","R",19780306,"BEL",188
+"1352",103157,"Arvind","Parmar","R",19780322,"GBR",193
+"1359",103163,"Tommy","Haas","R",19780403,"GER",188
+"1379",103165,"Gorka","Fraile","R",19780407,"ESP",180
+"1384",103166,"Vladimir","Voltchkov","R",19780407,"BLR",180
+"1398",103169,"Oscar","Hernandez","R",19780410,"ESP",180
+"1406",103171,"Raemon","Sluiter","R",19780413,"NED",185
+"1419",103174,"Noam","Okun","R",19780416,"ISR",185
+"1431",103175,"Toshihide","Matsui","R",19780419,"JPN",178
+"1434",103176,"David","Sanchez","R",19780420,"ESP",183
+"1443",103181,"Jiri","Vanek","R",19780424,"CZE",185
+"1454",103182,"Markus","Hipfl","R",19780426,"AUT",178
+"1465",103184,"Bob","Bryan","L",19780429,"USA",193
+"1478",103185,"Mike","Bryan","R",19780429,"USA",190
+"1485",103188,"Michael","Russell","R",19780501,"USA",173
+"1500",103193,"Peter","Wessels","R",19780507,"NED",196
+"1511",103198,"Justin","Bower","L",19780523,"RSA",190
+"1516",103201,"Adrian","Garcia","R",19780525,"CHI",175
+"1524",103204,"Hugo","Armando","R",19780527,"USA",183
+"1533",103206,"Sebastien","Grosjean","R",19780529,"FRA",175
+"1547",103209,"Leonardo","Azzaro","L",19780530,"ITA",188
+"1548",103228,"Marcos","Daniel","R",19780704,"BRA",180
+"1558",103230,"Tasuku","Iwami","L",19780709,"JPN",168
+"1561",103238,"Jean Claude","Scherrer","R",19780720,"SUI",188
+"1565",103240,"Kevin","Kim","R",19780726,"USA",180
+"1578",103248,"Harel","Levy","R",19780805,"ISR",185
+"1591",103250,"Rodolphe","Cadart","L",19780808,"FRA",183
+"1596",103252,"Alberto","Martin","R",19780820,"ESP",175
+"1611",103254,"Yves","Allegro","R",19780824,"SUI",183
+"1618",103264,"Mariano","Puerta","L",19780919,"ARG",180
+"1627",103280,"Martin","Verkerk","R",19781031,"NED",196
+"1635",103285,"Radek","Stepanek","R",19781127,"CZE",185
+"1654",103290,"Radim","Zitko","R",19781208,"CZE",NA
+"1656",103292,"Gaston","Gaudio","R",19781209,"ARG",175
+"1668",103294,"Christophe","Rochus","R",19781215,"BEL",170
+"1680",103305,"Daniel","Elsner","R",19790104,"GER",183
+"1686",103318,"Zeljko","Krajan","R",19790203,"CRO",178
+"1693",103319,"Jeff","Morrison","R",19790204,"USA",185
+"1701",103325,"Wesley","Moodie","R",19790214,"RSA",196
+"1707",103333,"Ivo","Karlovic","R",19790228,"CRO",208
+"1729",103339,"Wesley","Whitehouse","L",19790313,"RSA",190
+"1733",103344,"Ivan","Ljubicic","R",19790319,"CRO",193
+"1750",103356,"Michel","Kratochvil","R",19790407,"SUI",185
+"1756",103369,"Melle","Van Gemerden","R",19790509,"NED",183
+"1759",103373,"Sergio","Roitman","R",19790516,"ARG",185
+"1766",103385,"Paul","Baccanello","R",19790612,"AUS",183
+"1771",103387,"Paradorn","Srichaphan","R",19790614,"THA",185
+"1782",103393,"Yuri","Schukin","R",19790626,"KAZ",188
+"1791",103395,"Julio","Silva","R",19790701,"BRA",173
+"1799",103401,"Jan","Hernych","R",19790707,"CZE",190
+"1814",103403,"Takahiro","Terachi","R",19790708,"JPN",NA
+"1820",103408,"Brian","Vahaly","R",19790719,"USA",183
+"1825",103420,"Michal","Tabara","R",19790811,"CZE",175
+"1835",103424,"Tobias","Clemens","R",19790814,"GER",185
+"1836",103428,"Juan Ignacio","Chela","R",19790830,"ARG",190
+"1850",103429,"Peter","Luczak","R",19790831,"AUS",183
+"1859",103435,"Massimo","Dellacqua","R",19790906,"ITA",193
+"1862",103437,"Francesco","Piccari","R",19790907,"ITA",NA
+"1864",103444,"Jean Rene","Lisnard","R",19790925,"MON",173
+"1878",103448,"Gabriel","Trujillo Soler","R",19790930,"ESP",NA
+"1879",103451,"Bjorn","Phau","R",19791004,"GER",175
+"1896",103454,"Nicolas","Massu","R",19791010,"CHI",183
+"1914",103455,"Michal","Mertinak","R",19791011,"SVK",180
+"1920",103465,"Paul","Logtens","R",19791107,"NED",175
+"1922",103470,"Robert","Kendrick","R",19791115,"USA",190
+"1932",103484,"James","Blake","R",19791228,"USA",185
+"1948",103487,"Federico","Luzzi","R",19800103,"ITA",188
+"1955",103490,"Santiago","Ventura","R",19800105,"ESP",183
+"1962",103498,"Marat","Safin","R",19800127,"RUS",193
+"1975",103503,"Robin","Vik","R",19800205,"CZE",183
+"1979",103506,"Martin","Vassallo Arguello","R",19800210,"ARG",183
+"1988",103507,"Juan Carlos","Ferrero","R",19800212,"ESP",183
+"2002",103516,"Nathan","Healey","R",19800227,"AUS",180
+"2006",103520,"Pavel","Snobel","L",19800228,"CZE",190
+"2009",103521,"Andrea","Stoppini","R",19800229,"ITA",190
+"2013",103523,"Rohan","Bopanna","R",19800304,"IND",193
+"2025",103530,"Zack","Fleishman","R",19800317,"USA",188
+"2032",103534,"Nicolas","Devilder","L",19800325,"FRA",173
+"2040",103535,"Olivier","Patience","R",19800325,"FRA",180
+"2049",103538,"James","Auckland","R",19800401,"GBR",NA
+"2050",103543,"David","Marrero","R",19800408,"ESP",183
+"2052",103553,"Alun","Jones","R",19800426,"AUS",180
+"2056",103559,"David","Sherwood","R",19800506,"GBR",193
+"2057",103565,"Stephane","Robert","R",19800517,"FRA",185
+"2068",103566,"Michael","Llodra","L",19800518,"FRA",190
+"2083",103573,"Rik","De Voest","R",19800605,"RSA",180
+"2096",103580,"Alexander","Peya","R",19800627,"AUT",183
+"2108",103581,"Flavio","Saretta","R",19800628,"BRA",183
+"2116",103582,"Michael","Berrer","L",19800701,"GER",193
+"2129",103592,"Jerome","Haehnel","R",19800714,"FRA",185
+"2134",103594,"Oliver","Marach","R",19800716,"AUT",185
+"2145",103598,"Xavier","Malisse","R",19800719,"BEL",185
+"2161",103600,"Mohammad","Ghareeb","R",19800722,"KUW",NA
+"2175",103602,"Fernando","Gonzalez","R",19800729,"CHI",183
+"2190",103623,"Jacob","Adaktusson","R",19800831,"SWE",193
+"2191",103626,"Tomas","Tenconi","R",19800903,"ITA",178
+"2193",103632,"Luis","Horna","R",19800914,"PER",180
+"2206",103646,"Lars","Uebel","R",19801014,"GER",180
+"2207",103653,"Jasper","Smit","R",19801117,"NED",NA
+"2208",103656,"Albert","Montanes","R",19801126,"ESP",175
+"2225",103657,"Ivo","Klec","R",19801128,"SVK",183
+"2231",103663,"Matias","Boeker","R",19801211,"USA",NA
+"2234",103672,"Ricardo","Mello","L",19801221,"BRA",175
+"2246",103675,"Diego","Junqueira","L",19801228,"ARG",178
+"2253",103676,"Michael","Yani","R",19801231,"USA",185
+"2259",103684,"Benedikt","Dorsch","R",19810110,"GER",178
+"2262",103693,"Thierry","Ascione","R",19810117,"FRA",188
+"2271",103694,"Olivier","Rochus","R",19810118,"BEL",168
+"2285",103700,"Juan Pablo","Guzman","L",19810129,"ARG",178
+"2290",103701,"Diego","Hartfield","R",19810131,"ARG",185
+"2293",103702,"Stefano","Ianni","R",19810131,"ITA",NA
+"2294",103708,"Jaroslav","Pospisil","R",19810209,"CZE",175
+"2297",103709,"Kristian","Pless","R",19810209,"DEN",188
+"2308",103714,"Andreas","Vinciguerra","L",19810219,"SWE",180
+"2321",103716,"Uros","Vico","R",19810219,"ITA",188
+"2323",103718,"David","Martin","L",19810222,"USA",185
+"2324",103720,"Lleyton","Hewitt","R",19810224,"AUS",180
+"2344",103722,"Florent","Serra","R",19810228,"FRA",180
+"2357",103726,"Jean Christophe","Faurel","R",19810306,"FRA",175
+"2359",103730,"Jonathan","Marray","R",19810310,"GBR",183
+"2364",103735,"Lovro","Zovko","R",19810318,"CRO",190
+"2372",103737,"Edgardo","Massa","R",19810322,"ARG",180
+"2376",103747,"Dominik","Meffert","R",19810409,"GER",198
+"2382",103748,"Jan","Minar","R",19810409,"CZE",NA
+"2383",103752,"Simon","Greul","R",19810413,"GER",185
+"2391",103754,"Mark","Hilton","L",19810420,"GBR",170
+"2395",103758,"Taylor","Dent","R",19810424,"USA",188
+"2407",103761,"Tomas","Cakl","R",19810425,"CZE",178
+"2412",103762,"John Paul","Fruttero","R",19810430,"USA",185
+"2413",103763,"Martin","Slanar","R",19810501,"AUT",NA
+"2414",103775,"Felipe","Parada","R",19810516,"CHI",175
+"2416",103781,"Jurgen","Melzer","L",19810522,"AUT",183
+"2436",103782,"Rameez","Junaid","R",19810525,"AUS",NA
+"2438",103786,"Nikolay","Davydenko","R",19810602,"RUS",178
+"2453",103789,"Irakli","Labadze","L",19810609,"GEO",188
+"2463",103794,"Benjamin","Becker","R",19810616,"GER",178
+"2475",103799,"Eric","Prodon","R",19810627,"FRA",178
+"2482",103805,"Catalin","Gard","R",19810710,"ROU",NA
+"2483",103808,"Potito","Starace","R",19810714,"ITA",188
+"2495",103812,"Victor","Hanescu","R",19810721,"ROU",198
+"2509",103813,"Jarkko","Nieminen","L",19810723,"FIN",185
+"2527",103817,"Yu Jr","Wang","L",19810801,"CHN",NA
+"2533",103819,"Roger","Federer","R",19810808,"SUI",185
+"2557",103820,"Alan","Mackin","R",19810811,"GBR",183
+"2562",103821,"Danai","Udomchoke","R",19810811,"THA",173
+"2580",103822,"Scott","Lipsky","R",19810814,"USA",185
+"2581",103823,"Denis","Gremelmayr","L",19810816,"GER",183
+"2589",103830,"Shao Xuan","Zeng","R",19810829,"CHN",185
+"2595",103835,"Filippo","Volandri","R",19810905,"ITA",183
+"2610",103837,"Didac","Perez","R",19810907,"ESP",178
+"2614",103843,"Marco","Chiudinelli","R",19810910,"SUI",185
+"2629",103849,"Francesco","Aldi","R",19810917,"ITA",175
+"2634",103850,"Sebastian","Decoud","L",19810918,"ARG",178
+"2637",103852,"Feliciano","Lopez","L",19810920,"ESP",188
+"2662",103857,"Igor","Kunitsyn","R",19810930,"RUS",180
+"2675",103863,"Mikhail","Elgin","R",19811014,"RUS",183
+"2683",103868,"Ivan","Navarro","R",19811019,"ESP",183
+"2692",103878,"Zach","Dailey","U",19811114,"USA",NA
+"2693",103888,"Mardy","Fish","R",19811209,"USA",188
+"2708",103893,"Paolo","Lorenzi","R",19811215,"ITA",183
+"2723",103894,"Phillip","King","R",19811219,"USA",175
+"2728",103898,"Julien","Benneteau","R",19811220,"FRA",185
+"2746",103900,"David","Nalbandian","R",19820101,"ARG",180
+"2760",103908,"Paul Henri","Mathieu","R",19820112,"FRA",185
+"2777",103909,"Guillermo","Coria","R",19820113,"ARG",175
+"2785",103914,"Omar","Awadhy","R",19820116,"UAE",NA
+"2795",103917,"Nicolas","Mahut","R",19820121,"FRA",191
+"2816",103924,"Marc","Fornell Mestres","R",19820126,"ESP",NA
+"2817",103925,"Gabriel","Moraru","R",19820128,"ROU",180
+"2819",103926,"Daniel","Munoz de la Nava","L",19820129,"ESP",178
+"2827",103963,"Filip","Urban","R",19820323,"POL",193
+"2830",103964,"Tobias","Klein","R",19820323,"GER",170
+"2831",103967,"Michael","Lammer","R",19820325,"SUI",185
+"2843",103970,"David","Ferrer","R",19820402,"ESP",175
+"2861",103971,"Karol","Beck","R",19820403,"SVK",180
+"2869",103975,"Eric","Nunez","R",19820409,"USA",NA
+"2870",103976,"Juan Pablo","Brzezicki","R",19820412,"ARG",178
+"2876",103978,"Rabie","Chaki","A",19820414,"MAR",NA
+"2879",103984,"Julien","Mathieu","R",19820422,"FRA",NA
+"2880",103990,"Tommy","Robredo","R",19820501,"ESP",180
+"2902",103997,"Lukasz","Kubot","R",19820516,"POL",191
+"2915",103999,"Thiago","Alves","R",19820522,"BRA",178
+"2924",104001,"Brian","Wilson","R",19820523,"USA",190
+"2927",104003,"Victor","Crivoi","R",19820525,"ROU",185
+"2935",104004,"Filip","Prpic","R",19820526,"SWE",173
+"2942",104007,"Andre","Ghem","R",19820529,"BRA",193
+"2947",104010,"Dieter","Kindlmann","R",19820603,"GER",183
+"2952",104014,"Lee","Childs","R",19820611,"GBR",NA
+"2957",104019,"Kristof","Vliegen","R",19820622,"BEL",193
+"2966",104021,"Marco","Mirnegg","R",19820624,"AUT",180
+"2967",104022,"Mikhail","Youzhny","R",19820625,"RUS",183
+"2987",104023,"Nicolas","Renavand","R",19820625,"FRA",NA
+"2988",104025,"Amer","Delic","R",19820630,"BIH",196
+"2998",104026,"Joachim","Johansson","R",19820701,"SWE",198
+"3011",104035,"Bobby","Reynolds","R",19820717,"USA",183
+"3022",104036,"Simon","Rea","L",19820718,"NZL",NA
+"3025",104037,"Phillip","Harboe","R",19820720,"CHI",NA
+"3026",104043,"Marc","Lopez","R",19820731,"ESP",175
+"3037",104053,"Andy","Roddick","R",19820830,"USA",188
+"3050",104056,"Roko","Karanusic","R",19820905,"CRO",183
+"3057",104068,"Robby","Ginepri","R",19821007,"USA",183
+"3071",104070,"Jesse","Witten","R",19821015,"USA",178
+"3077",104071,"Raven","Klaasen","R",19821016,"RSA",178
+"3080",104076,"Jose","Acasuso","R",19821020,"ARG",190
+"3091",104081,"Boris","Pashanski","R",19821103,"SRB",180
+"3098",104082,"Hiroki","Kondo","R",19821105,"JPN",178
+"3101",104091,"Miguel Angel","Lopez Jaen","R",19821129,"ESP",188
+"3102",104095,"David","Guez","R",19821208,"FRA",185
+"3110",104098,"Dmitry","Tursunov","R",19821212,"RUS",185
+"3125",104099,"Israel","Matos Gil","U",19821214,"ESP",NA
+"3127",104106,"Ludovic","Walter","U",19830104,"FRA",NA
+"3128",104112,"Benjamin","Balleret","R",19830115,"MON",185
+"3141",104115,"Marc","Kimmich","R",19830121,"AUS",183
+"3143",104117,"Giovanni","Lapentti","R",19830125,"ECU",193
+"3155",104121,"Tobias","Summerer","R",19830201,"GER",185
+"3158",104122,"Carlos","Berlocq","R",19830203,"ARG",183
+"3172",104136,"Santiago","Gonzalez","R",19830224,"MEX",191
+"3183",104140,"Dawid","Olejniczak","R",19830301,"POL",NA
+"3185",104149,"Adrian","Cruciat","R",19830331,"ROU",185
+"3186",104154,"Paul","Capdeville","R",19830402,"CHI",190
+"3197",104158,"Andrew","Anderson","R",19830408,"RSA",193
+"3198",104160,"Lukas","Dlouhy","R",19830409,"CZE",185
+"3204",104161,"Tomislav","Peric","R",19830410,"CRO",NA
+"3205",104166,"Alex","Bogomolov Jr","R",19830423,"RUS",178
+"3218",104167,"Todd","Widom","R",19830424,"USA",NA
+"3222",104171,"Richard","Bloomfield","R",19830427,"GBR",185
+"3231",104173,"Sam","Warburg","R",19830429,"USA",190
+"3234",104180,"Gilles","Muller","L",19830509,"LUX",193
+"3253",104181,"Victor","Ionita","R",19830511,"ROU",185
+"3256",104182,"Sasa","Tuksar","R",19830512,"CRO",180
+"3260",104192,"Marco","Crugnola","R",19830524,"ITA",188
+"3263",104195,"Simone","Vagnozzi","R",19830530,"ITA",173
+"3268",104196,"Carlos","Cuadrado","R",19830601,"ESP",180
+"3271",104198,"Guillermo","Garcia Lopez","R",19830604,"ESP",188
+"3288",104208,"Damian","Patriarca","R",19830628,"ARG",NA
+"3289",104209,"Rainer","Eitzinger","R",19830628,"AUT",178
+"3293",104211,"Roman","Valent","R",19830708,"SUI",183
+"3294",104214,"Igor","Andreev","R",19830714,"RUS",185
+"3305",104216,"Maximo","Gonzalez","R",19830720,"ARG",173
+"3316",104217,"Simon","Stadler","L",19830720,"GER",183
+"3321",104219,"Stephane","Bohli","R",19830725,"SUI",185
+"3330",104224,"Travis","Rettenmaier","R",19830806,"USA",188
+"3332",104225,"Jan","Hajek","R",19830807,"CZE",180
+"3341",104226,"Bastian","Knittel","L",19830808,"GER",180
+"3344",104227,"Augustin","Gensse","R",19830810,"FRA",180
+"3346",104228,"Guillem","Burniol","R",19830814,"ESP",NA
+"3348",104229,"Yen Hsun","Lu","R",19830814,"TPE",180
+"3366",104230,"Daniel","Koellerer","R",19830817,"AUT",180
+"3373",104233,"Frederik","Nielsen","R",19830827,"DEN",190
+"3387",104250,"Prakash","Amritraj","R",19831002,"IND",188
+"3398",104252,"Florian","Mayer","R",19831005,"GER",190
+"3413",104253,"Juan Martin","Aranguren","R",19831007,"ARG",NA
+"3415",104256,"Clement","Reix","U",19831009,"FRA",NA
+"3416",104259,"Philipp","Kohlschreiber","R",19831016,"GER",178
+"3437",104261,"Peng","Sun","R",19831019,"CHN",NA
+"3442",104262,"Flavio","Cipolla","R",19831020,"ITA",173
+"3450",104268,"Alejandro","Falla","L",19831114,"COL",185
+"3466",104269,"Fernando","Verdasco","L",19831115,"ESP",188
+"3488",104272,"Torsten","Popp","R",19831125,"GER",NA
+"3489",104273,"Edouard","Roger-Vasselin","R",19831128,"FRA",185
+"3500",104275,"Josko","Topic","U",19831208,"CRO",NA
+"3501",104281,"Ryler","Deheart","L",19840103,"USA",183
+"3503",104284,"Frank","Condor","U",19840110,"ESP",NA
+"3504",104287,"Steven","Korteling","U",19840116,"NED",NA
+"3505",104291,"Malek","Jaziri","R",19840120,"TUN",185
+"3521",104292,"Izak","Van Der Merwe","R",19840126,"RSA",196
+"3527",104297,"Rogerio","Dutra Silva","R",19840203,"BRA",178
+"3538",104305,"Luka","Gregorc","R",19840214,"SLO",NA
+"3545",104308,"Michal","Przysiezny","R",19840216,"POL",185
+"3558",104312,"Andreas","Seppi","R",19840221,"ITA",190
+"3578",104314,"Brian","Dabul","L",19840224,"ARG",170
+"3582",104317,"David","Luque Velasco","U",19840302,"ESP",NA
+"3583",104327,"Steve","Darcis","R",19840313,"BEL",178
+"3599",104330,"Rajeev","Ram","R",19840318,"USA",193
+"3615",104332,"Philipp","Petzschner","R",19840324,"GER",185
+"3626",104334,"Alberto","Brizzi","R",19840326,"ITA",NA
+"3627",104338,"Juan","Monaco","R",19840329,"ARG",185
+"3641",104339,"Mario","Ancic","R",19840330,"CRO",196
+"3653",104349,"Rui","Machado","R",19840410,"POR",178
+"3666",104360,"Adam","Chadaj","L",19840501,"POL",178
+"3667",104361,"Michel","Koning","R",19840501,"NED",NA
+"3668",104368,"Daniel","King Turner","R",19840515,"NZL",190
+"3676",104371,"Ivo","Minar","R",19840521,"CZE",183
+"3684",104372,"Alex","Bogdanovic","L",19840522,"GBR",183
+"3694",104379,"Todd","Reid","R",19840603,"AUS",180
+"3698",104383,"Diogo","Rocha","R",19840614,"POR",NA
+"3701",104385,"Lars","Poerschke","R",19840617,"GER",NA
+"3703",104386,"Janko","Tipsarevic","R",19840622,"SRB",180
+"3720",104392,"Franco","Ferreiro","R",19840701,"BRA",188
+"3723",104393,"Gregoire","Burquier","L",19840708,"FRA",NA
+"3724",104397,"Laurent","Recouderc","R",19840710,"FRA",178
+"3728",104415,"Colin","Fleming","R",19840813,"GBR",188
+"3730",104417,"Robin","Soderling","R",19840814,"SWE",193
+"3741",104424,"Go","Soeda","R",19840905,"JPN",178
+"3756",104433,"Frank","Dancevic","R",19840926,"CAN",185
+"3772",104439,"Vadim","Davletshin","U",19841007,"RUS",NA
+"3774",104445,"Jose Antonio","Sanchez De Luna","R",19841018,"ESP",NA
+"3776",104453,"Michael","Ryderstedt","L",19841112,"SWE",188
+"3785",104456,"Colin","Ebelthite","R",19841127,"AUS",NA
+"3786",104460,"Dustin","Brown","R",19841208,"JAM",196
+"3798",104465,"Martin","Emmrich","L",19841217,"GER",183
+"3799",104467,"Lamine","Ouahab","R",19841222,"ALG",185
+"3812",104468,"Gilles","Simon","R",19841227,"FRA",183
+"3831",104470,"Komlavi","Loglo","R",19841230,"TOG",183
+"3833",104471,"Ivan","Dodig","R",19850102,"CRO",183
+"3843",104473,"Walter","Trusendi","U",19850103,"ITA",NA
+"3844",104477,"Jorge","Aguilar","R",19850108,"CHI",178
+"3850",104478,"Hyun Woo","Nam","R",19850109,"KOR",NA
+"3853",104488,"Armin","Sandbichler","L",19850122,"AUT",180
+"3854",104494,"Adrian","Ungur","R",19850125,"ROU",178
+"3863",104495,"Florin","Mergea","R",19850126,"ROU",180
+"3868",104499,"Jimmy","Wang","R",19850208,"TPE",178
+"3881",104500,"Somdev","Devvarman","R",19850213,"IND",180
+"3892",104501,"Xin Yuan","Yu","L",19850213,"CHN",NA
+"3897",104503,"Guillermo","Hormazabal","R",19850219,"CHI",NA
+"3902",104504,"Ross","Hutchins","R",19850222,"GBR",190
+"3903",104505,"Konstantin","Kravchuk","R",19850223,"RUS",190
+"3912",104515,"Mathieu","Montcourt","R",19850304,"FRA",183
+"3916",104516,"Arnau","Brugues Davi","L",19850305,"ESP",183
+"3918",104519,"Roman","Vogeli","R",19850313,"CZE",NA
+"3919",104523,"Frederico","Gil","R",19850324,"POR",173
+"3929",104527,"Stan","Wawrinka","R",19850328,"SUI",183
+"3951",104534,"Dudi","Sela","R",19850404,"ISR",175
+"3966",104542,"Jo-Wilfried","Tsonga","R",19850417,"FRA",188
+"3984",104545,"John","Isner","R",19850426,"USA",208
+"4001",104547,"Horacio","Zeballos","L",19850427,"ARG",188
+"4011",104548,"Brian","Baker","R",19850430,"USA",190
+"4018",104550,"Ricardo","Hocevar","R",19850505,"BRA",180
+"4021",104558,"Mohammed","Abdulla","U",19850523,"QAT",NA
+"4022",104559,"Teymuraz","Gabashvili","R",19850523,"RUS",185
+"4036",104563,"Luca","Vanni","R",19850604,"ITA",198
+"4041",104571,"Marcos","Baghdatis","R",19850617,"CYP",183
+"4057",104579,"Romain","Jouan","R",19850716,"FRA",183
+"4061",104586,"Lukas","Rosol","R",19850724,"CZE",193
+"4076",104589,"Chris","Guccione","L",19850730,"AUS",201
+"4088",104592,"Ilija","Bozoljac","R",19850802,"SRB",193
+"4098",104593,"Daniel","Gimeno Traver","R",19850807,"ESP",185
+"4112",104594,"Marinko","Matosevic","R",19850808,"AUS",194
+"4118",104595,"Sascha","Kloer","R",19850816,"GER",NA
+"4119",104597,"Nicolas","Almagro","R",19850821,"ESP",183
+"4135",104607,"Tomas","Berdych","R",19850917,"CZE",196
+"4152",104619,"Jesse","Huta Galung","R",19851006,"NED",188
+"4162",104620,"Simone","Bolelli","R",19851008,"ITA",183
+"4176",104623,"Josh","Goodall","R",19851017,"GBR",188
+"4182",104627,"Boy","Westerhof","R",19851024,"NED",NA
+"4183",104628,"Alexander","Kudryavtsev","R",19851026,"RUS",183
+"4192",104629,"Adrian","Menendez Maceiras","R",19851028,"ESP",185
+"4198",104633,"Mathieu","Rodrigues","R",19851107,"FRA",180
+"4199",104635,"Robert","Smeets","L",19851110,"AUS",188
+"4202",104639,"Wayne","Odesnik","L",19851121,"USA",180
+"4213",104640,"Pablo","Galdon","R",19851128,"ARG",NA
+"4214",104644,"Riccardo","Ghedin","R",19851205,"ITA",188
+"4217",104646,"Purav","Raja","R",19851207,"IND",183
+"4218",104651,"Martin","Alund","R",19851226,"ARG",183
+"4220",104655,"Pablo","Cuevas","R",19860101,"URU",180
+"4238",104660,"Sergiy","Stakhovsky","R",19860106,"UKR",193
+"4256",104661,"Pierre Ludovic","Duclos","R",19860108,"CAN",188
+"4259",104665,"Pablo","Andujar","R",19860123,"ESP",180
+"4275",104667,"Philipp","Oswald","R",19860123,"AUT",201
+"4278",104672,"Vincent","Millot","L",19860130,"FRA",173
+"4286",104676,"Andreas","Beck","L",19860205,"GER",190
+"4299",104678,"Viktor","Troicki","R",19860210,"SRB",193
+"4315",104681,"Sebastian","Rieschick","R",19860215,"GER",NA
+"4318",104684,"Navdeep","Singh","R",19860221,"IND",NA
+"4319",104692,"Alexander","Slabinsky","R",19860306,"GBR",185
+"4321",104693,"Dominic","Inglot","R",19860306,"GBR",196
+"4323",104707,"Denis","Matsukevitch","R",19860328,"RUS",190
+"4325",104714,"Julian","Reister","R",19860402,"GER",188
+"4333",104717,"Brendan","Evans","R",19860408,"USA",188
+"4338",104719,"Marcel","Granollers","R",19860412,"ESP",191
+"4352",104721,"Josselin","Ouanna","R",19860414,"FRA",193
+"4356",104724,"Eduardo","Schwank","R",19860423,"ARG",183
+"4362",104729,"Ivan","Nedelko","R",19860512,"RUS",185
+"4364",104731,"Kevin","Anderson","R",19860518,"RSA",203
+"4381",104732,"Phillip","Simmonds","R",19860518,"USA",NA
+"4384",104735,"Tobias","Kamke","R",19860521,"GER",180
+"4395",104738,"Caio","Zampieri","R",19860527,"BRA",183
+"4398",104739,"Guillermo","Alcaide","R",19860527,"ESP",188
+"4399",104745,"Rafael","Nadal","L",19860603,"ESP",185
+"4422",104755,"Richard","Gasquet","R",19860618,"FRA",183
+"4445",104760,"Scott","Oudsema","R",19860701,"USA",190
+"4448",104770,"Martin","Fischer","R",19860721,"AUT",180
+"4457",104778,"Andrey","Kumantsov","R",19860804,"RUS",NA
+"4459",104779,"Jamie","Baker","R",19860805,"GBR",183
+"4466",104781,"Yuichi","Ito","R",19860806,"JPN",NA
+"4467",104783,"Mikhail","Ledovskikh","R",19860808,"RUS",188
+"4475",104792,"Gael","Monfils","R",19860901,"FRA",193
+"4496",104797,"Denis","Istomin","R",19860907,"UZB",185
+"4514",104802,"Fabrice","Martin","R",19860911,"FRA",198
+"4516",104807,"Mehdi","Ziadi","R",19860920,"MAR",NA
+"4523",104810,"Zhe","Li","R",19860920,"CHN",183
+"4532",104812,"Scoville","Jenkins","R",19860923,"USA",188
+"4538",104813,"Grega","Zemlja","R",19860929,"SLO",183
+"4551",104816,"Karan","Rastogi","R",19861008,"IND",178
+"4557",104820,"Erik","Chvojka","L",19861026,"CAN",185
+"4559",104822,"N Vijay","Sundar Prashanth","R",19861027,"IND",178
+"4560",104830,"Matteo","Marrai","U",19861117,"ITA",NA
+"4561",104831,"Bartolome","Salva Vidal","L",19861120,"ESP",183
+"4563",104847,"Adrien","Bossel","L",19861228,"SUI",NA
+"4567",104850,"Jonathan","Dasnieres De Veigy","L",19870105,"FRA",175
+"4570",104851,"Gianluca","Naso","R",19870106,"ITA",193
+"4575",104857,"Robert","Farah","R",19870120,"COL",193
+"4578",104864,"Alex","Kuznetsov","R",19870205,"USA",183
+"4587",104868,"James","Ward","R",19870209,"GBR",190
+"4600",104871,"Jeremy","Chardy","R",19870212,"FRA",188
+"4617",104873,"Aleksandr","Nedovyesov","R",19870215,"KAZ",188
+"4623",104882,"Blaz","Kavcic","R",19870305,"SLO",188
+"4635",104890,"Andreas","Haider Maurer","R",19870322,"AUT",190
+"4646",104893,"Maxime","Authom","R",19870329,"BEL",NA
+"4648",104896,"Bruno","Agostinelli","R",19870401,"CAN",NA
+"4649",104897,"Matthias","Bachinger","R",19870402,"GER",188
+"4661",104898,"Robin","Haase","R",19870406,"NED",191
+"4679",104905,"Nicolas","Barrientos","R",19870424,"COL",175
+"4684",104907,"Jose Rubin","Statham","R",19870425,"NZL",180
+"4702",104914,"Ervin","Eleskovic","R",19870508,"SWE",NA
+"4709",104918,"Andy","Murray","R",19870515,"GBR",191
+"4729",104919,"Leonardo","Mayer","R",19870515,"ARG",188
+"4743",104925,"Novak","Djokovic","R",19870522,"SRB",188
+"4764",104926,"Fabio","Fognini","R",19870524,"ITA",178
+"4784",104932,"Kenny","De Schepper","L",19870529,"FRA",203
+"4792",104944,"Niels","Desein","R",19870609,"BEL",190
+"4795",104947,"Marsel","Ilhan","R",19870611,"TUR",191
+"4805",104948,"Petar","Jelenic","R",19870613,"CRO",NA
+"4806",104951,"Aljoscha","Thron","R",19870615,"GER",NA
+"4807",104953,"Nikolai","Fidirko","R",19870615,"BLR",NA
+"4808",104958,"Carsten","Ball","L",19870620,"AUS",198
+"4812",104960,"Miguel Angel","Reyes Varela","R",19870621,"MEX",175
+"4814",104963,"Yannick","Mertens","R",19870625,"BEL",185
+"4816",104965,"Pavol","Cervenak","R",19870701,"SVK",191
+"4820",104967,"Alexander","Sadecky","L",19870706,"SUI",193
+"4822",104970,"Matteo","Viola","R",19870707,"ITA",188
+"4827",104971,"Blake","Strode","R",19870709,"USA",188
+"4828",104975,"Evgeny","Kirillov","R",19870714,"RUS",NA
+"4830",104976,"Ryan","Sweeting","R",19870714,"USA",196
+"4839",104978,"Daniel","Brands","R",19870717,"GER",196
+"4852",104979,"Andrey","Golubev","R",19870722,"KAZ",180
+"4861",104986,"Vishnu","Vardhan","R",19870727,"IND",188
+"4864",104993,"Martin","Vaisse","U",19870811,"FRA",NA
+"4865",104997,"Igor","Sijsling","R",19870818,"NED",191
+"4875",104999,"Mischa","Zverev","L",19870822,"GER",190
+"4890",105001,"Mao Xin","Gong","R",19870824,"CHN",178
+"4894",105011,"Illya","Marchenko","R",19870908,"UKR",185
+"4908",105014,"Antal","Van Der Duim","R",19870916,"NED",185
+"4909",105015,"Franko","Skugor","R",19870920,"CRO",196
+"4917",105023,"Sam","Querrey","R",19871007,"USA",198
+"4934",105026,"Takuto","Niki","R",19871012,"JPN",183
+"4935",105028,"Jesse","Levine","L",19871015,"CAN",175
+"4943",105030,"Michael","Venus","R",19871016,"NZL",191
+"4954",105031,"Saketh","Myneni","R",19871019,"IND",193
+"4957",105032,"Sam","Groth","R",19871019,"AUS",193
+"4964",105041,"Lukas","Lacko","R",19871103,"SVK",185
+"4979",105047,"Tim","Puetz","R",19871119,"GER",185
+"4981",105048,"Alex","Clayton","R",19871123,"USA",183
+"4982",105051,"Matthew","Ebden","R",19871126,"AUS",188
+"4995",105053,"Santiago","Giraldo","R",19871127,"COL",188
+"5010",105059,"Kento","Takeuchi","L",19871219,"JPN",NA
+"5011",105060,"Aldin","Setkic","R",19871221,"BIH",191
+"5016",105062,"Mikhail","Kukushkin","R",19871226,"KAZ",183
+"5034",105063,"Andrea","Arnaboldi","L",19871227,"ITA",180
+"5040",105064,"Thomaz","Bellucci","L",19871230,"BRA",188
+"5054",105065,"Tim","Smyczek","R",19871230,"USA",175
+"5065",105070,"Hans","Podlipnik Castillo","R",19880109,"CHI",183
+"5070",105074,"Ruben","Bemelmans","L",19880114,"BEL",183
+"5083",105077,"Albert","Ramos","L",19880117,"ESP",188
+"5098",105080,"Miloslav","Mecir Jr","R",19880120,"SVK",190
+"5100",105084,"James","Lemke","R",19880125,"AUS",NA
+"5101",105091,"Peter","Torebko","R",19880210,"GER",185
+"5103",105095,"Evgeny","Korolev","R",19880214,"KAZ",185
+"5111",105098,"Alexandre","Sidorenko","R",19880218,"FRA",185
+"5118",105099,"Antonio","Veic","R",19880218,"CRO",180
+"5125",105100,"Edward","Corrie","R",19880221,"GBR",183
+"5126",105104,"Robin","Roshardt","R",19880222,"SUI",NA
+"5128",105113,"Patrik","Rosenholm","R",19880305,"SWE",178
+"5131",105116,"Dusan","Lojda","L",19880308,"CZE",188
+"5132",105120,"Andres","Molteni","R",19880315,"ARG",180
+"5134",105128,"Guillermo","Olaso","U",19880325,"ESP",175
+"5136",105131,"Tim","Goransson","U",19880326,"SWE",NA
+"5138",105132,"Jurgen","Zopp","R",19880329,"EST",190
+"5148",105137,"Pere","Riba","R",19880407,"ESP",183
+"5157",105138,"Roberto","Bautista Agut","R",19880414,"ESP",183
+"5172",105147,"Tatsuma","Ito","R",19880518,"JPN",180
+"5185",105149,"Reda","El Amrani","R",19880519,"MAR",185
+"5192",105154,"Joao","Souza","R",19880527,"BRA",193
+"5200",105155,"Pedro","Sousa","R",19880527,"POR",180
+"5214",105161,"Yann","Marti","R",19880607,"SUI",173
+"5218",105163,"Gleb","Sakharov","R",19880610,"FRA",185
+"5221",105166,"Peter","Polansky","R",19880615,"CAN",180
+"5234",105173,"Adrian","Mannarino","L",19880629,"FRA",180
+"5251",105175,"Kristijan","Mesaros","R",19880702,"CRO",NA
+"5252",105180,"Daniel","Dutra Da Silva","L",19880705,"BRA",173
+"5254",105181,"Miljan","Zekic","R",19880712,"SRB",185
+"5255",105189,"Pavel","Chekhov","R",19880727,"RUS",NA
+"5256",105194,"Nick","Lindahl","R",19880731,"AUS",183
+"5259",105208,"Ernests","Gulbis","R",19880830,"LAT",190
+"5277",105216,"Yuichi","Sugita","R",19880918,"JPN",173
+"5292",105217,"Thiemo","De Bakker","R",19880919,"NED",193
+"5306",105220,"Jun Chao","Xu","U",19880922,"CHN",NA
+"5307",105223,"Juan Martin","del Potro","R",19880923,"ARG",198
+"5322",105226,"Attila","Balazs","R",19880927,"HUN",180
+"5334",105227,"Marin","Cilic","R",19880928,"CRO",198
+"5354",105229,"Philip","Bester","R",19881006,"CAN",188
+"5361",105231,"Luka","Belic","R",19881014,"CRO",NA
+"5364",105233,"Jeevan","Nedunchezhiyan","L",19881020,"IND",173
+"5365",105238,"Alexandr","Dolgopolov","R",19881107,"UKR",180
+"5377",105245,"Fabiano","De Paula","R",19881128,"BRA",178
+"5378",105252,"Takahiro","Ittogi","R",19881217,"JPN",NA
+"5379",105254,"Nikola","Mektic","R",19881224,"CRO",183
+"5386",105262,"Fernando","Romboli","R",19890104,"BRA",180
+"5387",105270,"Maxime","Teixeira","R",19890118,"FRA",188
+"5391",105271,"Gonzalo","Escobar","L",19890120,"ECU",178
+"5397",105281,"Eric","Quigley","R",19890130,"USA",185
+"5398",105283,"Gerard","Granollers","R",19890130,"ESP",180
+"5401",105286,"Greg","Jones","R",19890131,"AUS",190
+"5405",105292,"Alejandro","Gonzalez","R",19890207,"COL",190
+"5413",105294,"Dennis","Lajola","R",19890212,"USA",NA
+"5414",105300,"Sergio","Gutierrez Ferrol","R",19890305,"ESP",NA
+"5416",105302,"Ante","Pavic","R",19890307,"CRO",196
+"5421",105311,"Joao","Sousa","R",19890330,"POR",185
+"5438",105318,"Thomas","Schoorel","L",19890408,"NED",203
+"5441",105325,"Germain","Gigounon","R",19890420,"BEL",NA
+"5442",105332,"Benoit","Paire","R",19890508,"FRA",196
+"5457",105336,"Nicolas","Meister","R",19890515,"USA",180
+"5458",105339,"Yan","Bai","R",19890521,"CHN",185
+"5463",105341,"Thomas","Fabbiano","R",19890526,"ITA",173
+"5474",105357,"John","Millman","R",19890614,"AUS",183
+"5487",105359,"Jason","Jung","R",19890615,"TPE",180
+"5494",105373,"Martin","Klizan","L",19890711,"SVK",191
+"5507",105376,"Peter","Gojowczyk","R",19890715,"GER",188
+"5519",105379,"Aljaz","Bedene","R",19890718,"SLO",181
+"5532",105385,"Donald","Young","L",19890723,"USA",183
+"5548",105401,"Matteo","Trevisan","R",19890813,"ITA",NA
+"5549",105404,"Michael","Mcclune","R",19890822,"USA",188
+"5551",105406,"Roberto","Marcora","R",19890830,"ITA",193
+"5554",105413,"Andrej","Martin","R",19890920,"SVK",183
+"5564",105426,"Michael","Linzer","R",19891102,"AUT",NA
+"5565",105427,"Milos","Sekulic","R",19891104,"SWE",178
+"5566",105430,"Radu","Albot","R",19891111,"MDA",175
+"5580",105432,"Prajnesh","Gunneswaran","L",19891112,"IND",188
+"5587",105436,"Markus","Eriksson","R",19891129,"SWE",188
+"5594",105438,"Inigo","Cervantes Huegun","R",19891130,"ESP",180
+"5600",105440,"Arsenije","Zlatanovic","R",19891204,"SRB",193
+"5601",105441,"John Patrick","Smith","L",19890124,"AUS",188
+"5609",105449,"Steve","Johnson","R",19891224,"USA",188
+"5624",105453,"Kei","Nishikori","R",19891229,"JPN",178
+"5641",105454,"Brydan","Klein","R",19891231,"AUS",183
+"5646",105467,"Jordi","Munoz Abreu","U",19900117,"VEN",NA
+"5651",105472,"Nils","Langer","R",19900125,"GER",193
+"5652",105477,"Marco","Trungelliti","R",19900131,"ARG",178
+"5663",105487,"Facundo","Bagnis","L",19900227,"ARG",183
+"5676",105501,"Akash","Wagh","L",19900317,"IND",175
+"5677",105502,"N Sriram","Balaji","R",19900318,"IND",180
+"5679",105512,"Alexander","Sarkissian","R",19900403,"USA",191
+"5682",105515,"Jordi","Samper Montana","U",19900423,"ESP",NA
+"5684",105526,"Jan Lennard","Struff","R",19900425,"GER",193
+"5696",105528,"Alexander","Ward","R",19900430,"GBR",185
+"5699",105529,"Carlos","Gomez Herrera","R",19900430,"ESP",191
+"5700",105539,"Evgeny","Donskoy","R",19900509,"RUS",185
+"5714",105542,"Bastian","Trinker","R",19900511,"AUT",191
+"5715",105550,"Guido","Pella","L",19900517,"ARG",183
+"5726",105551,"Anil","Yuksel","L",19900519,"TUR",NA
+"5727",105554,"Daniel","Evans","R",19900523,"GBR",175
+"5744",105558,"Guillaume","Rufin","R",19900526,"FRA",188
+"5749",105559,"Jonathan","Eysseric","L",19900527,"FRA",180
+"5752",105561,"Alessandro","Giannessi","L",19900530,"ITA",185
+"5762",105572,"Austin","Krajicek","L",19900616,"USA",188
+"5768",105575,"Ricardas","Berankis","R",19900621,"LTU",175
+"5785",105577,"Vasek","Pospisil","R",19900623,"CAN",193
+"5800",105578,"Cristian","Rodriguez","R",19900624,"COL",180
+"5801",105579,"Kittipong","Wachiramanowong","R",19900625,"THA",183
+"5809",105583,"Dusan","Lajovic","R",19900630,"SRB",183
+"5824",105585,"Ze","Zhang","R",19900704,"CHN",188
+"5835",105589,"Gerald","Melzer","L",19900713,"AUT",188
+"5844",105591,"Matt","Reid","R",19900717,"AUS",183
+"5845",105596,"Jan","Satral","R",19900724,"CZE",185
+"5847",105601,"Cristobal","Saavedra Corvalan","R",19900801,"CHI",NA
+"5848",105609,"Ilya","Belyaev","R",19900809,"RUS",180
+"5849",105613,"Norbert","Gombos","R",19900813,"SVK",193
+"5858",105614,"Bradley","Klahn","L",19900820,"USA",183
+"5868",105630,"Tomislav","Ternar","U",19900916,"SLO",NA
+"5871",105633,"Mohamed","Safwat","R",19900919,"EGY",180
+"5885",105634,"Viktor","Galovic","R",19900919,"ITA",193
+"5889",105638,"Daniel","Cox","R",19900928,"GBR",170
+"5891",105641,"Blaz","Rola","L",19901005,"SLO",193
+"5901",105643,"Federico","Delbonis","L",19901005,"ARG",193
+"5916",105649,"Cedrik Marcel","Stebe","L",19901009,"GER",183
+"5926",105650,"Marcus","Willis","L",19901009,"GBR",191
+"5927",105651,"Daniel","Smethurst","R",19901013,"GBR",188
+"5928",105655,"Hiroki","Moriya","R",19901016,"JPN",168
+"5933",105657,"Marius","Copil","R",19901017,"ROU",191
+"5947",105668,"Jerzy","Janowicz","R",19901113,"POL",203
+"5958",105671,"Gastao","Elias","R",19901124,"POR",180
+"5970",105676,"David","Goffin","R",19901207,"BEL",180
+"5984",105677,"Nikola","Cacic","R",19901207,"SRB",183
+"5985",105678,"Axel","Michon","L",19901216,"FRA",176
+"5986",105679,"Eduardo","Struvay","R",19901217,"COL",NA
+"5989",105683,"Milos","Raonic","R",19901227,"CAN",196
+"6004",105688,"Manuel","Sanchez","R",19910105,"MEX",183
+"6010",105691,"Scott","Griekspoor","R",19910110,"NED",NA
+"6011",105692,"Alessandro","Bega","R",19910111,"ITA",173
+"6012",105711,"Dino","Marcan","R",19910212,"CRO",178
+"6014",105723,"Andrey","Kuznetsov","R",19910222,"RUS",183
+"6027",105730,"Devin","Britton","R",19910317,"USA",193
+"6029",105731,"Steven","Diez","R",19910317,"CAN",175
+"6038",105732,"Pierre Hugues","Herbert","R",19910318,"FRA",188
+"6050",105733,"Rhyne","Williams","R",19910322,"USA",185
+"6054",105751,"Roberto","Ortega Olmedo","R",19910430,"ESP",168
+"6055",105757,"Sandro","Ehrat","R",19910418,"SUI",180
+"6060",105775,"Marin","Draganja","R",19910513,"CRO",185
+"6061",105777,"Grigor","Dimitrov","R",19910516,"BUL",191
+"6078",105782,"Enrique","Lopez Perez","R",19910603,"ESP",NA
+"6079",105783,"Chase","Buchanan","R",19910604,"USA",193
+"6081",105798,"Tilen","Zitnik","R",19910702,"SLO",NA
+"6082",105806,"Mirza","Basic","R",19910712,"BIH",188
+"6094",105807,"Pablo","Carreno Busta","R",19910712,"ESP",188
+"6107",105815,"Tennys","Sandgren","R",19910722,"USA",188
+"6114",105819,"Guido","Andreozzi","R",19910805,"ARG",183
+"6122",105821,"Riccardo","Bellotti","R",19910805,"ITA",NA
+"6123",105826,"Alejandro","Gomez Gb42","R",19910814,"COL",188
+"6124",105827,"Laurynas","Grigelis","R",19910814,"LTU",183
+"6135",105831,"Marko","Djokovic","R",19910820,"SRB",NA
+"6138",105841,"Lorenzo","Giustino","R",19910910,"ITA",180
+"6144",105842,"Di","Wu","R",19910914,"CHN",175
+"6155",105853,"Tigre","Hank","L",19910930,"MEX",188
+"6158",105870,"Yannick","Hanfmann","R",19911113,"GER",193
+"6166",105871,"Sekou","Bangoura","R",19911118,"USA",183
+"6167",105872,"Christian","Lindell","R",19911120,"SWE",193
+"6174",105874,"Albano","Olivetti","R",19911124,"FRA",203
+"6178",105877,"Emilio","Gomez","R",19911128,"ECU",185
+"6191",105881,"Matthew","Barton","R",19911218,"AUS",191
+"6193",105882,"Stefano","Travaglia","R",19911228,"ITA",185
+"6201",105888,"Toni","Androic","R",19911228,"CRO",168
+"6202",105894,"Javier","Marti","R",19920111,"ESP",NA
+"6206",105902,"James","Duckworth","R",19920121,"AUS",183
+"6219",105905,"Danilo","Petrovic","R",19920124,"SRB",203
+"6221",105906,"Kevin","Krawietz","R",19920124,"GER",188
+"6226",105911,"Andrea","Collarini","L",19920131,"ARG",183
+"6228",105916,"Marton","Fucsovics","R",19920208,"HUN",188
+"6242",105917,"Gianni","Mina","R",19920209,"FRA",185
+"6245",105930,"Daniel","Kosakowski","R",19920221,"USA",185
+"6247",105932,"Nikoloz","Basilashvili","R",19920223,"GEO",185
+"6257",105933,"Roberto","Quiroz","L",19920223,"ECU",193
+"6266",105936,"Filip","Krajinovic","R",19920227,"SRB",185
+"6280",105938,"Antoine","Escoffier","R",19920229,"FRA",185
+"6281",105941,"Felipe","Rios","R",19920304,"CHI",NA
+"6282",105943,"Federico","Gaio","R",19920305,"ITA",178
+"6290",105948,"Federico","Coria","R",19920309,"ARG",180
+"6296",105952,"Renzo","Olivo","R",19920315,"ARG",178
+"6304",105954,"Peter","Nagy","R",19920317,"HUN",180
+"6307",105960,"Evan","King","L",19920325,"USA",185
+"6310",105963,"Arthur","De Greef","R",19920327,"BEL",183
+"6313",105967,"Henri","Laaksonen","R",19920331,"SUI",185
+"6325",105985,"Darian","King","R",19920426,"BAR",188
+"6338",105987,"Mikhail","Biryukov","R",19920428,"RUS",NA
+"6340",105992,"Ryan","Harrison","R",19920507,"USA",185
+"6353",105999,"Bowen","Ouyang","L",19920519,"CHN",186
+"6354",106000,"Damir","Dzumhur","R",19920520,"BIH",175
+"6369",106005,"Constant","Lestienne","R",19920523,"FRA",180
+"6376",106006,"Agustin","Velotti","R",19920524,"ARG",174
+"6380",106026,"Yuki","Bhambri","R",19920704,"IND",185
+"6393",106031,"Raymond","Sarmiento","R",19920724,"USA",178
+"6394",106032,"Facundo","Arguello","R",19920804,"ARG",178
+"6399",106033,"Romain","Arneodo","R",19920804,"MON",175
+"6404",106034,"Yasutaka","Uchiyama","R",19920805,"JPN",183
+"6414",106035,"Isak","Arvidsson","R",19920806,"SWE",188
+"6417",106043,"Diego","Schwartzman","R",19920816,"ARG",170
+"6429",106044,"Nicolas","Kicker","R",19920816,"ARG",178
+"6434",106045,"Denis","Kudla","R",19920817,"USA",180
+"6449",106053,"Philip","Davydenko","R",19920902,"RUS",183
+"6451",106057,"Facundo","Mena","R",19920922,"ARG",183
+"6452",106058,"Jack","Sock","R",19920924,"USA",191
+"6466",106065,"Marco","Cecchinato","R",19920930,"ITA",185
+"6477",106066,"Victor","Baluda","R",19920930,"RUS",NA
+"6478",106071,"Bernard","Tomic","R",19921021,"AUS",196
+"6491",106072,"Alexey","Vatutin","R",19921027,"RUS",178
+"6496",106075,"Jozef","Kovalik","R",19921104,"SVK",183
+"6505",106078,"Egor","Gerasimov","R",19921111,"BLR",196
+"6517",106090,"Daniel","Berta","R",19921126,"SWE",178
+"6518",106093,"Benjamin","Mitchell","R",19921130,"AUS",183
+"6521",106099,"Salvatore","Caruso","R",19921215,"ITA",185
+"6528",106105,"Guilherme","Clezar","R",19921231,"BRA",183
+"6535",106106,"George","Tsivadze","L",19930102,"GEO",191
+"6539",106109,"Alex","Bolt","L",19930105,"AUS",183
+"6548",106110,"Filip","Horansky","R",19930107,"SVK",175
+"6553",106120,"Ricardo","Ojeda Lara","R",19930126,"ESP",180
+"6554",106121,"Taro","Daniel","R",19930127,"JPN",191
+"6565",106137,"Tristan","Lamasine","R",19930305,"FRA",183
+"6569",106138,"Yaraslav","Shyla","R",19930305,"BLR",191
+"6573",106148,"Roberto","Carballes Baena","R",19930323,"ESP",183
+"6585",106162,"Franco","Agamenone","R",19930415,"ITA",191
+"6586",106167,"Joris","De Loore","R",19930421,"BEL",191
+"6590",106174,"Gonzalo","Lama","R",19930427,"CHI",180
+"6597",106177,"Oriol","Roca Batalla","R",19930430,"ESP",175
+"6599",106180,"Spencer","Newman","R",19930506,"USA",NA
+"6600",106186,"Jason","Kubler","R",19930519,"AUS",178
+"6608",106187,"Denis","Yevseyev","R",19930522,"KAZ",188
+"6610",106198,"Hugo","Dellien","R",19930616,"BOL",180
+"6622",106203,"Pedro","Sakamoto","R",19930629,"BRA",178
+"6623",106207,"Mate","Pavic","L",19930704,"CRO",191
+"6629",106210,"Jiri","Vesely","L",19930710,"CZE",198
+"6641",106214,"Oscar","Otte","R",19930716,"GER",193
+"6648",106216,"Bjorn","Fratangelo","R",19930719,"USA",183
+"6656",106218,"Marcos","Giron","R",19930724,"USA",180
+"6664",106220,"Dimitar","Kuzmanov","R",19930728,"BUL",183
+"6676",106223,"Aleksandre","Metreveli","R",19930810,"GEO",183
+"6679",106225,"Andrew","Whittington","R",19930811,"AUS",188
+"6681",106228,"Juan Ignacio","Londero","R",19930815,"ARG",180
+"6688",106233,"Dominic","Thiem","R",19930903,"AUT",185
+"6702",106234,"Aslan","Karatsev","R",19930904,"RUS",185
+"6711",106238,"Andres","Artunedo Martinavarro","R",19930914,"ESP",NA
+"6712",106243,"Mate","Delic","R",19930929,"CRO",196
+"6715",106244,"Oliver","Golding","R",19930929,"GBR",188
+"6717",106246,"Robin","Kern","R",19931003,"GER",188
+"6720",106249,"Joao","Domingues","R",19931005,"POR",178
+"6725",106250,"Luis","Patino","R",19931006,"MEX",183
+"6729",106252,"Joao Pedro","Sorgi","R",19931018,"BRA",188
+"6730",106261,"Dennis","Novikov","R",19931106,"USA",193
+"6734",106262,"Boris","Arias","R",19931109,"BOL",185
+"6735",106269,"Austin","Smith","U",19931125,"USA",NA
+"6736",106281,"Liam","Broady","L",19940104,"GBR",183
+"6746",106283,"Mitchell","Krueger","R",19940112,"USA",188
+"6755",106288,"Mathias","Bourgue","R",19940118,"FRA",188
+"6759",106290,"Filip","Peliwo","R",19940130,"POL",180
+"6762",106291,"Luke","Saville","R",19940102,"AUS",188
+"6768",106292,"Hernan","Casanova","R",19940206,"ARG",178
+"6769",106293,"Kimmer","Coppejans","R",19940207,"BEL",178
+"6777",106296,"Gregoire","Barrere","R",19940216,"FRA",183
+"6786",106298,"Lucas","Pouille","R",19940223,"FRA",185
+"6797",106302,"Andrew","Harris","R",19940307,"AUS",183
+"6799",106310,"Alexander","Ritschard","R",19940324,"SUI",193
+"6802",106311,"Marko","Tepavac","R",19940405,"SRB",NA
+"6803",106321,"Xin","Gao","R",19940512,"CHN",180
+"6804",106324,"Vaclav","Safranek","R",19940520,"CZE",183
+"6806",106325,"Jabor","Al Mutawa","U",19940521,"QAT",NA
+"6809",106328,"Christian","Harrison","R",19940529,"USA",180
+"6815",106329,"Thiago","Monteiro","L",19940531,"BRA",183
+"6824",106331,"Christopher","Oconnell","R",19940603,"AUS",183
+"6830",106333,"Julien","Cagnina","R",19940604,"BEL",183
+"6831",106335,"Alexios","Halebian","L",19940608,"USA",NA
+"6832",106348,"Evgeny","Karlovskiy","R",19940807,"RUS",191
+"6833",106353,"Pedja","Krstin","R",19940903,"SRB",183
+"6837",106361,"Adam","Pavlasek","R",19941008,"CZE",185
+"6840",106362,"Laurent","Lokoli","R",19941018,"FRA",188
+"6844",106368,"Ramkumar","Ramanathan","R",19941108,"IND",188
+"6855",106374,"Filip","Veger","R",19941221,"CRO",NA
+"6856",106378,"Kyle","Edmund","R",19950108,"GBR",188
+"6866",106380,"Gonzalo","Villanueva","R",19950113,"ARG",175
+"6867",106390,"Matteo","Donati","R",19950228,"ITA",185
+"6868",106391,"Adrian","Bodmer","R",19950306,"SUI",180
+"6869",106392,"Thien Nguyen","Hoang","R",19950312,"VIE",NA
+"6872",106393,"Frederico","Ferreira Silva","L",19950318,"POR",178
+"6879",106396,"Cheng Yu","Yu","R",19950402,"TPE",NA
+"6880",106397,"Wishaya","Trongcharoenchaikul","R",19950408,"THA",193
+"6888",106398,"Pedro","Cachin","R",19950412,"ARG",185
+"6895",106401,"Nick","Kyrgios","R",19950427,"AUS",193
+"6906",106408,"Mario","Vilella Martinez","R",19950703,"ESP",178
+"6908",106412,"Lucas","Gomez","L",19950811,"MEX",178
+"6915",106415,"Yoshihito","Nishioka","L",19950927,"JPN",170
+"6926",106420,"Gianluigi","Quinzi","L",19960201,"ITA",191
+"6927",106421,"Daniil","Medvedev","R",19960211,"RUS",198
+"6936",106423,"Thanasi","Kokkinakis","R",19960410,"AUS",193
+"6947",106425,"Blake","Mott","R",19960421,"AUS",180
+"6949",106426,"Cristian","Garin","R",19960530,"CHI",185
+"6962",106430,"Patrick","Ciorcila","R",19960920,"ROU",NA
+"6963",106432,"Borna","Coric","R",19961114,"CRO",188
+"6975",108772,"Julius","Tverijonas","R",19940614,"LTU",188
+"6978",108993,"Abdulla","Hajji","R",19901205,"QAT",NA
+"6981",108996,"Mahmoud Nader","Al Baloushi","U",19800603,"UAE",NA
+"6982",108997,"Clint","Bowles","L",19881116,"USA",NA
+"6983",109054,"Daniel","Masur","R",19941106,"GER",183
+"6986",109303,"Stefano","Napolitano","R",19950411,"ITA",196
+"6989",109640,"Andrea","Basso","L",19931008,"ITA",NA
+"6990",109686,"Riccardo","Bonadio","R",19930713,"ITA",180
+"6991",109699,"Julian","Lenz","R",19930217,"GER",188
+"6992",109734,"Skander","Mansouri","R",19950723,"TUN",193
+"6995",109739,"Maximilian","Marterer","L",19950615,"GER",188
+"7005",110476,"Mousa Shanan","Zayed","U",19940309,"QAT",NA
+"7007",110536,"Kevin","King","L",19910228,"USA",191
+"7012",110596,"Fred","Simonsson","R",19941127,"SWE",188
+"7013",110602,"Dennis","Novak","R",19930828,"AUT",183
+"7023",110636,"Clay","Thompson","R",19920504,"USA",NA
+"7024",110685,"G D","Jones","R",19860401,"NZL",183
+"7027",110686,"Finn","Tearney","R",19900927,"NZL",183
+"7030",110748,"Nikola","Milojevic","R",19950619,"SRB",188
+"7035",110751,"Sebastian","Fanselow","R",19911230,"GER",NA
+"7036",110754,"David","Vega Hernandez","R",19940623,"ESP",188
+"7037",111153,"Christopher","Eubanks","R",19960505,"USA",201
+"7047",111156,"Nathan","Pasha","R",19920715,"USA",191
+"7048",111186,"Syed Mohd Agil","Syed Naguib","R",19940201,"MAS",NA
+"7049",111187,"Kaichi","Uchida","R",19940823,"JPN",180
+"7051",111190,"Zhizhen","Zhang","R",19961016,"CHN",193
+"7059",111192,"Lucas","Miedler","R",19960621,"AUT",183
+"7063",111197,"Jonathan","Mridha","R",19950408,"SWE",183
+"7064",111200,"Elias","Ymer","R",19960410,"SWE",185
+"7076",111202,"Hyeon","Chung","R",19960519,"KOR",188
+"7083",111436,"Nick","Chappell","L",19920919,"USA",178
+"7085",111442,"Jordan","Thompson","R",19940420,"AUS",183
+"7096",111453,"Mikael","Torpegaard","R",19940508,"DEN",193
+"7103",111454,"Li","Tu","R",19960527,"AUS",183
+"7106",111456,"Mackenzie","Mcdonald","R",19950416,"USA",178
+"7115",111459,"Arjun","Kadhe","R",19940107,"IND",185
+"7118",111460,"Quentin","Halys","R",19961026,"FRA",191
+"7128",111505,"Enzo","Couacaud","R",19950301,"FRA",183
+"7133",111506,"Maxime","Hamou","R",19950608,"FRA",185
+"7135",111511,"Noah","Rubin","R",19960221,"USA",175
+"7143",111513,"Laslo","Djere","R",19950602,"SRB",188
+"7154",111515,"Thai Son","Kwiatkowski","R",19950213,"USA",188
+"7160",111574,"Jc","Aragone","R",19950628,"USA",178
+"7164",111575,"Karen","Khachanov","R",19960521,"RUS",198
+"7176",111576,"Sumit","Nagal","R",19970816,"IND",178
+"7184",111577,"Jared","Donaldson","R",19961009,"USA",188
+"7190",111578,"Stefan","Kozlov","R",19980201,"USA",183
+"7199",111581,"Michael","Mmoh","R",19980110,"USA",188
+"7208",111761,"Benjamin","Lock","R",19930304,"ZIM",198
+"7215",111790,"Brayden","Schnur","R",19950704,"CAN",193
+"7222",111794,"Kamil","Majchrzak","R",19960113,"POL",180
+"7231",111795,"Filippo","Baldi","R",19960110,"ITA",183
+"7233",111797,"Nicolas","Jarry","R",19951011,"CHI",201
+"7244",111805,"Seong Chan","Hong","R",19970630,"KOR",175
+"7250",111815,"Cameron","Norrie","L",19950823,"GBR",188
+"7258",117352,"Oliver","Anderson","R",19980430,"AUS",175
+"7259",117353,"Duck Hee","Lee","R",19980529,"KOR",175
+"7261",117356,"Cem","Ilkel","R",19950821,"TUR",185
+"7271",117357,"Omar","Jasika","L",19970518,"AUS",183
+"7275",117358,"Harry","Bourchier","R",19960124,"AUS",185
+"7276",117360,"Marc","Polmans","R",19970502,"AUS",188
+"7282",117361,"Akira","Santillan","R",19970522,"AUS",180
+"7284",120270,"Edgars","Manusis","U",19870222,"LAT",NA
+"7285",120424,"Yannick","Maden","R",19891028,"GER",185
+"7290",120798,"Hans","Hach Verdugo","L",19891111,"MEX",183
+"7291",121366,"Abdulhamid","Mubarak","U",19940408,"KUW",NA
+"7292",121531,"Mats","Moraing","L",19920620,"GER",198
+"7294",121896,"Gabor","Borsos","R",19910630,"HUN",193
+"7297",122078,"Dmitry","Popko","R",19961024,"KAZ",191
+"7303",122082,"Francisco","Yim Kim","R",19941009,"PAR",NA
+"7304",122109,"Sanjar","Fayziev","R",19940729,"UZB",188
+"7312",122236,"Roman","Hassanov","R",19960907,"KAZ",NA
+"7313",122279,"Romain","Bogaerts","U",19931223,"BEL",NA
+"7314",122298,"Botic","Van De Zandschulp","R",19951004,"NED",191
+"7319",122330,"Alexander","Bublik","R",19970617,"KAZ",196
+"7328",122471,"Danylo","Kalenichenko","R",19940202,"UKR",188
+"7329",122533,"Nam Hoang","Ly","R",19970225,"VIE",175
+"7334",122548,"Edan","Leshem","R",19970319,"ISR",183
+"7343",122554,"David","Jorda Sanchis","R",19940614,"ESP",198
+"7344",122570,"Mubarak Shannan","Zayid","R",19950414,"QAT",NA
+"7348",122635,"Alexander","Merino","L",19920831,"PER",183
+"7349",122669,"Juan Pablo","Varillas","R",19951006,"PER",185
+"7359",123315,"Nicholas","Campbell","R",19990728,"CYP",NA
+"7360",123755,"Daniel Elahi","Galan","R",19960618,"COL",191
+"7368",123768,"Collin","Altamirano","R",19951207,"USA",188
+"7370",123773,"Giorgi","Javakhishvili","R",19951023,"GEO",NA
+"7371",123795,"Altug","Celikbilek","R",19960907,"TUR",183
+"7380",123809,"Ivan","Gakhov","L",19961104,"RUS",191
+"7383",123828,"Jan","Choinski","R",19960610,"GBR",196
+"7386",123896,"Matija","Pecotic","L",19890703,"CRO",185
+"7387",123921,"Calvin","Hemery","R",19950128,"FRA",191
+"7392",123961,"Murkel Alejandro","Dellien Velasco","R",19970916,"BOL",193
+"7395",124013,"Eduardo","Nava","R",19970311,"USA",180
+"7397",124014,"Ernesto","Escobedo","R",19960704,"MEX",185
+"7406",124022,"Chun Hun","Wong","R",19951030,"HKG",170
+"7407",124023,"Hei Yin Andrew","Li","R",19970328,"HKG",NA
+"7408",124079,"Pedro","Martinez","R",19970426,"ESP",185
+"7415",124116,"Sebastian","Ofner","R",19960512,"AUT",191
+"7423",124154,"Sasi Kumar","Mukund","R",19970114,"IND",185
+"7425",124186,"Alexandre","Muller","R",19970201,"FRA",183
+"7430",124187,"Reilly","Opelka","R",19970828,"USA",211
+"7438",125802,"Ilya","Ivashka","R",19940224,"BLR",193
+"7446",125803,"Daniel","Windahl","R",19960720,"SWE",188
+"7447",126094,"Andrey","Rublev","R",19971020,"RUS",188
+"7458",126102,"Nicolae","Frunza","R",19971115,"ROU",185
+"7459",126106,"Ryan","Peniston","L",19951110,"GBR",180
+"7461",126107,"Michael","Geerts","R",19950117,"BEL",178
+"7463",126120,"Nino","Serdarusic","R",19961213,"CRO",191
+"7469",126125,"Maxime","Janvier","R",19961018,"FRA",196
+"7473",126127,"Benjamin","Bonzi","R",19960609,"FRA",183
+"7480",126128,"Roman","Safiullin","R",19970807,"RUS",185
+"7486",126129,"Billy","Harris","R",19950125,"GBR",193
+"7488",126143,"Andreas","Bjerrehus","U",19920604,"DEN",NA
+"7489",126149,"Gianluca","Mager","R",19941201,"ITA",188
+"7494",126152,"Ryan","Shane","R",19940415,"USA",193
+"7495",126156,"Antoine","Hoang","R",19951104,"FRA",183
+"7499",126174,"Youssef","Hossam","R",19980603,"EGY",178
+"7500",126177,"Strong","Kirchheimer","R",19950426,"USA",185
+"7502",126185,"Evgenii","Tiurnev","R",19970408,"RUS",191
+"7504",126190,"Nicolas","Alvarez","R",19960608,"PER",185
+"7510",126197,"Orlando","Luz","R",19980208,"BRA",180
+"7512",126203,"Taylor","Fritz","R",19971028,"USA",196
+"7522",126204,"Gerardo","Lopez Villasenor","R",19950512,"MEX",191
+"7529",126205,"Tommy","Paul","R",19970517,"USA",185
+"7539",126206,"Alex","Rybakov","L",19970127,"USA",185
+"7540",126207,"Frances","Tiafoe","R",19980120,"USA",188
+"7551",126208,"Yusuke","Takahashi","R",19971017,"JPN",170
+"7552",126214,"Alejandro","Tabilo","L",19970602,"CHI",188
+"7557",126237,"Gian Marco","Moroni","R",19980213,"ITA",185
+"7559",126239,"Arthur","Rinderknech","R",19950723,"FRA",196
+"7564",126283,"Yunseong","Chung","R",19980327,"KOR",178
+"7566",126340,"Viktor","Durasovic","R",19970319,"NOR",185
+"7576",126409,"Hugo","Grenier","R",19960323,"FRA",196
+"7580",126504,"Andrea","Pellegrino","R",19970323,"ITA",185
+"7582",126523,"Bernabe","Zapata Miralles","R",19970112,"ESP",183
+"7588",126526,"Soren","Hess Olesen","R",19910109,"DEN",NA
+"7590",126530,"Peter","Bothwell","R",19950928,"IRL",NA
+"7591",126533,"Alvaro","Lopez San Martin","R",19970602,"ESP",178
+"7592",126535,"Carlos","Taberner","R",19970808,"ESP",183
+"7598",126555,"Tung Lin","Wu","R",19980512,"TPE",188
+"7604",126573,"Thomas","Fancutt","R",19950225,"AUS",188
+"7605",126591,"Jan","Zielinski","R",19961116,"POL",180
+"7606",126609,"Patrik","Niklas Salminen","L",19970305,"FIN",188
+"7610",126610,"Matteo","Berrettini","R",19960412,"ITA",196
+"7618",126612,"Alexander","Cozbinov","R",19950428,"MDA",188
+"7619",126613,"Bogdan","Borza","L",19970405,"ROU",NA
+"7620",126623,"Alexander","Erler","R",19971027,"AUT",193
+"7621",126627,"Johan","Nikles","R",19970323,"SUI",173
+"7624",126646,"Tim","Van Rijthoven","R",19970424,"NED",188
+"7629",126652,"Jay","Clarke","R",19980727,"GBR",183
+"7633",126663,"Juan Pablo","Ficovich","R",19970124,"ARG",191
+"7635",126689,"Tadas","Babelis","R",19970225,"LTU",185
+"7637",126762,"Aleksandre","Bakshi","L",19970715,"GEO",180
+"7640",126774,"Stefanos","Tsitsipas","R",19980812,"GRE",193
+"7648",126845,"Max","Purcell","R",19980403,"AUS",185
+"7654",126846,"Aleksandar","Vukic","R",19960406,"AUS",188
+"7660",126939,"Khumoun","Sultanov","R",19981027,"UZB",180
+"7665",126952,"Soon Woo","Kwon","R",19971202,"KOR",180
+"7673",126964,"Vitaliy","Sachko","R",19970714,"UKR",188
+"7678",127123,"Mateus","Alves","R",20010123,"BRA",193
+"7679",127143,"Jirat","Navasirisomboon","R",19961117,"THA",175
+"7682",127157,"Daniel","Altmaier","R",19980912,"GER",188
+"7689",127195,"Hamza","Karmoussi","U",NA,"MAR",NA
+"7690",127300,"Jurabek","Karimov","R",19980604,"UZB",NA
+"7693",127339,"Borna","Gojo","R",19980227,"CRO",196
+"7700",127760,"Lukas","Klein","R",19980322,"SVK",193
+"7704",128034,"Hubert","Hurkacz","R",19970211,"POL",196
+"7713",131905,"Manuel","Guinard","R",19951115,"FRA",198
+"7715",131934,"Andrea","Vavassori","R",19950505,"ITA",193
+"7719",131951,"Daniel","Cukierman","R",19950709,"ISR",NA
+"7726",132028,"Justin","Lunn","U",19910618,"BAH",NA
+"7727",132040,"Philip Wilbert","Major","L",19960302,"BAH",NA
+"7728",132283,"Lorenzo","Sonego","R",19950511,"ITA",191
+"7736",132482,"Liam","Caruana","R",19980122,"ITA",178
+"7737",132686,"Nuno","Borges","R",19970219,"POR",185
+"7741",133018,"Michail","Pervolarakis","R",19960606,"GRE",193
+"7745",133297,"Yosuke","Watanuki","R",19980412,"JPN",180
+"7751",133430,"Denis","Shapovalov","L",19990415,"CAN",185
+"7760",133835,"Gijs","Brouwer","L",19960314,"NED",191
+"7763",133933,"Thomas Yaka Kofi","Setodji","R",19951013,"TOG",183
+"7764",133975,"Benjamin","Hassan","R",19950204,"LBN",183
+"7771",133979,"Hasan","Ibrahim","R",19950817,"GER",NA
+"7772",134087,"Johannes","Ingildsen","R",19970701,"DEN",15
+"7774",134120,"Kuan Yi","Lee","R",19960909,"TPE",178
+"7777",134217,"Skyler","Butts","R",19930918,"HKG",178
+"7778",134457,"Nicolas","Moreno De Alboran","R",19970714,"USA",185
+"7780",134472,"Antoine","Bellier","L",19961018,"SUI",196
+"7784",134507,"Tom","Diederich","L",19921208,"LUX",NA
+"7785",134518,"Patrick","Kaukovalta","R",19981201,"FIN",193
+"7786",134770,"Casper","Ruud","R",19981222,"NOR",183
+"7795",134840,"Raul","Brancaccio","R",19970504,"ITA",185
+"7796",134854,"Irakli","Metreveli","U",19980404,"GEO",NA
+"7797",134868,"Tallon","Griekspoor","R",19960702,"NED",188
+"7805",136440,"Dominik","Koepfer","L",19940429,"GER",180
+"7813",136704,"Manuel","Castellanos","R",19960804,"DOM",NA
+"7814",137018,"Ayed","Zatar","R",19960329,"PAR",NA
+"7817",138431,"Darko","Bojanovic","R",19970208,"BIH",NA
+"7818",138845,"Anthony Jackie","Tang","R",19981126,"HKG",NA
+"7819",138846,"Hong Kit Jack","Wong","R",19980830,"HKG",NA
+"7824",144642,"Tomas","Barrios Vera","R",19971210,"CHI",191
+"7830",144645,"Zdenek","Kolar","R",19961009,"CZE",183
+"7832",144652,"William","Blumberg","R",19980126,"USA",188
+"7833",144681,"Niki","Kaliyanda Poonacha","R",19950427,"IND",191
+"7834",144684,"Alex","Molcan","L",19971201,"SVK",178
+"7838",144707,"Mikael","Ymer","R",19980909,"SWE",183
+"7847",144719,"Jaume","Munar","R",19970505,"ESP",183
+"7857",144747,"Courtney John","Lock","R",19961018,"ZIM",193
+"7859",144750,"Lloyd","Harris","R",19970224,"RSA",193
+"7868",144751,"Rigele","Te","R",19971009,"CHN",188
+"7871",144760,"Amine","Ahouda","R",19970911,"MAR",185
+"7875",144773,"Jose","Olivares","R",19970108,"DOM",NA
+"7878",144797,"Carl","Soderlund","R",19970603,"SWE",188
+"7879",144813,"Benjamin","Hannestad","R",19970214,"DEN",NA
+"7881",144814,"Eero","Vasa","R",19970201,"FIN",185
+"7885",144817,"Marc Andrea","Huesler","L",19960624,"SUI",196
+"7892",144821,"Genaro Alberto","Olivieri","R",19980804,"ARG",175
+"7893",144826,"Aziz","Dougaz","L",19970326,"TUN",188
+"7900",144841,"Christian","Sigsgaard","R",19970314,"DEN",188
+"7904",144854,"Rudolfs","Mednis","U",19980119,"LAT",NA
+"7907",144869,"Tomas Martin","Etcheverry","R",19990718,"ARG",196
+"7911",144870,"Federico Agustin","Gomez","R",19961126,"ARG",191
+"7912",144895,"Corentin","Moutet","L",19990419,"FRA",180
+"7919",144896,"Hao Sheng","Koay","U",19980727,"MAS",NA
+"7920",144909,"Francisco","Cabral","R",19970108,"POR",191
+"7921",144923,"Louis","Wessels","R",19980827,"GER",198
+"7923",144940,"Mattias","Siimar","L",19980203,"EST",NA
+"7925",144946,"Rayane","Roumane","R",20000911,"ALG",193
+"7926",144949,"Menelaos","Efstathiou","R",19990302,"CYP",183
+"7930",144972,"Geoffrey","Blancaneaux","R",19980808,"FRA",180
+"7933",144973,"Santiago Fa","Rodriguez Taverna","R",19990716,"ARG",191
+"7934",144984,"Artem","Dubrivnyy","R",19990131,"RUS",183
+"7935",144985,"Ergi","Kirkin","R",19990127,"TUR",180
+"7938",145001,"Evan","Furness","R",19980813,"FRA",173
+"7939",145003,"Lucas","Andriamasilalao","R",19970623,"MAD",NA
+"7940",1100000,"Felix","Auger Aliassime","R",20000808,"CAN",193
+"7947",1100005,"Ugo","Humbert","L",19980626,"FRA",188
+"7954",1100008,"Alexis","Galarneau","R",19990302,"CAN",180
+"7956",1100031,"Lucas","Catarina","R",19960826,"MON",185
+"7963",1100045,"Anthony","Susanto","R",19970523,"INA",NA
+"7967",1100059,"Yibing","Wu","R",19991014,"CHN",183
+"7973",1100075,"Yshai","Oliel","L",20000105,"ISR",188
+"7979",1100080,"Puriwat","Chatpatcharoen","R",19950803,"THA",NA
+"7980",1100095,"Nicola","Kuhn","R",20000320,"GER",185
+"7985",1100096,"Dragos Nicolae","Madaras","L",19970912,"SWE",191
+"7987",1100116,"Camilo","Ugo Carabelli","R",19990617,"ARG",185
+"7990",1100125,"Mykyta","Mashtakov","R",19990318,"UKR",175
+"7991",1100175,"Miomir","Kecmanovic","R",19990831,"SRB",183
+"7998",1100188,"Matteo","Martineau","R",19990116,"FRA",183
+"8000",1100218,"Mate","Valkusz","R",19980813,"HUN",183
+"8004",1100221,"Alejandro","Davidovich Fokina","R",19990605,"ESP",183
+"8010",1100240,"Vit","Kopriva","R",19970615,"CZE",178
+"8013",1100247,"Alexandar","Lazarov","R",19971106,"BUL",191
+"8020",1100259,"Ugo","Blanchet","R",19990105,"FRA",175
+"8021",1100265,"Ulises","Blanch","R",19980325,"USA",188
+"8022",1100266,"Javier","Barranco Cosano","L",19981117,"ESP",180
+"8023",1100267,"Zizou","Bergs","R",19990603,"BEL",185
+"8028",1100274,"Alex","Diaz","R",19970802,"PUR",NA
+"8031",1100277,"Charles","Broom","R",19980424,"GBR",178
+"8032",1100282,"Alex","De Minaur","R",19990217,"AUS",183
+"8040",1100297,"Aziz","Ouakaa","R",19990807,"TUN",185
+"8041",1100303,"Pavel","Kotov","R",19981118,"RUS",191
+"8046",1100307,"Tao","Mu","R",20000428,"CHN",180
+"8047",1100310,"Alexander","Zgirovsky","R",20010710,"BLR",191
+"8048",1100318,"Yu Hsiou","Hsu","R",19990402,"TPE",178
+"8050",1100325,"Emil","Ruusuvuori","R",19990402,"FIN",188
+"8058",1100335,"Felipe","Meligeni Alves","R",19980219,"BRA",185
+"8063",1100336,"Trent","Bryde","R",19990824,"USA",183
+"8064",1100343,"David","Szintai","R",19970609,"HUN",NA
+"8065",1100368,"Jack Mingjie","Lin","R",19990415,"CAN",NA
+"8066",1100374,"Nicolas","Alvarez Varona","R",20010518,"ESP",188
+"8067",1100384,"Hugo","Gaston","L",20000926,"FRA",173
+"8073",1100390,"Kacper","Zuk","R",19990121,"POL",183
+"8077",1100401,"Amir Hossein","Badi","R",19981209,"IRI",NA
+"8078",1100416,"August","Holmgren","R",19980422,"DEN",188
+"8082",1100418,"Karl","Friberg","R",19990325,"SWE",191
+"8084",1100436,"Zsombor","Piros","R",19991013,"HUN",180
+"8090",1100443,"Adam","Walton","R",19990417,"AUS",183
+"8091",1100473,"Valentin","Vacherot","R",19981116,"MON",193
+"8094",1100483,"Peter August","Anker","R",19990603,"NOR",NA
+"8095",1100484,"Rudolf","Molleker","R",20001026,"GER",188
+"8101",1100514,"Jurij","Rodionov","L",19990516,"AUT",191
+"8108",1100516,"Patrick","Kypson","R",19991028,"USA",188
+"8111",1100525,"Abdulrahman","Alawadhi","R",19920217,"KUW",NA
+"8112",1100553,"Alen","Avidzba","R",20000224,"RUS",NA
+"8113",1100572,"Nick","Hardt","R",20000920,"DOM",185
+"8117",1100583,"Delmas","Ntcha","R",20000616,"BEN",NA
+"8118",1100587,"Brandon","Holt","R",19980406,"USA",185
+"8121",1100589,"Sam","Riffice","R",19990301,"USA",188
+"8122",1100611,"Elliot","Benchetrit","R",19981002,"MAR",193
+"8128",1100615,"Alexei","Popyrin","R",19990805,"AUS",196
+"8135",1100618,"Adam","Hornby","U",19950723,"BAR",NA
+"8137",1100619,"Sebastian","Arcila","U",19980626,"PUR",NA
+"8139",1100620,"Ignacio","Garcia","U",19990518,"PUR",NA
+"8142",1100621,"Bruno","Britez","R",19980523,"PAR",NA
+"8144",1100622,"Hernando Jose","Escurra Isnardi","R",19971213,"PAR",183
+"8147",1100624,"Sebastian","Korda","R",20000705,"USA",196
+"8153",1100647,"Sho","Shimabukuro","R",19970730,"JPN",180
+"8155",1100666,"Jie","Cui","R",19980124,"CHN",183
+"8156",1100670,"J J","Wolf","R",19981221,"USA",183
+"8161",1100672,"Sergey","Fomin","R",20010201,"UZB",180
+"8164",1100677,"Rio","Noguchi","R",19981228,"JPN",168
+"8165",1100702,"Sina","Moghimi","U",20010727,"IRI",NA
+"8166",1100711,"Nicolas","Mejia","R",20000211,"COL",183
+"8171",1100748,"Andres","Andrade","R",19981214,"ECU",180
+"8172",1102058,"Thiago Agustin","Tirante","R",20010410,"ARG",185
+"8175",1102065,"Petros","Tsitsipas","R",20000727,"GRE",185
+"8179",1102075,"Adria","Soriano Barrera","R",19990602,"COL",191
+"8180",1102090,"Adrian","Andreev","R",20010512,"BUL",175
+"8184",1102103,"Francisco","Cerundolo","R",19980813,"ARG",185
+"8190",1102104,"Sebastian","Baez","R",20001228,"ARG",170
+"8194",1102122,"Yuta","Shimizu","L",19990609,"JPN",163
+"8196",1102130,"Emil","Reinberg","R",19970420,"USA",188
+"8197",1102168,"Ye Cong","Mo","R",20000626,"CHN",183
+"8198",1102195,"Maxime","Cressy","R",19970508,"USA",201
+"8203",1102197,"Carlos","Gimeno Valero","R",20010625,"ESP",191
+"8204",1102210,"Edris","Fetisleam","U",19990725,"ROU",NA
+"8205",1102219,"Tomas","Vaise","L",19980121,"LTU",NA
+"8207",1102235,"Jacopo","Berrettini","R",19981127,"ITA",193
+"8208",1102260,"Henri","Squire","R",20000927,"GER",196
+"8210",1102261,"Otto","Virtanen","R",20010621,"FIN",193
+"8215",1102269,"Justin","Barki","R",20000526,"INA",178
+"8216",1102320,"Beibit","Zhukayev","R",20001012,"KAZ",198
+"8219",1102358,"Chun Hsin","Tseng","R",20010808,"TPE",175
+"8225",1102359,"Marvin","Moeller","R",19990118,"GER",178
+"8226",1102382,"Simen Sunde","Bratholm","R",19990304,"NOR",NA
+"8228",1102385,"Jenson","Brooksby","R",20001026,"USA",188
+"8233",1102398,"Michael","Vrbensky","R",19991226,"CZE",180
+"8234",1102400,"Alastair","Gray","R",19980622,"GBR",193
+"8237",1105734,"Thiago","Seyboth Wild","R",20000310,"BRA",185
+"8244",1106000,"Michel","Saade","U",19980929,"LIB",NA
+"8245",1106173,"Jannik","Sinner","R",20010816,"ITA",191
+"8251",1106470,"Cezar","Cretu","R",20010424,"ROU",188
+"8252",1106499,"Aleksandar","Kovacevic","R",19980829,"USA",183
+"8255",1106589,"Gabi Adrian","Boitan","R",19990711,"ROU",185
+"8257",1106642,"Yassir","Kilani","R",20000810,"MAR",NA
+"8258",1106681,"Fabian","Marozsan","R",19991008,"HUN",193
+"8261",1106703,"Paul","Jubb","R",19991031,"GBR",180
+"8264",1106748,"Giulio","Zeppieri","L",20011207,"ITA",183
+"8269",1106768,"Rafael Eduardo","Gonzalez Retana","R",20000126,"ESA",NA
+"8270",1106889,"Clement","Chidekh","R",20010613,"FRA",180
+"8271",1106909,"Brandon","Nakashima","R",20010803,"USA",188
+"8276",1107132,"Ki Lung","Ng","R",20010801,"HKG",NA
+"8279",1107176,"Muhammad","Althaf Dhaifullah","R",20001119,"INA",NA
+"8280",1107182,"Emilio","Nava","R",20011202,"USA",185
+"8285",1107213,"Duje","Ajdukovic","R",20010205,"CRO",188
+"8289",1107352,"Bu","Yunchaokete","R",20020119,"CHN",185
+"8292",1107386,"Finn","Reynolds","L",20000104,"NZL",185
+"8293",1107400,"Mark","Chigaazira","R",19980429,"ZIM",NA
+"8294",1107411,"Jesper","De Jong","R",20000531,"NED",180
+"8297",1107415,"Daniel","Michalski","R",20000111,"POL",180
+"8299",1107421,"Alex","Fairbanks","R",19960212,"SRI",NA
+"8300",1107479,"Soufiane","El Mesbahi","R",20010222,"MAR",NA
+"8301",1107494,"Dalibor","Svrcina","R",20021002,"CZE",178
+"8303",1107518,"Lorenzo","Musetti","R",20020303,"ITA",185
+"8308",1107531,"Caleb","Chakravarthi","U",19990102,"USA",NA
+"8309",1107608,"Timofey","Skatov","R",20010121,"KAZ",175
+"8314",1107663,"Nikolas","Sanchez Izquierdo","R",19990315,"ESP",185
+"8315",1107678,"Juan Manuel","Cerundolo","L",20011115,"ARG",183
+"8319",1107680,"Facundo","Diaz Acosta","L",20001215,"ARG",183
+"8323",1107681,"Francisco","Comesana","R",20001006,"ARG",178
+"8324",1107686,"Alexander","Shevchenko","R",20001129,"KAZ",185
+"8327",1107733,"Jack","Draper","L",20011222,"GBR",193
+"8331",1107738,"Brandon","Perez","L",20000114,"VEN",191
+"8334",1107785,"George","Loffhagen","R",20010419,"GBR",188
+"8335",1107788,"Thanapet","Chanta","R",19990909,"THA",NA
+"8336",1107794,"Younes","Lalami Laaroussi","R",20010418,"MAR",188
+"8338",1107799,"Matheus","Pucinelli De Almeida","R",20010401,"BRA",183
+"8341",1107826,"Siim","Troost","R",19991207,"EST",183
+"8342",1107830,"Tomas","Machac","R",20001013,"CZE",183
+"8347",1107834,"Juan Alejandro","Hernandez Serrano","R",19990623,"MEX",175
+"8348",1107836,"Muzammil","Murtaza","R",19991112,"PAK",NA
+"8351",1107839,"Yousaf","Khalil","U",19990401,"PAK",NA
+"8352",1107841,"Muhammad","Shoaib","U",20020215,"PAK",NA
+"8355",1107925,"Flavio","Cobolli","R",20020506,"ITA",183
+"8359",1107971,"Xavier","Lawrence","U",19981222,"BAR",NA
+"8360",1107972,"Minjong","Park","R",20011022,"KOR",NA
+"8361",1107985,"Jacob","Fearnley","R",20010715,"GBR",183
+"8362",1107989,"Carlos","Alcaraz","R",20030505,"ESP",183
+"8367",1108004,"Harold","Mayot","R",20020204,"FRA",180
+"8370",1108010,"Pablo","Llamas Ruiz","R",20021013,"ESP",188
+"8372",1108013,"Dane","Sweeny","R",20010212,"AUS",170
+"8375",1108014,"Rinky","Hijikata","R",20010223,"AUS",178
+"8378",1108021,"Kyrian","Jacquet","R",20010511,"FRA",178
+"8379",1108028,"Francisco","Llanes","R",20020416,"URU",178
+"8381",1108029,"Holger","Rune","R",20030429,"DEN",188
+"8388",1108057,"Diego","Fernandez Flores","R",20001007,"CHI",185
+"8389",1108071,"Oleksii","Krutykh","R",20000310,"UKR",185
+"8391",1108103,"Jiri","Lehecka","R",20011108,"CZE",185
+"8396",1108108,"Brian","Shi","R",20000224,"USA",NA
+"8397",1108117,"Adam","Neff","R",20010530,"USA",183
+"8398",1108118,"Eliot","Spizzirri","R",20011223,"USA",183
+"8400",1108122,"Thabo","Ncube","R",20010416,"ZIM",NA
+"8401",1108134,"Luca","Nardi","R",20030806,"ITA",185
+"8405",1108144,"Giles","Hussey","L",19970526,"GBR",185
+"8406",1108169,"Titouan","Droguet","R",20010615,"FRA",191
+"8408",1108230,"Alibek","Kachmazov","R",20020817,"RUS",185
+"8412",1108233,"Mattia","Bellucci","L",20010601,"ITA",175
+"8414",1108260,"Zachary","Svajda","R",20021129,"USA",175
+"8419",1108278,"Shintaro","Mochizuki","R",20030602,"JPN",175
+"8423",1108279,"Alejandro","Moro Canas","R",20001207,"ESP",183
+"8424",1108286,"Matteo","Arnaldi","R",20010222,"ITA",185
+"8427",1108300,"Omni","Kumar","L",20011010,"USA",173
+"8429",1108317,"Roey","Tabet","R",20011221,"LIB",NA
+"8430",1108353,"Francesco","Maestrelli","R",20021221,"ITA",196
+"8431",1108363,"Mariano","Navone","R",20010227,"ARG",178
+"8432",1108364,"Franco","Roncadelli","L",20000206,"URU",185
+"8435",1108367,"Dimitri","Badra","U",20010723,"VEN",NA
+"8436",1108414,"Sylvestre","Monnou","R",20021122,"BEN",NA
+"8437",1108485,"Kiranpal","Pannu","R",19970107,"NZL",185
+"8440",1108502,"Dominic","Stricker","L",20020816,"SUI",183
+"8444",1108597,"Chak Lam Coleman","Wong","R",20040606,"HKG",NA
+"8445",1108659,"Giovanni","Mpetshi Perricard","R",20030708,"FRA",203
+"8447",1108819,"Max Hans","Rehberg","R",20030913,"GER",183
+"8450",1108843,"Jerome","Kym","R",20030212,"SUI",198
+"8452",1108852,"Stefanos","Sakellaridis","R",20040913,"GRE",196
+"8454",1108859,"Francesco","Passaro","R",20010107,"ITA",180
+"8457",1108882,"Roman Andres","Burruchaga","R",20020123,"ARG",183
+"8458",1109070,"Arthur","Cazaux","R",20020823,"FRA",183
+"8461",1109098,"Hamad","Medjedovic","R",20030718,"SRB",188
+"8465",1109113,"Gabriel","Diallo","R",20010924,"CAN",203
+"8468",1109147,"Vilius","Gaubas","R",20041229,"LTU",178
+"8471",1109209,"Filip","Misolic","R",20010808,"AUT",180
+"8474",1109225,"Martin Antonio","Vergara Del Puerto","U",20040421,"PAR",NA
+"8477",1109259,"Arthur","Fery","R",20020712,"GBR",175
+"8479",1109260,"Luciano","Darderi","R",20020214,"ITA",183
+"8481",1109262,"Tristan","Schoolkate","R",20010226,"AUS",183
+"8483",1109263,"Matteo","Gigante","L",20020104,"ITA",180
+"8484",1109279,"Terence","Atmane","L",20020109,"FRA",193
+"8486",1109318,"Petr","Nesterov","R",20030307,"BUL",NA
+"8487",1109354,"Ioannis","Xilas","U",20010512,"GRE",NA
+"8488",1109362,"Aristotelis","Thanos","R",20010407,"GRE",NA
+"8490",1109405,"Daniel","Rincon","L",20030107,"ESP",185
+"8492",1109406,"Abedallah","Shelbayh","L",20031116,"JOR",180
+"8494",1109414,"Luca","Van Assche","R",20040511,"FRA",178
+"8497",1109857,"Leandro","Riedi","R",20020127,"SUI",191
+"8501",1109863,"Leo","Borg","R",20030515,"SWE",183
+"8505",1109867,"Daniil","Ostapenkov","R",20030508,"BLR",NA
+"8507",1109868,"Kaipo","Marshall","R",20020321,"BAR",NA
+"8512",1109890,"Mili","Poljicak","R",20040713,"CRO",185
+"8514",1109903,"Lukas","Neumayer","R",20020906,"AUT",183
+"8516",1109916,"Marko","Topo","R",20030913,"GER",185
+"8520",1109920,"Raphael","Collignon","R",20020113,"BEL",191
+"8521",1109931,"Lukas","Pokorny","R",20020228,"SVK",191
+"8522",1109943,"Ilya","Snitari","R",20020320,"MDA",188
+"8523",1109950,"Arthur","Fils","R",20040612,"FRA",185
+"8526",1109964,"Liova Ayite","Ajavon","U",19990617,"TGO",NA
+"8527",1109976,"Dino","Prizmic","R",20050805,"CRO",188
+"8530",1109992,"Juncheng","Shang","L",20050202,"CHN",180
+"8533",1110012,"Henrique","Rocha","R",20040406,"POR",180
+"8535",1110025,"Branko","Djuric","R",20050210,"SRB",188
+"8536",1110039,"Orel","Kimhi","R",20030819,"ISR",173
+"8537",1110053,"Luka","Mikrut","R",20040416,"CRO",188
+"8538",1110097,"Ben","Shelton","L",20021009,"USA",193
+"8541",1110107,"Bor","Artnak","R",20040604,"SLO",193
+"8544",1110136,"Mark","Lajal","R",20030512,"EST",191
+"8547",1110150,"Jakub","Mensik","R",20050901,"CZE",193
+"8549",1110202,"Rodrigo","Pacheco Mendez","L",20050425,"MEX",188
+"8552",1110249,"Gillian","Osmont","R",20030513,"FRA",NA
+"8553",1110250,"Erik","Arutiunian","R",20041019,"BLR",191
+"8554",1110262,"Jaime","Faria","R",20030806,"POR",188
+"8555",1110274,"Sebastian","Dominko","L",20030513,"SLO",203
+"8559",1110308,"Stylianos","Christodoulou","U",20041104,"CYP",NA
+"8561",1110312,"Oliver","Ojakaar","R",20050210,"EST",191
+"8562",1110317,"James","Mccabe","R",20030705,"AUS",188
+"8563",1110319,"Ethan","Quinn","R",20040312,"USA",191
+"8565",1110340,"Philip","Sekulic","R",20030905,"AUS",191
+"8566",1110382,"Maximus","Jones","R",20040905,"THA",185
+"8567",1110460,"Nishesh","Basavareddy","R",20050502,"USA",180
+"8568",1110464,"Darwin","Blanch","L",20070928,"USA",185
+"8569",1110494,"Theo","Papamalamis","R",20060109,"FRA",183
+"8570",1110506,"Alex","Michelsen","R",20040825,"USA",193
+"8572",1110530,"Learner","Tien","L",20051202,"USA",180
+"8575",1110535,"Maxim","Shin","R",20030604,"UZB",191
+"8576",1110696,"Alexander","Blockx","R",20050408,"BEL",191
+"8578",1110721,"Iliyan","Radulov","R",20050611,"BUL",187
+"8579",1110740,"Liam","Krall","R",20020520,"USA",191
+"8580",1111346,"Andres","Martin","R",20010707,"USA",183
+"8583",1111451,"Gilles Arnaud","Bailly","R",20050919,"BEL",180
+"8585",1111514,"Justin","Engel","U",20071001,"GER",NA
+"8586",1111638,"Jack","Loutit","L",20040623,"NZL",NA
+"8587",1111663,"Joao","Fonseca","R",20060821,"BRA",185
+"8589",1111768,"Manas","Dhamne","R",20071229,"IND",188
+"8590",1111776,"Martin","Landaluce","R",20060108,"ESP",191
+"8591",1111902,"Henry","Searle","L",20060329,"GBR",193
+"8592",1112021,"Martin","Landaluce","R",20060108,"ESP",191
+"8594",1112044,"Yi","Zhou","R",20050314,"CHN",193
+"8596",1112063,"Matej","Dodig","R",20050719,"CRO",188
+"8597",1112082,"Joel","Schwaerzler","L",20060127,"AUT",188
+"8598",1112203,"Luca","Preda","U",20060319,"ROU",NA
+"8599",1112717,"Davis","Rolis","U",20050126,"LAT",NA
+"8600",1112718,"Heve","Kelley","U",19970329,"POC",NA
+"8601",1112719,"Matavao","Fanguna","U",19961019,"POC",NA
+"8602",1112720,"Juan Carlos","Fuentes Vasquez","U",20050917,"ESA",NA
+"8603",1112721,"Benedict","Badza","U",20050519,"ZIM",NA
+"8604",1112722,"Kwok Shun Dasson","Chan","U",20050716,"HKG",NA
+"8605",1112733,"Matthew","Forbes","U",20060406,"USA",NA
+"8606",1112866,"Marcos Lee","Chan Baratau","U",20051115,"ECU",NA
+"8607",1112970,"Jack","Cheng","U",20081228,"HKG",NA

@@ -1,925 +1,1155 @@
-"player_id","name_first","name_last","hand","dob","ioc","height"
-201329,"Vera","Zvonareva","R",19840907,"RUS",172
-201357,"Virginie","Pichet","R",19830128,"FRA",NA
-201388,"Sophie","Ferguson","R",19860319,"AUS",177
-201389,"Zuzana","Kucova","R",19820626,"SVK",NA
-201414,"Michaella","Krajicek","R",19890109,"NED",177
-201422,"Mailyne","Andrieux","R",19871201,"FRA",NA
-201426,"Pauline","Parmentier","R",19860131,"FRA",175
-201427,"Alize","Cornet","R",19900122,"FRA",173
-201428,"Mathilde","Johansson","R",19850428,"FRA",173
-201432,"Rebecca","Llewellyn","R",19851005,"GBR",165
-201442,"Yung Jan","Chan","R",19890817,"TPE",170
-201443,"Alexa","Glatch","R",19890910,"USA",183
-201463,"Anda","Perianu","R",19800407,"ROU",170
-201469,"Melanie","South","R",19860503,"GBR",175
-201471,"Naomi","Cavaday","L",19890424,"GBR",170
-201475,"Ahsha","Rolle","R",19850321,"USA",172
-201476,"Lauren","Albanese","R",19891001,"USA",NA
-201478,"Varvara","Lepchenko","L",19860521,"USA",180
-201483,"Madison","Brengle","R",19900403,"USA",168
-201484,"Sandra","Zahlavova","U",19851010,"CZE",NA
-201487,"Jessica","Moore","R",19900816,"AUS",167
-201491,"Olivia","Sanchez","R",19821117,"FRA",172
-201492,"Andrea","Petkovic","R",19870909,"GER",180
-201493,"Angelique","Kerber","L",19880118,"GER",173
-201498,"Karin","Knapp","R",19870628,"ITA",180
-201499,"Anastasia","Pavlyuchenkova","R",19910703,"RUS",177
-201504,"Julia","Goerges","R",19881102,"GER",180
-201509,"Ashley","Weinhold","R",19890620,"USA",165
-201513,"Sabine","Lisicki","R",19890922,"GER",178
-201514,"Sorana","Cirstea","R",19900407,"ROU",176
-201515,"Alisa","Kleybanova","R",19890715,"RUS",181
-201516,"Evgeniya","Rodina","R",19890204,"RUS",170
-201517,"Magdalena","Rybarikova","R",19881004,"SVK",180
-201519,"Violette","Huck","L",19880318,"FRA",170
-201525,"Eva","Hrdinova","R",19840615,"CZE",NA
-201526,"Julie","Coin","R",19821202,"FRA",172
-201527,"Stefanie","Voegele","R",19900310,"SUI",170
-201529,"Kristie","Ahn","R",19920615,"USA",165
-201530,"Gail","Brodsky","R",19910605,"USA",165
-201532,"Anastasia","Pivovarova","R",19900616,"RUS",181
-201533,"Shuai","Zhang","R",19890121,"CHN",177
-201534,"Asia","Muhammad","R",19910404,"USA",178
-201535,"Coco","Vandeweghe","R",19911206,"USA",185
-201536,"Monika","Wejnert","U",19920406,"AUS",NA
-201538,"Isabella","Holland","R",19920102,"AUS",NA
-201539,"Christina","Mchale","R",19920511,"USA",170
-201540,"Kristina","Mladenovic","R",19930514,"FRA",184
-201542,"Olivia","Rogowska","R",19910607,"AUS",175
-201543,"Emelyn","Starr","R",19891111,"AUS",NA
-201544,"Oxana","Lyubtsova","R",19850913,"UKR",157
-201545,"Anastasija","Sevastova","R",19900413,"LAT",169
-201548,"Ajla","Tomljanovic","R",19930507,"AUS",180
-201549,"Petra","Martic","R",19910119,"CRO",181
-201551,"Arantxa","Rus","L",19901213,"NED",180
-201552,"Mallory","Cecil","R",19900718,"USA",NA
-201553,"Lenka","Wienerova","R",19880423,"SVK",NA
-201554,"Vitalia","Diatchenko","R",19900802,"RUS",170
-201555,"Polona","Hercog","R",19910120,"SLO",182
-201556,"Lucie","Hradecka","R",19850521,"CZE",177
-201557,"Corinna","Dentoni","R",19890730,"ITA",NA
-201558,"Lauren","Embree","R",19910110,"USA",NA
-201559,"Irena","Pavlovic","R",19880928,"FRA",178
-201561,"Claire","Feuerstein","L",19860228,"FRA",178
-201562,"Silvia","Soler Espinosa","R",19871119,"ESP",169
-201565,"Katarzyna","Piter","R",19910216,"POL",173
-201566,"Agnes","Szatmari","R",19870628,"ROU",NA
-201567,"Alexandra","Dulgheru","R",19890530,"ROU",172
-201568,"Kristina","Kucova","R",19900523,"SVK",163
-201572,"Regina","Kulikova","R",19890130,"RUS",183
-201573,"Laura","Robson","L",19940121,"GBR",180
-201575,"Hilary","Barte","U",19881117,"USA",NA
-201577,"Heidi","El Tabakh","R",19860925,"CAN",180
-201578,"Kai Chen","Chang","R",19910113,"TPE",167
-201579,"Yurika","Sema","L",19861225,"JPN",168
-201580,"Xinyun","Han","L",19900530,"CHN",172
-201582,"Jing Jing","Lu","R",19890505,"CHN",170
-201585,"Sloane","Stephens","R",19930320,"USA",170
-201586,"Heather","Watson","R",19920519,"GBR",170
-201588,"Anna","Tatishvili","R",19900203,"GEO",171
-201590,"Alison","Riske Amritraj","R",19900703,"USA",173
-201592,"Beatriz","Garcia Vidagany","U",19881117,"ESP",NA
-201593,"Irina Camelia","Begu","R",19900826,"ROU",181
-201595,"Misaki","Doi","L",19910429,"JPN",159
-201597,"Kurumi","Nara","R",19911230,"JPN",155
-201600,"Jamie","Hampton","R",19900108,"USA",173
-201601,"Chelsey","Gullickson","R",19900829,"USA",180
-201602,"Beatrice","Capra","R",19920406,"USA",175
-201603,"Shelby","Rogers","R",19921013,"USA",175
-201604,"Irina","Falconi","R",19900504,"USA",163
-201605,"Mandy","Minella","R",19851122,"LUX",180
-201606,"Rebecca","Marino","R",19901216,"CAN",183
-201607,"Sally","Peers","R",19910601,"AUS",162
-201610,"Zarina","Diyas","R",19931018,"KAZ",172
-201611,"Daria","Saville","R",19940305,"AUS",166
-201612,"Junri","Namigata","R",19820705,"JPN",170
-201613,"Arina","Rodionova","R",19891215,"AUS",168
-201614,"Caroline","Garcia","R",19931016,"FRA",177
-201615,"Lesia","Tsurenko","R",19890530,"UKR",174
-201616,"Lauren","Davis","R",19931009,"USA",157
-201617,"Ana","Vrljic","R",19840801,"CRO",NA
-201618,"Fatma","Al Nabhani","R",19910520,"OMA",170
-201619,"Madison","Keys","R",19950217,"USA",178
-201621,"Mona","Barthel","R",19900711,"GER",185
-201631,"Nicha","Lertpitaksinchai","R",19910814,"THA",174
-201638,"Estrella","Cabeza Candela","R",19870220,"ESP",173
-201639,"Yevheniia","Savranska","U",19840220,"UKR",NA
-201640,"Maria Teresa","Torro Flor","R",19920502,"ESP",173
-201643,"Eva","Fernandez Brugues","R",19860505,"ESP",NA
-201648,"Naomi","Broady","R",19900228,"GBR",189
-201649,"Lenka","Jurikova","R",19900811,"SVK",NA
-201650,"Irina","Buryachok","R",19860705,"UKR",NA
-201654,"Sandra","Roma","L",19900331,"SWE",NA
-201655,"Anna","Floris","L",19820515,"ITA",NA
-201657,"Nastja","Kolar","R",19940715,"SLO",176
-201658,"Carmen","Klaschka","R",19870108,"GER",NA
-201660,"Tereza","Hladikova","R",19880414,"CZE",NA
-201661,"Tina","Schiechtl","R",19840115,"AUT",170
-201662,"Karolina","Pliskova","R",19920321,"CZE",184
-201668,"Alexandra","Panova","R",19890302,"RUS",179
-201671,"Ksenia","Lykina","R",19900619,"RUS",165
-201674,"Sabina","Sharipova","R",19940904,"UZB",174
-201679,"Varatchaya","Wongteanchai","R",19890907,"THA",169
-201687,"Lina","Bennani","R",19910704,"MAR",NA
-201688,"Claire","De Gubernatis","L",19860718,"FRA",NA
-201692,"Michaela","Pochabova","U",19891017,"SVK",NA
-201693,"Timea","Babos","R",19930510,"HUN",179
-201695,"Anna","Brazhnikova","R",19911004,"SWE",165
-201696,"Laura","Siegemund","R",19880304,"GER",168
-201697,"Kristyna","Pliskova","L",19920321,"CZE",184
-201699,"Martina","Caregaro","R",19920519,"ITA",165
-201701,"Basak","Eraydin","R",19940621,"TUR",NA
-201702,"Malou","Ejdesgaard","R",19910313,"DEN",NA
-201703,"Yi Fan","Xu","L",19880808,"CHN",165
-201704,"Nadejda","Guskova","R",19920110,"RUS",NA
-201705,"Alina","Abdurakhimova","R",19950323,"UZB",173
-201707,"Sachie","Ishizu","R",19920903,"JPN",164
-201709,"Yulia","Putintseva","R",19950107,"KAZ",163
-202373,"Ekaterina","Afinogenova","R",19870115,"RUS",NA
-202377,"Brittany","Augustine","R",19910919,"USA",NA
-202379,"Chieh Yu","Hsu","L",19920114,"USA",170
-202381,"Ksenia","Milevskaya","R",19900809,"BLR",172
-202383,"Eva Maria","Hoch","U",19840806,"AUT",NA
-202391,"Akiko","Yonemura","U",19840125,"JPN",NA
-202397,"Lamia","Essaadi","R",19791003,"MAR",NA
-202398,"Veronika","Chvojkova","R",19870331,"CZE",NA
-202400,"Anna","Fitzpatrick","R",19890406,"GBR",173
-202401,"Amanda","Elliott","R",19891101,"GBR",175
-202402,"Eloisa Maria","Compostizo De Andres","L",19880808,"ESP",NA
-202404,"Maite","Gabarrus Alonso","R",19890202,"ESP",NA
-202405,"Alexis","King","L",19830331,"USA",157
-202406,"Natasa","Zoric","R",19891127,"SRB",NA
-202407,"Palma","Kiraly","R",19910202,"HUN",NA
-202408,"Amanda","Fink","U",19861204,"USA",NA
-202414,"Catherine","Harrison","R",19940409,"USA",NA
-202416,"Nungnadda","Wannasuk","R",19891111,"THA",165
-202417,"Tetiana","Luzhanska","R",19840904,"USA",NA
-202418,"Lara","Arruabarrena","R",19920320,"ESP",166
-202420,"An Sophie","Mestach","R",19940307,"BEL",170
-202421,"Alison","Van Uytvanck","R",19940326,"BEL",173
-202422,"Shuko","Aoyama","R",19871219,"JPN",154
-202423,"Sarah","Gronert","U",19860706,"GER",NA
-202424,"Conny","Perrin","R",19901225,"SUI",174
-202425,"Samantha","Murray","R",19871009,"GBR",178
-202426,"Julia","Boserup","R",19910909,"USA",181
-202427,"Johanna","Konta","R",19910517,"GBR",180
-202428,"Kiki","Bertens","R",19911210,"NED",182
-202429,"Camila","Giorgi","R",19911230,"ITA",168
-202430,"Alize","Lim","R",19900713,"FRA",173
-202431,"Tetyana","Arefyeva","R",19910309,"UKR",NA
-202433,"Anna Giulia","Remondina","R",19890601,"ITA",NA
-202434,"Aleksandra","Krunic","R",19930315,"SRB",163
-202435,"Vanda","Lukacs","U",19921208,"HUN",NA
-202437,"Anastasia","Grymalska","R",19900712,"ITA",NA
-202439,"Silvia","Albano","R",19940912,"ITA",NA
-202440,"Paula","Ormaechea","R",19920928,"ARG",170
-202441,"Nina","Khrisanova","R",19941209,"RUS",NA
-202443,"Valeria","Savinykh","R",19910220,"RUS",167
-202444,"Kamilla","Farhad","R",19960118,"AZE",NA
-202445,"Valeria","Solovieva","R",19921103,"RUS",168
-202446,"Eugenie","Bouchard","R",19940225,"CAN",178
-202447,"Alexandra","Mueller","R",19880214,"USA",180
-202448,"Zoe Gwen","Scandalis","R",19930921,"USA",NA
-202449,"Victoria","Larriere","R",19910502,"FRA",NA
-202450,"Jana","Cepelova","R",19930529,"SVK",168
-202452,"Yi Jing","Zhao","U",19890207,"CHN",NA
-202453,"Saisai","Zheng","R",19940205,"CHN",170
-202454,"Erika","Sema","R",19881124,"JPN",163
-202455,"Yue Yue","Hu","U",19900313,"CHN",NA
-202456,"Alexandra","Cadantu Ignatik","R",19900503,"ROU",170
-202458,"Ashleigh","Barty","R",19960424,"AUS",166
-202459,"Bojana","Bobusic","R",19871002,"AUS",170
-202460,"Ons","Jabeur","R",19940828,"TUN",167
-202461,"Julia","Cohen","R",19890323,"USA",170
-202463,"Ines","Ferrer Suarez","U",19900601,"ESP",NA
-202464,"Yuliana","Lizarazo","R",19930523,"COL",175
-202465,"Maria","Abramovic","R",19870819,"CRO",NA
-202466,"Nadia","Abdala","U",19880814,"MEX",NA
-202468,"Jessica","Pegula","R",19940224,"USA",170
-202469,"Garbine","Muguruza","R",19931008,"ESP",182
-202473,"Annalisa","Bona","R",19821115,"ITA",NA
-202474,"Henrietta","Habler","U",19860625,"HUN",NA
-202476,"Csilla","Borsanyi","U",19870802,"HUN",NA
-202477,"Dinah","Pfizenmaier","R",19920113,"GER",171
-202478,"Tara","Moore","R",19920806,"GBR",163
-202479,"Grace","Min","R",19940506,"USA",163
-202480,"Richel","Hogenkamp","R",19920416,"NED",168
-202481,"Chi Chi","Scholl","R",19920705,"USA",NA
-202482,"Barbara","Haas","R",19960319,"AUT",165
-202483,"Sandra","Zaniewska","R",19920103,"POL",172
-202484,"Nicole","Gibbs","R",19930303,"USA",168
-202485,"Jana","Juricova","R",19871208,"SVK",NA
-202486,"Mallory","Burdette","R",19910128,"USA",178
-202487,"Nastassja","Burnett","R",19920220,"ITA",178
-202488,"Valentyna","Ivakhnenko","R",19930627,"UKR",163
-202489,"Carina","Witthoeft","R",19950216,"GER",176
-202490,"Rebecca","Peterson","R",19950806,"SWE",173
-202491,"Varvara","Flink","R",19961213,"RUS",175
-202493,"Ekaterine","Gorgodze","L",19911203,"GEO",NA
-202494,"Elina","Svitolina","R",19940912,"UKR",174
-202495,"Jennifer","Elie","R",19860922,"USA",NA
-202496,"Samantha","Crawford","R",19950218,"USA",188
-202497,"Victoria","Duval","R",19951130,"USA",178
-202498,"Julia","Glushko","R",19900101,"ISR",171
-202499,"Donna","Vekic","R",19960628,"CRO",179
-202500,"Maria","Sanchez","R",19891126,"USA",178
-202504,"Ying Ying","Duan","R",19890703,"CHN",186
-202505,"Belinda","Bencic","R",19970310,"SUI",175
-202506,"Margarita","Gasparyan","R",19940901,"RUS",183
-202508,"Yuxuan","Zhang","R",19940819,"CHN",179
-202536,"Ana","Bogdan","R",19921125,"ROU",171
-202539,"Alison","Bai","R",19900118,"AUS",170
-202558,"Veronika","Kapshay","U",19861202,"UKR",175
-202578,"Laura Ioana","Andrei","R",19880531,"ROU",173
-202579,"Giulia","Gatto Monticone","R",19871118,"ITA",177
-202580,"Federica","Di Sarra","R",19900516,"ITA",NA
-202594,"Elena","Bogdan","L",19920328,"ROU",183
-202596,"Mihaela","Buzarnescu","L",19880504,"ROU",175
-202600,"Viktoriya","Tomova","R",19950225,"BUL",170
-202606,"Claudia","Giovine","R",19900718,"ITA",NA
-202614,"Jacqueline","Cako","R",19910830,"USA",178
-202628,"Maryna","Zanevska","R",19930824,"BEL",175
-202639,"Akiko","Omae","R",19930129,"JPN",162
-202642,"Gioia","Barbieri","R",19910709,"ITA",170
-202653,"Denisa","Allertova","R",19930307,"CZE",180
-202659,"Tereza","Mrdeza","R",19901114,"CRO",173
-202662,"Camilla","Rosatello","R",19950528,"ITA",NA
-202663,"Magda","Linette","R",19920212,"POL",171
-202672,"Ekaterina","Yashina","R",19930806,"RUS",173
-202681,"Gabriela","Dabrowski","R",19920401,"CAN",175
-202684,"Lin","Zhu","R",19940128,"CHN",173
-202685,"Misa","Eguchi","R",19920418,"JPN",173
-202688,"Isabella","Shinikova","R",19911025,"BUL",184
-202693,"Ya Hsuan","Lee","R",19950720,"TPE",165
-202695,"Aleksandrina","Naydenova","R",19920229,"BUL",170
-202701,"Irina","Khromacheva","L",19950512,"RUS",170
-202702,"Tereza","Smitkova","R",19941010,"CZE",176
-202706,"Manon","Arcangioli","R",19940828,"FRA",162
-202707,"Myrtille","Georges","R",19901221,"FRA",174
-202858,"Anne","Schaefer","R",19870301,"GER",NA
-202916,"Georgina","Garcia Perez","U",19920513,"ESP",187
-202919,"Chang","Liu","R",19900801,"CHN",160
-202921,"Shiho","Akita","R",19900118,"JPN",155
-202922,"Michaela","Honcova","R",19921222,"SVK",NA
-202932,"Marta","Sirotkina","R",19910322,"RUS",170
-203236,"Angelina","Gabueva","U",19881207,"RUS",NA
-203281,"Amandine","Hesse","R",19930116,"FRA",164
-203288,"Jia Jing","Lu","R",19891118,"CHN",173
-203297,"Nadiya","Kichenok","R",19920720,"UKR",172
-203315,"Alexa","Guarachi","R",19901117,"USA",173
-203325,"Martina","Di Giuseppe","R",19910210,"ITA",NA
-203341,"Sanaz","Marand","L",19880621,"USA",NA
-203354,"Martina","Trevisan","L",19931103,"ITA",160
-203379,"Marina","Melnikova","R",19890205,"RUS",173
-203389,"Danielle","Collins","R",19931213,"USA",178
-203398,"Danielle","Lao","R",19910528,"USA",160
-203435,"Dalila","Jakupovic","R",19910324,"SLO",178
-203456,"Jelena","Simic","U",19920219,"BIH",NA
-203462,"Kateryna","Baindl","R",19940220,"UKR",175
-203463,"Nuria","Parrizas Diaz","R",19910715,"ESP",167
-203475,"Carol","Zhao","R",19950620,"CAN",165
-203500,"Sachia","Vickery","R",19950511,"USA",162
-203501,"Taylor","Townsend","L",19960416,"USA",170
-203504,"Miyu","Kato","R",19941121,"JPN",156
-203513,"Robin","Anderson","R",19930412,"USA",160
-203514,"Katarzyna","Kawa","R",19921117,"POL",178
-203518,"Paula","Kania","R",19921106,"POL",168
-203526,"Tammi","Patterson","R",19900103,"AUS",167
-203530,"Viktorija","Golubic","R",19921016,"SUI",169
-203533,"Anna Karolina","Schmiedlova","R",19940913,"SVK",176
-203542,"Daria","Mironova","R",19930409,"RUS",NA
-203549,"Olga","Ianchuk","R",19950329,"UKR",NA
-203552,"Risa","Ozaki","R",19940410,"JPN",163
-203553,"Riko","Sawayanagi","R",19941025,"JPN",163
-203562,"Erin","Routliffe","R",19950411,"CAN",188
-203564,"Chloe","Paquet","R",19940701,"FRA",179
-203567,"Ipek","Soylu","R",19960415,"TUR",174
-203572,"Polina","Monova","R",19930406,"RUS",NA
-203575,"Danka","Kovinic","R",19941118,"MNE",169
-203576,"Kai Lin","Zhang","R",19900128,"CHN",173
-203578,"Fangzhou","Liu","R",19951212,"CHN",180
-203591,"Katy","Dunne","R",19950216,"GBR",167
-204223,"Peangtarn","Plipuech","R",19921115,"THA",169
-204246,"Lesley","Pattinama Kerkhove","R",19911104,"NED",172
-204267,"Petra","Krejsova","R",19900630,"CZE",NA
-204288,"Ji Hee","Choi","R",19950210,"KOR",NA
-204291,"Na Lae","Han","L",19920706,"KOR",NA
-204294,"Su Jeong","Jang","R",19950313,"KOR",NA
-204304,"Jawairiah","Noordin","R",19901008,"MAS",NA
-204309,"Stephanie","Wagner","R",19940917,"GER",180
-204352,"Yvonne","Neuwirth","U",19920804,"AUT",NA
-204355,"Katherine","Westbury","R",19930314,"THA",177
-204362,"Theiviya","Selvarajoo","R",19940620,"MAS",NA
-204376,"Demi","Schuurs","R",19930801,"NED",170
-204377,"Indy","De Vroome","R",19960521,"NED",NA
-204384,"Agnes","Bukta","R",19931029,"HUN",NA
-204388,"Lisa Maria","Moser","R",19910328,"AUT",NA
-204390,"Pia","Konig","R",19930514,"AUT",NA
-204394,"Valentini","Grammatikopoulou","U",19970209,"GRE",NA
-204411,"Storm","Hunter","L",19940811,"AUS",166
-204420,"Marcela","Zacarias","R",19940326,"MEX",NA
-204427,"Sara","Sorribes Tormo","R",19961008,"ESP",176
-204429,"Ghita","Benhadi","U",19980215,"MAR",NA
-204430,"Antonia","Lottner","R",19960813,"GER",185
-204431,"Anna Lena","Friedsam","R",19940201,"GER",NA
-204434,"Ysaline","Bonaventure","L",19940829,"BEL",178
-205344,"Beatrice","Gumulya","R",19910101,"INA",161
-205591,"Paula Cristina","Goncalves","R",19900811,"BRA",173
-205606,"Viktoria","Kamenskaya","R",19911126,"RUS",NA
-205714,"Julie","Gervais","U",19910722,"FRA",NA
-205723,"Anna","Zaja","R",19910625,"GER",183
-205789,"Na Ri","Kim","U",19900404,"KOR",NA
-205815,"Eri","Hozumi","R",19940217,"JPN",168
-205848,"Nathaly","Kurata","R",19930210,"BRA",NA
-205892,"Giuliana","Olmos","R",19930304,"MEX",170
-205925,"Aliaksandra","Sasnovich","R",19940322,"BLR",174
-206007,"Laura","Pigossi","R",19940802,"BRA",164
-206037,"Daniela","Seguel","U",19921115,"CHI",171
-206045,"Quirine","Lemoine","L",19911225,"NED",NA
-206049,"Jovana","Jaksic","R",19930930,"SRB",180
-206075,"Hiroko","Kuwata","R",19901218,"JPN",NA
-206077,"Miharu","Imanishi","R",19920520,"JPN",162
-206102,"Ankita","Raina","R",19930111,"IND",163
-206107,"Zhaoxuan","Yang","R",19950211,"CHN",NA
-206108,"Jennifer","Brady","R",19950412,"USA",178
-206124,"Tereza","Martincova","R",19941024,"CZE",178
-206136,"Deniz","Khazaniuk","R",19941024,"ISR",175
-206144,"Xenia","Knoll","L",19920902,"SUI",175
-206146,"Catalina","Pella","R",19930131,"ARG",NA
-206175,"Tess","Sugnaux","R",19950303,"SUI",NA
-206183,"Cindy","Burger","R",19921125,"NED",NA
-206194,"Gabriela","Ce","L",19930303,"BRA",NA
-206216,"Olga","Saez Larra","U",19940918,"ESP",NA
-206219,"Oceane","Dodin","R",19961024,"FRA",NA
-206242,"Beatriz","Haddad Maia","L",19960530,"BRA",185
-206252,"Barbora","Krejcikova","R",19951218,"CZE",178
-206255,"Patricia Maria","Tig","R",19940727,"ROU",NA
-206277,"Marine","Partaud","R",19941109,"FRA",NA
-206289,"Maria","Sakkari","R",19950725,"GRE",172
-206292,"Astra","Sharma","R",19950911,"AUS",178
-206294,"Yue","Yuan","R",19980925,"CHN",184
-206335,"Jesika","Maleckova","R",19940816,"CZE",NA
-206343,"Stephanie Mariel","Petit","R",19960825,"ARG",NA
-206344,"Fernanda","Brito","R",19920214,"CHI",172
-206345,"Victoria","Bosio","R",19941003,"ARG",NA
-206349,"Mayo","Hibi","R",19960403,"JPN",165
-206354,"Lina","Qostal","R",19970311,"MAR",NA
-206362,"Naiktha","Bains","R",19971217,"GBR",174
-206363,"Anna","Danilina","R",19950820,"KAZ",NA
-206368,"Veronika","Kudermetova","R",19970424,"RUS",175
-206374,"Yafan","Wang","R",19940430,"CHN",170
-206390,"Isabelle","Wallace","L",19960907,"AUS",NA
-206391,"Ellen","Perez","L",19951010,"AUS",169
-206408,"Nadia","Podoroska","R",19970210,"ARG",170
-206410,"Guadalupe","Perez Rojas","R",19940819,"ARG",NA
-206417,"Leolia","Jeanjean","R",19950814,"FRA",NA
-206420,"Ekaterina","Alexandrova","R",19941115,"RUS",175
-206424,"Katharina","Lehnert","R",19940218,"GER",NA
-206430,"Carolina","Alves","U",19960423,"BRA",NA
-206433,"Nadia","Echeverria Alam","R",19950114,"USA",NA
-208567,"Safa","Safar","U",19821024,"BRN",NA
-210174,"Sarah","Mahboob Khan","R",19910209,"PAK",NA
-210337,"Natalija","Stevanovic","R",19940725,"SRB",NA
-210622,"Andrea","Lazaro Garcia","R",19941104,"ESP",NA
-210672,"Polina","Leykina","R",19940920,"RUS",NA
-210705,"Irina","Bara","R",19950318,"ROU",NA
-210722,"Elise","Mertens","R",19951117,"BEL",179
-210738,"Aldila","Sutjiadi","R",19950502,"INA",170
-210786,"Anastasia","Vdovenco","R",19940420,"MDA",NA
-210871,"Steffi","Carruthers","R",19930524,"SAM",NA
-210886,"Mayar","Sherif","R",19960505,"EGY",180
-210913,"Ana Filipa","Santos","R",19960212,"POR",NA
-210926,"Pei Chi","Lee","U",19941016,"TPE",NA
-210931,"Ching Wen","Hsu","R",19960819,"TPE",NA
-210957,"Cornelia","Lister","U",19940526,"SWE",183
-211002,"Yusleydis","Smith Dias","U",19960813,"CUB",NA
-211019,"Audrey","Albie","R",19941024,"FRA",NA
-211031,"Sarah Beth","Grey","L",19950810,"GBR",NA
-211043,"Maria Paulina","Perez Garcia","R",19960110,"COL",170
-211063,"Valeriya","Strakhova","R",19950609,"UKR",NA
-211095,"Bernarda","Pera","L",19941203,"USA",175
-211107,"Katie","Boulter","R",19960801,"GBR",180
-211122,"Charlotte","Roemer","R",19940108,"ECU",171
-211133,"Theresa Alison","Van Zyl","U",19960920,"RSA",NA
-211148,"Jasmine","Paolini","R",19960104,"ITA",160
-211216,"Cristiana","Ferrando","R",19950810,"ITA",NA
-211222,"Jamie","Loeb","R",19950308,"USA",168
-211225,"Quinn","Gleason","R",19941110,"USA",178
-211269,"Eudice Wong","Chong","U",19960422,"HKG",NA
-211279,"Harriet","Dart","R",19960728,"GBR",175
-211288,"Mia Nicole","Eklund","L",19941030,"FIN",176
-211289,"Courtney","Collins","R",19910226,"USA",NA
-211296,"Dea","Herdzelas","R",19961107,"BIH",NA
-211316,"Jessika","Ponchet","R",19960926,"FRA",NA
-211321,"Klaartje","Liebens","R",19950111,"BEL",NA
-211328,"Deborah","Chiesa","R",19960613,"ITA",170
-211329,"Tena","Lukas","R",19950510,"CRO",NA
-211337,"Tamara","Korpatsch","R",19950512,"GER",170
-211342,"Gabriela","Lee","L",19950823,"ROU",NA
-211351,"Ayaka","Okuno","R",19950621,"JPN",170
-211390,"Mari","Osaka","R",19960403,"JPN",NA
-211407,"Dejana","Radanovic","U",19960514,"SRB",NA
-211411,"Nina","Stojanovic","R",19960730,"SRB",176
-211432,"Eden","Silva","R",19960314,"GBR",NA
-211456,"Julia","Terziyska","R",19960305,"BUL",180
-211472,"Oleksandra","Korashvili","R",19960301,"UKR",NA
-211529,"Sandra","Samir","R",19971104,"EGY",170
-211533,"Jelena","Ostapenko","R",19970608,"LAT",177
-211539,"Fiona","Ferro","R",19970312,"FRA",170
-211541,"Jacqueline","Cabaj Awad","R",19960128,"SWE",NA
-211544,"Nagi","Hanatani","R",19950307,"JPN",NA
-211552,"Harmony","Tan","R",19970911,"FRA",NA
-211574,"Mary Victoria","Cancini","R",19971008,"VEN",NA
-211635,"Louisa","Chirico","R",19960516,"USA",175
-211637,"Tornado Alicia","Black","U",19980512,"USA",NA
-211651,"Paula","Badosa","R",19971115,"ESP",180
-211668,"Riya","Bhatia","R",19970924,"IND",NA
-211684,"Magdalena","Frech","R",19971215,"POL",171
-211685,"Rebecca","Sramkova","R",19961019,"SVK",NA
-211700,"Barbora","Stefkova","R",19950404,"CZE",NA
-211701,"Katerina","Siniakova","R",19960510,"CZE",174
-211702,"Nao","Hibino","R",19941128,"JPN",163
-211713,"Jaqueline","Cristian","R",19980605,"ROU",180
-211719,"Shilin","Xu","R",19980110,"CHN",NA
-211736,"Ivana","Jorovic","R",19970503,"SRB",174
-211765,"Emina","Bektas","R",19930330,"USA",NA
-211768,"Naomi","Osaka","R",19971016,"JPN",180
-211779,"Yana","Morderger","R",19970307,"GER",NA
-211796,"Francoise","Abanda","R",19970205,"CAN",178
-211814,"Julia","Grabher","R",19960702,"AUT",170
-211817,"Elena Gabriela","Ruse","R",19971106,"ROU",NA
-211843,"Anhelina","Kalinina","R",19970207,"UKR",179
-211846,"Kyoka","Okamura","R",19951006,"JPN",NA
-211864,"Maria Fernanda","Herazo Gonzalez","L",19970322,"COL",166
-211874,"Victoria","Rodriguez","U",19950422,"MEX",170
-211878,"Lizette","Cabrera","R",19971219,"AUS",167
-211880,"Priscilla","Hon","R",19980510,"AUS",171
-211881,"Olivia","Tjandramulia","R",19970511,"AUS",167
-211887,"Maia","Lumsden","R",19980110,"GBR",NA
-211901,"Aliona","Bolsova","R",19971106,"MDA",172
-211903,"Barbara","Gatica","U",19960816,"CHI",NA
-211920,"Martina","Capurro Taborda","L",19971204,"ARG",NA
-211941,"Zoe","Hives","R",19961024,"AUS",NA
-211951,"Ana","Konjuh","R",19971227,"CRO",174
-211966,"Ksenia","Gaydarzhi","R",19950208,"RUS",NA
-212001,"Natalia","Vikhlyantseva","R",19970216,"RUS",185
-212026,"Kwan Yau","Ng","U",19970219,"HKG",NA
-212034,"Fang Ying","Xun","U",19950114,"CHN",NA
-212043,"Freya","Christie","R",19971108,"GBR",180
-212044,"Katharina","Gerlach","R",19980219,"GER",NA
-212805,"Paige Mary","Hourigan","R",19970203,"NZL",NA
-213525,"Jil","Teichmann","L",19970715,"SUI",170
-213530,"Allie","Kiick","R",19950630,"USA",170
-213537,"Olga","Fridman","L",19980930,"UKR",177
-213544,"Jana","Fett","R",19961102,"CRO",168
-213550,"Sofia","Kenin","R",19981114,"USA",170
-213576,"Iryna","Shymanovich","R",19970630,"BLR",NA
-213602,"Gabriella","Taylor","R",19980307,"GBR",NA
-213604,"Luisa","Stefani","R",19970809,"BRA",168
-213620,"Jessica","Pieri","R",19970424,"ITA",NA
-213631,"Marie","Bouzkova","R",19980721,"CZE",180
-213634,"Rita","Atik","R",19971022,"MAR",NA
-213646,"Dalma","Galfi","R",19980813,"HUN",178
-213657,"Martha","Matoula","R",19970426,"GRE",NA
-213666,"Maddison","Inglis","R",19980114,"AUS",171
-213672,"Usue Maitane","Arconada","R",19981028,"USA",165
-213674,"Jade","Lewis","R",19981218,"NZL",170
-213706,"Irene","Burillo Escorihuela","R",19970723,"ESP",NA
-213710,"Cristina","Bucsa","R",19980101,"ESP",NA
-213721,"Ines","Murta","U",19970531,"POR",NA
-213734,"Mariam","Bolkvadze","L",19980101,"GEO",NA
-213767,"Ayla","Aksu","R",19960715,"USA",170
-213779,"Raluka","Serban","R",19970617,"CYP",NA
-213780,"Andreea Amalia","Rosca","R",19990320,"ROU",NA
-213821,"Wushuang","Zheng","U",19981129,"CHN",NA
-213828,"Chompoothip","Jandakate","U",19951103,"THA",NA
-213837,"Ylena","In Albon","R",19990306,"SUI",NA
-213841,"Tamachan","Momkoonthod","L",19970414,"THA",NA
-213849,"Nicole","Fossa Huergo","U",19950526,"ITA",NA
-213873,"Gabriela Andrea","Knutson","R",19970421,"CZE",NA
-213878,"Milka Emilia","Pasanen","R",19970531,"FIN",NA
-213887,"Renata","Zarazua","R",19970930,"MEX",NA
-213889,"Greet","Minnen","R",19970814,"BEL",NA
-213892,"Nazrin","Jafarova","R",19971116,"AZE",NA
-213899,"Frances","Altick","U",19940222,"USA",157
-213908,"Yuriko","Miyazaki","R",19951111,"GBR",165
-213926,"Bianca","Turati","R",19970617,"ITA",173
-213947,"Ying","Zhang","U",19960415,"CHN",NA
-213974,"Lamis","Alhussein Abdel Aziz","U",19980424,"EGY",NA
-213998,"Ipek","Oz","U",19990708,"TUR",NA
-214006,"Petia","Arshinkova","R",19980426,"BUL",NA
-214020,"Amina","Anshba","L",19990909,"RUS",NA
-214032,"Chiraz","Bechri","R",19980723,"TUN",NA
-214040,"Kimberly","Birrell","R",19980429,"AUS",170
-214058,"Juliana","Valero","R",19980127,"COL",NA
-214060,"Yuliana","Monroy","U",19980920,"COL",NA
-214081,"Katharina","Hobgarski","R",19970618,"GER",171
-214082,"Daria","Kasatkina","R",19970507,"RUS",170
-214096,"Karolina","Muchova","R",19960821,"CZE",178
-214119,"Rebeka","Masarova","R",19990806,"ESP",186
-214123,"Kristina","Schmiedlova","R",19970806,"SVK",NA
-214149,"Viktoria","Hruncakova","R",19980511,"SVK",NA
-214158,"Anastasiya","Shoshyna","R",19971130,"UKR",NA
-214176,"Valeria","Gorlats","R",19980331,"EST",NA
-214181,"Anastasia","Gasanova","R",19990515,"RUS",NA
-214191,"Seone","Mendez","R",19990515,"AUS",NA
-214219,"Tessah","Andrianjafitrimo","R",19981011,"FRA",169
-214229,"Man Ying Maggie","Ng","R",19960328,"HKG",NA
-214236,"Angela","Fita Boluda","U",19990712,"ESP",NA
-214247,"Lena","Rueffer","R",19980823,"GER",NA
-214262,"Ena","Shibahara","R",19980212,"JPN",170
-214263,"Catherine Cartan","Bellis","R",19990408,"USA",NA
-214304,"Vera","Lapko","R",19980929,"BLR",184
-214312,"Sherazad","Reix","L",19890403,"FRA",NA
-214386,"Xinyu","Gao","R",19971121,"CHN",NA
-214388,"Anna","Bondar","R",19970527,"HUN",NA
-214405,"Mirjam","Bjorklund","U",19980729,"SWE",NA
-214452,"Caroline","Dolehide","R",19980905,"USA",178
-214453,"Sophie","Chang","R",19970528,"USA",NA
-214459,"Lucia","Bronzetti","R",19981210,"ITA",NA
-214461,"Tamara","Zidansek","R",19971226,"SLO",168
-214465,"Maya","Tahan","R",19990109,"ISR",NA
-214471,"Alina","Lazareva","U",19960326,"KGZ",NA
-214480,"Miriam Bianca","Bulgaru","R",19981008,"ROU",NA
-214487,"Ioana","Minca","U",19980927,"ROU",NA
-214501,"Zani","Barnard","R",19990315,"RSA",NA
-214507,"Berfu","Cengiz","R",19991018,"TUR",NA
-214521,"Lea","Boskovic","R",19990922,"CRO",NA
-214534,"Komola","Umarova","R",19991023,"UZB",NA
-214540,"Chihiro","Muramatsu","L",19980522,"JPN",161
-214541,"Fanny","Stollar","R",19981112,"HUN",172
-214544,"Aryna","Sabalenka","R",19980505,"BLR",182
-214577,"Stacey","Fung","U",19970206,"CAN",NA
-214593,"Lucrezia","Stefanini","R",19980515,"ITA",NA
-214604,"Maria Lourdes","Carle","R",20000210,"ARG",NA
-214608,"Jia Qi","Kang","R",19970719,"CHN",NA
-214616,"Medhira","Samarasinghe","U",19990203,"SRI",NA
-214617,"Nethmi Himashi","Waduge","U",19980810,"SRI",NA
-214621,"Sadaf","Sadeghvaziri","U",19990726,"IRI",NA
-214641,"Ariana","Rahmanparast","U",19961229,"CRC",NA
-214643,"Liudmila","Samsonova","R",19981111,"RUS",180
-214646,"Xiaodi","You","U",19960512,"CHN",NA
-214653,"Andreea","Prisacariu","U",20000209,"ROU",NA
-214679,"Sunam","Jeong","U",19960606,"KOR",NA
-214684,"Katherine","Sebov","R",19990105,"CAN",173
-214691,"Ylona Georgiana","Ghioroaie","U",19980328,"ROU",NA
-214694,"Karman","Thandi","R",19980616,"IND",183
-214697,"Charlotte","Robillard Millette","L",19990112,"CAN",NA
-214713,"Camila","Romero","R",19981005,"ECU",175
-214728,"Ashley","Kratzer","L",19990208,"USA",180
-214741,"Anastasia","Kulikova","L",20000215,"FIN",NA
-214770,"Emilie","Francati","R",19970624,"DEN",NA
-214782,"Fernanda","Contreras Gomez","R",19971008,"MEX",NA
-214818,"Mira","Antonitsch","R",19981216,"AUT",NA
-214826,"Susan","Bandecchi","R",19980701,"SUI",NA
-214839,"Jodie","Burrage","R",19990528,"GBR",NA
-214841,"Mikaela","Molina Bugarija","U",19990329,"ECU",NA
-214842,"Zuleykha","Safarova","U",19991127,"AZE",NA
-214863,"Sofya","Zhuk","R",19991201,"RUS",176
-214880,"Iana","Tishchenko","R",19960424,"MDA",NA
-214905,"Abigail","Tere Apisah","U",19920713,"PNG",NA
-214906,"Claire","Liu","R",20000525,"USA",170
-214919,"Dalila","Spiteri","U",19970424,"ITA",NA
-214930,"Jenny","Duerst","U",19990325,"SUI",NA
-214934,"Astrid Wanja","Brune Olsen","R",19990623,"NOR",NA
-214935,"Malene","Helgo","U",19990826,"NOR",NA
-214939,"Anna","Kalinskaya","R",19981202,"RUS",175
-214954,"Marketa","Vondrousova","L",19990628,"CZE",173
-214981,"Elena","Rybakina","R",19990617,"KAZ",184
-214992,"Zhibek","Kulambayeva","R",20000326,"KAZ",172
-215016,"Eleonora","Molinaro","U",20000904,"LUX",NA
-215018,"Destanee","Aiava","R",20000510,"AUS",175
-215019,"Maria Jose","Portillo Ramirez","R",19990508,"MEX",NA
-215020,"Anna","Blinkova","R",19980910,"RUS",179
-215035,"Dayana","Yastremska","R",20000515,"UKR",175
-215037,"Kayla","Day","L",19990928,"USA",173
-215042,"Katie","Swan","R",19990324,"GBR",170
-215064,"Maria","Mateas","R",19990721,"USA",NA
-215091,"Sarah","Pang","U",19850306,"SGP",NA
-215096,"Jaimee","Fourlis","R",19990917,"AUS",168
-215108,"Sara","Amiri","U",19970429,"SWE",NA
-215111,"Joanne","Zuger","U",20001117,"SUI",NA
-215131,"Nefisa","Berberovic","U",19990703,"BIH",NA
-215138,"Lulu","Sun","L",20010414,"NZL",NA
-215151,"Lina","Glushko","U",20000112,"ISR",NA
-215155,"Olesya","Pervushina","R",20000429,"RUS",NA
-215165,"Daniela","Obando","R",19980113,"HON",NA
-215186,"Watsachol","Sawasdee","L",20000117,"THA",NA
-215196,"Nicole","Nadel","U",20000612,"ISR",NA
-215219,"Kaja","Juvan","R",20001125,"SLO",170
-215250,"Hanyu","Guo","R",19980518,"CHN",NA
-215259,"Leonie","Kung","R",20001021,"SUI",176
-215260,"Shelly","Bereznyak","R",20000710,"ISR",NA
-215277,"Yasmin","Mansouri","U",20000327,"CAN",NA
-215290,"Katarina","Zavatska","R",20000205,"UKR",173
-215305,"Desirae","Krawczyk","L",19940111,"USA",170
-215306,"Emiliana","Arango","R",20001128,"COL",NA
-215314,"En Shuo","Liang","U",20001002,"TPE",NA
-215337,"Olga","Danilovic","L",20010123,"SRB",NA
-215340,"Hortencia","Birnbaumer","R",20000109,"BOL",NA
-215370,"Bianca","Andreescu","R",20000616,"CAN",170
-215371,"Francesca","Di Lorenzo","L",19970722,"USA",170
-215372,"Ksenia","Laskutova","R",19960829,"RUS",NA
-215395,"Oona","Orpana","R",20010121,"FIN",NA
-215431,"Emily","Appleton","R",19990901,"GBR",NA
-215453,"Marina","Bassols Ribera","R",19991213,"ESP",165
-215468,"Momoko","Kobori","R",19980822,"JPN",158
-215480,"Suzan","Lamens","R",19990705,"NED",NA
-215550,"Ayano","Shimizu","R",19980411,"JPN",NA
-215571,"Guiomar","Maristany Zuleta De Reales","U",19990219,"ESP",NA
-215572,"Nuria","Brancaccio","R",20000624,"ITA",NA
-215581,"Fadona Titalyana","Kusumawati","U",20000809,"INA",NA
-215588,"Yasmine","Mansouri","R",20010515,"FRA",NA
-215613,"Emma","Navarro","R",20010518,"USA",NA
-215614,"Mei","Yamaguchi","U",19990614,"JPN",152
-215627,"Nicole","Khirin","R",20010116,"ISR",NA
-215672,"Daniela Alejandra","La Fuente Strassburger","U",19990225,"BOL",NA
-215696,"Diae","El Jardi","R",20001013,"MAR",NA
-215713,"Anastasia","Potapova","R",20010330,"RUS",175
-215723,"Monica","Malinen","U",19971105,"FIN",NA
-215748,"Alyssa","Mayo","R",20000210,"USA",180
-215750,"Ana","Biskic","U",19990709,"CRO",NA
-215755,"Mahak","Jain","R",20010624,"IND",NA
-215785,"Camila","Osorio","R",20011222,"COL",162
-215787,"Florencia","Rossi","U",19980609,"URU",NA
-215798,"Rosa","Vicens Mas","U",20000625,"ESP",NA
-215806,"Alice","Robbe","U",20000510,"FRA",NA
-215812,"Shuyue","Ma","R",19990629,"CHN",NA
-215832,"Gabriella","Da Silva Fick","R",20000823,"AUS",NA
-215851,"Hoda","Habib","U",NA,"USA",NA
-215857,"Khim","Iglupas","R",19980823,"PHI",NA
-215858,"Charmaine Shi Yi","Seah","U",20000225,"SGP",NA
-215859,"Mayka","Zima","R",19920411,"POC",NA
-215860,"Nazli Nader","Redha","U",20010412,"BRN",NA
-215861,"Maram Mohamed","Sharif","U",20010714,"BRN",NA
-215868,"Gerda","Zykute","U",19990425,"LTU",NA
-215869,"Paulina","Bakaite","U",19990121,"LTU",NA
-215870,"Dona","Abo Habaga","U",19960811,"EGY",NA
-215872,"Kamilla","Rakhimova","R",20010828,"RUS",NA
-215878,"Aurora","Zantedeschi","R",20001102,"ITA",NA
-215898,"Jule","Niemeier","R",19990812,"GER",178
-215899,"Simona","Waltert","R",20001213,"SUI",NA
-215909,"Adrienn","Nagy","R",20010324,"HUN",NA
-215910,"Panna","Udvardy","R",19980928,"HUN",170
-215926,"Julita","Saner","U",19990429,"SWE",NA
-215936,"Francesca","Jones","R",20000919,"GBR",NA
-215946,"Ye Xin","Ma","U",19990610,"CHN",NA
-215950,"Yasmina","Karimjanova","L",20010821,"UZB",NA
-215983,"Ann","Li","R",20000626,"USA",170
-215988,"Mai","Hontama","R",19990830,"JPN",NA
-215992,"Whitney","Osuigwe","R",20020417,"USA",168
-215996,"Arianne","Hartono","R",19960421,"NED",NA
-216013,"Yuliya","Hatouka","R",20000424,"BLR",NA
-216016,"Xiyu","Wang","L",20010328,"CHN",NA
-216044,"Yuki","Naito","R",20010216,"JPN",NA
-216055,"Francisca","Jorge","U",20000421,"POR",NA
-216062,"Meiling","Wang","U",20000222,"CHN",NA
-216074,"Anna","Siskova","U",20010701,"CZE",NA
-216081,"Maja","Chwalinska","L",20011011,"POL",NA
-216083,"Caty","Mcnally","R",20011120,"USA",NA
-216097,"Elizabeth","Mandlik","R",20010519,"USA",NA
-216107,"Ella","Haavisto","U",20020328,"FIN",NA
-216116,"Elena","Malygina","U",20000527,"EST",NA
-216117,"Saara","Orav","R",20011230,"EST",NA
-216118,"Maria Lota","Kaul","U",20000430,"EST",NA
-216119,"Maileen","Nuudi","R",20000524,"EST",NA
-216133,"Xin Yu","Wang","R",20010926,"CHN",182
-216139,"Sofya","Lansere","U",20000929,"RUS",NA
-216146,"Marta","Kostyuk","R",20020628,"UKR",175
-216150,"Lara","Escauriza","R",19981014,"PAR",NA
-216151,"Jessica","Plazas","R",20020326,"COL",NA
-216153,"Amanda","Anisimova","R",20010831,"USA",180
-216179,"Valeriya","Olyanovskaya","U",20010312,"RUS",NA
-216180,"Zoziya","Kardava","R",20010715,"RUS",NA
-216213,"Sohyun","Park","U",20020702,"KOR",NA
-216262,"Clara","Burel","R",20010324,"FRA",176
-216265,"Olivia","Gadecki","R",20020424,"AUS",NA
-216347,"Iga","Swiatek","R",20010531,"POL",176
-216367,"Sada","Nahimana","R",20010421,"BDI",NA
-216462,"Nelli","Buyuklianova","R",19931105,"KGZ",NA
-216471,"Guljan","Muhammetkuliyeva","U",19970917,"TKM",NA
-216475,"Nurin Nabilah","Roslan","U",19980113,"MAS",NA
-216487,"Cherise","Slocombe","U",19970623,"BAR",NA
-216489,"Malak Jasim","Fardan","U",19961122,"BRN",NA
-216566,"Mananchaya","Sawangkaew","R",20020710,"THA",NA
-216579,"Weronika","Falkowska","R",20000617,"POL",NA
-216587,"Hong Yi Cody","Wong","U",20020314,"HKG",NA
-217751,"Nancy","Karaky","R",19950409,"LIB",NA
-219310,"Kelly","Williford","L",19941021,"USA",NA
-219422,"Takhmina","Burkhanova","R",19941123,"TJK",NA
-219434,"Brienne","Minor","R",19971125,"USA",173
-219875,"Varvara","Gracheva","R",20000802,"FRA",NA
-219917,"Alycia","Parks","R",20001231,"USA",185
-220043,"Katriin","Saar","R",20020311,"EST",NA
-220272,"Sofia Nami","Samavati","U",20000214,"DEN",NA
-220309,"Zeynep","Sonmez","R",20020430,"TUR",NA
-220332,"Eva","Lys","R",20020112,"GER",165
-220339,"Suhana Sofia","Mohd Adam Das","U",20000830,"MAS",NA
-220348,"Diane","Parry","R",20020901,"FRA",170
-220361,"Maria Ines","Fonte","U",20020201,"POR",NA
-220367,"Leylah","Fernandez","L",20020906,"CAN",168
-220395,"Iveta","Daujotaite","U",20010605,"LTU",NA
-220416,"Moyuka","Uchijima","R",20010811,"JPN",171
-220432,"Dayeon","Back","U",20020124,"KOR",NA
-220435,"Anastasia","Zakharova","R",20020118,"RUS",NA
-220440,"Alexa","Noel","R",20020906,"USA",168
-220465,"Katie","Volynets","R",20011231,"USA",NA
-220520,"Mccartney","Kessler","R",19990708,"USA",NA
-220548,"Peyton","Stearns","R",20011008,"USA",NA
-220550,"Dalayna","Hewitt","R",20001216,"USA",NA
-220589,"Elina","Avanesyan","R",20020917,"ARM",NA
-220597,"Thasaporn","Naklo","R",20010820,"THA",NA
-220680,"Fiona","Crawley","U",20020207,"USA",NA
-220699,"Julia","Riera","R",20020529,"ARG",NA
-220704,"Clara","Tauson","R",20021221,"DEN",182
-220713,"Nika","Radisic","R",20000319,"SLO",NA
-220714,"Elisabetta","Cocciaretto","R",20010125,"ITA",NA
-220718,"Sakura","Hosogi","U",20000325,"JPN",NA
-220722,"Elvina","Kalieva","R",20030727,"USA",NA
-220733,"Carole","Monnet","L",20011201,"FRA",NA
-220742,"Leyre","Romero Gormaz","L",20020406,"ESP",NA
-220750,"Daria","Snigur","R",20020327,"UKR",NA
-220770,"Eva","Vedder","R",19991123,"NED",NA
-220834,"Tania Lea","Aizenman Sanchez","U",20001026,"CRC",NA
-220844,"Susan","Doldan","U",20010129,"PAR",NA
-220845,"Heydi","Doldan","U",20010129,"PAR",NA
-220946,"Marie","Weckerle","U",20030504,"LUX",NA
-221000,"Diletta","Cherubini","U",20020509,"ITA",NA
-221004,"Amarissa Kiara","Toth","U",20030210,"HUN",NA
-221012,"Qinwen","Zheng","R",20021008,"CHN",NA
-221024,"Hailey","Baptiste","R",20011103,"USA",NA
-221039,"Elsa","Jacquemot","R",20030503,"FRA",NA
-221054,"Emma","Raducanu","R",20021113,"GBR",175
-221073,"Anastasia","Tikhonova","R",20010121,"RUS",NA
-221086,"Mariia","Tkacheva","R",20011217,"RUS",NA
-221099,"Rina","Saigo","U",20001017,"JPN",NA
-221102,"Setora","Normurodova","U",20020703,"UZB",NA
-221103,"Coco","Gauff","R",20040313,"USA",175
-221105,"Hx Izabella","Tan","U",19981204,"SGP",NA
-221106,"Lynelle En Tong","Lim","U",20010729,"SGP",NA
-221124,"Himeno","Sakatsume","R",20010803,"JPN",NA
-221126,"Tammy","Tan","U",20010818,"SGP",NA
-221139,"Ziva","Falkner","U",20020707,"SLO",NA
-221173,"Valentina","Ivanov","R",20010327,"NZL",172
-221187,"Priska Madelyn","Nugroho","R",20030529,"INA",NA
-221190,"Julia","Middendorf","R",20030131,"GER",170
-221222,"Venla","Ahti","U",20001215,"FIN",NA
-221232,"Natalie Gabriela","Espinal Sanchez","R",20010423,"HON",NA
-221236,"Polina","Kudermetova","R",20030604,"RUS",NA
-221237,"Maria","Timofeeva","R",20031118,"RUS",NA
-221243,"Martyna","Kubka","R",20010419,"POL",NA
-221247,"Ekaterina","Makarova","R",19960215,"RUS",NA
-221257,"Sinja","Kraus","R",20020429,"AUT",NA
-221289,"Paulina","Franco Martinessi","U",20040617,"PAR",NA
-221332,"Daianne","Hayashida","U",20030630,"PER",NA
-221354,"Lisa","Pigato","R",20030621,"ITA",NA
-221383,"Darya","Shvartsmann","U",20010705,"ISR",NA
-221395,"Ekaterina","Reyngold","R",20010407,"RUS",NA
-221407,"Oksana","Selekhmeteva","L",20030113,"RUS",NA
-221434,"Aliona","Falei","U",20040329,"BLR",NA
-221497,"Andre","Lukosiute","U",20010623,"LTU",NA
-221501,"Antonia","Samudio","R",20010327,"COL",NA
-221512,"Katrina","Scott","R",20040611,"USA",180
-221746,"Oceane","Babel","U",20040226,"FRA",NA
-221768,"Nastasja","Schunk","U",20030817,"GER",NA
-221783,"Isabella","Tiscornia","U",20000419,"URU",NA
-221799,"Lauren","Anzalotta Kynoch","U",20020625,"PUR",NA
-221800,"Maria Cecilia","Aguiar","U",20020716,"PUR",NA
-221801,"Erika","Barquero","U",20000906,"PUR",NA
-221802,"Violet","Apisah","R",20000211,"POC",NA
-221803,"Carol Young Suh","Lee","U",20011221,"POC",NA
-221804,"Hannah","Viller Moller","U",20010804,"DEN",NA
-221805,"Eugenia","Camacho","U",19980710,"CRC",NA
-221807,"Fernanda","Secinaro","U",19961126,"URU",NA
-221811,"Ayana","Rengiil","U",19991215,"POC",NA
-221812,"Yee Loon","Goh","U",19990525,"SGP",NA
-221813,"Ashley Kei","Yim","U",20000508,"SGP",NA
-221814,"Luisa","Uscocovich","U",19970808,"ECU",NA
-221815,"Isid","Hernandez","U",20010714,"CUB",NA
-221817,"Kayla","Frost","U",19970609,"BAR",NA
-221818,"Sydney","Clarke","U",20011118,"BAH",NA
-221820,"Aranza Lailu","Benitez Ellis","U",20000930,"PAN",NA
-221823,"Mahin","Qureshi","U",20011109,"PAK",NA
-221824,"Y kit Nicole","Tan","U",19980203,"SGP",NA
-221826,"Myrzaiym","Sherikulova","U",20020701,"KGZ",NA
-221827,"Aigerim","Akzhol Kyzy","U",20030101,"KGZ",NA
-221828,"Anastasiya","Tursunova","U",20010616,"TJK",NA
-221831,"Gabrielle","Leslie","U",20030823,"BAR",NA
-221832,"Hannah","Chambers","U",20040216,"BAR",NA
-221834,"Dana","Guzman","U",20030322,"PER",NA
-221836,"Camila","Soares","U",20030322,"PER",NA
-221837,"Sofia","Perez","U",19980722,"CRC",NA
-221839,"Shelby","Madeiros","U",20021108,"BER",NA
-221844,"Shahrzad","Banisaeid","U",20000704,"IRI",NA
-221845,"Kimia","Rahmani","U",19991007,"IRI",NA
-221846,"Sara","Azaddoost","U",19971005,"IRI",NA
-221847,"Kimiya","Asbaghipour","U",19990421,"IRI",NA
-221848,"Maryam","Al Balushi","U",20000206,"OMA",NA
-221849,"Aisha","Al Suleimani","U",20020919,"OMA",NA
-221850,"Maya","Bseisu","U",20030123,"BRN",NA
-221852,"Anika","Seneviratne","U",20020223,"SRI",NA
-221854,"Savini","Jayasuriya","U",20021113,"SRI",NA
-221855,"Yara","Fayssal","U",20000810,"LBN",NA
-221883,"Talia","Gibson","R",20040618,"AUS",NA
-221885,"Fangran","Tian","R",20030810,"CHN",NA
-221905,"Robin","Montgomery","L",20040905,"USA",NA
-221909,"Ashlyn","Krueger","R",20040507,"USA",185
-221911,"Selena","Janicijevic","R",20020723,"FRA",183
-221945,"Amelia","Rajecki","R",20020603,"GBR",NA
-221985,"Darja","Semenistaja","L",20020916,"LAT",NA
-222080,"Hina","Inoue","R",20030601,"USA",NA
-222081,"Eleana","Yu","R",20041108,"USA",NA
-222137,"Dimitra","Pavlou","R",20040421,"GRE",NA
-222145,"Janice","Tjen","R",20020506,"INA",NA
-222233,"Marina","Stakusic","R",20041127,"CAN",NA
-222258,"Linda","Fruhvirtova","R",20050501,"CZE",NA
-222259,"Natalia","Szabanin","L",20031011,"HUN",NA
-222290,"Lanlana","Tararudee","R",20040707,"THA",NA
-222296,"Zhuoxuan","Bai","R",20021116,"CHN",NA
-222328,"Linda","Noskova","R",20041117,"CZE",NA
-222390,"Ya Yi","Yang","L",20040530,"TPE",NA
-222396,"Matilde","Paoletti","R",20030304,"ITA",NA
-222427,"Stella","Remander","U",NA,"FIN",NA
-222458,"Pia","Lovric","R",20020423,"SLO",NA
-222506,"Anastasiya","Soboleva","U",20040423,"UKR",NA
-222507,"Tamari","Gagoshidze","U",20031024,"GEO",NA
-222513,"Leyla Fiorella","Britez Risso","U",NA,"PAR",NA
-222559,"Han","Shi","R",20050530,"CHN",NA
-222601,"Jessica","Bouzas Maneiro","R",20020924,"ESP",NA
-222661,"Sonay","Kartal","R",20011028,"GBR",NA
-222667,"Monique","Barry","L",20020621,"NZL",NA
-222866,"Katherine","Hui","R",20050129,"USA",NA
-222919,"Julia","Avdeeva","R",20020706,"RUS",NA
-222965,"Erika","Andreeva","R",20040624,"RUS",NA
-222966,"Dominika","Salkova","R",20040628,"CZE",NA
-222980,"Lucie","Havlickova","R",20050313,"CZE",NA
-223087,"Tara","Wurth","R",20020930,"CRO",NA
-223120,"Briana","Szabo","U",20051126,"ROU",NA
-223129,"Michaela","Laki","U",20050324,"GRE",NA
-223130,"Bolor","Enkhbayar","U",19971018,"MGL",NA
-223131,"Erdenesuren","Erdenebat","U",19940320,"MGL",NA
-223132,"Jargal","Altansarnai","U",19940312,"MGL",NA
-223133,"Katrina","Lai","U",19960106,"GUM",NA
-223134,"Nadine","Del Carmen","U",19981110,"GUM",NA
-223135,"Shaira Hope","Rivera","U",19990629,"PHI",NA
-223136,"Rozhan","Karajayeva","U",20051009,"TKM",NA
-223137,"Arzuv","Klycheva","U",19990526,"TKM",NA
-223138,"Bahar","Toymyradova","U",20030423,"TKM",NA
-223140,"Shinejargal","Battur","U",19991214,"MGL",NA
-223159,"Vivian","Yang","U",20050111,"NZL",NA
-223194,"Taylah","Preston","R",20051027,"AUS",NA
-223253,"Alexandra","Eala","L",20050523,"PHI",173
-223286,"Victoria","Jimenez Kasintseva","L",20050809,"AND",NA
-223308,"Ela Nala","Milic","U",20060101,"SLO",NA
-223321,"Sofia","Costoulas","U",20050402,"BEL",NA
-223323,"Barbora","Palicova","R",20040311,"CZE",NA
-223331,"Anca Alexia","Todoni","R",20041010,"ROU",NA
-223333,"Noma","Noha Akugue","L",20031202,"GER",170
-223335,"Cadence","Brace","R",20050225,"CAN",NA
-223336,"Weronika","Baszak","R",20020921,"POL",NA
-223360,"Nikola","Bartunkova","R",20060225,"CZE",NA
-223410,"Georgia","Pedone","R",20040831,"ITA",NA
-223670,"Diana","Shnaider","L",20040402,"RUS",NA
-223671,"Aya","El Aouni","U",20050706,"MAR",NA
-225858,"Sarah","Iliev","U",20061003,"FRA",NA
-230870,"Ella","Seidel","R",20050214,"GER",NA
-230880,"Mara","Guth","R",20030624,"GER",NA
-232447,"Celine","Naef","R",20050625,"SUI",NA
-233741,"Maya","Joint","R",20060416,"AUS",NA
-234222,"Liv","Hovde","U",20051025,"USA",NA
-236955,"Tatiana","Prozorova","U",20031010,"RUS",NA
-236956,"Yasmine","Kabbaj","U",20040115,"MAR",NA
-236958,"Julia","Caffarena","U",20060204,"ARG",NA
-236972,"Luisina","Giovannini","U",20061108,"ARG",NA
-238064,"Clervie","Ngounoue","R",20060719,"USA",NA
-238179,"Tania Isabel","Andrade Sabando","U",20051024,"ECU",NA
-238181,"Valeska Alexandra","San Martin Ramirez","U",20051110,"ECU",NA
-239156,"Lucija","Ciric Bagaric","R",20040109,"CRO",NA
-239383,"Sara","Bejlek","L",20060131,"CZE",NA
-239389,"Elena","Pridankina","R",20050830,"RUS",NA
-239436,"Kayla","Cross","L",20050321,"CAN",NA
-239475,"Victoria","Mboko","R",20060826,"CAN",NA
-246476,"Mariana Isabel","Higuita Barraza","U",20070614,"COL",NA
-248660,"Lya","Fernandez","U",20070724,"MEX",NA
-252499,"Alina","Korneeva","U",20070623,"RUS",NA
-252587,"Xinxin","Yao","L",20031020,"CHN",NA
-256684,"Aoi","Ito","U",20040521,"JPN",NA
-259104,"Brenda","Fruhvirtova","R",20070402,"CZE",NA
-259753,"Malak","El Allami","U",20060728,"MAR",NA
-259799,"Mirra","Andreeva","R",20070429,"RUS",NA
-259857,"Akasha","Urhobo","R",20070119,"USA",NA
-259914,"Lara","Smejkal","",20040807,"SLO",NA
-259967,"Sayaka","Ishii","U",20050831,"JPN",NA
-260170,"Sara","Saito","R",20061003,"JPN",NA
-260300,"Iva","Jovic","R",20071206,"USA",NA
-260510,"Vittoria","Paganetti","U",NA,"ITA",NA
-260541,"Weronika","Ewald","R",20060220,"POL",NA
-260761,"Renata","Jamrichova","U",20070620,"SVK",NA
-260847,"Julia","Stusek","R",20080623,"GER",NA
-260848,"Valentina","Mediorreal Arias","U",NA,"COL",NA
-260913,"Yufei","Ren","R",20060411,"CHN",NA
-261963,"Mika","Stojsavljevic","R",20081215,"GBR",NA
-263857,"Yuliia","Starodubtseva","R",20000217,"UKR",NA
-264205,"Yuhan","Wang","U",NA,"CHN",NA
-266671,"Laura","Samson","R",20080310,"CZE",NA
+"","player_id","name_first","name_last","hand","dob","ioc","height"
+"1",200003,"Justine","Henin","R",19820601,"BEL",167
+"13",200008,"Alicia","Molik","R",19810127,"AUS",182
+"28",200009,"Tamarine","Tanasugarn","R",19770524,"THA",165
+"49",200011,"Katarina","Srebotnik","R",19810312,"SLO",180
+"61",200033,"Serena","Williams","R",19810926,"USA",175
+"87",200043,"Virginie","Razzano","R",19830512,"FRA",173
+"105",200056,"Jelena","Kostanic Tosic","L",19810706,"CRO",168
+"117",200060,"Tathiana","Garbin","R",19770630,"ITA",172
+"131",200067,"Patty","Schnyder","L",19781214,"SUI",168
+"151",200069,"Nadia","Petrova","R",19820608,"RUS",178
+"168",200079,"Kim","Clijsters","R",19830608,"BEL",175
+"183",200104,"Emilie","Loit","L",19790609,"FRA",167
+"196",200108,"Elena","Dementieva","R",19811015,"RUS",180
+"210",200120,"Jelena","Dokic","R",19830412,"AUS",175
+"224",200121,"Alina","Jidkova","R",19770118,"RUS",168
+"234",200617,"Kimiko","Date Krumm","R",19700928,"JPN",163
+"251",200748,"Venus","Williams","R",19800617,"USA",185
+"282",200754,"Jill","Craybas","R",19740704,"USA",160
+"299",200764,"Elena","Bovina","R",19830310,"RUS",189
+"311",200770,"Stephanie","Cohen Aloro","R",19830318,"FRA",175
+"322",200772,"Anastasia","Myskina","R",19810708,"RUS",174
+"331",200773,"Stephanie","Foretz Gacon","R",19810503,"FRA",166
+"347",201086,"Greta","Arn","R",19790413,"HUN",180
+"360",201212,"Francesca","Schiavone","R",19800623,"ITA",166
+"380",201281,"Laura","Granville","R",19810512,"USA",175
+"392",201284,"Tatiana","Poutchek","R",19790109,"BLR",176
+"405",201286,"Anabel","Medina Garrigues","R",19820731,"ESP",169
+"420",201287,"Maria Jose","Martinez Sanchez","L",19820812,"ESP",176
+"430",201290,"Daniela","Hantuchova","R",19830423,"SVK",181
+"449",201291,"Nuria","Llagostera Vives","R",19800516,"ESP",156
+"461",201292,"Martina","Sucha","R",19801120,"SVK",170
+"470",201293,"Catalina","Castano","R",19790707,"COL",171
+"487",201294,"Marion","Bartoli","R",19841002,"FRA",170
+"500",201300,"Maria Emilia","Salerni","R",19830514,"ARG",174
+"509",201301,"Camille","Pin","R",19810825,"FRA",162
+"518",201302,"Clarisa","Fernandez","L",19810828,"ARG",179
+"526",201303,"Anne","Keothavong","R",19830916,"GBR",175
+"539",201304,"Elena","Baltacha","R",19830814,"GBR",175
+"552",201305,"Eleni","Daniilidou","R",19820919,"GRE",182
+"568",201307,"Amber","Liu","R",19840706,"USA",NA
+"574",201308,"Maria Elena","Camerin","R",19820321,"ITA",164
+"587",201309,"Tatiana","Perebiynis","R",19821215,"UKR",173
+"598",201310,"Martina","Muller","R",19821011,"GER",165
+"607",201311,"Roberta","Vinci","R",19830218,"ITA",163
+"625",201315,"Ashley","Harkleroad","R",19850502,"USA",165
+"634",201318,"Bethanie","Mattek Sands","R",19850323,"USA",168
+"656",201320,"Svetlana","Kuznetsova","R",19850627,"RUS",174
+"677",201325,"Samantha","Stosur","R",19840330,"AUS",172
+"699",201328,"Milagros","Sequera","R",19800930,"VEN",165
+"710",201329,"Vera","Zvonareva","R",19840907,"RUS",172
+"732",201332,"Jane","Odonoghue","R",19830329,"GBR",172
+"736",201334,"Zuzana","Ondraskova","R",19800503,"CZE",174
+"748",201336,"Dinara","Safina","R",19860427,"RUS",185
+"758",201339,"Renata","Voracova","R",19831006,"CZE",NA
+"770",201345,"Maria","Sharapova","R",19870419,"RUS",188
+"789",201346,"Lubomira","Kurhajcova","R",19831011,"SVK",180
+"794",201347,"Jelena","Jankovic","R",19850228,"SRB",177
+"811",201348,"Casey","Dellacqua","L",19850211,"AUS",165
+"825",201349,"Melinda","Czink","L",19821022,"HUN",178
+"837",201352,"Akiko","Morigami","R",19800112,"JPN",165
+"848",201354,"Libuse","Prusova","R",19790713,"CZE",176
+"853",201355,"Flavia","Pennetta","R",19820225,"ITA",172
+"867",201356,"Eva","Birnerova","R",19840814,"CZE",170
+"875",201357,"Virginie","Pichet","R",19830128,"FRA",NA
+"878",201360,"Julia","Vakulenko","R",19830710,"UKR",183
+"887",201361,"Julia","Schruff","R",19820816,"GER",166
+"895",201363,"Gisela","Dulko","R",19850130,"ARG",170
+"908",201364,"Tatiana","Golovin","R",19880125,"FRA",175
+"914",201365,"Edina","Gallovits Hall","R",19841210,"ROU",165
+"927",201366,"Barbora","Strycova","R",19860328,"CZE",164
+"948",201367,"Arantxa","Parra Santonja","R",19821109,"ESP",176
+"959",201368,"Karolina","Sprem","R",19841025,"CRO",174
+"969",201369,"Carly","Gullickson","R",19861126,"USA",178
+"976",201370,"Anastasia","Rodionova","R",19820512,"AUS",167
+"994",201371,"Vera","Dushevina","R",19861006,"RUS",180
+"1007",201373,"Maria","Kirilenko","R",19870125,"RUS",173
+"1020",201375,"Shenay","Perry","R",19840706,"USA",170
+"1028",201376,"Angela","Haynes","L",19840927,"USA",173
+"1034",201377,"Yuliya","Beygelzimer","R",19831020,"UKR",174
+"1047",201379,"Mara","Santangelo","R",19810628,"ITA",181
+"1054",201383,"Marie Eve","Pelletier","R",19820518,"CAN",172
+"1067",201385,"Yuliana","Fedak","R",19830608,"UKR",166
+"1076",201386,"Jie","Zheng","R",19830705,"CHN",164
+"1090",201387,"Sofia","Arvidsson","R",19840216,"SWE",176
+"1106",201388,"Sophie","Ferguson","R",19860319,"AUS",177
+"1115",201389,"Zuzana","Kucova","R",19820626,"SVK",NA
+"1120",201391,"Sanda","Mamic","U",19850322,"CRO",179
+"1124",201392,"Severine","Beltrame","R",19790814,"FRA",171
+"1131",201393,"Kelly","Mccain","R",19830318,"USA",NA
+"1133",201394,"Anna Lena","Groenefeld","R",19850604,"GER",180
+"1142",201396,"Katie","Obrien","R",19860502,"GBR",167
+"1150",201397,"Shuai","Peng","R",19860108,"CHN",173
+"1170",201398,"Amanda","Keen","L",19780115,"GBR",NA
+"1173",201400,"Nicole","Vaidisova","R",19890423,"CZE",181
+"1181",201401,"Abigail","Spears","R",19810712,"USA",175
+"1192",201402,"Sesil","Karatantcheva","R",19890808,"KAZ",171
+"1205",201403,"Anna","Chakvetadze","R",19870305,"RUS",172
+"1214",201404,"Jessica","Kirkland","R",19871110,"USA",175
+"1218",201406,"Shikha","Uberoi","R",19830405,"IND",173
+"1223",201407,"Evgenia","Linetskaya","R",19861130,"ISR",NA
+"1227",201408,"Jamea","Jackson","R",19860907,"USA",163
+"1233",201411,"Aiko","Nakamura","R",19831228,"JPN",163
+"1242",201412,"Anastasia","Yakimova","R",19861101,"BLR",165
+"1251",201414,"Michaella","Krajicek","R",19890109,"NED",177
+"1265",201416,"Alona","Bondarenko","R",19840813,"UKR",168
+"1275",201417,"Marta","Domachowska","R",19860116,"POL",176
+"1286",201419,"Na","Li","R",19820226,"CHN",172
+"1301",201420,"Sania","Mirza","R",19861115,"IND",153
+"1311",201421,"Ana","Ivanovic","R",19871106,"SRB",184
+"1324",201422,"Mailyne","Andrieux","R",19871201,"FRA",NA
+"1325",201423,"Yvonne","Meusburger","R",19831003,"AUT",175
+"1337",201424,"Shahar","Peer","R",19870501,"ISR",170
+"1350",201425,"Lucie","Safarova","L",19870204,"CZE",177
+"1364",201426,"Pauline","Parmentier","R",19860131,"FRA",175
+"1380",201427,"Alize","Cornet","R",19900122,"FRA",173
+"1400",201428,"Mathilde","Johansson","R",19850428,"FRA",173
+"1411",201430,"Yulia","Fedossova","R",19880701,"FRA",NA
+"1417",201431,"Aravane","Rezai","R",19870314,"FRA",165
+"1426",201432,"Rebecca","Llewellyn","R",19851005,"GBR",165
+"1427",201433,"Sarah","Borwell","R",19790820,"GBR",NA
+"1430",201435,"Kateryna","Bondarenko","R",19860808,"UKR",175
+"1450",201437,"Ivana","Lisjak","R",19870317,"CRO",180
+"1456",201438,"Ekaterina","Bychkova","R",19850605,"RUS",171
+"1466",201440,"Laura","Pous Tio","U",19841001,"ESP",173
+"1474",201442,"Yung Jan","Chan","R",19890817,"TPE",170
+"1485",201443,"Alexa","Glatch","R",19890910,"USA",183
+"1497",201444,"Su Wei","Hsieh","R",19860104,"TPE",169
+"1518",201445,"Viktoria","Kutuzova","R",19880819,"UKR",170
+"1527",201446,"Sybille","Bammer","L",19800427,"AUT",174
+"1537",201447,"Vania","King","R",19890303,"USA",165
+"1551",201448,"Galina","Voskoboeva","R",19841218,"KAZ",183
+"1564",201450,"Tsvetana","Pironkova","R",19870913,"BUL",180
+"1581",201451,"Kathrin","Woerle","R",19840218,"GER",175
+"1588",201453,"Hana","Sromova","R",19780410,"CZE",168
+"1593",201454,"Akgul","Amanmuradova","R",19840623,"UZB",190
+"1611",201455,"Elena","Vesnina","R",19860801,"RUS",176
+"1627",201456,"Olga","Savchuk","R",19870920,"UKR",175
+"1640",201458,"Victoria","Azarenka","R",19890731,"BLR",180
+"1660",201459,"Zi","Yan","R",19841112,"CHN",171
+"1669",201460,"Meng","Yuan","U",19860509,"CHN",NA
+"1674",201462,"Alberta","Brianti","R",19800405,"ITA",165
+"1684",201463,"Anda","Perianu","R",19800407,"ROU",170
+"1686",201464,"Nathalie","Vierin","U",19821015,"ITA",NA
+"1693",201465,"Kirsten","Flipkens","R",19860110,"BEL",165
+"1713",201466,"Kaia","Kanepi","R",19850610,"EST",181
+"1737",201468,"Yaroslava","Shvedova","R",19870912,"KAZ",180
+"1752",201469,"Melanie","South","R",19860503,"GBR",175
+"1760",201470,"Kristina","Barrois","R",19810930,"GER",183
+"1767",201471,"Naomi","Cavaday","L",19890424,"GBR",170
+"1771",201472,"Romina","Oprandi","R",19860329,"SUI",172
+"1782",201473,"Vasilisa","Bardina","R",19871130,"RUS",NA
+"1785",201474,"Agnieszka","Radwanska","R",19890306,"POL",170
+"1798",201475,"Ahsha","Rolle","R",19850321,"USA",172
+"1803",201476,"Lauren","Albanese","R",19891001,"USA",NA
+"1808",201477,"Stephanie","Dubois","R",19861031,"CAN",162
+"1819",201478,"Varvara","Lepchenko","L",19860521,"USA",180
+"1838",201479,"Olga","Puchkova","R",19870927,"RUS",180
+"1846",201481,"Tamira","Paszek","R",19901206,"AUT",165
+"1862",201483,"Madison","Brengle","R",19900403,"USA",168
+"1878",201484,"Sandra","Zahlavova","U",19851010,"CZE",NA
+"1884",201485,"Alla","Kudryavtseva","R",19871103,"RUS",178
+"1897",201486,"Aleksandra","Wozniak","R",19870907,"CAN",175
+"1910",201487,"Jessica","Moore","R",19900816,"AUS",167
+"1913",201489,"Mariya","Koryttseva","R",19850525,"UKR",172
+"1920",201490,"Timea","Bacsinszky","R",19890608,"SUI",170
+"1936",201491,"Olivia","Sanchez","R",19821117,"FRA",172
+"1942",201492,"Andrea","Petkovic","R",19870909,"GER",180
+"1959",201493,"Angelique","Kerber","L",19880118,"GER",173
+"1977",201494,"Raluca","Olaru","R",19890303,"ROU",173
+"1984",201495,"Dominika","Cibulkova","R",19890506,"SVK",161
+"1999",201496,"Caroline","Wozniacki","R",19900711,"DEN",177
+"2017",201497,"Agnes","Szavay","R",19881229,"HUN",168
+"2025",201498,"Karin","Knapp","R",19870628,"ITA",180
+"2036",201499,"Anastasia","Pavlyuchenkova","R",19910703,"RUS",177
+"2055",201500,"Nika","Ozegovic","R",19850521,"CRO",170
+"2057",201501,"Olga","Govortsova","R",19880823,"BLR",182
+"2073",201503,"Ayumi","Morita","R",19900311,"JPN",163
+"2084",201504,"Julia","Goerges","R",19881102,"GER",180
+"2098",201505,"Kate","Makarova","L",19880607,"RUS",178
+"2111",201506,"Sara","Errani","R",19870429,"ITA",164
+"2130",201507,"Audra","Cohen","R",19860421,"USA",175
+"2131",201508,"Petra","Cetkovska","R",19850208,"CZE",172
+"2141",201509,"Ashley","Weinhold","R",19890620,"USA",165
+"2143",201510,"Julie","Ditty","L",19790104,"USA",168
+"2149",201512,"Monica","Niculescu","R",19870925,"ROU",168
+"2167",201513,"Sabine","Lisicki","R",19890922,"GER",178
+"2183",201514,"Sorana","Cirstea","R",19900407,"ROU",176
+"2202",201515,"Alisa","Kleybanova","R",19890715,"RUS",181
+"2213",201516,"Evgeniya","Rodina","R",19890204,"RUS",170
+"2228",201517,"Magdalena","Rybarikova","R",19881004,"SVK",180
+"2243",201518,"Yanina","Wickmayer","R",19891020,"BEL",182
+"2260",201519,"Violette","Huck","L",19880318,"FRA",170
+"2261",201520,"Petra","Kvitova","L",19900308,"CZE",183
+"2278",201521,"Carla","Suarez Navarro","R",19880903,"ESP",162
+"2292",201523,"Marina","Erakovic","R",19880306,"NZL",174
+"2306",201524,"Urszula","Radwanska","R",19901207,"POL",177
+"2318",201525,"Eva","Hrdinova","R",19840615,"CZE",NA
+"2323",201526,"Julie","Coin","R",19821202,"FRA",172
+"2329",201527,"Stefanie","Voegele","R",19900310,"SUI",170
+"2346",201528,"Melanie","Oudin","R",19910923,"USA",168
+"2353",201529,"Kristie","Ahn","R",19920615,"USA",165
+"2360",201530,"Gail","Brodsky","R",19910605,"USA",165
+"2363",201531,"Mariana","Duque Marino","R",19890812,"COL",169
+"2377",201532,"Anastasia","Pivovarova","R",19900616,"RUS",181
+"2384",201533,"Shuai","Zhang","R",19890121,"CHN",177
+"2403",201534,"Asia","Muhammad","R",19910404,"USA",178
+"2413",201535,"Coco","Vandeweghe","R",19911206,"USA",185
+"2431",201536,"Monika","Wejnert","U",19920406,"AUS",NA
+"2432",201538,"Isabella","Holland","R",19920102,"AUS",NA
+"2434",201539,"Christina","Mchale","R",19920511,"USA",170
+"2448",201540,"Kristina","Mladenovic","R",19930514,"FRA",184
+"2464",201541,"Chanelle","Scheepers","R",19840313,"RSA",176
+"2476",201542,"Olivia","Rogowska","R",19910607,"AUS",175
+"2484",201543,"Emelyn","Starr","R",19891111,"AUS",NA
+"2485",201544,"Oxana","Lyubtsova","R",19850913,"UKR",157
+"2486",201545,"Anastasija","Sevastova","R",19900413,"LAT",169
+"2504",201546,"Anna","Lapushchenkova","R",19861024,"RUS",172
+"2508",201547,"Michelle","Larcher De Brito","R",19930129,"POR",165
+"2519",201548,"Ajla","Tomljanovic","R",19930507,"AUS",180
+"2535",201549,"Petra","Martic","R",19910119,"CRO",181
+"2553",201551,"Arantxa","Rus","L",19901213,"NED",180
+"2571",201552,"Mallory","Cecil","R",19900718,"USA",NA
+"2574",201553,"Lenka","Wienerova","R",19880423,"SVK",NA
+"2577",201554,"Vitalia","Diatchenko","R",19900802,"RUS",170
+"2590",201555,"Polona","Hercog","R",19910120,"SLO",182
+"2605",201556,"Lucie","Hradecka","R",19850521,"CZE",177
+"2619",201557,"Corinna","Dentoni","R",19890730,"ITA",NA
+"2624",201558,"Lauren","Embree","R",19910110,"USA",NA
+"2625",201559,"Irena","Pavlovic","R",19880928,"FRA",178
+"2628",201561,"Claire","Feuerstein","L",19860228,"FRA",178
+"2634",201562,"Silvia","Soler Espinosa","R",19871119,"ESP",169
+"2645",201563,"Darya","Kustova","U",19860529,"BLR",NA
+"2651",201565,"Katarzyna","Piter","R",19910216,"POL",173
+"2660",201566,"Agnes","Szatmari","R",19870628,"ROU",NA
+"2662",201567,"Alexandra","Dulgheru","R",19890530,"ROU",172
+"2673",201568,"Kristina","Kucova","R",19900523,"SVK",163
+"2688",201571,"Masa","Zec Peskiric","R",19870121,"SLO",NA
+"2696",201572,"Regina","Kulikova","R",19890130,"RUS",183
+"2700",201573,"Laura","Robson","L",19940121,"GBR",180
+"2710",201575,"Hilary","Barte","U",19881117,"USA",NA
+"2713",201577,"Heidi","El Tabakh","R",19860925,"CAN",180
+"2718",201578,"Kai Chen","Chang","R",19910113,"TPE",167
+"2727",201579,"Yurika","Sema","L",19861225,"JPN",168
+"2732",201580,"Xinyun","Han","L",19900530,"CHN",172
+"2743",201582,"Jing Jing","Lu","R",19890505,"CHN",170
+"2750",201584,"Ksenia","Pervak","L",19910527,"KAZ",170
+"2756",201585,"Sloane","Stephens","R",19930320,"USA",170
+"2771",201586,"Heather","Watson","R",19920519,"GBR",170
+"2786",201587,"Bojana","Jovanovski","R",19911231,"SRB",175
+"2794",201588,"Anna","Tatishvili","R",19900203,"GEO",171
+"2808",201589,"Sharon","Fichman","R",19901203,"CAN",163
+"2817",201590,"Alison","Riske Amritraj","R",19900703,"USA",173
+"2831",201592,"Beatriz","Garcia Vidagany","U",19881117,"ESP",NA
+"2835",201593,"Irina Camelia","Begu","R",19900826,"ROU",181
+"2851",201594,"Simona","Halep","R",19910927,"ROU",168
+"2865",201595,"Misaki","Doi","L",19910429,"JPN",159
+"2879",201596,"Johanna","Larsson","R",19880817,"SWE",174
+"2895",201597,"Kurumi","Nara","R",19911230,"JPN",155
+"2908",201598,"Noppawan","Lertcheewakarn","R",19911118,"THA",167
+"2916",201599,"Andrea","Hlavackova","R",19860810,"CZE",174
+"2927",201600,"Jamie","Hampton","R",19900108,"USA",173
+"2931",201601,"Chelsey","Gullickson","R",19900829,"USA",180
+"2932",201602,"Beatrice","Capra","R",19920406,"USA",175
+"2935",201603,"Shelby","Rogers","R",19921013,"USA",175
+"2949",201604,"Irina","Falconi","R",19900504,"USA",163
+"2958",201605,"Mandy","Minella","R",19851122,"LUX",180
+"2978",201606,"Rebecca","Marino","R",19901216,"CAN",183
+"2990",201607,"Sally","Peers","R",19910601,"AUS",162
+"2993",201608,"Sheng Nan","Sun","L",19870121,"CHN",170
+"2998",201609,"Yi Miao","Zhou","R",19910207,"CHN",NA
+"3002",201610,"Zarina","Diyas","R",19931018,"KAZ",172
+"3017",201611,"Daria","Saville","R",19940305,"AUS",166
+"3031",201612,"Junri","Namigata","R",19820705,"JPN",170
+"3042",201613,"Arina","Rodionova","R",19891215,"AUS",168
+"3056",201614,"Caroline","Garcia","R",19931016,"FRA",177
+"3070",201615,"Lesia","Tsurenko","R",19890530,"UKR",174
+"3086",201616,"Lauren","Davis","R",19931009,"USA",157
+"3100",201617,"Ana","Vrljic","R",19840801,"CRO",NA
+"3107",201618,"Fatma","Al Nabhani","R",19910520,"OMA",170
+"3115",201619,"Madison","Keys","R",19950217,"USA",178
+"3130",201620,"Monica","Puig","R",19930927,"PUR",170
+"3144",201621,"Mona","Barthel","R",19900711,"GER",185
+"3156",201631,"Nicha","Lertpitaksinchai","R",19910814,"THA",174
+"3164",201638,"Estrella","Cabeza Candela","R",19870220,"ESP",173
+"3172",201639,"Yevheniia","Savranska","U",19840220,"UKR",NA
+"3173",201640,"Maria Teresa","Torro Flor","R",19920502,"ESP",173
+"3180",201641,"Nadia","Lalami","R",19900428,"MAR",NA
+"3186",201642,"Fatima","El Allami","L",19890326,"MAR",NA
+"3193",201643,"Eva","Fernandez Brugues","R",19860505,"ESP",NA
+"3194",201646,"Maria Joao","Koehler","U",19921008,"POR",174
+"3203",201648,"Naomi","Broady","R",19900228,"GBR",189
+"3212",201649,"Lenka","Jurikova","R",19900811,"SVK",NA
+"3214",201650,"Irina","Buryachok","R",19860705,"UKR",NA
+"3215",201652,"Ksenia","Palkina","R",19891213,"KGZ",174
+"3221",201654,"Sandra","Roma","L",19900331,"SWE",NA
+"3224",201655,"Anna","Floris","L",19820515,"ITA",NA
+"3227",201657,"Nastja","Kolar","R",19940715,"SLO",176
+"3232",201658,"Carmen","Klaschka","R",19870108,"GER",NA
+"3233",201659,"Melanie","Klaffner","R",19900522,"AUT",171
+"3243",201660,"Tereza","Hladikova","R",19880414,"CZE",NA
+"3245",201661,"Tina","Schiechtl","R",19840115,"AUT",170
+"3248",201662,"Karolina","Pliskova","R",19920321,"CZE",184
+"3266",201663,"Ekaterina","Dzehalevich","R",19860503,"BLR",168
+"3272",201666,"Cagla","Buyukakcay","R",19890928,"TUR",172
+"3290",201668,"Alexandra","Panova","R",19890302,"RUS",179
+"3300",201671,"Ksenia","Lykina","R",19900619,"RUS",165
+"3302",201672,"Nigina","Abduraimova","R",19940707,"UZB",184
+"3316",201674,"Sabina","Sharipova","R",19940904,"UZB",174
+"3328",201678,"Sacha","Jones","R",19901108,"AUS",NA
+"3334",201679,"Varatchaya","Wongteanchai","R",19890907,"THA",169
+"3340",201682,"Nudnida","Luangnam","R",19870227,"THA",167
+"3348",201687,"Lina","Bennani","R",19910704,"MAR",NA
+"3349",201688,"Claire","De Gubernatis","L",19860718,"FRA",NA
+"3350",201690,"Nina","Bratchikova","R",19850628,"RUS",178
+"3356",201692,"Michaela","Pochabova","U",19891017,"SVK",NA
+"3357",201693,"Timea","Babos","R",19930510,"HUN",179
+"3372",201695,"Anna","Brazhnikova","R",19911004,"SWE",165
+"3374",201696,"Laura","Siegemund","R",19880304,"GER",168
+"3386",201697,"Kristyna","Pliskova","L",19920321,"CZE",184
+"3400",201699,"Martina","Caregaro","R",19920519,"ITA",165
+"3402",201701,"Basak","Eraydin","R",19940621,"TUR",NA
+"3410",201702,"Malou","Ejdesgaard","R",19910313,"DEN",NA
+"3413",201703,"Yi Fan","Xu","L",19880808,"CHN",165
+"3421",201704,"Nadejda","Guskova","R",19920110,"RUS",NA
+"3422",201705,"Alina","Abdurakhimova","R",19950323,"UZB",173
+"3423",201706,"Eirini","Georgatou","R",19900201,"GRE",NA
+"3426",201707,"Sachie","Ishizu","R",19920903,"JPN",164
+"3428",201709,"Yulia","Putintseva","R",19950107,"KAZ",163
+"3442",202369,"Tara","Iyer","R",19880708,"IND",NA
+"3443",202373,"Ekaterina","Afinogenova","R",19870115,"RUS",NA
+"3444",202376,"Raquel","Kops Jones","R",19821208,"USA",NA
+"3445",202377,"Brittany","Augustine","R",19910919,"USA",NA
+"3446",202379,"Chieh Yu","Hsu","L",19920114,"USA",170
+"3450",202381,"Ksenia","Milevskaya","R",19900809,"BLR",172
+"3451",202383,"Eva Maria","Hoch","U",19840806,"AUT",NA
+"3452",202386,"Sung Hee","Han","R",19901113,"KOR",NA
+"3456",202391,"Akiko","Yonemura","U",19840125,"JPN",NA
+"3457",202395,"Maria","Irigoyen","L",19870624,"ARG",171
+"3466",202397,"Lamia","Essaadi","R",19791003,"MAR",NA
+"3467",202398,"Veronika","Chvojkova","R",19870331,"CZE",NA
+"3468",202400,"Anna","Fitzpatrick","R",19890406,"GBR",173
+"3469",202401,"Amanda","Elliott","R",19891101,"GBR",175
+"3470",202402,"Eloisa Maria","Compostizo De Andres","L",19880808,"ESP",NA
+"3471",202404,"Maite","Gabarrus Alonso","R",19890202,"ESP",NA
+"3472",202405,"Alexis","King","L",19830331,"USA",157
+"3473",202406,"Natasa","Zoric","R",19891127,"SRB",NA
+"3474",202407,"Palma","Kiraly","R",19910202,"HUN",NA
+"3475",202408,"Amanda","Fink","U",19861204,"USA",NA
+"3476",202414,"Catherine","Harrison","R",19940409,"USA",NA
+"3479",202415,"Ximena","Hermoso","R",19910428,"MEX",NA
+"3485",202416,"Nungnadda","Wannasuk","R",19891111,"THA",165
+"3488",202417,"Tetiana","Luzhanska","R",19840904,"USA",NA
+"3490",202418,"Lara","Arruabarrena","R",19920320,"ESP",166
+"3501",202420,"An Sophie","Mestach","R",19940307,"BEL",170
+"3505",202421,"Alison","Van Uytvanck","R",19940326,"BEL",173
+"3519",202422,"Shuko","Aoyama","R",19871219,"JPN",154
+"3522",202423,"Sarah","Gronert","U",19860706,"GER",NA
+"3524",202424,"Conny","Perrin","R",19901225,"SUI",174
+"3530",202425,"Samantha","Murray","R",19871009,"GBR",178
+"3535",202426,"Julia","Boserup","R",19910909,"USA",181
+"3540",202427,"Johanna","Konta","R",19910517,"GBR",180
+"3551",202428,"Kiki","Bertens","R",19911210,"NED",182
+"3562",202429,"Camila","Giorgi","R",19911230,"ITA",168
+"3576",202430,"Alize","Lim","R",19900713,"FRA",173
+"3581",202431,"Tetyana","Arefyeva","R",19910309,"UKR",NA
+"3583",202433,"Anna Giulia","Remondina","R",19890601,"ITA",NA
+"3584",202434,"Aleksandra","Krunic","R",19930315,"SRB",163
+"3598",202435,"Vanda","Lukacs","U",19921208,"HUN",NA
+"3601",202436,"Reka Luca","Jani","R",19910731,"HUN",161
+"3613",202437,"Anastasia","Grymalska","R",19900712,"ITA",NA
+"3617",202438,"Ani","Mijacika","R",19870615,"CRO",NA
+"3620",202439,"Silvia","Albano","R",19940912,"ITA",NA
+"3621",202440,"Paula","Ormaechea","R",19920928,"ARG",170
+"3633",202441,"Nina","Khrisanova","R",19941209,"RUS",NA
+"3634",202443,"Valeria","Savinykh","R",19910220,"RUS",167
+"3641",202444,"Kamilla","Farhad","R",19960118,"AZE",NA
+"3644",202445,"Valeria","Solovieva","R",19921103,"RUS",168
+"3648",202446,"Eugenie","Bouchard","R",19940225,"CAN",178
+"3661",202447,"Alexandra","Mueller","R",19880214,"USA",180
+"3663",202448,"Zoe Gwen","Scandalis","R",19930921,"USA",NA
+"3664",202449,"Victoria","Larriere","R",19910502,"FRA",NA
+"3666",202450,"Jana","Cepelova","R",19930529,"SVK",168
+"3675",202452,"Yi Jing","Zhao","U",19890207,"CHN",NA
+"3676",202453,"Saisai","Zheng","R",19940205,"CHN",170
+"3688",202454,"Erika","Sema","R",19881124,"JPN",163
+"3692",202455,"Yue Yue","Hu","U",19900313,"CHN",NA
+"3694",202456,"Alexandra","Cadantu Ignatik","R",19900503,"ROU",170
+"3703",202458,"Ashleigh","Barty","R",19960424,"AUS",166
+"3713",202459,"Bojana","Bobusic","R",19871002,"AUS",170
+"3715",202460,"Ons","Jabeur","R",19940828,"TUN",167
+"3729",202461,"Julia","Cohen","R",19890323,"USA",170
+"3731",202463,"Ines","Ferrer Suarez","U",19900601,"ESP",NA
+"3732",202464,"Yuliana","Lizarazo","R",19930523,"COL",175
+"3740",202465,"Maria","Abramovic","R",19870819,"CRO",NA
+"3741",202466,"Nadia","Abdala","U",19880814,"MEX",NA
+"3742",202468,"Jessica","Pegula","R",19940224,"USA",170
+"3754",202469,"Garbine","Muguruza","R",19931008,"ESP",182
+"3766",202470,"Annika","Beck","R",19940216,"GER",170
+"3772",202471,"Karen","Barbat","R",19920703,"DEN",NA
+"3782",202473,"Annalisa","Bona","R",19821115,"ITA",NA
+"3783",202474,"Henrietta","Habler","U",19860625,"HUN",NA
+"3784",202476,"Csilla","Borsanyi","U",19870802,"HUN",NA
+"3785",202477,"Dinah","Pfizenmaier","R",19920113,"GER",171
+"3789",202478,"Tara","Moore","R",19920806,"GBR",163
+"3796",202479,"Grace","Min","R",19940506,"USA",163
+"3805",202480,"Richel","Hogenkamp","R",19920416,"NED",168
+"3813",202481,"Chi Chi","Scholl","R",19920705,"USA",NA
+"3815",202482,"Barbara","Haas","R",19960319,"AUT",165
+"3823",202483,"Sandra","Zaniewska","R",19920103,"POL",172
+"3825",202484,"Nicole","Gibbs","R",19930303,"USA",168
+"3834",202485,"Jana","Juricova","R",19871208,"SVK",NA
+"3835",202486,"Mallory","Burdette","R",19910128,"USA",178
+"3837",202487,"Nastassja","Burnett","R",19920220,"ITA",178
+"3841",202488,"Valentyna","Ivakhnenko","R",19930627,"UKR",163
+"3845",202489,"Carina","Witthoeft","R",19950216,"GER",176
+"3852",202490,"Rebecca","Peterson","R",19950806,"SWE",173
+"3864",202491,"Varvara","Flink","R",19961213,"RUS",175
+"3869",202492,"Qiang","Wang","R",19920114,"CHN",172
+"3881",202493,"Ekaterine","Gorgodze","L",19911203,"GEO",NA
+"3894",202494,"Elina","Svitolina","R",19940912,"UKR",174
+"3907",202495,"Jennifer","Elie","R",19860922,"USA",NA
+"3908",202496,"Samantha","Crawford","R",19950218,"USA",188
+"3914",202497,"Victoria","Duval","R",19951130,"USA",178
+"3919",202498,"Julia","Glushko","R",19900101,"ISR",171
+"3930",202499,"Donna","Vekic","R",19960628,"CRO",179
+"3943",202500,"Maria","Sanchez","R",19891126,"USA",178
+"3946",202503,"Luksika","Kumkhum","R",19930721,"THA",167
+"3955",202504,"Ying Ying","Duan","R",19890703,"CHN",186
+"3964",202505,"Belinda","Bencic","R",19970310,"SUI",175
+"3977",202506,"Margarita","Gasparyan","R",19940901,"RUS",183
+"3987",202508,"Yuxuan","Zhang","R",19940819,"CHN",179
+"3991",202536,"Ana","Bogdan","R",19921125,"ROU",171
+"4002",202539,"Alison","Bai","R",19900118,"AUS",170
+"4003",202558,"Veronika","Kapshay","U",19861202,"UKR",175
+"4004",202578,"Laura Ioana","Andrei","R",19880531,"ROU",173
+"4005",202579,"Giulia","Gatto Monticone","R",19871118,"ITA",177
+"4010",202580,"Federica","Di Sarra","R",19900516,"ITA",NA
+"4012",202594,"Elena","Bogdan","L",19920328,"ROU",183
+"4014",202596,"Mihaela","Buzarnescu","L",19880504,"ROU",175
+"4021",202600,"Viktoriya","Tomova","R",19950225,"BUL",170
+"4031",202604,"Despina","Papamichail","R",19930209,"GRE",178
+"4039",202606,"Claudia","Giovine","R",19900718,"ITA",NA
+"4040",202614,"Jacqueline","Cako","R",19910830,"USA",178
+"4042",202622,"Lyudmyla","Kichenok","R",19920720,"UKR",175
+"4048",202628,"Maryna","Zanevska","R",19930824,"BEL",175
+"4057",202639,"Akiko","Omae","R",19930129,"JPN",162
+"4058",202642,"Gioia","Barbieri","R",19910709,"ITA",170
+"4059",202653,"Denisa","Allertova","R",19930307,"CZE",180
+"4065",202659,"Tereza","Mrdeza","R",19901114,"CRO",173
+"4074",202662,"Camilla","Rosatello","R",19950528,"ITA",NA
+"4077",202663,"Magda","Linette","R",19920212,"POL",171
+"4090",202671,"Cristina Andreea","Mitu","R",19910922,"ROU",175
+"4094",202672,"Ekaterina","Yashina","R",19930806,"RUS",173
+"4095",202681,"Gabriela","Dabrowski","R",19920401,"CAN",175
+"4101",202684,"Lin","Zhu","R",19940128,"CHN",173
+"4112",202685,"Misa","Eguchi","R",19920418,"JPN",173
+"4117",202688,"Isabella","Shinikova","R",19911025,"BUL",184
+"4127",202693,"Ya Hsuan","Lee","R",19950720,"TPE",165
+"4131",202694,"Teliana","Pereira","R",19880720,"BRA",168
+"4140",202695,"Aleksandrina","Naydenova","R",19920229,"BUL",170
+"4142",202701,"Irina","Khromacheva","L",19950512,"RUS",170
+"4149",202702,"Tereza","Smitkova","R",19941010,"CZE",176
+"4157",202705,"Veronica","Cepede Royg","R",19920121,"PAR",163
+"4172",202706,"Manon","Arcangioli","R",19940828,"FRA",162
+"4173",202707,"Myrtille","Georges","R",19901221,"FRA",174
+"4177",202858,"Anne","Schaefer","R",19870301,"GER",NA
+"4178",202916,"Georgina","Garcia Perez","U",19920513,"ESP",187
+"4181",202919,"Chang","Liu","R",19900801,"CHN",160
+"4182",202921,"Shiho","Akita","R",19900118,"JPN",155
+"4183",202922,"Michaela","Honcova","R",19921222,"SVK",NA
+"4184",202932,"Marta","Sirotkina","R",19910322,"RUS",170
+"4185",203236,"Angelina","Gabueva","U",19881207,"RUS",NA
+"4187",203281,"Amandine","Hesse","R",19930116,"FRA",164
+"4195",203288,"Jia Jing","Lu","R",19891118,"CHN",173
+"4200",203297,"Nadiya","Kichenok","R",19920720,"UKR",172
+"4207",203315,"Alexa","Guarachi","R",19901117,"USA",173
+"4210",203325,"Martina","Di Giuseppe","R",19910210,"ITA",NA
+"4212",203341,"Sanaz","Marand","L",19880621,"USA",NA
+"4215",203354,"Martina","Trevisan","L",19931103,"ITA",160
+"4223",203379,"Marina","Melnikova","R",19890205,"RUS",173
+"4229",203389,"Danielle","Collins","R",19931213,"USA",178
+"4239",203398,"Danielle","Lao","R",19910528,"USA",160
+"4244",203415,"Ilona","Kremen","R",19940118,"BLR",NA
+"4245",203435,"Dalila","Jakupovic","R",19910324,"SLO",178
+"4252",203456,"Jelena","Simic","U",19920219,"BIH",NA
+"4257",203462,"Kateryna","Baindl","R",19940220,"UKR",175
+"4269",203463,"Nuria","Parrizas Diaz","R",19910715,"ESP",167
+"4273",203475,"Carol","Zhao","R",19950620,"CAN",165
+"4283",203500,"Sachia","Vickery","R",19950511,"USA",162
+"4295",203501,"Taylor","Townsend","L",19960416,"USA",170
+"4306",203504,"Miyu","Kato","R",19941121,"JPN",156
+"4311",203513,"Robin","Anderson","R",19930412,"USA",160
+"4313",203514,"Katarzyna","Kawa","R",19921117,"POL",178
+"4319",203518,"Paula","Kania","R",19921106,"POL",168
+"4322",203526,"Tammi","Patterson","R",19900103,"AUS",167
+"4323",203530,"Viktorija","Golubic","R",19921016,"SUI",169
+"4333",203533,"Anna Karolina","Schmiedlova","R",19940913,"SVK",176
+"4345",203542,"Daria","Mironova","R",19930409,"RUS",NA
+"4346",203549,"Olga","Ianchuk","R",19950329,"UKR",NA
+"4347",203552,"Risa","Ozaki","R",19940410,"JPN",163
+"4354",203553,"Riko","Sawayanagi","R",19941025,"JPN",163
+"4355",203562,"Erin","Routliffe","R",19950411,"CAN",188
+"4358",203564,"Chloe","Paquet","R",19940701,"FRA",179
+"4367",203567,"Ipek","Soylu","R",19960415,"TUR",174
+"4372",203572,"Polina","Monova","R",19930406,"RUS",NA
+"4373",203575,"Danka","Kovinic","R",19941118,"MNE",169
+"4387",203576,"Kai Lin","Zhang","R",19900128,"CHN",173
+"4391",203578,"Fangzhou","Liu","R",19951212,"CHN",180
+"4399",203591,"Katy","Dunne","R",19950216,"GBR",167
+"4402",204223,"Peangtarn","Plipuech","R",19921115,"THA",169
+"4409",204246,"Lesley","Pattinama Kerkhove","R",19911104,"NED",172
+"4419",204267,"Petra","Krejsova","R",19900630,"CZE",NA
+"4420",204288,"Ji Hee","Choi","R",19950210,"KOR",NA
+"4424",204291,"Na Lae","Han","L",19920706,"KOR",NA
+"4434",204294,"Su Jeong","Jang","R",19950313,"KOR",NA
+"4445",204304,"Jawairiah","Noordin","R",19901008,"MAS",NA
+"4448",204309,"Stephanie","Wagner","R",19940917,"GER",180
+"4449",204352,"Yvonne","Neuwirth","U",19920804,"AUT",NA
+"4450",204355,"Katherine","Westbury","R",19930314,"THA",177
+"4452",204362,"Theiviya","Selvarajoo","R",19940620,"MAS",NA
+"4457",204376,"Demi","Schuurs","R",19930801,"NED",170
+"4458",204377,"Indy","De Vroome","R",19960521,"NED",NA
+"4461",204384,"Agnes","Bukta","R",19931029,"HUN",NA
+"4463",204388,"Lisa Maria","Moser","R",19910328,"AUT",NA
+"4465",204390,"Pia","Konig","R",19930514,"AUT",NA
+"4466",204394,"Valentini","Grammatikopoulou","U",19970209,"GRE",NA
+"4474",204411,"Storm","Hunter","L",19940811,"AUS",166
+"4482",204419,"Ana Sofia","Sanchez","L",19940413,"MEX",NA
+"4490",204420,"Marcela","Zacarias","R",19940326,"MEX",NA
+"4501",204426,"Anett","Kontaveit","R",19951224,"EST",174
+"4514",204427,"Sara","Sorribes Tormo","R",19961008,"ESP",176
+"4524",204429,"Ghita","Benhadi","U",19980215,"MAR",NA
+"4525",204430,"Antonia","Lottner","R",19960813,"GER",185
+"4532",204431,"Anna Lena","Friedsam","R",19940201,"GER",NA
+"4544",204434,"Ysaline","Bonaventure","L",19940829,"BEL",178
+"4552",205344,"Beatrice","Gumulya","R",19910101,"INA",161
+"4557",205591,"Paula Cristina","Goncalves","R",19900811,"BRA",173
+"4561",205606,"Viktoria","Kamenskaya","R",19911126,"RUS",NA
+"4562",205714,"Julie","Gervais","U",19910722,"FRA",NA
+"4563",205723,"Anna","Zaja","R",19910625,"GER",183
+"4566",205789,"Na Ri","Kim","U",19900404,"KOR",NA
+"4571",205815,"Eri","Hozumi","R",19940217,"JPN",168
+"4576",205848,"Nathaly","Kurata","R",19930210,"BRA",NA
+"4577",205892,"Giuliana","Olmos","R",19930304,"MEX",170
+"4585",205925,"Aliaksandra","Sasnovich","R",19940322,"BLR",174
+"4598",206007,"Laura","Pigossi","R",19940802,"BRA",164
+"4604",206037,"Daniela","Seguel","U",19921115,"CHI",171
+"4615",206045,"Quirine","Lemoine","L",19911225,"NED",NA
+"4619",206049,"Jovana","Jaksic","R",19930930,"SRB",180
+"4623",206075,"Hiroko","Kuwata","R",19901218,"JPN",NA
+"4629",206077,"Miharu","Imanishi","R",19920520,"JPN",162
+"4630",206102,"Ankita","Raina","R",19930111,"IND",163
+"4640",206107,"Zhaoxuan","Yang","R",19950211,"CHN",NA
+"4647",206108,"Jennifer","Brady","R",19950412,"USA",178
+"4654",206124,"Tereza","Martincova","R",19941024,"CZE",178
+"4666",206136,"Deniz","Khazaniuk","R",19941024,"ISR",175
+"4668",206144,"Xenia","Knoll","L",19920902,"SUI",175
+"4670",206146,"Catalina","Pella","R",19930131,"ARG",NA
+"4674",206175,"Tess","Sugnaux","R",19950303,"SUI",NA
+"4676",206178,"Susanne","Celik","R",19941206,"SWE",NA
+"4678",206183,"Cindy","Burger","R",19921125,"NED",NA
+"4681",206194,"Gabriela","Ce","L",19930303,"BRA",NA
+"4688",206216,"Olga","Saez Larra","U",19940918,"ESP",NA
+"4689",206219,"Oceane","Dodin","R",19961024,"FRA",NA
+"4699",206242,"Beatriz","Haddad Maia","L",19960530,"BRA",185
+"4710",206252,"Barbora","Krejcikova","R",19951218,"CZE",178
+"4721",206255,"Patricia Maria","Tig","R",19940727,"ROU",NA
+"4728",206277,"Marine","Partaud","R",19941109,"FRA",NA
+"4729",206289,"Maria","Sakkari","R",19950725,"GRE",172
+"4742",206292,"Astra","Sharma","R",19950911,"AUS",178
+"4748",206294,"Yue","Yuan","R",19980925,"CHN",184
+"4753",206329,"Montserrat","Gonzalez","R",19940701,"PAR",170
+"4762",206335,"Jesika","Maleckova","R",19940816,"CZE",NA
+"4764",206343,"Stephanie Mariel","Petit","R",19960825,"ARG",NA
+"4765",206344,"Fernanda","Brito","R",19920214,"CHI",172
+"4770",206345,"Victoria","Bosio","R",19941003,"ARG",NA
+"4773",206349,"Mayo","Hibi","R",19960403,"JPN",165
+"4778",206354,"Lina","Qostal","R",19970311,"MAR",NA
+"4780",206362,"Naiktha","Bains","R",19971217,"GBR",174
+"4782",206363,"Anna","Danilina","R",19950820,"KAZ",NA
+"4787",206368,"Veronika","Kudermetova","R",19970424,"RUS",175
+"4795",206374,"Yafan","Wang","R",19940430,"CHN",170
+"4805",206390,"Isabelle","Wallace","L",19960907,"AUS",NA
+"4806",206391,"Ellen","Perez","L",19951010,"AUS",169
+"4813",206404,"Elizaveta","Kulichkova","R",19960412,"RUS",NA
+"4817",206408,"Nadia","Podoroska","R",19970210,"ARG",170
+"4825",206410,"Guadalupe","Perez Rojas","R",19940819,"ARG",NA
+"4826",206417,"Leolia","Jeanjean","R",19950814,"FRA",NA
+"4829",206420,"Ekaterina","Alexandrova","R",19941115,"RUS",175
+"4838",206424,"Katharina","Lehnert","R",19940218,"GER",NA
+"4842",206430,"Carolina","Alves","U",19960423,"BRA",NA
+"4848",206433,"Nadia","Echeverria Alam","R",19950114,"USA",NA
+"4849",208567,"Safa","Safar","U",19821024,"BRN",NA
+"4850",210174,"Sarah","Mahboob Khan","R",19910209,"PAK",NA
+"4855",210337,"Natalija","Stevanovic","R",19940725,"SRB",NA
+"4859",210622,"Andrea","Lazaro Garcia","R",19941104,"ESP",NA
+"4860",210672,"Polina","Leykina","R",19940920,"RUS",NA
+"4861",210705,"Irina","Bara","R",19950318,"ROU",NA
+"4868",210722,"Elise","Mertens","R",19951117,"BEL",179
+"4877",210738,"Aldila","Sutjiadi","R",19950502,"INA",170
+"4884",210786,"Anastasia","Vdovenco","R",19940420,"MDA",NA
+"4885",210871,"Steffi","Carruthers","R",19930524,"SAM",NA
+"4889",210886,"Mayar","Sherif","R",19960505,"EGY",180
+"4896",210913,"Ana Filipa","Santos","R",19960212,"POR",NA
+"4897",210926,"Pei Chi","Lee","U",19941016,"TPE",NA
+"4899",210931,"Ching Wen","Hsu","R",19960819,"TPE",NA
+"4901",210957,"Cornelia","Lister","U",19940526,"SWE",183
+"4904",211002,"Yusleydis","Smith Dias","U",19960813,"CUB",NA
+"4906",211019,"Audrey","Albie","R",19941024,"FRA",NA
+"4907",211031,"Sarah Beth","Grey","L",19950810,"GBR",NA
+"4908",211043,"Maria Paulina","Perez Garcia","R",19960110,"COL",170
+"4911",211063,"Valeriya","Strakhova","R",19950609,"UKR",NA
+"4913",211095,"Bernarda","Pera","L",19941203,"USA",175
+"4921",211107,"Katie","Boulter","R",19960801,"GBR",180
+"4929",211122,"Charlotte","Roemer","R",19940108,"ECU",171
+"4934",211133,"Theresa Alison","Van Zyl","U",19960920,"RSA",NA
+"4935",211148,"Jasmine","Paolini","R",19960104,"ITA",160
+"4943",211216,"Cristiana","Ferrando","R",19950810,"ITA",NA
+"4946",211222,"Jamie","Loeb","R",19950308,"USA",168
+"4952",211225,"Quinn","Gleason","R",19941110,"USA",178
+"4953",211260,"Marie","Benoit","L",19950316,"BEL",NA
+"4955",211269,"Eudice Wong","Chong","U",19960422,"HKG",NA
+"4961",211279,"Harriet","Dart","R",19960728,"GBR",175
+"4970",211288,"Mia Nicole","Eklund","L",19941030,"FIN",176
+"4971",211289,"Courtney","Collins","R",19910226,"USA",NA
+"4972",211296,"Dea","Herdzelas","R",19961107,"BIH",NA
+"4979",211316,"Jessika","Ponchet","R",19960926,"FRA",NA
+"4984",211321,"Klaartje","Liebens","R",19950111,"BEL",NA
+"4985",211328,"Deborah","Chiesa","R",19960613,"ITA",170
+"4987",211329,"Tena","Lukas","R",19950510,"CRO",NA
+"4991",211337,"Tamara","Korpatsch","R",19950512,"GER",170
+"4999",211342,"Gabriela","Lee","L",19950823,"ROU",NA
+"5003",211351,"Ayaka","Okuno","R",19950621,"JPN",170
+"5004",211390,"Mari","Osaka","R",19960403,"JPN",NA
+"5005",211407,"Dejana","Radanovic","U",19960514,"SRB",NA
+"5007",211411,"Nina","Stojanovic","R",19960730,"SRB",176
+"5014",211432,"Eden","Silva","R",19960314,"GBR",NA
+"5016",211456,"Julia","Terziyska","R",19960305,"BUL",180
+"5017",211472,"Oleksandra","Korashvili","R",19960301,"UKR",NA
+"5018",211529,"Sandra","Samir","R",19971104,"EGY",170
+"5026",211533,"Jelena","Ostapenko","R",19970608,"LAT",177
+"5038",211539,"Fiona","Ferro","R",19970312,"FRA",170
+"5048",211541,"Jacqueline","Cabaj Awad","R",19960128,"SWE",NA
+"5051",211544,"Nagi","Hanatani","R",19950307,"JPN",NA
+"5052",211552,"Harmony","Tan","R",19970911,"FRA",NA
+"5058",211574,"Mary Victoria","Cancini","R",19971008,"VEN",NA
+"5059",211635,"Louisa","Chirico","R",19960516,"USA",175
+"5065",211637,"Tornado Alicia","Black","U",19980512,"USA",NA
+"5066",211643,"Kajsa","Rinaldo Persson","R",19971111,"SWE",NA
+"5068",211651,"Paula","Badosa","R",19971115,"ESP",180
+"5078",211668,"Riya","Bhatia","R",19970924,"IND",NA
+"5080",211684,"Magdalena","Frech","R",19971215,"POL",171
+"5091",211685,"Rebecca","Sramkova","R",19961019,"SVK",NA
+"5099",211700,"Barbora","Stefkova","R",19950404,"CZE",NA
+"5102",211701,"Katerina","Siniakova","R",19960510,"CZE",174
+"5114",211702,"Nao","Hibino","R",19941128,"JPN",163
+"5124",211713,"Jaqueline","Cristian","R",19980605,"ROU",180
+"5131",211719,"Shilin","Xu","R",19980110,"CHN",NA
+"5135",211736,"Ivana","Jorovic","R",19970503,"SRB",174
+"5141",211756,"Patcharin","Cheapchandej","R",19941213,"THA",NA
+"5143",211765,"Emina","Bektas","R",19930330,"USA",NA
+"5147",211768,"Naomi","Osaka","R",19971016,"JPN",180
+"5157",211779,"Yana","Morderger","R",19970307,"GER",NA
+"5158",211796,"Francoise","Abanda","R",19970205,"CAN",178
+"5165",211814,"Julia","Grabher","R",19960702,"AUT",170
+"5175",211817,"Elena Gabriela","Ruse","R",19971106,"ROU",NA
+"5184",211843,"Anhelina","Kalinina","R",19970207,"UKR",179
+"5192",211846,"Kyoka","Okamura","R",19951006,"JPN",NA
+"5194",211864,"Maria Fernanda","Herazo Gonzalez","L",19970322,"COL",166
+"5201",211874,"Victoria","Rodriguez","U",19950422,"MEX",170
+"5205",211878,"Lizette","Cabrera","R",19971219,"AUS",167
+"5210",211880,"Priscilla","Hon","R",19980510,"AUS",171
+"5218",211881,"Olivia","Tjandramulia","R",19970511,"AUS",167
+"5219",211887,"Maia","Lumsden","R",19980110,"GBR",NA
+"5220",211901,"Aliona","Bolsova","R",19971106,"MDA",172
+"5224",211903,"Barbara","Gatica","U",19960816,"CHI",NA
+"5227",211920,"Martina","Capurro Taborda","L",19971204,"ARG",NA
+"5230",211941,"Zoe","Hives","R",19961024,"AUS",NA
+"5233",211951,"Ana","Konjuh","R",19971227,"CRO",174
+"5243",211966,"Ksenia","Gaydarzhi","R",19950208,"RUS",NA
+"5244",212001,"Natalia","Vikhlyantseva","R",19970216,"RUS",185
+"5252",212026,"Kwan Yau","Ng","U",19970219,"HKG",NA
+"5254",212034,"Fang Ying","Xun","U",19950114,"CHN",NA
+"5258",212043,"Freya","Christie","R",19971108,"GBR",180
+"5259",212044,"Katharina","Gerlach","R",19980219,"GER",NA
+"5262",212805,"Paige Mary","Hourigan","R",19970203,"NZL",NA
+"5265",213525,"Jil","Teichmann","L",19970715,"SUI",170
+"5274",213530,"Allie","Kiick","R",19950630,"USA",170
+"5281",213537,"Olga","Fridman","L",19980930,"UKR",177
+"5282",213544,"Jana","Fett","R",19961102,"CRO",168
+"5290",213550,"Sofia","Kenin","R",19981114,"USA",170
+"5300",213576,"Iryna","Shymanovich","R",19970630,"BLR",NA
+"5304",213583,"Tatjana","Maria","R",19870808,"GER",172
+"5322",213602,"Gabriella","Taylor","R",19980307,"GBR",NA
+"5323",213604,"Luisa","Stefani","R",19970809,"BRA",168
+"5325",213620,"Jessica","Pieri","R",19970424,"ITA",NA
+"5327",213631,"Marie","Bouzkova","R",19980721,"CZE",180
+"5336",213634,"Rita","Atik","R",19971022,"MAR",NA
+"5338",213646,"Dalma","Galfi","R",19980813,"HUN",178
+"5346",213657,"Martha","Matoula","R",19970426,"GRE",NA
+"5348",213666,"Maddison","Inglis","R",19980114,"AUS",171
+"5353",213672,"Usue Maitane","Arconada","R",19981028,"USA",165
+"5357",213674,"Jade","Lewis","R",19981218,"NZL",170
+"5359",213706,"Irene","Burillo Escorihuela","R",19970723,"ESP",NA
+"5362",213710,"Cristina","Bucsa","R",19980101,"ESP",NA
+"5366",213721,"Ines","Murta","U",19970531,"POR",NA
+"5370",213734,"Mariam","Bolkvadze","L",19980101,"GEO",NA
+"5374",213767,"Ayla","Aksu","R",19960715,"USA",170
+"5378",213779,"Raluka","Serban","R",19970617,"CYP",NA
+"5381",213780,"Andreea Amalia","Rosca","R",19990320,"ROU",NA
+"5382",213821,"Wushuang","Zheng","U",19981129,"CHN",NA
+"5387",213828,"Chompoothip","Jandakate","U",19951103,"THA",NA
+"5388",213837,"Ylena","In Albon","R",19990306,"SUI",NA
+"5391",213841,"Tamachan","Momkoonthod","L",19970414,"THA",NA
+"5392",213849,"Nicole","Fossa Huergo","U",19950526,"ITA",NA
+"5393",213873,"Gabriela Andrea","Knutson","R",19970421,"CZE",NA
+"5394",213878,"Milka Emilia","Pasanen","R",19970531,"FIN",NA
+"5395",213887,"Renata","Zarazua","R",19970930,"MEX",NA
+"5404",213889,"Greet","Minnen","R",19970814,"BEL",NA
+"5410",213892,"Nazrin","Jafarova","R",19971116,"AZE",NA
+"5412",213899,"Frances","Altick","U",19940222,"USA",157
+"5413",213908,"Yuriko","Miyazaki","R",19951111,"GBR",165
+"5416",213926,"Bianca","Turati","R",19970617,"ITA",173
+"5417",213947,"Ying","Zhang","U",19960415,"CHN",NA
+"5418",213974,"Lamis","Alhussein Abdel Aziz","U",19980424,"EGY",NA
+"5421",213998,"Ipek","Oz","U",19990708,"TUR",NA
+"5424",214006,"Petia","Arshinkova","R",19980426,"BUL",NA
+"5425",214020,"Amina","Anshba","L",19990909,"RUS",NA
+"5427",214032,"Chiraz","Bechri","R",19980723,"TUN",NA
+"5430",214040,"Kimberly","Birrell","R",19980429,"AUS",170
+"5437",214058,"Juliana","Valero","R",19980127,"COL",NA
+"5438",214060,"Yuliana","Monroy","U",19980920,"COL",NA
+"5441",214081,"Katharina","Hobgarski","R",19970618,"GER",171
+"5445",214082,"Daria","Kasatkina","R",19970507,"RUS",170
+"5456",214096,"Karolina","Muchova","R",19960821,"CZE",178
+"5464",214119,"Rebeka","Masarova","R",19990806,"ESP",186
+"5470",214123,"Kristina","Schmiedlova","R",19970806,"SVK",NA
+"5471",214149,"Viktoria","Hruncakova","R",19980511,"SVK",NA
+"5479",214158,"Anastasiya","Shoshyna","R",19971130,"UKR",NA
+"5480",214176,"Valeria","Gorlats","R",19980331,"EST",NA
+"5483",214181,"Anastasia","Gasanova","R",19990515,"RUS",NA
+"5485",214191,"Seone","Mendez","R",19990515,"AUS",NA
+"5487",214219,"Tessah","Andrianjafitrimo","R",19981011,"FRA",169
+"5492",214229,"Man Ying Maggie","Ng","R",19960328,"HKG",NA
+"5493",214236,"Angela","Fita Boluda","U",19990712,"ESP",NA
+"5495",214247,"Lena","Rueffer","R",19980823,"GER",NA
+"5497",214262,"Ena","Shibahara","R",19980212,"JPN",170
+"5501",214263,"Catherine Cartan","Bellis","R",19990408,"USA",NA
+"5507",214304,"Vera","Lapko","R",19980929,"BLR",184
+"5513",214312,"Sherazad","Reix","L",19890403,"FRA",NA
+"5514",214386,"Xinyu","Gao","R",19971121,"CHN",NA
+"5517",214388,"Anna","Bondar","R",19970527,"HUN",NA
+"5525",214405,"Mirjam","Bjorklund","U",19980729,"SWE",NA
+"5530",214452,"Caroline","Dolehide","R",19980905,"USA",178
+"5538",214453,"Sophie","Chang","R",19970528,"USA",NA
+"5540",214459,"Lucia","Bronzetti","R",19981210,"ITA",NA
+"5544",214461,"Tamara","Zidansek","R",19971226,"SLO",168
+"5552",214465,"Maya","Tahan","R",19990109,"ISR",NA
+"5554",214471,"Alina","Lazareva","U",19960326,"KGZ",NA
+"5557",214480,"Miriam Bianca","Bulgaru","R",19981008,"ROU",NA
+"5560",214487,"Ioana","Minca","U",19980927,"ROU",NA
+"5561",214501,"Zani","Barnard","R",19990315,"RSA",NA
+"5562",214507,"Berfu","Cengiz","R",19991018,"TUR",NA
+"5566",214521,"Lea","Boskovic","R",19990922,"CRO",NA
+"5569",214534,"Komola","Umarova","R",19991023,"UZB",NA
+"5571",214540,"Chihiro","Muramatsu","L",19980522,"JPN",161
+"5573",214541,"Fanny","Stollar","R",19981112,"HUN",172
+"5580",214544,"Aryna","Sabalenka","R",19980505,"BLR",182
+"5588",214577,"Stacey","Fung","U",19970206,"CAN",NA
+"5589",214593,"Lucrezia","Stefanini","R",19980515,"ITA",NA
+"5593",214604,"Maria Lourdes","Carle","R",20000210,"ARG",NA
+"5597",214608,"Jia Qi","Kang","R",19970719,"CHN",NA
+"5598",214616,"Medhira","Samarasinghe","U",19990203,"SRI",NA
+"5601",214617,"Nethmi Himashi","Waduge","U",19980810,"SRI",NA
+"5605",214621,"Sadaf","Sadeghvaziri","U",19990726,"IRI",NA
+"5608",214641,"Ariana","Rahmanparast","U",19961229,"CRC",NA
+"5611",214643,"Liudmila","Samsonova","R",19981111,"RUS",180
+"5617",214646,"Xiaodi","You","U",19960512,"CHN",NA
+"5624",214653,"Andreea","Prisacariu","U",20000209,"ROU",NA
+"5626",214679,"Sunam","Jeong","U",19960606,"KOR",NA
+"5628",214684,"Katherine","Sebov","R",19990105,"CAN",173
+"5633",214691,"Ylona Georgiana","Ghioroaie","U",19980328,"ROU",NA
+"5634",214694,"Karman","Thandi","R",19980616,"IND",183
+"5639",214697,"Charlotte","Robillard Millette","L",19990112,"CAN",NA
+"5640",214713,"Camila","Romero","R",19981005,"ECU",175
+"5643",214728,"Ashley","Kratzer","L",19990208,"USA",180
+"5645",214741,"Anastasia","Kulikova","L",20000215,"FIN",NA
+"5646",214770,"Emilie","Francati","R",19970624,"DEN",NA
+"5648",214782,"Fernanda","Contreras Gomez","R",19971008,"MEX",NA
+"5653",214818,"Mira","Antonitsch","R",19981216,"AUT",NA
+"5655",214826,"Susan","Bandecchi","R",19980701,"SUI",NA
+"5658",214839,"Jodie","Burrage","R",19990528,"GBR",NA
+"5662",214841,"Mikaela","Molina Bugarija","U",19990329,"ECU",NA
+"5663",214842,"Zuleykha","Safarova","U",19991127,"AZE",NA
+"5664",214863,"Sofya","Zhuk","R",19991201,"RUS",176
+"5668",214880,"Iana","Tishchenko","R",19960424,"MDA",NA
+"5669",214905,"Abigail","Tere Apisah","U",19920713,"PNG",NA
+"5674",214906,"Claire","Liu","R",20000525,"USA",170
+"5681",214919,"Dalila","Spiteri","U",19970424,"ITA",NA
+"5682",214930,"Jenny","Duerst","U",19990325,"SUI",NA
+"5683",214934,"Astrid Wanja","Brune Olsen","R",19990623,"NOR",NA
+"5685",214935,"Malene","Helgo","U",19990826,"NOR",NA
+"5690",214939,"Anna","Kalinskaya","R",19981202,"RUS",175
+"5699",214954,"Marketa","Vondrousova","L",19990628,"CZE",173
+"5708",214981,"Elena","Rybakina","R",19990617,"KAZ",184
+"5716",214992,"Zhibek","Kulambayeva","R",20000326,"KAZ",172
+"5718",215016,"Eleonora","Molinaro","U",20000904,"LUX",NA
+"5723",215018,"Destanee","Aiava","R",20000510,"AUS",175
+"5729",215019,"Maria Jose","Portillo Ramirez","R",19990508,"MEX",NA
+"5731",215020,"Anna","Blinkova","R",19980910,"RUS",179
+"5740",215035,"Dayana","Yastremska","R",20000515,"UKR",175
+"5749",215037,"Kayla","Day","L",19990928,"USA",173
+"5755",215042,"Katie","Swan","R",19990324,"GBR",170
+"5762",215045,"Xinyu","Jiang","U",19990303,"CHN",NA
+"5763",215064,"Maria","Mateas","R",19990721,"USA",NA
+"5766",215091,"Sarah","Pang","U",19850306,"SGP",NA
+"5767",215096,"Jaimee","Fourlis","R",19990917,"AUS",168
+"5772",215108,"Sara","Amiri","U",19970429,"SWE",NA
+"5774",215111,"Joanne","Zuger","U",20001117,"SUI",NA
+"5776",215131,"Nefisa","Berberovic","U",19990703,"BIH",NA
+"5780",215138,"Lulu","Sun","L",20010414,"NZL",NA
+"5782",215144,"Daniela","Vismane","R",20000810,"LAT",NA
+"5785",215151,"Lina","Glushko","U",20000112,"ISR",NA
+"5790",215155,"Olesya","Pervushina","R",20000429,"RUS",NA
+"5792",215165,"Daniela","Obando","R",19980113,"HON",NA
+"5795",215186,"Watsachol","Sawasdee","L",20000117,"THA",NA
+"5796",215196,"Nicole","Nadel","U",20000612,"ISR",NA
+"5797",215219,"Kaja","Juvan","R",20001125,"SLO",170
+"5805",215250,"Hanyu","Guo","R",19980518,"CHN",NA
+"5808",215259,"Leonie","Kung","R",20001021,"SUI",176
+"5811",215260,"Shelly","Bereznyak","R",20000710,"ISR",NA
+"5812",215277,"Yasmin","Mansouri","U",20000327,"CAN",NA
+"5813",215290,"Katarina","Zavatska","R",20000205,"UKR",173
+"5821",215305,"Desirae","Krawczyk","L",19940111,"USA",170
+"5822",215306,"Emiliana","Arango","R",20001128,"COL",NA
+"5830",215314,"En Shuo","Liang","U",20001002,"TPE",NA
+"5836",215337,"Olga","Danilovic","L",20010123,"SRB",NA
+"5843",215340,"Hortencia","Birnbaumer","R",20000109,"BOL",NA
+"5844",215370,"Bianca","Andreescu","R",20000616,"CAN",170
+"5851",215371,"Francesca","Di Lorenzo","L",19970722,"USA",170
+"5856",215372,"Ksenia","Laskutova","R",19960829,"RUS",NA
+"5857",215395,"Oona","Orpana","R",20010121,"FIN",NA
+"5858",215431,"Emily","Appleton","R",19990901,"GBR",NA
+"5860",215453,"Marina","Bassols Ribera","R",19991213,"ESP",165
+"5864",215468,"Momoko","Kobori","R",19980822,"JPN",158
+"5865",215480,"Suzan","Lamens","R",19990705,"NED",NA
+"5868",215550,"Ayano","Shimizu","R",19980411,"JPN",NA
+"5870",215566,"Gergana","Topalova","R",20000222,"BUL",NA
+"5872",215571,"Guiomar","Maristany Zuleta De Reales","U",19990219,"ESP",NA
+"5873",215572,"Nuria","Brancaccio","R",20000624,"ITA",NA
+"5876",215581,"Fadona Titalyana","Kusumawati","U",20000809,"INA",NA
+"5877",215588,"Yasmine","Mansouri","R",20010515,"FRA",NA
+"5878",215613,"Emma","Navarro","R",20010518,"USA",NA
+"5884",215614,"Mei","Yamaguchi","U",19990614,"JPN",152
+"5885",215627,"Nicole","Khirin","R",20010116,"ISR",NA
+"5886",215672,"Daniela Alejandra","La Fuente Strassburger","U",19990225,"BOL",NA
+"5887",215696,"Diae","El Jardi","R",20001013,"MAR",NA
+"5888",215713,"Anastasia","Potapova","R",20010330,"RUS",175
+"5896",215723,"Monica","Malinen","U",19971105,"FIN",NA
+"5897",215748,"Alyssa","Mayo","R",20000210,"USA",180
+"5898",215750,"Ana","Biskic","U",19990709,"CRO",NA
+"5900",215755,"Mahak","Jain","R",20010624,"IND",NA
+"5901",215785,"Camila","Osorio","R",20011222,"COL",162
+"5910",215787,"Florencia","Rossi","U",19980609,"URU",NA
+"5913",215798,"Rosa","Vicens Mas","U",20000625,"ESP",NA
+"5914",215806,"Alice","Robbe","U",20000510,"FRA",NA
+"5915",215812,"Shuyue","Ma","R",19990629,"CHN",NA
+"5916",215832,"Gabriella","Da Silva Fick","R",20000823,"AUS",NA
+"5917",215851,"Hoda","Habib","U",NA,"USA",NA
+"5918",215857,"Khim","Iglupas","R",19980823,"PHI",NA
+"5921",215858,"Charmaine Shi Yi","Seah","U",20000225,"SGP",NA
+"5924",215859,"Mayka","Zima","R",19920411,"POC",NA
+"5925",215860,"Nazli Nader","Redha","U",20010412,"BRN",NA
+"5927",215861,"Maram Mohamed","Sharif","U",20010714,"BRN",NA
+"5928",215868,"Gerda","Zykute","U",19990425,"LTU",NA
+"5929",215869,"Paulina","Bakaite","U",19990121,"LTU",NA
+"5931",215870,"Dona","Abo Habaga","U",19960811,"EGY",NA
+"5933",215872,"Kamilla","Rakhimova","R",20010828,"RUS",NA
+"5939",215878,"Aurora","Zantedeschi","R",20001102,"ITA",NA
+"5940",215898,"Jule","Niemeier","R",19990812,"GER",178
+"5945",215899,"Simona","Waltert","R",20001213,"SUI",NA
+"5950",215909,"Adrienn","Nagy","R",20010324,"HUN",NA
+"5951",215910,"Panna","Udvardy","R",19980928,"HUN",170
+"5956",215926,"Julita","Saner","U",19990429,"SWE",NA
+"5957",215936,"Francesca","Jones","R",20000919,"GBR",NA
+"5960",215946,"Ye Xin","Ma","U",19990610,"CHN",NA
+"5962",215950,"Yasmina","Karimjanova","L",20010821,"UZB",NA
+"5964",215983,"Ann","Li","R",20000626,"USA",170
+"5969",215988,"Mai","Hontama","R",19990830,"JPN",NA
+"5973",215992,"Whitney","Osuigwe","R",20020417,"USA",168
+"5977",215996,"Arianne","Hartono","R",19960421,"NED",NA
+"5981",216013,"Yuliya","Hatouka","R",20000424,"BLR",NA
+"5984",216016,"Xiyu","Wang","L",20010328,"CHN",NA
+"5992",216044,"Yuki","Naito","R",20010216,"JPN",NA
+"5994",216055,"Francisca","Jorge","U",20000421,"POR",NA
+"5999",216062,"Meiling","Wang","U",20000222,"CHN",NA
+"6001",216074,"Anna","Siskova","U",20010701,"CZE",NA
+"6002",216081,"Maja","Chwalinska","L",20011011,"POL",NA
+"6005",216083,"Caty","Mcnally","R",20011120,"USA",NA
+"6011",216097,"Elizabeth","Mandlik","R",20010519,"USA",NA
+"6014",216107,"Ella","Haavisto","U",20020328,"FIN",NA
+"6015",216116,"Elena","Malygina","U",20000527,"EST",NA
+"6019",216117,"Saara","Orav","R",20011230,"EST",NA
+"6021",216118,"Maria Lota","Kaul","U",20000430,"EST",NA
+"6022",216119,"Maileen","Nuudi","R",20000524,"EST",NA
+"6025",216133,"Xin Yu","Wang","R",20010926,"CHN",182
+"6032",216139,"Sofya","Lansere","U",20000929,"RUS",NA
+"6033",216146,"Marta","Kostyuk","R",20020628,"UKR",175
+"6040",216150,"Lara","Escauriza","R",19981014,"PAR",NA
+"6041",216151,"Jessica","Plazas","R",20020326,"COL",NA
+"6042",216153,"Amanda","Anisimova","R",20010831,"USA",180
+"6050",216179,"Valeriya","Olyanovskaya","U",20010312,"RUS",NA
+"6051",216180,"Zoziya","Kardava","R",20010715,"RUS",NA
+"6052",216213,"Sohyun","Park","U",20020702,"KOR",NA
+"6056",216262,"Clara","Burel","R",20010324,"FRA",176
+"6062",216265,"Olivia","Gadecki","R",20020424,"AUS",NA
+"6066",216347,"Iga","Swiatek","R",20010531,"POL",176
+"6073",216367,"Sada","Nahimana","R",20010421,"BDI",NA
+"6074",216385,"Caijsa Wilda","Hennemann","R",20010322,"SWE",NA
+"6076",216462,"Nelli","Buyuklianova","R",19931105,"KGZ",NA
+"6077",216471,"Guljan","Muhammetkuliyeva","U",19970917,"TKM",NA
+"6078",216475,"Nurin Nabilah","Roslan","U",19980113,"MAS",NA
+"6079",216487,"Cherise","Slocombe","U",19970623,"BAR",NA
+"6080",216489,"Malak Jasim","Fardan","U",19961122,"BRN",NA
+"6081",216566,"Mananchaya","Sawangkaew","R",20020710,"THA",NA
+"6084",216579,"Weronika","Falkowska","R",20000617,"POL",NA
+"6087",216587,"Hong Yi Cody","Wong","U",20020314,"HKG",NA
+"6089",217751,"Nancy","Karaky","R",19950409,"LIB",NA
+"6090",219310,"Kelly","Williford","L",19941021,"USA",NA
+"6093",219422,"Takhmina","Burkhanova","R",19941123,"TJK",NA
+"6094",219434,"Brienne","Minor","R",19971125,"USA",173
+"6095",219875,"Varvara","Gracheva","R",20000802,"FRA",NA
+"6101",219917,"Alycia","Parks","R",20001231,"USA",185
+"6105",220043,"Katriin","Saar","R",20020311,"EST",NA
+"6107",220272,"Sofia Nami","Samavati","U",20000214,"DEN",NA
+"6108",220309,"Zeynep","Sonmez","R",20020430,"TUR",NA
+"6110",220332,"Eva","Lys","R",20020112,"GER",165
+"6113",220339,"Suhana Sofia","Mohd Adam Das","U",20000830,"MAS",NA
+"6114",220348,"Diane","Parry","R",20020901,"FRA",170
+"6120",220361,"Maria Ines","Fonte","U",20020201,"POR",NA
+"6122",220367,"Leylah","Fernandez","L",20020906,"CAN",168
+"6129",220395,"Iveta","Daujotaite","U",20010605,"LTU",NA
+"6130",220416,"Moyuka","Uchijima","R",20010811,"JPN",171
+"6133",220432,"Dayeon","Back","U",20020124,"KOR",NA
+"6136",220435,"Anastasia","Zakharova","R",20020118,"RUS",NA
+"6140",220440,"Alexa","Noel","R",20020906,"USA",168
+"6141",220446,"Jazmin","Ortenzi","R",20011120,"ARG",NA
+"6143",220465,"Katie","Volynets","R",20011231,"USA",NA
+"6149",220520,"Mccartney","Kessler","R",19990708,"USA",NA
+"6150",220548,"Peyton","Stearns","R",20011008,"USA",NA
+"6153",220550,"Dalayna","Hewitt","R",20001216,"USA",NA
+"6154",220589,"Elina","Avanesyan","R",20020917,"ARM",NA
+"6157",220597,"Thasaporn","Naklo","R",20010820,"THA",NA
+"6158",220662,"Veronika","Erjavec","R",19991230,"SLO",NA
+"6159",220680,"Fiona","Crawley","U",20020207,"USA",NA
+"6160",220699,"Julia","Riera","R",20020529,"ARG",NA
+"6162",220704,"Clara","Tauson","R",20021221,"DEN",182
+"6169",220713,"Nika","Radisic","R",20000319,"SLO",NA
+"6171",220714,"Elisabetta","Cocciaretto","R",20010125,"ITA",NA
+"6177",220718,"Sakura","Hosogi","U",20000325,"JPN",NA
+"6178",220722,"Elvina","Kalieva","R",20030727,"USA",NA
+"6181",220733,"Carole","Monnet","L",20011201,"FRA",NA
+"6184",220742,"Leyre","Romero Gormaz","L",20020406,"ESP",NA
+"6185",220750,"Daria","Snigur","R",20020327,"UKR",NA
+"6188",220770,"Eva","Vedder","R",19991123,"NED",NA
+"6190",220834,"Tania Lea","Aizenman Sanchez","U",20001026,"CRC",NA
+"6191",220844,"Susan","Doldan","U",20010129,"PAR",NA
+"6192",220845,"Heydi","Doldan","U",20010129,"PAR",NA
+"6193",220946,"Marie","Weckerle","U",20030504,"LUX",NA
+"6194",221000,"Diletta","Cherubini","U",20020509,"ITA",NA
+"6195",221004,"Amarissa Kiara","Toth","U",20030210,"HUN",NA
+"6197",221012,"Qinwen","Zheng","R",20021008,"CHN",NA
+"6201",221014,"Francesca","Curmi","R",20020707,"MLT",NA
+"6202",221024,"Hailey","Baptiste","R",20011103,"USA",NA
+"6208",221039,"Elsa","Jacquemot","R",20030503,"FRA",NA
+"6213",221054,"Emma","Raducanu","R",20021113,"GBR",175
+"6217",221073,"Anastasia","Tikhonova","R",20010121,"RUS",NA
+"6220",221086,"Mariia","Tkacheva","R",20011217,"RUS",NA
+"6221",221096,"Sijia","Wei","R",20031205,"CHN",NA
+"6223",221099,"Rina","Saigo","U",20001017,"JPN",NA
+"6225",221102,"Setora","Normurodova","U",20020703,"UZB",NA
+"6226",221103,"Coco","Gauff","R",20040313,"USA",175
+"6232",221105,"Hx Izabella","Tan","U",19981204,"SGP",NA
+"6233",221106,"Lynelle En Tong","Lim","U",20010729,"SGP",NA
+"6234",221124,"Himeno","Sakatsume","R",20010803,"JPN",NA
+"6236",221126,"Tammy","Tan","U",20010818,"SGP",NA
+"6237",221139,"Ziva","Falkner","U",20020707,"SLO",NA
+"6239",221173,"Valentina","Ivanov","R",20010327,"NZL",172
+"6241",221187,"Priska Madelyn","Nugroho","R",20030529,"INA",NA
+"6243",221190,"Julia","Middendorf","R",20030131,"GER",170
+"6244",221222,"Venla","Ahti","U",20001215,"FIN",NA
+"6245",221232,"Natalie Gabriela","Espinal Sanchez","R",20010423,"HON",NA
+"6248",221236,"Polina","Kudermetova","R",20030604,"RUS",NA
+"6250",221237,"Maria","Timofeeva","R",20031118,"RUS",NA
+"6252",221242,"Mell Elizabeth","Reasco Gonzalez","L",20020723,"ECU",NA
+"6254",221243,"Martyna","Kubka","R",20010419,"POL",NA
+"6255",221247,"Ekaterina","Makarova","R",19960215,"RUS",NA
+"6259",221257,"Sinja","Kraus","R",20020429,"AUT",NA
+"6264",221289,"Paulina","Franco Martinessi","U",20040617,"PAR",NA
+"6265",221332,"Daianne","Hayashida","U",20030630,"PER",NA
+"6266",221333,"Solana","Sierra","R",20040617,"ARG",NA
+"6268",221354,"Lisa","Pigato","R",20030621,"ITA",NA
+"6271",221383,"Darya","Shvartsmann","U",20010705,"ISR",NA
+"6272",221395,"Ekaterina","Reyngold","R",20010407,"RUS",NA
+"6273",221407,"Oksana","Selekhmeteva","L",20030113,"RUS",NA
+"6277",221434,"Aliona","Falei","U",20040329,"BLR",NA
+"6278",221497,"Andre","Lukosiute","U",20010623,"LTU",NA
+"6279",221501,"Antonia","Samudio","R",20010327,"COL",NA
+"6280",221512,"Katrina","Scott","R",20040611,"USA",180
+"6284",221746,"Oceane","Babel","U",20040226,"FRA",NA
+"6285",221768,"Nastasja","Schunk","U",20030817,"GER",NA
+"6287",221783,"Isabella","Tiscornia","U",20000419,"URU",NA
+"6288",221799,"Lauren","Anzalotta Kynoch","U",20020625,"PUR",NA
+"6289",221800,"Maria Cecilia","Aguiar","U",20020716,"PUR",NA
+"6290",221801,"Erika","Barquero","U",20000906,"PUR",NA
+"6291",221802,"Violet","Apisah","R",20000211,"POC",NA
+"6292",221803,"Carol Young Suh","Lee","U",20011221,"POC",NA
+"6295",221804,"Hannah","Viller Moller","U",20010804,"DEN",NA
+"6296",221805,"Eugenia","Camacho","U",19980710,"CRC",NA
+"6299",221807,"Fernanda","Secinaro","U",19961126,"URU",NA
+"6302",221811,"Ayana","Rengiil","U",19991215,"POC",NA
+"6303",221812,"Yee Loon","Goh","U",19990525,"SGP",NA
+"6304",221813,"Ashley Kei","Yim","U",20000508,"SGP",NA
+"6305",221814,"Luisa","Uscocovich","U",19970808,"ECU",NA
+"6306",221815,"Isid","Hernandez","U",20010714,"CUB",NA
+"6309",221817,"Kayla","Frost","U",19970609,"BAR",NA
+"6310",221818,"Sydney","Clarke","U",20011118,"BAH",NA
+"6311",221820,"Aranza Lailu","Benitez Ellis","U",20000930,"PAN",NA
+"6312",221823,"Mahin","Qureshi","U",20011109,"PAK",NA
+"6315",221824,"Y kit Nicole","Tan","U",19980203,"SGP",NA
+"6316",221826,"Myrzaiym","Sherikulova","U",20020701,"KGZ",NA
+"6317",221827,"Aigerim","Akzhol Kyzy","U",20030101,"KGZ",NA
+"6318",221828,"Anastasiya","Tursunova","U",20010616,"TJK",NA
+"6319",221831,"Gabrielle","Leslie","U",20030823,"BAR",NA
+"6320",221832,"Hannah","Chambers","U",20040216,"BAR",NA
+"6321",221834,"Dana","Guzman","U",20030322,"PER",NA
+"6324",221836,"Camila","Soares","U",20030322,"PER",NA
+"6325",221837,"Sofia","Perez","U",19980722,"CRC",NA
+"6326",221839,"Shelby","Madeiros","U",20021108,"BER",NA
+"6327",221844,"Shahrzad","Banisaeid","U",20000704,"IRI",NA
+"6328",221845,"Kimia","Rahmani","U",19991007,"IRI",NA
+"6329",221846,"Sara","Azaddoost","U",19971005,"IRI",NA
+"6330",221847,"Kimiya","Asbaghipour","U",19990421,"IRI",NA
+"6331",221848,"Maryam","Al Balushi","U",20000206,"OMA",NA
+"6332",221849,"Aisha","Al Suleimani","U",20020919,"OMA",NA
+"6333",221850,"Maya","Bseisu","U",20030123,"BRN",NA
+"6334",221852,"Anika","Seneviratne","U",20020223,"SRI",NA
+"6335",221854,"Savini","Jayasuriya","U",20021113,"SRI",NA
+"6336",221855,"Yara","Fayssal","U",20000810,"LBN",NA
+"6337",221883,"Talia","Gibson","R",20040618,"AUS",NA
+"6338",221885,"Fangran","Tian","R",20030810,"CHN",NA
+"6339",221905,"Robin","Montgomery","L",20040905,"USA",NA
+"6344",221909,"Ashlyn","Krueger","R",20040507,"USA",185
+"6348",221911,"Selena","Janicijevic","R",20020723,"FRA",183
+"6351",221945,"Amelia","Rajecki","R",20020603,"GBR",NA
+"6352",221985,"Darja","Semenistaja","L",20020916,"LAT",NA
+"6355",222080,"Hina","Inoue","R",20030601,"USA",NA
+"6356",222081,"Eleana","Yu","R",20041108,"USA",NA
+"6357",222137,"Dimitra","Pavlou","R",20040421,"GRE",NA
+"6358",222145,"Janice","Tjen","R",20020506,"INA",NA
+"6359",222233,"Marina","Stakusic","R",20041127,"CAN",NA
+"6362",222258,"Linda","Fruhvirtova","R",20050501,"CZE",NA
+"6367",222259,"Natalia","Szabanin","L",20031011,"HUN",NA
+"6370",222290,"Lanlana","Tararudee","R",20040707,"THA",NA
+"6372",222296,"Zhuoxuan","Bai","R",20021116,"CHN",NA
+"6374",222328,"Linda","Noskova","R",20041117,"CZE",NA
+"6377",222390,"Ya Yi","Yang","L",20040530,"TPE",NA
+"6379",222396,"Matilde","Paoletti","R",20030304,"ITA",NA
+"6381",222427,"Stella","Remander","U",NA,"FIN",NA
+"6382",222458,"Pia","Lovric","R",20020423,"SLO",NA
+"6384",222506,"Anastasiya","Soboleva","U",20040423,"UKR",NA
+"6386",222507,"Tamari","Gagoshidze","U",20031024,"GEO",NA
+"6387",222513,"Leyla Fiorella","Britez Risso","U",NA,"PAR",NA
+"6388",222559,"Han","Shi","R",20050530,"CHN",NA
+"6389",222601,"Jessica","Bouzas Maneiro","R",20020924,"ESP",NA
+"6391",222661,"Sonay","Kartal","R",20011028,"GBR",NA
+"6394",222667,"Monique","Barry","L",20020621,"NZL",NA
+"6395",222866,"Katherine","Hui","R",20050129,"USA",NA
+"6396",222919,"Julia","Avdeeva","R",20020706,"RUS",NA
+"6397",222965,"Erika","Andreeva","R",20040624,"RUS",NA
+"6400",222966,"Dominika","Salkova","R",20040628,"CZE",NA
+"6402",222980,"Lucie","Havlickova","R",20050313,"CZE",NA
+"6405",223087,"Tara","Wurth","R",20020930,"CRO",NA
+"6408",223120,"Briana","Szabo","U",20051126,"ROU",NA
+"6409",223129,"Michaela","Laki","U",20050324,"GRE",NA
+"6411",223130,"Bolor","Enkhbayar","U",19971018,"MGL",NA
+"6412",223131,"Erdenesuren","Erdenebat","U",19940320,"MGL",NA
+"6413",223132,"Jargal","Altansarnai","U",19940312,"MGL",NA
+"6414",223133,"Katrina","Lai","U",19960106,"GUM",NA
+"6415",223134,"Nadine","Del Carmen","U",19981110,"GUM",NA
+"6416",223135,"Shaira Hope","Rivera","U",19990629,"PHI",NA
+"6417",223136,"Rozhan","Karajayeva","U",20051009,"TKM",NA
+"6418",223137,"Arzuv","Klycheva","U",19990526,"TKM",NA
+"6419",223138,"Bahar","Toymyradova","U",20030423,"TKM",NA
+"6420",223140,"Shinejargal","Battur","U",19991214,"MGL",NA
+"6421",223159,"Vivian","Yang","U",20050111,"NZL",NA
+"6422",223194,"Taylah","Preston","R",20051027,"AUS",NA
+"6424",223253,"Alexandra","Eala","L",20050523,"PHI",173
+"6428",223286,"Victoria","Jimenez Kasintseva","L",20050809,"AND",NA
+"6432",223308,"Ela Nala","Milic","U",20060101,"SLO",NA
+"6433",223321,"Sofia","Costoulas","U",20050402,"BEL",NA
+"6434",223323,"Barbora","Palicova","R",20040311,"CZE",NA
+"6437",223331,"Anca Alexia","Todoni","R",20041010,"ROU",NA
+"6438",223333,"Noma","Noha Akugue","L",20031202,"GER",170
+"6440",223335,"Cadence","Brace","R",20050225,"CAN",NA
+"6441",223336,"Weronika","Baszak","R",20020921,"POL",NA
+"6442",223360,"Nikola","Bartunkova","R",20060225,"CZE",NA
+"6444",223410,"Georgia","Pedone","R",20040831,"ITA",NA
+"6445",223670,"Diana","Shnaider","L",20040402,"RUS",NA
+"6447",223671,"Aya","El Aouni","U",20050706,"MAR",NA
+"6449",225858,"Sarah","Iliev","U",20061003,"FRA",NA
+"6450",230870,"Ella","Seidel","R",20050214,"GER",NA
+"6452",230880,"Mara","Guth","R",20030624,"GER",NA
+"6453",232447,"Celine","Naef","R",20050625,"SUI",NA
+"6455",233741,"Maya","Joint","R",20060416,"AUS",NA
+"6456",234222,"Liv","Hovde","U",20051025,"USA",NA
+"6457",236955,"Tatiana","Prozorova","U",20031010,"RUS",NA
+"6459",236956,"Yasmine","Kabbaj","U",20040115,"MAR",NA
+"6460",236958,"Julia","Caffarena","U",20060204,"ARG",NA
+"6461",236972,"Luisina","Giovannini","U",20061108,"ARG",NA
+"6462",238064,"Clervie","Ngounoue","R",20060719,"USA",NA
+"6464",238075,"Petra","Marcinko","U",20051204,"CRO",NA
+"6466",238179,"Tania Isabel","Andrade Sabando","U",20051024,"ECU",NA
+"6467",238181,"Valeska Alexandra","San Martin Ramirez","U",20051110,"ECU",NA
+"6468",239156,"Lucija","Ciric Bagaric","R",20040109,"CRO",NA
+"6469",239383,"Sara","Bejlek","L",20060131,"CZE",NA
+"6472",239389,"Elena","Pridankina","R",20050830,"RUS",NA
+"6473",239392,"Mia","Ristic","U",20060517,"SRB",NA
+"6475",239436,"Kayla","Cross","L",20050321,"CAN",NA
+"6476",239475,"Victoria","Mboko","R",20060826,"CAN",NA
+"6477",243420,"Hanne","Vandewinkel","U",20040521,"BEL",NA
+"6478",246476,"Mariana Isabel","Higuita Barraza","U",20070614,"COL",NA
+"6479",248660,"Lya","Fernandez","U",20070724,"MEX",NA
+"6480",252499,"Alina","Korneeva","U",20070623,"RUS",NA
+"6482",252587,"Xinxin","Yao","L",20031020,"CHN",NA
+"6483",256684,"Aoi","Ito","U",20040521,"JPN",NA
+"6484",259104,"Brenda","Fruhvirtova","R",20070402,"CZE",NA
+"6487",259753,"Malak","El Allami","U",20060728,"MAR",NA
+"6489",259799,"Mirra","Andreeva","R",20070429,"RUS",NA
+"6492",259857,"Akasha","Urhobo","R",20070119,"USA",NA
+"6493",259914,"Lara","Smejkal","",20040807,"SLO",NA
+"6494",259967,"Sayaka","Ishii","U",20050831,"JPN",NA
+"6495",260170,"Sara","Saito","R",20061003,"JPN",NA
+"6496",260300,"Iva","Jovic","R",20071206,"USA",NA
+"6497",260510,"Vittoria","Paganetti","U",NA,"ITA",NA
+"6498",260541,"Weronika","Ewald","R",20060220,"POL",NA
+"6499",260761,"Renata","Jamrichova","U",20070620,"SVK",NA
+"6501",260847,"Julia","Stusek","R",20080623,"GER",NA
+"6502",260848,"Valentina","Mediorreal Arias","U",NA,"COL",NA
+"6503",260913,"Yufei","Ren","R",20060411,"CHN",NA
+"6504",261963,"Mika","Stojsavljevic","R",20081215,"GBR",NA
+"6505",263857,"Yuliia","Starodubtseva","R",20000217,"UKR",NA
+"6506",264205,"Yuhan","Wang","U",NA,"CHN",NA
+"6507",266671,"Laura","Samson","R",20080310,"CZE",NA
