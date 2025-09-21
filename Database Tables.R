@@ -2,8 +2,8 @@ library(tidyverse)
 
 results <- read.csv("mens_singles.csv")
 w_results <- read.csv("womens_singles.csv")
-men <- read.csv("current_men.csv", row.names = 1)
-women <- read.csv("current_women.csv", row.names = 1)
+men <- read.csv("current_men.csv")
+women <- read.csv("current_women.csv")
 
 results$tourney_date <- as.Date(as.character(results$tourney_date), format = "%Y%m%d")
 w_results$tourney_date <- as.Date(as.character(w_results$tourney_date), format = "%Y%m%d")
@@ -54,7 +54,7 @@ w_win_loss_summary <- merge(w_win_loss_summary, women)[1:4]
 
 win_loss_summary <- rbind(win_loss_summary, w_win_loss_summary)
 
-write.csv(win_loss_summary, "win_loss.csv", row.names = FALSE)
+write.csv(win_loss_summary, "win_loss.csv")
 
 # Double faults
 df_serves_w <- results %>% 
@@ -907,6 +907,71 @@ total_points$returns_won <- NULL
 
 write.csv(total_points, "total_points.csv", row.names = FALSE)
 
+# Average Annual ELO
+yearly_ELO_w <- results_elo %>% 
+  group_by(year, winner_id) %>% 
+  summarise(avg_elo = mean(winner_rank),
+            matches_won = n())
+
+yearly_ELO_l <- results_elo %>% 
+  group_by(year, loser_id) %>% 
+  summarise(avg_elo = mean(loser_rank),
+            matches_lost = n())
+
+avg_elo <- merge(x = yearly_ELO_w, y = yearly_ELO_l, by.x = c("year", "winner_id"), by.y = c("year", "loser_id"), all = TRUE)
+
+avg_elo$avg_elo <- 1500
+
+for (i in 1:nrow(avg_elo)) {
+  if (is.na(avg_elo$avg_elo.x[i])) {
+    avg_elo$avg_elo[i] <- avg_elo$avg_elo.y[i]
+  } else if (is.na(avg_elo$avg_elo.y[i])) {
+    avg_elo$avg_elo[i] <- avg_elo$avg_elo.x[i]
+  } else {
+    avg_elo$avg_elo[i] <- ((avg_elo$avg_elo.x[i] * avg_elo$matches_won[i]) + (avg_elo$avg_elo.y[i] * avg_elo$matches_lost[i])) / (avg_elo$matches_won[i] + avg_elo$matches_lost[i])
+  }
+}
+
+avg_elo[3:6] <- NULL
+
+colnames(avg_elo)[2] <- "player_id"
+
+avg_elo <- merge(avg_elo, men)[1:3]
+
+yearly_ELO_w <- w_results_elo %>% 
+  group_by(year, winner_id) %>% 
+  summarise(avg_elo = mean(winner_rank),
+            matches_won = n())
+
+yearly_ELO_l <- w_results_elo %>% 
+  group_by(year, loser_id) %>% 
+  summarise(avg_elo = mean(loser_rank),
+            matches_lost = n())
+
+w_avg_elo <- merge(x = yearly_ELO_w, y = yearly_ELO_l, by.x = c("year", "winner_id"), by.y = c("year", "loser_id"), all = TRUE)
+
+w_avg_elo$avg_elo <- 1500
+
+for (i in 1:nrow(w_avg_elo)) {
+  if (is.na(w_avg_elo$avg_elo.x[i])) {
+    w_avg_elo$avg_elo[i] <- w_avg_elo$avg_elo.y[i]
+  } else if (is.na(w_avg_elo$avg_elo.y[i])) {
+    w_avg_elo$avg_elo[i] <- w_avg_elo$avg_elo.x[i]
+  } else {
+    w_avg_elo$avg_elo[i] <- ((w_avg_elo$avg_elo.x[i] * w_avg_elo$matches_won[i]) + (w_avg_elo$avg_elo.y[i] * w_avg_elo$matches_lost[i])) / (w_avg_elo$matches_won[i] + w_avg_elo$matches_lost[i])
+  }
+}
+
+w_avg_elo[3:6] <- NULL
+
+colnames(w_avg_elo)[2] <- "player_id"
+
+w_avg_elo <- merge(w_avg_elo, women)[1:3]
+
+avg_elo <- rbind(avg_elo, w_avg_elo)
+
+write.csv(avg_elo, "avg_elo.csv")
+
 my_sum <- function(x){
   if(all(is.na(x))){
     return(NA)
@@ -915,3 +980,5 @@ my_sum <- function(x){
     return(sum(x))
   }
 }
+
+

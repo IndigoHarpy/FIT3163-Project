@@ -157,19 +157,48 @@ doubles_results <- rbind(doubles_2000, doubles_2001, doubles_2002, doubles_2003,
 rm(doubles_2000, doubles_2001, doubles_2002, doubles_2003, doubles_2004, doubles_2005, doubles_2006, doubles_2007, doubles_2008, doubles_2009, doubles_2010, doubles_2011, doubles_2012, doubles_2013, doubles_2014, doubles_2015, doubles_2016, doubles_2017, doubles_2018, doubles_2019, doubles_2020)
 
 setwd("..")
-setwd("Mens singles")
 
-men <- read.csv("atp_players.csv")
-
-setwd("..")
-setwd("Womens singles")
-
-women <- read.csv("wta_players.csv")
-
-setwd("..")
+men <- read.csv("current_men.csv")
+women <- read.csv("current_women.csv")
 
 men$wikidata_id <- NULL
 women$wikidata_id <- NULL
+
+for (i in 1:nrow(men)) {
+  if (men$player_id[i] >= 200000) {
+    men$player_id[i] <- men$player_id[i] + 900000
+  } 
+}
+
+for (i in 1:nrow(results)) {
+  if (results$winner_id[i] >= 200000) {
+    results$winner_id[i] <- results$winner_id[i] + 900000
+  } 
+  if (results$loser_id[i] >= 200000) {
+    results$loser_id[i] <- results$loser_id[i] + 900000
+  }
+}
+
+del_row <- c()
+
+for (i in 1:nrow(doubles_results)) {
+  if (is.na(doubles_results$loser2_id[i])) {
+    del_row <- c(del_row, i)
+    next
+  }
+  if (doubles_results$winner1_id[i] >= 200000) {
+    doubles_results$winner1_id[i] <- doubles_results$winner1_id[i] + 900000
+  } 
+  if (doubles_results$loser1_id[i] >= 200000) {
+    doubles_results$loser1_id[i] <- doubles_results$loser1_id[i] + 900000
+  }
+  if (doubles_results$winner2_id[i] >= 200000) {
+    doubles_results$winner2_id[i] <- doubles_results$winner2_id[i] + 900000
+  } 
+  if (doubles_results$loser2_id[i] >= 200000) {
+    doubles_results$loser2_id[i] <- doubles_results$loser2_id[i] + 900000
+  }
+}
 
 results$ht_diff <- results$winner_ht - results$loser_ht
 results$age_diff <- results$winner_age - results$loser_age
@@ -273,6 +302,15 @@ rm(w_results_2005, w_results_2006, w_results_2007, w_results_2008, w_results_200
 
 setwd("..")
 
+for (i in 1:nrow(recent_results)) {
+  if (recent_results$winner_id[i] >= 200000) {
+    recent_results$winner_id[i] <- recent_results$winner_id[i] + 900000
+  } 
+  if (recent_results$loser_id[i] >= 200000) {
+    recent_results$loser_id[i] <- recent_results$loser_id[i] + 900000
+  }
+}
+
 colnames(recent_results)[8] <- "player_id"
 
 win_men <- merge(men, recent_results)[1:7]
@@ -303,11 +341,8 @@ lose_women <- lose_women[!duplicated(lose_women), ]
 women <- rbind(win_women, lose_women)
 women <- women[!duplicated(women), ]
 
-row.names(men) <- men$player_id
-row.names(women) <- women$player_id
-
-write.csv(men, "current_men.csv")
-write.csv(women, "current_women.csv")
+write.csv(men, "current_men.csv", row.names = FALSE)
+write.csv(women, "current_women.csv", row.names = FALSE)
 
 write.csv(results, "mens_singles.csv", row.names = FALSE)
 write.csv(w_results, "womens_singles.csv", row.names = FALSE)
