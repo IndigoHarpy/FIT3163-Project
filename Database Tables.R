@@ -977,7 +977,7 @@ my_sum <- function(x){
     return(NA)
   }
   else{
-    return(sum(x))
+    return(sum(x, na.rm = TRUE))
   }
 }
 
