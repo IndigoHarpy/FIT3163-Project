@@ -41,8 +41,10 @@ predict_result <- function (player_1, player_2, surface, tourney_level, round, m
   
   if (player_1_outcome != player_2_outcome) {
     return(as.character(player_1_outcome))
+  } else if (rf_1_acc >= rf_2_acc) {
+    return(as.character(player_1_outcome))
   } else {
-    return("contradiction")
+    return(as.character(player_2_outcome))
   }
 }
 
