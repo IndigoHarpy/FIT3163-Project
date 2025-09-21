@@ -972,6 +972,16 @@ avg_elo <- rbind(avg_elo, w_avg_elo)
 
 write.csv(avg_elo, "avg_elo.csv")
 
+# Trim Player Files
+trimmed_men <- merge(men, df_serves)[1:7]
+trimmed_men <- unique(trimmed_men)
+
+trimmed_women <- merge(women, df_serves)[1:7]
+trimmed_women <- unique(trimmed_women)
+
+write.csv(trimmed_men, "men.csv")
+write.csv(trimmed_women, "women.csv")
+
 my_sum <- function(x){
   if(all(is.na(x))){
     return(NA)
