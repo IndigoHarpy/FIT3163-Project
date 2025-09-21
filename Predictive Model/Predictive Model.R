@@ -60,13 +60,13 @@ forest_model <- function (player, matches, players) {
     }
     if (matches_played$winner_id[i] == player$player_id) {
       matches_played$result[i] <- "W"
-      matches_played$opp_hand <- matches_played$loser_hand
+      matches_played$opp_hand[i] <- matches_played$loser_hand[i]
     } else if (matches_played$loser_id[i] == player$player_id) {
       matches_played$result[i] <- "L"
       matches_played$ht_diff[i] <- -matches_played$ht_diff[i]
       matches_played$age_diff[i] <- -matches_played$age_diff[i]
       matches_played$rank_diff[i] <- -matches_played$rank_diff[i]
-      matches_played$opp_hand <- matches_played$winner_hand
+      matches_played$opp_hand[i] <- matches_played$winner_hand[i]
     }
   }
   
@@ -98,7 +98,7 @@ get_matches <- function(player, matches, players) {
   # Loops through all matches played and checks if the player id matches either winner or loser id
   for (i in 1:nrow(matches)) {
     if (matches$winner_id[i] == player$player_id | matches$loser_id[i] == player$player_id) {
-      # If it matches then adds to match dataframe
+      # If it matches then adds to match data frame
       played_matches <- rbind(played_matches, matches[i,])
     }
   }

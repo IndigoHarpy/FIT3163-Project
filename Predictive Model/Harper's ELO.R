@@ -23,8 +23,10 @@ full_results <- full_results %>% arrange(tourney_date)
 full_elo <- glicko2(full_results, init = c(1500, 350, 0.06), tau = 0.5, history = TRUE)
 
 setwd("..")
-current_men <- read.csv("current_men.csv", row.names = 1)
-current_women <- read.csv("current_women.csv", row.names = 1)
+
+current_men <- read.csv("current_men.csv")
+current_women <- read.csv("current_women.csv")
+
 setwd("Predictive Model")
 
 current_elo <- full_elo$ratings[, 1:4]
@@ -67,16 +69,6 @@ for (i in 1:nrow(full_results)) {
   full_results$loser_rank[i] <- elo_hist[as.character(full_results$loser_id[i]), paste("X", as.character(full_results$tourney_date[i]), sep = "")]
 }
 
-keep_rows <- c()
-
-for (i in 1:nrow(full_results)) {
-  if (full_results$winner_id[i] %in% current_players$player_id | full_results$loser_id[i] %in% current_players$player_id) {
-    keep_rows <- c(keep_rows, i)
-  }
-}
-
-full_results <- full_results[keep_rows , ]
-
 results <- results %>% arrange(tourney_date)
 w_results <- w_results %>% arrange(tourney_date)
 
@@ -99,8 +91,6 @@ for (i in 1:nrow(full_results)) {
     k <- k + 1
   }
 }
-
-
 
 write.csv(results, "mens_singles_elo.csv")
 write.csv(w_results, "womens_singles_elo.csv")
